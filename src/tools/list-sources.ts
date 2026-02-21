@@ -49,9 +49,9 @@ export async function listSources(
           url: 'https://www.pravno-informacioni-sistem.rs',
           license: 'Government terms (official legal information service)',
           coverage:
-            'Republic of Serbia statutes in force, including data protection, ' +
-            'information security, electronic communications, e-commerce, ' +
-            'e-government, and access-to-information legislation.',
+            'Full corpus of publicly accessible Republic of Serbia laws ' +
+            '(doc type: Закон), ingested from official machine-readable ' +
+            'PIS act text with per-run coverage reporting.',
           languages: ['sr', 'en'],
         },
       ],

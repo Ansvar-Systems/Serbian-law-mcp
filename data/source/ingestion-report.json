@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-02-21T21:28:48.907Z",
+  "source": {
+    "search_endpoint": "https://di.pravno-informacioni-sistem.rs/REG/advancedSearch",
+    "act_endpoint": "https://reg.pravno-informacioni-sistem.rs/api/viewAct/{guid}",
+    "english_endpoint": "https://peng.pravno-informacioni-sistem.rs/api/Prins/GetProductsForContent"
+  },
+  "discovered_total": 822,
+  "processed_total": 822,
+  "success_total": 822,
+  "skipped_total": 0,
+  "error_total": 0,
+  "fallback_total": 3,
+  "provision_total": 47091,
+  "definition_total": 2975,
+  "skips": [],
+  "errors": [],
+  "fallback_documents": [
+    {
+      "lawId": "rs-law-zakon-o-finansiranju-politickih-stranaka",
+      "guid": "b4db0e05-60eb-4247-a551-a1f89b422049",
+      "title": "Закон о финансирању политичких странака",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "fallback": true
+    },
+    {
+      "lawId": "rs-law-zakon-o-obelezavanju-dana-zalosti-na-teritoriji-republike-srbije",
+      "guid": "6dbce5a8-26ea-4608-a8da-e23b1671f5a3",
+      "title": "Закон о обележавању дана жалости на територији Републике Србије",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "fallback": true
+    },
+    {
+      "lawId": "rs-law-zakon-o-izbeglicama",
+      "guid": "12a39812-32d6-4334-9b0d-216658653bfa",
+      "title": "Закон о избеглицама",
+      "status": "ok",
+      "provisions": 1,
+      "definitions": 0,
+      "fallback": true
+    }
+  ]
+}

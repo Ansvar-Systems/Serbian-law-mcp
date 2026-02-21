@@ -14,8 +14,8 @@ sources:
       url: "https://www.pravno-informacioni-sistem.rs/"
       summary: "Official legislative texts are published through the state legal information system."
     coverage:
-      scope: "Republic of Serbia statutes in force, including digital governance, information security, data protection, communications, and transparency laws."
-      limitations: "Some legacy materials are provided as PDF-only documents; this ingestion uses acts with machine-readable HTML text."
+      scope: "Full corpus of publicly accessible Republic of Serbia laws (doc type: Закон) discoverable via official PIS REG search."
+      limitations: "Coverage is limited to acts that expose machine-readable HTML through official PIS endpoints; inaccessible/auth-gated or non-HTML acts are reported in ingestion-report.json."
     languages:
       - "sr"
       - "en"

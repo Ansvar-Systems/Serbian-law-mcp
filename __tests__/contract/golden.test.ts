@@ -6,11 +6,13 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import Database from 'better-sqlite3';
 import * as path from 'path';
+import * as fs from 'fs';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DB_PATH = path.resolve(__dirname, '../../data/database.db');
+const SEED_DIR = path.resolve(__dirname, '../../data/seed');
 
 let db: InstanceType<typeof Database>;
 
@@ -20,16 +22,19 @@ beforeAll(() => {
 });
 
 describe('Database integrity', () => {
-  it('should have 10 legal documents', () => {
+  it('should have broad law corpus coverage', () => {
     const row = db.prepare(
       'SELECT COUNT(*) as cnt FROM legal_documents'
     ).get() as { cnt: number };
-    expect(row.cnt).toBe(10);
+    expect(row.cnt).toBeGreaterThanOrEqual(800);
+
+    const seedCount = fs.readdirSync(SEED_DIR).filter(name => name.endsWith('.json')).length;
+    expect(row.cnt).toBe(seedCount);
   });
 
-  it('should have at least 500 provisions', () => {
+  it('should have at least 15,000 provisions', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_provisions').get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThanOrEqual(500);
+    expect(row.cnt).toBeGreaterThanOrEqual(15000);
   });
 
   it('should have FTS index', () => {

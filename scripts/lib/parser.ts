@@ -1,129 +1,6 @@
 /**
- * Parser for Serbian law HTML from the official PIS REG API.
- *
- * Input format:
- *   https://reg.pravno-informacioni-sistem.rs/api/viewAct/{guid}?lawActId={id}
- *
- * The HTML is structured as paragraphs with classes such as:
- * - odluka-zakon (law heading)
- * - clan (chapter labels and article markers: "Члан N.")
- * - bold / italik (article titles / subheadings)
- * - Basic-Paragraph (article body text)
+ * Parser and catalog helpers for Serbian law ingestion from official PIS APIs.
  */
-
-export interface TargetLaw {
-  order: number;
-  fileName: string;
-  id: string;
-  shortName: string;
-  expectedTitle: string;
-  expectedGuid: string;
-  officialRef: string;
-  fallbackTitleEn?: string;
-}
-
-export const TARGET_LAWS: TargetLaw[] = [
-  {
-    order: 1,
-    fileName: '01-personal-data-protection.json',
-    id: 'rs-personal-data-protection',
-    shortName: 'ZZPL',
-    expectedTitle: 'Закон о заштити података о личности',
-    expectedGuid: '611b2ebf-189d-4421-bf11-b8906ed7ff54',
-    officialRef: '87/2018-54',
-    fallbackTitleEn: 'Law on Personal Data Protection',
-  },
-  {
-    order: 2,
-    fileName: '02-information-security.json',
-    id: 'rs-information-security',
-    shortName: 'ZIB',
-    expectedTitle: 'Закон о информационој безбедности',
-    expectedGuid: '218d8c7e-9304-4276-b39a-92c66133ab0f',
-    officialRef: '91/2025-17',
-    fallbackTitleEn: 'Law on Information Security',
-  },
-  {
-    order: 3,
-    fileName: '03-electronic-communications.json',
-    id: 'rs-electronic-communications',
-    shortName: 'ZEK',
-    expectedTitle: 'Закон о електронским комуникацијама',
-    expectedGuid: '54fc78b1-4aa0-4cd0-837a-0c709c5b6ddf',
-    officialRef: '35/2023-3',
-    fallbackTitleEn: 'Law on Electronic Communications',
-  },
-  {
-    order: 4,
-    fileName: '04-electronic-commerce.json',
-    id: 'rs-electronic-commerce',
-    shortName: 'ZET',
-    expectedTitle: 'Закон о електронској трговини',
-    expectedGuid: '8f5b6a5f-81d8-4785-8a38-82f39a09aaa6',
-    officialRef: '41/2009-68; 95/2013-14; 52/2019-14',
-    fallbackTitleEn: 'Law on Electronic Commerce',
-  },
-  {
-    order: 5,
-    fileName: '05-electronic-document-identification.json',
-    id: 'rs-electronic-document-identification',
-    shortName: 'ZEDEIUP',
-    expectedTitle: 'Закон о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању',
-    expectedGuid: 'ad1ba3ab-ac2a-4b7d-a08f-4faa6cfbcc26',
-    officialRef: '94/2017-9; 52/2021-22',
-    fallbackTitleEn: 'Law on Electronic Document, Electronic Identification and Trust Services in Electronic Business',
-  },
-  {
-    order: 6,
-    fileName: '06-freedom-of-information.json',
-    id: 'rs-freedom-of-information',
-    shortName: 'ZSPIJZ',
-    expectedTitle: 'Закон о слободном приступу информацијама од јавног значаја',
-    expectedGuid: '0b7f7931-f230-45cf-b550-a1495539249d',
-    officialRef: '120/2004-5; 54/2007-3; 104/2009-25; 36/2010-10; 105/2021-8',
-    fallbackTitleEn: 'Law on Free Access to Information of Public Importance',
-  },
-  {
-    order: 7,
-    fileName: '07-information-secrecy.json',
-    id: 'rs-information-secrecy',
-    shortName: 'ZTP',
-    expectedTitle: 'Закон о тајности података',
-    expectedGuid: '0f5a10f2-2e49-428a-8c83-ba0131a23b46',
-    officialRef: '104/2009-13',
-    fallbackTitleEn: 'Information Secrecy Law',
-  },
-  {
-    order: 8,
-    fileName: '08-critical-infrastructure.json',
-    id: 'rs-critical-infrastructure',
-    shortName: 'ZKI',
-    expectedTitle: 'Закон о критичној инфраструктури',
-    expectedGuid: 'fac7ef0b-8204-466b-8392-47ffbf027e4a',
-    officialRef: '87/2018-41',
-    fallbackTitleEn: 'Law on Critical Infrastructure',
-  },
-  {
-    order: 9,
-    fileName: '09-electronic-government.json',
-    id: 'rs-electronic-government',
-    shortName: 'ZEU',
-    expectedTitle: 'Закон о електронској управи',
-    expectedGuid: '2bd17d5f-15cc-4b72-ae79-e534ab25b4b2',
-    officialRef: '27/2018-25',
-    fallbackTitleEn: 'Law on Electronic Government',
-  },
-  {
-    order: 10,
-    fileName: '10-trade-secrets.json',
-    id: 'rs-trade-secrets',
-    shortName: 'ZZPT',
-    expectedTitle: 'Закон о заштити пословне тајне',
-    expectedGuid: '6e0c74bd-f0a6-442f-9f07-12a566de23b1',
-    officialRef: '53/2021-4',
-    fallbackTitleEn: 'Law on Protection of Trade Secret',
-  },
-];
 
 export interface RegSearchResult {
   id: string;
@@ -140,13 +17,202 @@ export interface RegSearchResponse {
   result: RegSearchResult[];
 }
 
-export interface RegActMetadata {
-  id: number;
-  hm: string;
+interface LegacyLawOverride {
+  id: string;
+  shortName?: string;
+  fallbackTitleEn?: string;
+  fileName?: string;
+}
+
+const LEGACY_LAW_OVERRIDES: Record<string, LegacyLawOverride> = {
+  'Закон о заштити података о личности': {
+    id: 'rs-personal-data-protection',
+    shortName: 'ZZPL',
+    fallbackTitleEn: 'Law on Personal Data Protection',
+    fileName: '01-personal-data-protection.json',
+  },
+  'Закон о информационој безбедности': {
+    id: 'rs-information-security',
+    shortName: 'ZIB',
+    fallbackTitleEn: 'Law on Information Security',
+    fileName: '02-information-security.json',
+  },
+  'Закон о електронским комуникацијама': {
+    id: 'rs-electronic-communications',
+    shortName: 'ZEK',
+    fallbackTitleEn: 'Law on Electronic Communications',
+    fileName: '03-electronic-communications.json',
+  },
+  'Закон о електронској трговини': {
+    id: 'rs-electronic-commerce',
+    shortName: 'ZET',
+    fallbackTitleEn: 'Law on Electronic Commerce',
+    fileName: '04-electronic-commerce.json',
+  },
+  'Закон о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању': {
+    id: 'rs-electronic-document-identification',
+    shortName: 'ZEDEIUP',
+    fallbackTitleEn: 'Law on Electronic Document, Electronic Identification and Trust Services in Electronic Business',
+    fileName: '05-electronic-document-identification.json',
+  },
+  'Закон о слободном приступу информацијама од јавног значаја': {
+    id: 'rs-freedom-of-information',
+    shortName: 'ZSPIJZ',
+    fallbackTitleEn: 'Law on Free Access to Information of Public Importance',
+    fileName: '06-freedom-of-information.json',
+  },
+  'Закон о тајности података': {
+    id: 'rs-information-secrecy',
+    shortName: 'ZTP',
+    fallbackTitleEn: 'Information Secrecy Law',
+    fileName: '07-information-secrecy.json',
+  },
+  'Закон о критичној инфраструктури': {
+    id: 'rs-critical-infrastructure',
+    shortName: 'ZKI',
+    fallbackTitleEn: 'Law on Critical Infrastructure',
+    fileName: '08-critical-infrastructure.json',
+  },
+  'Закон о електронској управи': {
+    id: 'rs-electronic-government',
+    shortName: 'ZEU',
+    fallbackTitleEn: 'Law on Electronic Government',
+    fileName: '09-electronic-government.json',
+  },
+  'Закон о заштити пословне тајне': {
+    id: 'rs-trade-secrets',
+    shortName: 'ZZPT',
+    fallbackTitleEn: 'Law on Protection of Trade Secret',
+    fileName: '10-trade-secrets.json',
+  },
+};
+
+const ASCII_MAP: Record<string, string> = {
+  а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', ђ: 'dj', е: 'e', ж: 'z', з: 'z', и: 'i', ј: 'j',
+  к: 'k', л: 'l', љ: 'lj', м: 'm', н: 'n', њ: 'nj', о: 'o', п: 'p', р: 'r', с: 's',
+  т: 't', ћ: 'c', у: 'u', ф: 'f', х: 'h', ц: 'c', ч: 'c', џ: 'dz', ш: 's',
+  А: 'a', Б: 'b', В: 'v', Г: 'g', Д: 'd', Ђ: 'dj', Е: 'e', Ж: 'z', З: 'z', И: 'i', Ј: 'j',
+  К: 'k', Л: 'l', Љ: 'lj', М: 'm', Н: 'n', Њ: 'nj', О: 'o', П: 'p', Р: 'r', С: 's',
+  Т: 't', Ћ: 'c', У: 'u', Ф: 'f', Х: 'h', Ц: 'c', Ч: 'c', Џ: 'dz', Ш: 's',
+  č: 'c', ć: 'c', ž: 'z', š: 's', đ: 'dj',
+  Č: 'c', Ć: 'c', Ž: 'z', Š: 's', Đ: 'dj',
+};
+
+function transliterateToAscii(value: string): string {
+  return value
+    .split('')
+    .map(ch => ASCII_MAP[ch] ?? ch)
+    .join('');
+}
+
+export function slugifySerbian(value: string): string {
+  return transliterateToAscii(value)
+    .toLowerCase()
+    .replace(/[^0-9a-z]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/--+/g, '-');
+}
+
+function normalizeText(value: string): string {
+  return value.replace(/\s+/g, ' ').trim();
+}
+
+export function splitSearchTitle(rawTitle: string): { baseTitle: string; officialRef?: string } {
+  const normalized = normalizeText(rawTitle);
+  const splitIdx = normalized.lastIndexOf(':');
+
+  if (splitIdx <= 0) {
+    return { baseTitle: normalized };
+  }
+
+  const tail = normalized.slice(splitIdx + 1).trim();
+  const head = normalized.slice(0, splitIdx).trim();
+
+  if (!head || !tail) {
+    return { baseTitle: normalized };
+  }
+
+  // Gazette refs consistently include year/number patterns.
+  if (!/\d{2,4}\/\d{1,4}/.test(tail)) {
+    return { baseTitle: normalized };
+  }
+
+  return { baseTitle: head, officialRef: tail };
+}
+
+function uniqueId(baseId: string, used: Set<string>): string {
+  if (!used.has(baseId)) {
+    used.add(baseId);
+    return baseId;
+  }
+
+  let idx = 2;
+  while (used.has(`${baseId}-${idx}`)) {
+    idx += 1;
+  }
+
+  const id = `${baseId}-${idx}`;
+  used.add(id);
+  return id;
+}
+
+export interface CatalogLaw {
+  order: number;
+  id: string;
+  fileName: string;
+  guid: string;
+  docType: string;
+  titleRaw: string;
   title: string;
-  baseTitle: string;
-  actAbstract?: string;
-  url: string;
+  titleEnFallback?: string;
+  shortName?: string;
+  officialRef?: string;
+  l2: string;
+  l3: string;
+}
+
+export function buildLawCatalog(results: RegSearchResult[]): CatalogLaw[] {
+  const byGuid = new Map<string, RegSearchResult>();
+  for (const row of results) {
+    if (!row?.uuid || !row?.title) continue;
+    if (!byGuid.has(row.uuid)) {
+      byGuid.set(row.uuid, row);
+    }
+  }
+
+  const sorted = Array.from(byGuid.values()).sort((a, b) => {
+    const aKey = `${a.l2}\u0001${a.l3}\u0001${a.title}`;
+    const bKey = `${b.l2}\u0001${b.l3}\u0001${b.title}`;
+    return aKey.localeCompare(bKey, 'sr');
+  });
+
+  const usedIds = new Set<string>();
+
+  return sorted.map((row, index) => {
+    const { baseTitle, officialRef } = splitSearchTitle(row.title);
+    const override = LEGACY_LAW_OVERRIDES[baseTitle];
+
+    const defaultBaseId = `rs-law-${slugifySerbian(baseTitle).slice(0, 72) || 'untitled'}`;
+    const id = uniqueId(override?.id ?? defaultBaseId, usedIds);
+    const fileName = override?.fileName && id === override.id
+      ? override.fileName
+      : `${String(index + 1).padStart(4, '0')}-${id}.json`;
+
+    return {
+      order: index + 1,
+      id,
+      fileName,
+      guid: row.uuid,
+      docType: row.docType,
+      titleRaw: row.title,
+      title: baseTitle,
+      titleEnFallback: override?.fallbackTitleEn,
+      shortName: override?.shortName,
+      officialRef,
+      l2: row.l2,
+      l3: row.l3,
+    };
+  });
 }
 
 export interface ParsedProvision {
@@ -181,6 +247,11 @@ export interface ParsedAct {
 interface ParsedParagraph {
   className: string;
   text: string;
+}
+
+interface ArticleMarker {
+  section: string;
+  inlineTitle?: string;
 }
 
 function decodeHtmlEntities(input: string): string {
@@ -251,51 +322,106 @@ function extractParagraphs(html: string): ParsedParagraph[] {
   return paragraphs;
 }
 
-function parseArticleSection(text: string): string | null {
-  const match = text.match(/^Члан\s+([0-9]+(?:[\p{L}]+)?(?:[\/-][0-9]+(?:[\p{L}]+)?)?)\.?$/u);
-  return match ? match[1].replace(/\s+/g, '') : null;
+const ARTICLE_REGEXES: RegExp[] = [
+  /^(?:Члан|члан|Član|član|CLAN|ČLAN)\s+([0-9]+(?:[\/-][0-9]+)?(?:[\p{L}]+)?)\.?\s*(.*)$/u,
+  /^(?:чл\.?|Чл\.?|ЧЛ\.?|čl\.?|Čl\.?)\s*([0-9]+(?:[\/-][0-9]+)?(?:[\p{L}]+)?)\.?\s*(.*)$/u,
+];
+
+function parseArticleMarker(text: string): ArticleMarker | null {
+  const normalized = normalizeText(text);
+  for (const regex of ARTICLE_REGEXES) {
+    const match = normalized.match(regex);
+    if (!match) continue;
+
+    const section = (match[1] ?? '').replace(/\s+/g, '');
+    if (!section) continue;
+
+    const inlineTitle = normalizeText(match[2] ?? '');
+    return {
+      section,
+      inlineTitle: inlineTitle.length > 0 ? inlineTitle : undefined,
+    };
+  }
+
+  return null;
 }
 
 function isChapterHeading(paragraph: ParsedParagraph): boolean {
-  return paragraph.className.includes('clan')
-    && !parseArticleSection(paragraph.text)
-    && /^[IVXLCDM]+\.?\s+/u.test(paragraph.text);
+  const text = paragraph.text.trim();
+  if (!text) return false;
+  if (parseArticleMarker(text)) return false;
+
+  if (/^(?:ГЛАВА|Глава|GLAVA|Glava|ДЕО|Deo|ОДЕЉАК|ОДЈЕЉАК|ПОГЛАВЉЕ|PART)\b/u.test(text)) {
+    return true;
+  }
+
+  if (/^[IVXLCDM]+\.?\s+/u.test(text)) {
+    return true;
+  }
+
+  return false;
 }
 
 function isTitleParagraph(paragraph: ParsedParagraph): boolean {
-  return (paragraph.className.includes('bold') || paragraph.className.includes('italik'))
-    && !parseArticleSection(paragraph.text);
-}
+  if (parseArticleMarker(paragraph.text) || isChapterHeading(paragraph)) {
+    return false;
+  }
 
-function transliterateForRef(value: string): string {
-  const map: Record<string, string> = {
-    а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', ђ: 'dj', е: 'e', ж: 'z', з: 'z', и: 'i', ј: 'j',
-    к: 'k', л: 'l', љ: 'lj', м: 'm', н: 'n', њ: 'nj', о: 'o', п: 'p', р: 'r', с: 's',
-    т: 't', ћ: 'c', у: 'u', ф: 'f', х: 'h', ц: 'c', ч: 'c', џ: 'dz', ш: 's',
-    А: 'a', Б: 'b', В: 'v', Г: 'g', Д: 'd', Ђ: 'dj', Е: 'e', Ж: 'z', З: 'z', И: 'i', Ј: 'j',
-    К: 'k', Л: 'l', Љ: 'lj', М: 'm', Н: 'n', Њ: 'nj', О: 'o', П: 'p', Р: 'r', С: 's',
-    Т: 't', Ћ: 'c', У: 'u', Ф: 'f', Х: 'h', Ц: 'c', Ч: 'c', Џ: 'dz', Ш: 's',
-  };
+  const text = paragraph.text.trim();
+  if (!text || text.length > 200) {
+    return false;
+  }
 
-  const transliterated = value
-    .split('')
-    .map(ch => map[ch] ?? ch)
-    .join('')
-    .toLowerCase();
+  if (/[.!?]$/.test(text)) {
+    return false;
+  }
 
-  const compact = transliterated.replace(/[^0-9a-z]+/g, '');
-  return compact || 'x';
+  const cls = paragraph.className.toLowerCase();
+  return cls.includes('bold') || cls.includes('italik') || cls.includes('clan');
 }
 
 function buildProvisionRef(section: string): string {
-  return `art${transliterateForRef(section)}`;
+  const ascii = transliterateToAscii(section)
+    .toLowerCase()
+    .replace(/[^0-9a-z]+/g, '');
+  return `art${ascii || 'x'}`;
+}
+
+function dedupeProvisions(provisions: ParsedProvision[]): ParsedProvision[] {
+  const indexBySection = new Map<string, number>();
+  const deduped: ParsedProvision[] = [];
+
+  for (const provision of provisions) {
+    const sectionKey = provision.section.replace(/\s+/g, '').toLowerCase();
+    const existingIndex = indexBySection.get(sectionKey);
+
+    if (existingIndex === undefined) {
+      indexBySection.set(sectionKey, deduped.length);
+      deduped.push(provision);
+      continue;
+    }
+
+    const existing = deduped[existingIndex];
+    const existingLen = existing.content.trim().length;
+    const candidateLen = provision.content.trim().length;
+
+    if (candidateLen > existingLen) {
+      deduped[existingIndex] = {
+        ...provision,
+        chapter: provision.chapter ?? existing.chapter,
+      };
+    }
+  }
+
+  return deduped;
 }
 
 function extractDefinitionsFromProvision(provision: ParsedProvision): ParsedDefinition[] {
   const keyText = `${provision.title}\n${provision.content}`.toLowerCase();
   const looksLikeDefinitions = keyText.includes('значење израза')
     || keyText.includes('поједини изрази')
-    || keyText.includes('дефинициј');
+    || keyText.includes('дефинициј')
+    || keyText.includes('изрази употребљени');
 
   if (!looksLikeDefinitions) {
     return [];
@@ -308,11 +434,14 @@ function extractDefinitionsFromProvision(provision: ParsedProvision): ParsedDefi
     const line = rawLine.trim();
     if (!line) continue;
 
-    const numbered = line.match(/^\d+\)\s*[„"“]?([^„"”]+?)[”"“]?\s+(?:је|означава)\s+(.+)$/u);
-    if (!numbered) continue;
+    const quoted = line.match(/^\d+\)\s*[„"“]?([^„"”]+?)[”"“]?\s+(?:је|означава)\s+(.+)$/u);
+    const dashed = line.match(/^\d+\)\s*[„"“]?([^„"”]+?)[”"“]?\s*[-–—]\s*(.+)$/u);
+    const match = quoted ?? dashed;
 
-    const term = numbered[1].trim().replace(/[.;:]+$/g, '');
-    const definition = numbered[2].trim().replace(/[;]+$/g, '');
+    if (!match) continue;
+
+    const term = match[1].trim().replace(/[.;:]+$/g, '');
+    const definition = match[2].trim().replace(/[;]+$/g, '');
 
     if (term.length < 2 || definition.length < 4) continue;
 
@@ -330,6 +459,26 @@ function extractDefinitionsFromProvision(provision: ParsedProvision): ParsedDefi
   return definitions;
 }
 
+function buildFallbackProvisions(paragraphs: ParsedParagraph[]): ParsedProvision[] {
+  const body = paragraphs
+    .map(p => p.text)
+    .join('\n\n')
+    .trim();
+
+  if (!body) {
+    return [];
+  }
+
+  return [
+    {
+      provision_ref: 'artfull',
+      section: 'full',
+      title: 'Текст акта',
+      content: body,
+    },
+  ];
+}
+
 export interface ParseLawOptions {
   id: string;
   title: string;
@@ -345,8 +494,7 @@ export interface ParseLawOptions {
 export function parseLawHtml(html: string, options: ParseLawOptions): ParsedAct {
   const paragraphs = extractParagraphs(html);
 
-  const provisions: ParsedProvision[] = [];
-  const definitions: ParsedDefinition[] = [];
+  const rawProvisions: ParsedProvision[] = [];
 
   let currentChapter: string | undefined;
   let pendingTitle: string | undefined;
@@ -357,6 +505,7 @@ export function parseLawHtml(html: string, options: ParseLawOptions): ParsedAct 
 
   const flushCurrentProvision = (): void => {
     if (!currentSection) return;
+
     const content = currentContent.join('\n\n').trim();
     if (!content) {
       currentSection = null;
@@ -365,16 +514,13 @@ export function parseLawHtml(html: string, options: ParseLawOptions): ParsedAct 
       return;
     }
 
-    const provision: ParsedProvision = {
+    rawProvisions.push({
       provision_ref: buildProvisionRef(currentSection),
       chapter: currentChapter,
       section: currentSection,
       title: currentTitle ?? `Члан ${currentSection}.`,
       content,
-    };
-
-    provisions.push(provision);
-    definitions.push(...extractDefinitionsFromProvision(provision));
+    });
 
     currentSection = null;
     currentContent = [];
@@ -382,11 +528,23 @@ export function parseLawHtml(html: string, options: ParseLawOptions): ParsedAct 
   };
 
   for (const paragraph of paragraphs) {
-    const section = parseArticleSection(paragraph.text);
+    const marker = parseArticleMarker(paragraph.text);
 
     if (isChapterHeading(paragraph)) {
       flushCurrentProvision();
       currentChapter = paragraph.text;
+      pendingTitle = undefined;
+      continue;
+    }
+
+    if (marker) {
+      flushCurrentProvision();
+
+      currentSection = marker.section;
+      const articleTitle = marker.inlineTitle ?? pendingTitle;
+      currentTitle = articleTitle
+        ? `Члан ${marker.section}. ${articleTitle}`
+        : `Члан ${marker.section}.`;
       pendingTitle = undefined;
       continue;
     }
@@ -396,20 +554,26 @@ export function parseLawHtml(html: string, options: ParseLawOptions): ParsedAct 
       continue;
     }
 
-    if (section) {
-      flushCurrentProvision();
-      currentSection = section;
-      currentTitle = pendingTitle ? `Члан ${section}. ${pendingTitle}` : `Члан ${section}.`;
-      pendingTitle = undefined;
-      continue;
-    }
-
     if (currentSection) {
       currentContent.push(paragraph.text);
     }
   }
 
   flushCurrentProvision();
+
+  const provisions = rawProvisions.length > 0
+    ? dedupeProvisions(rawProvisions)
+    : buildFallbackProvisions(paragraphs);
+
+  const definitionDedup = new Map<string, ParsedDefinition>();
+  for (const provision of provisions) {
+    for (const definition of extractDefinitionsFromProvision(provision)) {
+      const key = `${definition.source_provision ?? ''}::${definition.term.toLowerCase()}`;
+      if (!definitionDedup.has(key)) {
+        definitionDedup.set(key, definition);
+      }
+    }
+  }
 
   return {
     id: options.id,
@@ -423,6 +587,6 @@ export function parseLawHtml(html: string, options: ParseLawOptions): ParsedAct 
     url: options.url,
     description: options.description,
     provisions,
-    definitions,
+    definitions: Array.from(definitionDedup.values()),
   };
 }

@@ -1,0 +1,24 @@
+{
+  "fetched_at": "2026-02-21T21:28:47.236Z",
+  "endpoint": "https://di.pravno-informacioni-sistem.rs/REG/advancedSearch",
+  "payload": {
+    "l": [
+      458,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "pau": null,
+    "aids": [],
+    "dids": [
+      53
+    ],
+    "tmo": true,
+    "bmo": true,
+    "limit": 5000,
+    "tk": ""
+  },
+  "resultSize": 822,
+  "returned": 822
+}

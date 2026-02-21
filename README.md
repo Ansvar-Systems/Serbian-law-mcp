@@ -23,7 +23,7 @@ npx @ansvar/serbian-law-mcp
 
 ## Data Sources
 
-Official legislation from the Republic of Serbia legal portal (Pravno-informacioni sistem), ingested from machine-readable act text.
+Official legislation from the Republic of Serbia legal portal (Pravno-informacioni sistem), ingested from machine-readable act text for the full publicly searchable law corpus.
 
 ## License
 
