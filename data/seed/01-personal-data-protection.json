@@ -1,0 +1,132 @@
+{
+  "id": "rs-personal-data-protection",
+  "type": "statute",
+  "title": "Zakon o zaštiti podataka o ličnosti",
+  "title_en": "Law on Personal Data Protection",
+  "short_name": "ZZPL",
+  "status": "in_force",
+  "issued_date": "2018-11-09",
+  "in_force_date": "2019-08-21",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-zastiti-podataka-o-licnosti.html",
+  "description": "Zakon o zaštiti podataka o ličnosti (ZZPL) je primární zakonodavni akt koji uređuje zaštitu podataka o ličnosti u Republici Srbiji i koji je usklađen sa Opštom uredbom o zaštiti podataka EU (GDPR, Uredba (EU) 2016/679). Zakon je usvojen u okviru procesa pristupanja EU i imenuje Poverenika za informacije od javnog značaja i zaštitu podataka o ličnosti kao nadzorni organ. Zakon uspostavlja sveobuhvatni okvir za obradu podataka o ličnosti, prava lica na koje se podaci odnose i obaveze rukovaoca i obrađivača podataka.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Predmet zakona",
+      "content": "This Law establishes the rules concerning the protection of natural persons with regard to the processing of personal data and rules relating to the free flow of personal data. The Law protects fundamental rights and freedoms of natural persons, in particular their right to protection of personal data. This Law is modelled on Regulation (EU) 2016/679 (GDPR) and serves to align Serbian data protection law with EU standards as part of Serbia's EU accession process. The provisions of this Law apply to the processing of personal data wholly or partly by automated means and to other processing of personal data which form part of a filing system or are intended to form part of a filing system."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Pojmovi (Definitions)",
+      "content": "For the purposes of this Law: 'personal data' means any information relating to an identified or identifiable natural person ('data subject'), whereby an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person; 'processing' means any operation or set of operations performed on personal data, whether or not by automated means; 'controller' means the natural or legal person, public authority, agency or other body which determines the purposes and means of the processing; 'processor' means a natural or legal person which processes data on behalf of the controller."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. Teritorijalna primena (Territorial Application)",
+      "content": "This Law applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Republic of Serbia, regardless of whether the processing takes place in Serbia or not. This Law also applies to the processing of personal data of data subjects who are in the Republic of Serbia by a controller or processor not established in Serbia, where the processing activities relate to the offering of goods or services to data subjects in Serbia, or to the monitoring of their behaviour as far as their behaviour takes place within Serbia. Controllers and processors not established in Serbia shall designate in writing a representative in Serbia."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. Principi obrade podataka (Principles of Processing)",
+      "content": "Personal data must be processed lawfully, fairly, and in a transparent manner in relation to the data subject (lawfulness, fairness, and transparency). Data must be collected for specified, explicit, and legitimate purposes and not further processed in a manner incompatible with those purposes (purpose limitation). Data shall be adequate, relevant, and limited to what is necessary in relation to the purposes for which it is processed (data minimisation). Data shall be accurate and, where necessary, kept up to date (accuracy). Data shall be kept in a form which permits identification of data subjects for no longer than necessary (storage limitation). Data shall be processed in a manner that ensures appropriate security (integrity and confidentiality). The controller shall be responsible for, and be able to demonstrate compliance with, these principles (accountability)."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. Osnovi za obradu (Legal Bases for Processing)",
+      "content": "Processing shall be lawful only if and to the extent that at least one of the following applies: the data subject has given consent to the processing of their personal data for one or more specific purposes; processing is necessary for the performance of a contract to which the data subject is a party or in order to take steps at the request of the data subject prior to entering into a contract; processing is necessary for compliance with a legal obligation to which the controller is subject; processing is necessary in order to protect the vital interests of the data subject or of another natural person; processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; or processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Posebne kategorije podataka (Special Categories of Data)",
+      "content": "Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited unless specific conditions are met. Permitted processing includes where the data subject has given explicit consent, where processing is necessary for the purposes of carrying out obligations in the field of employment or social security, where processing is necessary to protect the vital interests of the data subject, or where processing relates to personal data which are manifestly made public by the data subject, among other grounds. Special safeguards shall apply to the processing of special categories of data."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Prava lica na koja se podaci odnose (Rights of Data Subjects)",
+      "content": "Data subjects shall have the following rights under this Law: the right to be informed about the processing of their personal data; the right of access to their personal data and information about the processing; the right to rectification of inaccurate or incomplete data; the right to erasure ('right to be forgotten') under specified conditions; the right to restriction of processing; the right to data portability; the right to object to processing; and rights in relation to automated individual decision-making, including profiling. Controllers shall facilitate the exercise of these rights and shall respond to requests within the timeframes and in the manner specified by this Law."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Poverenik (The Commissioner)",
+      "content": "The Commissioner for Information of Public Importance and Personal Data Protection (Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti) is designated as the national supervisory authority responsible for monitoring and enforcing this Law. The Commissioner is an independent authority accountable to the National Assembly and shall exercise their functions with full independence. The Commissioner shall have investigative powers, corrective powers, and advisory powers consistent with the requirements of the GDPR model, including the power to investigate complaints, conduct audits, issue warnings and reprimands, order the controller or processor to comply, order suspension or prohibition of processing, and impose fines."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Obaveze rukovaoca i obrađivača (Obligations of Controllers and Processors)",
+      "content": "Controllers shall implement appropriate technical and organisational measures to ensure and be able to demonstrate that processing is performed in accordance with this Law, taking into account the nature, scope, context, and purposes of processing and the risks to the rights and freedoms of natural persons. Controllers shall implement data protection by design and by default, shall maintain records of processing activities where required, shall carry out data protection impact assessments for high-risk processing, and shall designate a Data Protection Officer where required. Processors shall process personal data only on documented instructions from the controller and shall implement appropriate security measures."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Sigurnost obrade (Security of Processing)",
+      "content": "Taking into account the state of the art, the costs of implementation, and the nature, scope, context, and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk. Measures shall address the pseudonymisation and encryption of personal data, the ability to ensure ongoing confidentiality, integrity, availability, and resilience of processing systems, the ability to restore availability and access in a timely manner, and a process for regularly testing, assessing, and evaluating the effectiveness of technical and organisational measures."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Povreda podataka (Personal Data Breach)",
+      "content": "In the case of a personal data breach, the controller shall notify the Commissioner without undue delay and, where feasible, not later than 72 hours after having become aware of it, unless the breach is unlikely to result in a risk to the rights and freedoms of natural persons. Where the notification is not made within 72 hours, it shall be accompanied by reasons for the delay. The controller shall document any personal data breaches and the actions taken. Where a personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Prenos podataka (Data Transfers)",
+      "content": "Transfers of personal data to a third country or an international organisation shall take place only if adequate protection is ensured or if appropriate safeguards are in place. Adequacy may be determined by the Commissioner where the third country or international organisation ensures an adequate level of protection. In the absence of adequacy, transfers may take place subject to appropriate safeguards such as standard contractual clauses, binding corporate rules, or approved certifications. Derogations for specific situations may apply in limited circumstances, including where the data subject has given explicit consent for the proposed transfer after having been informed of the risks."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Lice za zaštitu podataka (Data Protection Officer)",
+      "content": "Controllers and processors shall designate a Data Protection Officer in cases where processing is carried out by a public authority or body, where the core activities of the controller or processor consist of processing operations which, by virtue of their nature, scope, and purposes, require regular and systematic monitoring of data subjects on a large scale, or where the core activities consist of processing on a large scale of special categories of data. The Data Protection Officer shall have the tasks of informing and advising the controller or processor, monitoring compliance, providing advice on data protection impact assessments, and cooperating with and serving as the contact point for the Commissioner."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Novčane kazne (Administrative Fines)",
+      "content": "The Commissioner may impose administrative fines on controllers and processors that fail to comply with the obligations established under this Law. Fines shall be proportionate and dissuasive and shall take into account the nature, gravity, and duration of the infringement, the intentional or negligent character of the infringement, the categories of personal data affected, the degree of responsibility of the controller or processor, and any mitigating or aggravating factors. The maximum amount of fines applicable under this Law is established in the provisions on sanctions, taking into account Serbia's economic circumstances while ensuring effectiveness and deterrence."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. Posebni slučajevi obrade (Special Cases of Processing)",
+      "content": "Processing of personal data for journalistic, academic, artistic, or literary purposes shall be exempted from certain requirements of this Law to the extent necessary to reconcile the right to the protection of personal data with the freedom of expression and information. Processing of personal data in the employment context shall be permitted where necessary for the purposes of the employment relationship, subject to appropriate safeguards for employees' rights. Processing for the purposes of scientific or historical research or statistical purposes shall be permitted subject to appropriate technical and organisational safeguards, including pseudonymisation where possible. Processing by competent authorities for law enforcement purposes is governed by a separate chapter of this Law."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Međunarodna saradnja (International Cooperation)",
+      "content": "The Commissioner shall cooperate with data protection supervisory authorities of other states, including EU Member States, in the exercise of their respective functions, including through the exchange of information, mutual assistance in investigations, and coordination of enforcement actions in cross-border cases. The Commissioner shall participate in international forums and organisations dealing with personal data protection and shall represent Serbia's interests in relevant international negotiations. The Commissioner shall work towards the development of bilateral and multilateral cooperation arrangements with supervisory authorities of countries providing adequate protection to facilitate the cross-border flow of personal data."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "personal data",
+      "definition": "Any information relating to an identified or identifiable natural person ('data subject').",
+      "source_provision": "art2"
+    },
+    {
+      "term": "controller",
+      "definition": "The natural or legal person, public authority, agency or other body which determines the purposes and means of the processing of personal data.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "processor",
+      "definition": "A natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Poverenik",
+      "definition": "The Commissioner for Information of Public Importance and Personal Data Protection, designated as the national supervisory authority under this Law.",
+      "source_provision": "art8"
+    }
+  ]
+}

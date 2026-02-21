@@ -1,0 +1,104 @@
+{
+  "id": "eu-cross-references",
+  "type": "statute",
+  "title": "EU Cross-Reference Index for Serbian Law",
+  "title_en": "EU Cross-Reference Index for Serbian Law",
+  "short_name": "EU-XREF",
+  "status": "in_force",
+  "issued_date": "2024-01-01",
+  "in_force_date": "2024-01-01",
+  "url": "https://eur-lex.europa.eu",
+  "description": "This index documents the cross-references between Serbian national law and European Union legislation in the areas of data protection, cybersecurity, electronic communications, and digital regulation. Serbia is an EU candidate country and has aligned significant parts of its legal framework with the EU acquis communautaire, particularly in the areas of data protection, electronic communications, and information society services. This index facilitates navigation between Serbian implementing measures and the underlying Union instruments that they are modelled on.",
+  "provisions": [
+    {
+      "provision_ref": "xref1",
+      "section": "1",
+      "title": "GDPR Alignment",
+      "content": "Serbia's Law on Personal Data Protection (Zakon o zaštiti podataka o ličnosti, ZZPL) of 2018 is largely modelled on Regulation (EU) 2016/679 (GDPR) and aligns Serbian data protection law with the EU standard. The Law designates the Commissioner for Information of Public Importance and Personal Data Protection as the national supervisory authority. As an EU candidate country, Serbia participates in cooperation with EU data protection authorities through the European Data Protection Board in observer capacity and aims to achieve full alignment with GDPR requirements as part of the EU accession process. The Stabilisation and Association Agreement between Serbia and the EU commits Serbia to progressive alignment with EU data protection standards."
+    },
+    {
+      "provision_ref": "xref2",
+      "section": "2",
+      "title": "NIS Directive Alignment",
+      "content": "Serbia's Law on Information Security (Zakon o informacionoj bezbednosti) is modelled on the NIS Directive (Directive (EU) 2016/1148) and establishes the national framework for information security. The National Cybersecurity Coordination Body and the MUP (Ministry of Interior) serve as the primary national authorities. Serbia's CERT (CERT-SRB) participates in international CSIRT cooperation networks. As part of the EU accession process, Serbia is working towards alignment with the NIS2 Directive (Directive (EU) 2022/2555) requirements, including the expansion of scope and enhanced security and notification obligations."
+    },
+    {
+      "provision_ref": "xref3",
+      "section": "3",
+      "title": "Electronic Communications Framework",
+      "content": "Serbia's Law on Electronic Communications is modelled on the EU electronic communications regulatory framework. The Regulatory Agency for Electronic Communications and Postal Services (RATEL) is designated as the national regulatory authority and is associated with BEREC as an observer. EU market analysis methodologies and regulatory principles are applied in the Serbian regulatory context, and Serbia's electronic communications law is being progressively aligned with the European Electronic Communications Code (Directive (EU) 2018/1972) as part of the EU accession process."
+    },
+    {
+      "provision_ref": "xref4",
+      "section": "4",
+      "title": "eIDAS Alignment",
+      "content": "Serbia's Law on Electronic Document, Electronic Identification and Trust Services in Electronic Business (Zakon o elektronskom dokumentu, elektronskoj identifikaciji i uslugama od poverenja u elektronskom poslovanju) is modelled on Regulation (EU) No 910/2014 (eIDAS). It establishes the national framework for electronic identification and trust services, designating a supervisory body for qualified trust service providers and establishing requirements for qualified electronic signatures, seals, and time stamps. Alignment with eIDAS standards is a key component of Serbia's digital transformation and EU accession agenda."
+    },
+    {
+      "provision_ref": "xref5",
+      "section": "5",
+      "title": "E-Commerce Directive Alignment",
+      "content": "Serbia's Law on Electronic Commerce (Zakon o elektronskoj trgovini) is modelled on Directive 2000/31/EC (E-Commerce Directive) and establishes the legal framework for information society services in Serbia. It provides for the country of origin principle within the Serbia-EU Stabilisation and Association Agreement framework, establishes liability exemptions for intermediary service providers, and governs electronic contract formation. As Serbia advances in its EU accession process, the Law will be updated to align with the Digital Services Act (Regulation (EU) 2022/2065)."
+    },
+    {
+      "provision_ref": "xref6",
+      "section": "6",
+      "title": "Trade Secrets Directive Alignment",
+      "content": "Serbia's Law on Trade Secrets (Zakon o poslovnoj tajni) is modelled on Directive (EU) 2016/943 and provides a modern legal framework for the protection of trade secrets against unlawful acquisition, use, and disclosure. The Law provides civil remedies for trade secret holders and establishes the criteria for lawful and unlawful acquisition, use, and disclosure. Alignment with EU trade secrets law is part of Serbia's broader alignment of its intellectual property and competition law framework with the EU acquis."
+    },
+    {
+      "provision_ref": "xref7",
+      "section": "7",
+      "title": "Budapest Convention on Cybercrime",
+      "content": "Serbia has ratified the Council of Europe Convention on Cybercrime (Budapest Convention) and its IT-related legal provisions are aligned with the Convention's requirements. Serbia participates in the Convention's implementation network and cooperates with other parties to the Convention in addressing cross-border cybercrime. As an EU candidate country, Serbia's cybercrime framework is also being aligned with Directive 2013/40/EU on attacks against information systems, which is applicable to EU Member States. Alignment with the EU cybercrime framework is a component of Serbia's justice and home affairs alignment agenda."
+    },
+    {
+      "provision_ref": "xref8",
+      "section": "8",
+      "title": "Stabilisation and Association Agreement",
+      "content": "The Stabilisation and Association Agreement (SAA) between Serbia and the European Union, in force since September 2013, commits Serbia to the progressive harmonisation of its laws with the EU acquis in a wide range of areas, including information society services, data protection, telecommunications, and electronic commerce. The SAA Interim Trade Agreement provides for regulatory alignment in areas relevant to digital trade. Serbia's progress in EU accession negotiations, including alignment in the relevant chapters, is monitored by the European Commission in annual progress reports."
+    },
+    {
+      "provision_ref": "xref9",
+      "section": "9",
+      "title": "Critical Infrastructure Protection",
+      "content": "Serbia's Law on Critical Infrastructure (Zakon o kritičnoj infrastrukturi) of 2023 is modelled on the EU Critical Infrastructure frameworks, including Council Directive 2008/114/EC and elements of Directive (EU) 2022/2557 (CER Directive). It establishes the national framework for the identification, designation, and protection of critical infrastructure. As an EU candidate country, Serbia participates in relevant EU cooperation frameworks for critical infrastructure protection and works towards alignment with the updated CER Directive requirements as part of the accession process."
+    },
+    {
+      "provision_ref": "xref10",
+      "section": "10",
+      "title": "Freedom of Information",
+      "content": "Serbia's Law on Free Access to Information of Public Importance (Zakon o slobodnom pristupu informacijama od javnog značaja) establishes the right of public access to official documents, consistent with the principles underlying Directive 2003/4/EC on public access to environmental information and the general principle of transparency enshrined in EU law. The Commissioner for Information of Public Importance and Personal Data Protection supervises implementation of the Law and handles appeals against refusals of access. As part of EU accession, Serbia is strengthening its transparency and anti-corruption framework in line with EU standards."
+    },
+    {
+      "provision_ref": "xref11",
+      "section": "11",
+      "title": "Electronic Government Alignment",
+      "content": "Serbia's Law on Electronic Government (Zakon o elektronskoj upravi) aligns with applicable EU e-government principles, including the once-only principle, digital-by-default, and interoperability requirements consistent with the European Interoperability Framework. Serbia aims to achieve alignment with Regulation (EU) 2018/1724 establishing the Single Digital Gateway as part of its accession preparations. The Office for IT and e-Government coordinates Serbia's digital transformation agenda in coordination with EU accession requirements."
+    },
+    {
+      "provision_ref": "xref12",
+      "section": "12",
+      "title": "Consumer Protection in Digital Services",
+      "content": "Serbia's consumer protection framework is being aligned with applicable EU consumer protection directives, including the Consumer Rights Directive (Directive 2011/83/EU), the Unfair Commercial Practices Directive (Directive 2005/29/EC), and the Digital Content Directive (Directive (EU) 2019/770). Alignment of consumer protection in the digital sector is a component of Serbia's accession negotiations in relevant chapters. The Ministry of Trade coordinates consumer protection policy and its alignment with EU standards."
+    },
+    {
+      "provision_ref": "xref13",
+      "section": "13",
+      "title": "Competition Law Alignment",
+      "content": "Serbia's competition law framework, administered by the Commission for Protection of Competition (Komisija za zaštitu konkurencije, KZK), is aligned with EU competition law principles including Articles 101 and 102 TFEU. Digital markets and platform regulation are an increasing focus of competition policy in Serbia, consistent with the EU approach reflected in the Digital Markets Act (Regulation (EU) 2022/1925). Alignment of competition enforcement in digital markets is increasingly relevant to Serbia's digital policy agenda and EU accession process."
+    },
+    {
+      "provision_ref": "xref14",
+      "section": "14",
+      "title": "Artificial Intelligence and Emerging Technologies",
+      "content": "Serbia has developed a national AI strategy and is working towards alignment with applicable EU approaches to AI regulation, including the AI Act (Regulation (EU) 2024/1689). As an EU candidate country, Serbia participates in relevant EU dialogues on AI governance and aims to develop a regulatory framework for AI that is compatible with the EU approach. Serbia's AI strategy promotes responsible innovation in AI while addressing risks to safety, security, and fundamental rights, consistent with the EU framework."
+    },
+    {
+      "provision_ref": "xref15",
+      "section": "15",
+      "title": "EU Accession Progress",
+      "content": "Serbia's progress in aligning its digital and technology law with the EU acquis is assessed by the European Commission annually. Relevant EU accession chapters include Chapter 10 (Information Society and Media), Chapter 11 (Agriculture and Rural Development — to a limited extent for digital aspects), Chapter 14 (Transport Policy), Chapter 19 (Social Policy and Employment), Chapter 23 (Judiciary and Fundamental Rights — for data protection and privacy), and Chapter 24 (Justice, Freedom and Security — for cybercrime and cybersecurity). The pace of alignment in the digital sector is closely linked to Serbia's overall accession trajectory and political priorities."
+    }
+  ]
+}

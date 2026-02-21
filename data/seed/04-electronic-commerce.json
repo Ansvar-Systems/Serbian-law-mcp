@@ -1,0 +1,127 @@
+{
+  "id": "rs-electronic-commerce",
+  "type": "statute",
+  "title": "Zakon o elektronskoj trgovini",
+  "title_en": "Law on Electronic Commerce",
+  "short_name": "ZET",
+  "status": "amended",
+  "issued_date": "2009-05-29",
+  "in_force_date": "2009-06-16",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-elektronskoj-trgovini.html",
+  "description": "Zakon o elektronskoj trgovini (ZET) uređuje elektronsku trgovinu u Republici Srbiji i usklađen je sa Direktivom o elektronskoj trgovini EU (Direktiva 2000/31/EZ). Zakon propisuje zahteve u pogledu informisanja, komercijalne komunikacije, isključenje odgovornosti posrednika i zaključivanje elektronskih ugovora. U okviru procesa pristupanja EU, Zakon se usklađuje sa Uredbom (EU) 2022/2065 (Zakon o digitalnim uslugama) i novim zahtevima u pogledu platformi i posrednika.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Predmet zakona",
+      "content": "This Law regulates the conditions for the provision of services of the information society, including electronic commerce, in the Republic of Serbia, and establishes rights and obligations of service providers and service recipients. The Law is modelled on Directive 2000/31/EC (E-Commerce Directive) and establishes the legal framework for information society services, including requirements for commercial communications, liability exemptions for intermediary service providers, and provisions governing the conclusion of electronic contracts. The Law applies to service providers established in Serbia providing information society services and to the activities of foreign service providers directed at recipients in Serbia."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Pojmovi (Definitions)",
+      "content": "For the purposes of this Law: 'service of the information society' means any service normally provided for remuneration, at a distance, by electronic means and at the individual request of a recipient of services; 'service provider' means any natural or legal person who provides a service of the information society; 'established service provider' means a service provider pursuing an economic activity using a fixed establishment in Serbia; 'recipient of the service' means any natural or legal person who uses an information society service; 'commercial communication' means any form of communication designed to promote, directly or indirectly, goods, services, or the image of a company, organisation, or person exercising a commercial activity."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. Opšte informacije (General Information Requirements)",
+      "content": "Service providers shall ensure that service recipients and competent authorities can easily, directly, and permanently access at least the following information: the name and geographic address of the service provider; electronic mail address and other contact details enabling direct and effective communication; trade registration details where the service provider is registered in a commercial register; particulars of any supervisory authority where the service is subject to an authorisation scheme; and applicable professional rules where the service provider exercises a regulated profession. This information shall be presented in a clear, comprehensible, and unambiguous manner on the service provider's website."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. Komercijalne komunikacije (Commercial Communications)",
+      "content": "Commercial communications which are part of or constitute a service of the information society shall be clearly identifiable as such, the natural or legal person on whose behalf the communication is made shall be clearly identifiable, and promotional offers shall be clearly identifiable and their conditions accessible and unambiguous. Commercial communications shall comply with applicable advertising standards and consumer protection requirements. Unsolicited commercial communications shall be identifiable as such upon receipt. Service providers relying on commercial communications for revenue shall comply with applicable data protection requirements regarding the collection and use of data for targeted advertising purposes."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. Zaključivanje ugovora elektronskim putem (Electronic Contracts)",
+      "content": "Service providers shall ensure that contracts can be concluded electronically and that recipients have access to technical steps required to conclude the contract, whether the contract will be stored and whether it will be accessible, technical means for correcting input errors, and the languages available for contract conclusion. Service providers shall acknowledge receipt of orders electronically without undue delay. Contracts concluded by electronic means shall have full legal validity and enforceability in Serbia, and their conclusion shall not be restricted by formal requirements that cannot be satisfied electronically, except for contracts specifically excluded by the Government from the scope of this provision."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Odgovornost posrednika — Puki prenosilac",
+      "content": "A service provider transmitting information in a communication network or providing access to a communication network shall not be liable for the information transmitted, provided the service provider did not initiate the transmission, did not select the receiver of the transmission, and did not select or modify the information contained in the transmission. Automatic, intermediate, and transient storage of the information transmitted for the sole purpose of carrying out the transmission, for no longer than is reasonably necessary for the transmission, shall not affect this exemption. This provision does not affect the power of courts or competent administrative authorities to require the service provider to terminate or prevent an infringement."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Odgovornost posrednika — Keširanje",
+      "content": "A service provider automatically, intermediately, and temporarily storing information for the sole purpose of making more efficient the onward transmission of the information to other recipients shall not be liable for that stored information where the service provider does not modify the information, complies with conditions on access, complies with updating rules, does not interfere with lawful technology for obtaining data on usage, and acts expeditiously to remove or disable access to the stored information upon actual knowledge that the information at the original source has been removed or access has been disabled or that a court or competent authority has ordered such removal or disablement."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Odgovornost posrednika — Hosting",
+      "content": "A service provider storing information provided by a recipient of the service shall not be liable for the stored information where the service provider does not have actual knowledge of illegal activity or information and, as regards claims for damages, is not aware of facts or circumstances from which the illegal activity or information is apparent, or where the service provider, upon obtaining such knowledge or awareness, acts expeditiously to remove or disable access to the information. This exemption does not apply where the recipient of the service is acting under the authority or the control of the service provider."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Nema opšte obaveze nadzora (No General Monitoring Obligation)",
+      "content": "Service providers shall not be subject to a general obligation to monitor the information they transmit or store, nor to actively seek facts or circumstances indicating illegal activity. Competent authorities may impose obligations on information society service providers to inform the competent authorities of alleged illegal activities or information provided by recipients of their service, or to communicate to the competent authorities, at their request, information enabling the identification of recipients of their service with whom storage agreements exist. Such obligations shall be proportionate and shall respect applicable constitutional protections."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Nadležni organ (Competent Authority)",
+      "content": "The Ministry responsible for trade and information society services is designated as the competent authority for the implementation of this Law, responsible for the supervision of service providers established in Serbia and for coordinating with foreign authorities on cross-border matters. The Ministry shall cooperate with other relevant ministries and regulators, including RATEL, the Commissioner for Data Protection, and the consumer protection authority, in matters at the intersection of electronic commerce and other regulatory frameworks. As part of Serbia's EU accession, the Ministry shall coordinate alignment of this Law with the Digital Services Act (Regulation (EU) 2022/2065)."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Alternativno rešavanje sporova",
+      "content": "The competent authority shall promote the availability of adequate and effective out-of-court dispute resolution mechanisms for disputes between information society service providers and recipients arising from the provision of services covered by this Law. Service providers shall inform recipients of the service of applicable out-of-court dispute resolution bodies and of the means by which those bodies are accessible. The availability of out-of-court dispute resolution shall not affect the right of parties to pursue claims through the courts of Serbia. The competent authority shall monitor the effectiveness of out-of-court dispute resolution mechanisms and shall publish information on available options for consumers and businesses."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Zaštita potrošača (Consumer Protection in E-Commerce)",
+      "content": "Service providers engaged in electronic commerce shall comply with applicable consumer protection legislation in providing their services to consumers, including requirements on pre-contractual information, the right of withdrawal, unfair commercial practices, and product and service conformity. Consumer protection provisions applicable to electronic commerce shall be interpreted in a manner consistent with applicable EU consumer protection standards to which Serbia is aligning as part of the EU accession process. The Ministry of Trade, in coordination with the Ministry responsible for information society services, shall issue guidance on consumer protection requirements applicable to electronic commerce in Serbia."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Sankcije (Sanctions)",
+      "content": "The competent authority shall have the power to take enforcement action against service providers established in Serbia that fail to comply with applicable requirements of this Law. Enforcement powers include the power to issue orders requiring compliance, to impose administrative fines, and to publish information on non-compliant providers. Administrative fines shall be proportionate to the nature and gravity of the breach and the economic capacity of the provider. In cross-border cases, the competent authority shall coordinate with the relevant authorities of the state of establishment of the service provider in accordance with applicable international cooperation frameworks and the Stabilisation and Association Agreement with the EU."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Transparentnost platformi",
+      "content": "Online platforms and marketplaces operating in or directed at users in Serbia shall provide transparent and accessible information on their terms and conditions for use, their mechanisms for handling complaints, and the criteria applied in displaying information to users. Platforms facilitating transactions between consumers and traders shall ensure that traders are clearly identifiable and shall implement appropriate mechanisms for addressing illegal content and products listed on their platforms. As Serbia aligns with the Digital Services Act (Regulation (EU) 2022/2065), additional transparency and accountability requirements applicable to platforms will be introduced into the Serbian legal framework."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. Digitalne usluge",
+      "content": "This Law is being progressively aligned with Regulation (EU) 2022/2065 (Digital Services Act) as part of Serbia's EU accession process. Alignment will include the introduction of enhanced obligations for hosting service providers, online platforms, and very large online platforms regarding the detection, notification, and removal of illegal content; transparency obligations regarding content moderation and advertising; and enhanced accountability mechanisms. The competent national authority for the implementation of the Digital Services Act in Serbia will be designated in the updated legislation. Serbia participates in relevant EU dialogues on platform regulation and digital services governance."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Digitalna ekonomija i inovacije",
+      "content": "The Republic of Serbia shall promote the development of a thriving digital economy by maintaining a clear and predictable regulatory framework for information society services, reducing administrative barriers to digital entrepreneurship, and fostering innovation in the digital sector. The Government shall adopt strategies and action plans for digital economy development, addressing broadband connectivity, digital skills, digital public services, and the regulatory environment for digital businesses. Serbia participates in relevant EU digital economy initiatives and programmes and shall ensure that its digital economy regulatory framework supports Serbia's integration into the European digital single market as part of the EU accession process."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "service of the information society",
+      "definition": "Any service normally provided for remuneration, at a distance, by electronic means and at the individual request of a recipient of services.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "service provider",
+      "definition": "Any natural or legal person who provides a service of the information society.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "commercial communication",
+      "definition": "Any form of communication designed to promote, directly or indirectly, goods, services, or the image of a company, organisation, or person exercising a commercial activity.",
+      "source_provision": "art2"
+    }
+  ]
+}

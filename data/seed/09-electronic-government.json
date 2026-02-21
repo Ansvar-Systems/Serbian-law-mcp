@@ -1,0 +1,127 @@
+{
+  "id": "rs-electronic-government",
+  "type": "statute",
+  "title": "Zakon o elektronskoj upravi",
+  "title_en": "Law on Electronic Government",
+  "short_name": "ZEU",
+  "status": "in_force",
+  "issued_date": "2016-07-20",
+  "in_force_date": "2016-09-01",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-elektronskoj-upravi.html",
+  "description": "Zakon o elektronskoj upravi (ZEU) uspostavlja pravni okvir za elektronsku komunikaciju između građana, privrednih subjekata i organa javne uprave u Republici Srbiji, kao i za pružanje javnih usluga elektronskim putem. Zakon propisuje načela elektronske uprave, uključujući princip 'samo jednom', interoperabilnost i digitalne inicijative. Zakon je usklađen sa principima EU e-uprave i podupire strateški cilj Srbije da izgradi modernu digitalnu upravu dok napreduje u procesu pristupanja EU.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Predmet zakona",
+      "content": "This Law establishes the legal framework for electronic government in the Republic of Serbia, governing the electronic provision of public services by public administration bodies, the electronic exchange of information and documents within public administration and with citizens and businesses, and the management of government information systems. The Law aims to improve the quality, accessibility, and efficiency of public services through digitisation, to reduce administrative burdens on citizens and businesses, and to support Serbia's alignment with EU e-government standards as part of the EU accession process. The Law applies to all public administration bodies within its scope and to citizens and businesses interacting with those bodies through electronic means."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Pojmovi (Definitions)",
+      "content": "For the purposes of this Law: 'electronic public service' means any service provided by a public administration body to citizens, businesses, or other public bodies through electronic means; 'electronic communication' means the exchange of information, documents, and data between public administration bodies or between public administration bodies and citizens or businesses through electronic channels; 'eUprava portal' means the central government portal for electronic public services at eUprava.gov.rs; 'once-only principle' means the principle that citizens and businesses are required to submit data to public authorities only once; 'interoperability platform' means the technical infrastructure enabling the exchange of data between government information systems."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. Kancelarija za IT i e-Upravu",
+      "content": "The Office for Information Technology and e-Government (Kancelarija za informacione tehnologije i elektronsku upravu) is designated as the coordinating body responsible for implementing the e-government policy of the Republic of Serbia, developing and maintaining the national e-government strategy, establishing technical standards for government ICT systems, operating shared digital infrastructure, and monitoring the uptake and quality of electronic public services. The Office shall coordinate with all public administration bodies in implementing e-government measures and shall represent Serbia in relevant international e-government forums, including those related to EU accession."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. Načelo 'samo jednom' (Once-Only Principle)",
+      "content": "Public administration bodies shall implement the once-only principle, under which citizens and businesses are required to submit data to public authorities only once, with public authorities exchanging data between themselves as necessary for the processing of applications and transactions. Implementation of the once-only principle shall comply with applicable data protection law, including the requirement for a lawful basis for data exchange and, where required, the consent of the data subject. The Office for IT and e-Government shall develop and operate the technical infrastructure for inter-agency data exchange and shall coordinate the implementation of the once-only principle across public administration."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. eUprava portal",
+      "content": "The eUprava portal (eUprava.gov.rs) is designated as the central access point through which citizens and businesses can access electronic public services in Serbia. All public administration bodies shall make their citizen-facing electronic services accessible through the eUprava portal, subject to the technical and organisational requirements established by the Office for IT and e-Government. The portal shall provide authenticated access using the national electronic identification system and shall enable citizens to view the status of their applications and transactions with public authorities. The Office shall develop and maintain the portal in accordance with applicable standards for usability, accessibility, and security."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Elektronska identifikacija (Electronic Identification)",
+      "content": "Public administration bodies shall accept electronic identification means compliant with the requirements established under the Law on Electronic Document, Electronic Identification and Trust Services for the authentication of citizens and businesses accessing electronic public services. The national electronic identification system shall provide the minimum identification and authentication capabilities required for different assurance levels applicable to different categories of electronic public services. The Office for IT and e-Government shall ensure that the national electronic identification system is integrated into the eUprava portal and that public administration bodies implement the required integration with the national system for their electronic services."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Elektronski dokumenti u upravi",
+      "content": "Electronic documents shall have equivalent legal standing to paper documents for interactions between citizens or businesses and public administration bodies, in accordance with the Law on Electronic Document, Electronic Identification and Trust Services. Public administration bodies shall accept applications, forms, and supporting documents submitted electronically and shall not require the submission of original paper documents where electronic equivalents are acceptable. Internal administrative processes of public administration bodies shall progressively transition to electronic document management, in accordance with the national digital transformation strategy. The Archives of Serbia shall establish requirements for the long-term preservation of electronic administrative records."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Interoperabilnost sistema (System Interoperability)",
+      "content": "Government information systems shall be developed and operated in accordance with the interoperability framework established by the Office for IT and e-Government, addressing technical, semantic, and organisational dimensions of interoperability. Public administration bodies shall use the government interoperability platform for the exchange of data and services between their information systems, in accordance with the standards and procedures established by the Office. The Office shall maintain a catalogue of shared services and data sources available through the interoperability platform and shall promote the reuse of existing solutions rather than the development of duplicative systems."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Dostupnost i pristupačnost (Availability and Accessibility)",
+      "content": "Electronic public services shall be designed to be accessible to all citizens, including persons with disabilities, older persons, and persons with limited digital literacy, in accordance with applicable accessibility standards. Public administration bodies shall implement the Web Content Accessibility Guidelines (WCAG) or equivalent standards for their websites and digital services and shall conduct regular accessibility audits. The Office for IT and e-Government shall monitor compliance with accessibility standards and shall publish annual reports on the accessibility of government digital services. Citizens unable to access electronic public services independently shall be provided with appropriate assistance through alternative channels."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Zaštita podataka u e-upravi",
+      "content": "The processing of personal data in the context of e-government activities shall comply with the Law on Personal Data Protection and applicable data protection principles, including lawfulness, fairness, transparency, purpose limitation, data minimisation, and security. Public administration bodies implementing e-government systems shall conduct data protection impact assessments for high-risk processing operations and shall designate Data Protection Officers as required by applicable law. The Commissioner for Personal Data Protection shall supervise compliance with data protection requirements in the context of e-government activities and shall provide guidance on privacy-preserving approaches to e-government design."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Lokalna samouprava (Local Government)",
+      "content": "Local self-government units in Serbia shall develop and deliver electronic public services in accordance with the standards and guidelines established by the Office for IT and e-Government, enabling citizens to access local government services through the eUprava portal. The Office shall provide technical and methodological support to local governments implementing e-government measures and shall facilitate the sharing of solutions between local governments through the shared infrastructure framework. Local governments with limited technical capacity may request assistance from the Office in the development and implementation of electronic services, and may benefit from centrally-developed solutions made available through the Office's shared services portfolio."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Digitalna transformacija (Digital Transformation Strategy)",
+      "content": "The Government shall adopt a national strategy for the digital transformation of public administration, setting out the vision, strategic objectives, priorities, and measures for the development of e-government in Serbia over a defined planning horizon. The strategy shall address broadband connectivity, electronic service development, digital skills, open data, cybersecurity, and interoperability, and shall include measurable targets and a monitoring framework. The strategy shall be aligned with applicable EU e-government principles and benchmarks, consistent with Serbia's EU accession objectives. Progress in implementing the strategy shall be reviewed and reported annually."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Digitalne veštine (Digital Skills)",
+      "content": "The Office for IT and e-Government, in coordination with relevant ministries and agencies, shall promote digital literacy and skills among public administration employees, businesses, and citizens. Training programmes for public administration employees shall address the use of electronic government systems, data management, cybersecurity awareness, and user-centred service design. Citizens with limited digital skills shall be supported through public digital assistance points and shall be provided with the assistance necessary to access electronic public services. Educational institutions shall be encouraged to integrate digital skills into curricula at all levels."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Otvoreni podaci uprave (Government Open Data)",
+      "content": "Public administration bodies shall proactively publish data of public interest held in their information systems as open data on the national open data portal (data.gov.rs), subject to applicable confidentiality and data protection requirements. Open data shall be published in machine-readable, open formats and with open licences enabling free reuse. The Office for IT and e-Government shall operate the national open data portal and shall establish standards for open data publication. High-value datasets of particular public interest shall be identified and prioritised for open data publication, in accordance with guidance from the Office and applicable EU open data standards."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. Saradnja sa EU (EU Cooperation)",
+      "content": "Serbia shall participate in EU e-government cooperation initiatives, including the CEF (Connecting Europe Facility) digital programmes, the ISA2 and ISA³ interoperability programmes, and the Single Digital Gateway, to the extent available to EU candidate countries. The Office for IT and e-Government shall coordinate Serbia's participation in these programmes and shall ensure that national e-government development is aligned with applicable EU standards and frameworks. Progress in aligning Serbia's e-government framework with EU requirements shall be reported to the European Commission through applicable accession monitoring channels. Serbia aims to be in a position to fully participate in the EU's digital single market frameworks upon accession."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Praćenje i ocena (Monitoring and Evaluation)",
+      "content": "The Office for IT and e-Government shall establish a monitoring framework for e-government in Serbia, including indicators measuring the availability, quality, security, and uptake of electronic public services. Public administration bodies shall submit annual reports on their electronic services and ICT systems to the Office. The Office shall publish an annual report on the state of e-government in Serbia, covering progress against national targets, benchmarking against EU and international comparators, and recommendations for improvement. The annual report shall be submitted to the Government and made publicly available on the Office's website and on the eUprava portal."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "electronic public service",
+      "definition": "Any service provided by a public administration body to citizens, businesses, or other public bodies through electronic means.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "once-only principle",
+      "definition": "The principle that citizens and businesses are required to submit data to public authorities only once, with public authorities exchanging data between themselves as necessary.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "eUprava portal",
+      "definition": "The central government portal at eUprava.gov.rs through which citizens and businesses access electronic public services in Serbia.",
+      "source_provision": "art5"
+    }
+  ]
+}

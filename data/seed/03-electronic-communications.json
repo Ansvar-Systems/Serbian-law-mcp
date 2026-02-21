@@ -1,0 +1,132 @@
+{
+  "id": "rs-electronic-communications",
+  "type": "statute",
+  "title": "Zakon o elektronskim komunikacijama",
+  "title_en": "Law on Electronic Communications",
+  "short_name": "ZEK",
+  "status": "amended",
+  "issued_date": "2010-05-26",
+  "in_force_date": "2010-06-17",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-elektronskim-komunikacijama.html",
+  "description": "Zakon o elektronskim komunikacijama (ZEK) je primární zakon koji uređuje elektronski komunikacioni sektor u Republici Srbiji, usklađen sa regulatornim okvirom EU za elektronske komunikacije. Zakon imenuje Regulatornu agenciju za elektronske komunikacije i poštanske usluge (RATEL) kao nacionalno regulatorno telo i uspostavlja regulatorni okvir za pristup tržištu, analizu tržišta, zaštitu potrošača i upravljanje spektrom. Srbija je posmatrač u BEREC-u i progresivno usklađuje zakonodavstvo sa Evropskim zakonikom o elektronskim komunikacijama (Direktiva (EU) 2018/1972) u okviru procesa pristupanja EU.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Predmet zakona",
+      "content": "This Law regulates electronic communications in the Republic of Serbia, establishing conditions for the provision of electronic communications networks and services, the use of radio-frequency spectrum, and the provision of universal service. The Law establishes the Regulatory Agency for Electronic Communications and Postal Services (RATEL) as the independent national regulatory authority and sets out its functions and powers. The regulatory framework established by this Law is modelled on the EU electronic communications regulatory framework and is being progressively updated to align with the European Electronic Communications Code (Directive (EU) 2018/1972) as part of Serbia's EU accession process."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Pojmovi (Definitions)",
+      "content": "For the purposes of this Law: 'electronic communications network' means transmission systems and, where applicable, switching or routing equipment and other resources which permit the conveyance of signals by wire, radio, optical or other electromagnetic means; 'electronic communications service' means a service consisting wholly or mainly in the conveyance of signals on electronic communications networks, including telecommunications services and transmission services; 'end-user' means a user not providing public communications networks or publicly available electronic communications services; 'universal service' means the minimum set of services of specified quality available to all users regardless of their geographic location and at an affordable price; 'significant market power' means a position equivalent to dominance in a relevant market."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. RATEL",
+      "content": "The Regulatory Agency for Electronic Communications and Postal Services (RATEL) is established as an independent regulatory authority responsible for regulating electronic communications and postal services in the Republic of Serbia. RATEL shall exercise its regulatory functions independently, without seeking or accepting instructions from the Government or any other body, and shall be accountable to the National Assembly through annual reporting obligations. RATEL shall cooperate with the European Commission and regulatory bodies of EU Member States and participates in BEREC as an observer in its capacity as an EU candidate country's regulatory authority."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. Opšti uslovi pružanja usluga (General Authorisation)",
+      "content": "Any natural or legal person may provide electronic communications networks or services in Serbia subject to a general authorisation that takes effect upon notification to RATEL. Specific licences or permits shall not be required prior to the commencement of provision of electronic communications networks or services, except where individual licences are required for the use of radio frequencies or numbering resources. RATEL shall establish and publish the conditions applicable under the general authorisation framework, which shall be proportionate, non-discriminatory, and objectively justified in relation to the networks or services concerned. RATEL shall maintain a register of all general authorisation notifications received."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. Analiza tržišta (Market Analysis)",
+      "content": "RATEL shall define relevant markets appropriate to national circumstances, taking into account applicable EU recommendations and competition law principles, and shall carry out periodic analyses of those markets. Where RATEL determines that a market is not effectively competitive, it shall identify operators with significant market power and shall impose, maintain, amend, or withdraw appropriate regulatory obligations on those operators. Obligations may address transparency, non-discrimination, accounting separation, access and interconnection, and pricing. Before imposing obligations, RATEL shall carry out the required consultation procedures and shall inform the European Commission of its proposed measures where required under applicable frameworks."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Pristup i međupovezivanje (Access and Interconnection)",
+      "content": "RATEL may impose obligations on providers of public electronic communications networks relating to access and interconnection where necessary to promote sustainable competition and the provision of services. Obligations may include requirements to negotiate in good faith with undertakings requesting access or interconnection, not to withdraw access already granted, to provide open access to technical interfaces and specified network elements, and to apply conditions on an equivalent basis to all providers seeking access. Access pricing obligations shall be based on cost-oriented principles where RATEL determines this is necessary to address the identified competition problem."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Univerzalni servis (Universal Service)",
+      "content": "RATEL shall ensure that a minimum set of electronic communications services of specified quality is available to all users in Serbia regardless of geographic location and at an affordable price. Universal service obligations shall encompass at a minimum: access to a functional internet access service, voice communications services, and any other services determined by the Government following RATEL's recommendation. RATEL shall designate one or more providers to deliver universal service obligations and shall establish mechanisms for the calculation and funding of any net costs of universal service obligations that constitute an unfair burden on designated providers."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Zaštita korisnika (Consumer Protection)",
+      "content": "Providers of publicly available electronic communications services shall ensure that subscribers have access to clear, comprehensive, and comparable information on the services offered, applicable prices, and terms and conditions. Contracts shall set out the key terms and conditions in an accessible format, and providers shall not modify contractual conditions without giving adequate prior notice to subscribers. Subscribers shall have the right to terminate contracts without penalty upon notification of proposed unfavourable changes to contractual conditions. RATEL shall establish and maintain accessible complaint handling and alternative dispute resolution mechanisms for subscribers of electronic communications services."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Upravljanje radio-frekvencijama (Radio Frequency Management)",
+      "content": "RATEL shall manage the radio frequency spectrum in the Republic of Serbia in accordance with the national frequency allocation plan, taking into account applicable international arrangements and Serbia's commitments under the International Telecommunication Union framework. Rights of use for radio frequencies shall be granted through open, transparent, and non-discriminatory procedures, based on objective, transparent, proportionate, and non-discriminatory criteria. RATEL shall coordinate frequency assignments with spectrum management authorities of neighbouring states and shall implement applicable international coordination arrangements for frequencies subject to cross-border coordination requirements."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Numering (Numbering)",
+      "content": "RATEL shall establish and manage the national numbering plan, allocating number ranges to providers of electronic communications services and managing the use of numbering resources. Subscribers shall have the right to retain their telephone numbers when changing providers of publicly available telephone services, and RATEL shall establish procedures for number portability. Porting of numbers shall be completed without undue delay and within the timeframe specified by RATEL. Providers shall not use porting processes as a means of deterring subscribers from changing provider. RATEL shall monitor compliance with number portability requirements and shall publish relevant statistics."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Bezbednost mreže (Network Security)",
+      "content": "Providers of public electronic communications networks and publicly available electronic communications services shall take appropriate technical and organisational measures to appropriately manage the security of their networks and services. Security measures shall ensure a level of security appropriate to the risk presented and shall address the physical and environmental security of network facilities, the integrity and availability of network services, and the security of subscriber data. Significant security breaches or losses of network integrity having a significant impact on the operation of the network or the provision of services shall be notified to RATEL and, where relevant, to CERT-SRB."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Hitne službe (Emergency Services)",
+      "content": "Providers of publicly available telephone services shall provide free access to emergency services through the national emergency numbers, including the single European emergency number 112 where applicable. Providers shall ensure that the most accurate caller location information technically feasible is made available to the emergency services in connection with emergency calls. Persons with disabilities shall have access to emergency services on an equivalent basis to other users through appropriate technical means. RATEL shall establish and monitor compliance with requirements for emergency communications, in coordination with the Ministry responsible for emergency services."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Infrastruktura (Infrastructure Deployment)",
+      "content": "RATEL, in cooperation with relevant planning and local authorities, shall facilitate the deployment of electronic communications infrastructure in Serbia, including the sharing of infrastructure and access to public and private land. Operators shall have the right to install electronic communications infrastructure, including cables and related facilities, on public land and rights of way subject to applicable planning and environmental requirements and to the payment of reasonable fees where applicable. RATEL may mediate disputes between providers and between providers and infrastructure or land owners arising from the exercise of infrastructure deployment rights."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Rešavanje sporova (Dispute Resolution)",
+      "content": "RATEL shall maintain procedures for the resolution of disputes between providers of electronic communications networks and services arising in connection with obligations under this Law. Any party to such a dispute may refer the matter to RATEL, which shall promote resolution through facilitated negotiation and shall issue a binding decision where parties cannot reach agreement. Decisions of RATEL shall be published subject to commercial confidentiality requirements and may be appealed before the Administrative Court within thirty days of notification. RATEL shall also provide accessible dispute resolution mechanisms for disputes between providers and end-users."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. Usklađivanje sa EECC",
+      "content": "The Republic of Serbia is progressively aligning this Law with the European Electronic Communications Code (Directive (EU) 2018/1972) as part of its EU accession process. Key areas of alignment include the promotion of very high capacity networks, the coverage of interpersonal communications services, enhanced consumer protection provisions, spectrum management reforms, and the strengthening of institutional frameworks. RATEL participates in BEREC activities as an observer and implements applicable BEREC guidelines and best practices in its regulatory work. Updated national implementing measures shall be developed in consultation with industry and consumer stakeholders."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Godišnji izveštaj (Annual Report)",
+      "content": "RATEL shall publish an annual report on its activities and on the state of the electronic communications market in Serbia, covering market developments, regulatory actions taken, enforcement outcomes, spectrum management activities, and international cooperation. The annual report shall be submitted to the National Assembly and published on RATEL's website. RATEL shall also contribute to EU accession monitoring by providing information on the state of alignment of Serbia's electronic communications framework with applicable EU standards, through appropriate reporting channels and in response to requests from the European Commission."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "RATEL",
+      "definition": "The Regulatory Agency for Electronic Communications and Postal Services, established as the independent national regulatory authority for electronic communications in Serbia.",
+      "source_provision": "art3"
+    },
+    {
+      "term": "electronic communications network",
+      "definition": "Transmission systems and, where applicable, switching or routing equipment and other resources which permit the conveyance of signals by wire, radio, optical or other electromagnetic means.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "significant market power",
+      "definition": "A position equivalent to dominance held by a provider in a relevant electronic communications market, assessed in accordance with competition law principles.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "universal service",
+      "definition": "The minimum set of electronic communications services of specified quality available to all users in Serbia regardless of their geographic location and at an affordable price.",
+      "source_provision": "art2"
+    }
+  ]
+}

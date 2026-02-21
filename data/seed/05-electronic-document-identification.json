@@ -1,0 +1,127 @@
+{
+  "id": "rs-electronic-document-identification",
+  "type": "statute",
+  "title": "Zakon o elektronskom dokumentu, elektronskoj identifikaciji i uslugama od poverenja u elektronskom poslovanju",
+  "title_en": "Law on Electronic Document, Electronic Identification and Trust Services in Electronic Business",
+  "short_name": "ZEDITEP",
+  "status": "in_force",
+  "issued_date": "2017-05-25",
+  "in_force_date": "2017-06-07",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-elektronskom-dokumentu-elektronskoj-identifikaciji-i-uslugama-od-poverenja-u-elektronskom-poslovanju.html",
+  "description": "Zakon o elektronskom dokumentu, elektronskoj identifikaciji i uslugama od poverenja u elektronskom poslovanju (ZEDITEP) uspostavlja pravni okvir za elektronske dokumente, elektronsku identifikaciju i usluge od poverenja u Republici Srbiji, usklađen sa Uredbom (EU) br. 910/2014 (eIDAS). Zakon uređuje uslove za pružanje usluga od poverenja, imenuje nadzorni organ za kvalifikovane pružaoce usluga od poverenja i uređuje pravna dejstva elektronskih potpisa, pečata, vremenskih žigova i registrovane elektronske dostave.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Predmet zakona",
+      "content": "This Law establishes the legal framework for electronic documents, electronic identification, and trust services in electronic business in the Republic of Serbia, modelled on Regulation (EU) No 910/2014 (eIDAS). The Law governs the conditions for the provision of trust services, including electronic signatures, electronic seals, electronic time stamps, electronic registered delivery services, and website authentication certificates. It designates the supervisory body for trust service providers established in Serbia, establishes requirements for the legal effect of trust services, and provides for the recognition of electronic documents in legal and administrative proceedings."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Pojmovi (Definitions)",
+      "content": "For the purposes of this Law: 'electronic document' means data in electronic form to which other electronic data are attached or which are logically associated with such data and which serve as a proof or as a means of communication; 'electronic identification' means the process of using person identification data in electronic form uniquely representing a natural or legal person; 'trust service' means an electronic service consisting of the creation, verification, and validation of electronic signatures, electronic seals, electronic time stamps, electronic registered delivery services, website authentication, or related certificates; 'trust service provider' means a natural or legal person providing one or more trust services; 'qualified trust service' means a trust service meeting the applicable requirements of this Law."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. Elektronski dokument (Electronic Document)",
+      "content": "An electronic document shall have the same legal effect as a paper document, unless this Law or other applicable law requires a specific form or procedure. Electronic documents shall be admissible as evidence in judicial and administrative proceedings in Serbia and shall not be denied legal effect solely on the grounds that they are in electronic form. The authenticity and integrity of an electronic document may be established by means of a qualified electronic signature or other appropriate technical means. Public authorities shall accept electronic documents submitted by citizens and businesses in connection with administrative procedures, in accordance with applicable e-government provisions."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. Nadzorni organ (Supervisory Body)",
+      "content": "The Ministry of Information and Telecommunications is designated as the supervisory body responsible for the supervision of trust service providers established in Serbia, in accordance with the requirements of this Law. The supervisory body shall establish and maintain the national trusted list of qualified trust service providers and the qualified trust services they provide. The supervisory body shall carry out supervision of trust service providers through conformity assessment requirements, regular audits, and oversight of ongoing compliance with applicable requirements. The supervisory body shall cooperate with supervisory bodies of other states and with the EU in matters relating to cross-border recognition of trust services."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. Kvalifikovani pružaoci usluga od poverenja",
+      "content": "Trust service providers wishing to obtain qualified status shall submit a conformity assessment report issued by an accredited conformity assessment body together with an application to the supervisory body. The supervisory body shall review the application and, where applicable requirements are satisfied, grant qualified status and include the provider on the trusted list. Qualified trust service providers shall maintain ongoing compliance with applicable requirements and shall undergo conformity assessment at least every twenty-four months. The supervisory body may suspend or withdraw qualified status where a provider no longer satisfies applicable requirements or commits a significant breach of applicable obligations."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Elektronski potpis (Electronic Signature)",
+      "content": "An electronic signature shall not be denied legal effect and admissibility as evidence in legal proceedings solely on the grounds that it is in electronic form or does not meet the requirements for a qualified electronic signature. A qualified electronic signature shall have the equivalent legal effect of a handwritten signature for all purposes under Serbian law where a handwritten signature is required. Public authorities shall accept qualified electronic signatures for the submission of documents and applications in electronic form. The supervisory body shall publish guidance for public authorities on the verification and acceptance of electronic signatures and shall maintain the trusted list of qualified trust service providers."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Elektronski pečat (Electronic Seal)",
+      "content": "An electronic seal shall not be denied legal effect and admissibility as evidence in legal proceedings solely on the grounds that it is in electronic form or does not meet the requirements for a qualified electronic seal. A qualified electronic seal shall enjoy the presumption of integrity of the data and of correctness of the origin of the data to which the qualified electronic seal is linked. Legal persons, including public authorities, may use electronic seals to authenticate documents and data in electronic form. Public authorities shall accept qualified electronic seals for the purposes of authenticating official documents and communications in electronic form."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Elektronski vremenski žig (Electronic Time Stamp)",
+      "content": "An electronic time stamp shall not be denied legal effect and admissibility as evidence in legal proceedings solely on the grounds that it is in electronic form or does not meet the requirements for a qualified electronic time stamp. A qualified electronic time stamp shall enjoy the presumption of the accuracy of the date and time it indicates and the integrity of the data to which the date and time are bound. Qualified electronic time stamps shall be accepted in judicial and administrative proceedings in Serbia for the purposes of establishing the date and time of electronic records and documents."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Registrovana elektronska dostava (Registered Electronic Delivery)",
+      "content": "A qualified electronic registered delivery service shall provide evidence of the sending of data by the identified sender and its receipt by the identified addressee, with a reliable indication of the date and time of sending and receipt. Data sent and received using a qualified electronic registered delivery service shall enjoy presumptions of integrity, authenticity, and accuracy of date and time. Public authorities shall use qualified electronic registered delivery services for the delivery of official communications and notifications where electronic delivery is permitted or required under applicable law. The supervisory body shall establish technical requirements for qualified electronic registered delivery services."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Bezbednost usluga od poverenja",
+      "content": "Trust service providers shall take appropriate technical and organisational measures to manage the security risks to the trust services they provide, ensuring a level of security appropriate to the degree of risk. Security requirements shall address key management, certificate issuance procedures, physical and environmental security, access controls, and incident detection and response. Trust service providers shall notify the supervisory body without undue delay of any breach of security or loss of integrity having a significant impact on a trust service or on personal data. The supervisory body shall establish detailed security requirements applicable to trust service providers and shall audit compliance with those requirements."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Elektronska identifikacija (Electronic Identification)",
+      "content": "Serbia shall develop and maintain a national electronic identification framework enabling citizens and businesses to authenticate electronically with public authorities and service providers. The national electronic identification system shall meet applicable security and reliability standards and shall be designed to be compatible with systems of other states, including EU Member States. The supervisory body shall coordinate the development of the national electronic identification framework and shall engage with the EU in the context of accession preparations to facilitate the future mutual recognition of electronic identification means between Serbia and EU Member States."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Odgovornost (Liability)",
+      "content": "Trust service providers shall be liable for damages caused intentionally or negligently to any natural or legal person due to a failure to comply with the obligations of this Law. The burden of proving that the trust service provider did not act intentionally or negligently shall rest on the trust service provider where the damage was caused by a qualified trust service. Trust service providers may limit their liability in relation to the use of services beyond specified limits as clearly stated in the terms and conditions of the service, provided such limitations are transparent, accessible, and non-discriminatory."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Prekogranično priznavanje (Cross-Border Recognition)",
+      "content": "Serbia shall work towards the mutual recognition of trust services with other states, including EU Member States, as part of the EU accession process and through bilateral recognition arrangements. The supervisory body shall maintain the national trusted list in a format compatible with applicable European standards to facilitate interoperability. Where trust services provided by trust service providers from other states are presented in Serbian legal or administrative proceedings, their legal effect shall be assessed in the light of applicable legal requirements and the level of security they provide. The Government may designate certain third-country trust services as recognised for specified purposes."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Nadzor i sprovođenje (Supervision and Enforcement)",
+      "content": "The supervisory body shall carry out ongoing supervision of trust service providers established in Serbia, including through the review of conformity assessment reports, on-site inspections, and requests for information. Where the supervisory body identifies non-compliance, it may issue compliance orders, impose administrative sanctions, suspend or withdraw qualified status, and take other proportionate enforcement action. Administrative sanctions shall be proportionate to the nature, gravity, and duration of the non-compliance. Decisions of the supervisory body may be appealed through applicable administrative and judicial appeal procedures."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. E-uprava i prihvatanje elektronskih dokumenata",
+      "content": "Public authorities in Serbia shall accept electronic documents, electronic signatures, electronic seals, and electronic registered delivery services in the conduct of administrative procedures, consistent with the requirements of this Law and applicable e-government legislation. The Government shall establish procedures for the gradual extension of the acceptance of electronic documents and trust services across all administrative procedures, prioritising high-volume procedures with significant citizen impact. Public authorities shall implement the technical infrastructure necessary to verify and process electronic signatures, seals, and time stamps, in accordance with guidance issued by the supervisory body."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Usklađivanje sa eIDAS",
+      "content": "The Republic of Serbia is progressively aligning this Law with Regulation (EU) No 910/2014 (eIDAS) and subsequent amendments, including Regulation (EU) 2024/1183 (eIDAS 2.0) introducing the European Digital Identity Wallet framework, as part of the EU accession process. Alignment activities include updating technical requirements to meet eIDAS standards, developing a national electronic identification scheme that can be notified to the EU upon accession, and ensuring that Liechtenstein's trust service framework is compatible with EU requirements. The supervisory body shall cooperate with EU institutions and Member State supervisory bodies in planning the alignment process."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "electronic document",
+      "definition": "Data in electronic form to which other electronic data are attached or which are logically associated with such data and which serve as a proof or as a means of communication.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "trust service",
+      "definition": "An electronic service consisting of the creation, verification, and validation of electronic signatures, seals, time stamps, electronic registered delivery services, website authentication, or related certificates.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "qualified trust service",
+      "definition": "A trust service meeting the applicable requirements of this Law, provided by a qualified trust service provider included on the national trusted list.",
+      "source_provision": "art2"
+    }
+  ]
+}

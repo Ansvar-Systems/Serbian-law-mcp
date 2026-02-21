@@ -1,0 +1,127 @@
+{
+  "id": "rs-freedom-of-information",
+  "type": "statute",
+  "title": "Zakon o slobodnom pristupu informacijama od javnog značaja",
+  "title_en": "Law on Free Access to Information of Public Importance",
+  "short_name": "ZSPI",
+  "status": "amended",
+  "issued_date": "2004-10-08",
+  "in_force_date": "2004-11-13",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-slobodnom-pristupu-informacijama-od-javnog-znacaja.html",
+  "description": "Zakon o slobodnom pristupu informacijama od javnog značaja (ZSPI) uspostavlja pravo javnog pristupa informacijama u posjedu javnih organa u Republici Srbiji. Zakon imenuje Poverenika za informacije od javnog značaja i zaštitu podataka o ličnosti kao nadzorni organ i uspostavlja postupak podnošenja i odgovaranja na zahtjeve za pristup, kao i mehanizme za prigovor i žalbu. Zakon je usklađen sa principima prava EU u pogledu transparentnosti i pristupa informacijama i služi kao instrument za demokratsku odgovornost i borbu protiv korupcije.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Pravo na pristup informacijama",
+      "content": "This Law guarantees the right of every person to have access to information held by public authorities in the Republic of Serbia, in accordance with the principles of openness, transparency, and accountability of public administration. The right of access to information of public importance is a fundamental right of citizens that enables democratic participation, the exercise of other rights, and the oversight of the exercise of public power. The right of access applies to all information recorded in any form in the possession of public authorities and shall be exercised in accordance with the provisions of this Law, subject only to the limitations necessary to protect other legitimate interests as specified herein."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Informacije od javnog značaja (Information of Public Importance)",
+      "content": "For the purposes of this Law, information of public importance means information in the possession of a public authority, created in the performance of public duties, that contains anything the public has a justified interest in knowing, regardless of the form of the information, the nature of the medium on which it is stored, or when it was created. Information of public importance includes information about the organisation and operations of public authorities, their decisions and measures, budget and public expenditure, contracts and procurement, and any other information related to the exercise of public authority. The concept of public importance shall be interpreted broadly, with the presumption in favour of disclosure."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. Poverenik (The Commissioner)",
+      "content": "The Commissioner for Information of Public Importance and Personal Data Protection (Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti) is designated as the independent supervisory authority responsible for implementing and enforcing this Law. The Commissioner is elected by the National Assembly and shall exercise their functions independently, without seeking or accepting instructions from the Government or any other body. The Commissioner shall receive and investigate complaints from persons who have been denied access to information, review decisions of public authorities on access requests, and promote the right of access to information through training, guidelines, and public awareness activities."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. Organi javne vlasti (Public Authorities)",
+      "content": "For the purposes of this Law, public authorities include: state bodies, including the Government, ministries, and other executive bodies; the National Assembly and other legislative bodies; courts, public prosecutors' offices, and other judicial bodies; local self-government bodies, including municipalities and cities; public enterprises and institutions established by the state or local governments; legal persons performing public duties under applicable law; and other persons exercising public authority. The scope of public authorities covered by this Law shall be interpreted broadly to encompass all entities exercising public functions, regardless of their legal form."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. Podnošenje zahteva (Submitting a Request)",
+      "content": "Any person may submit a request to a public authority for access to information of public importance, without being required to state reasons for the request and without being required to identify themselves. Requests shall be made in writing or orally and shall identify the information sought with sufficient specificity to enable the public authority to identify and locate the relevant information. Public authorities shall assist requestors who have difficulty formulating a request or identifying the relevant information. Requests may be submitted in person, by mail, or through electronic means, and the public authority shall acknowledge receipt of requests submitted in writing."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Postupanje po zahtevu (Responding to Requests)",
+      "content": "Public authorities shall respond to requests for access to information within fifteen days of receipt, or within forty days where the request relates to a large volume of information. The response shall either provide access to the requested information in the form requested, refer the requestor to another authority in possession of the information, or explain the reasons for a refusal to provide access. Where access is refused, the response shall inform the requestor of the grounds for refusal and of the right to complain to the Commissioner. Public authorities shall apply a presumption in favour of disclosure and shall provide partial access where a document contains both disclosable and non-disclosable information."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Ograničenja prava pristupa (Limitations on Access)",
+      "content": "Access to information may be refused where the disclosure of the information would endanger or could endanger: the life, health, safety, or other vital interest of a person; official confidentiality, state secrecy, or sensitive information classified under applicable law; the conduct of a criminal investigation or prosecution; the defence of the country and national security; the proper functioning of the judiciary; the privacy, reputation, or dignity of a person; the intellectual property rights or economic interests of a party; and any other public or private interest protected by applicable law. Restrictions shall be applied only where the harm to the protected interest clearly outweighs the public interest in access."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Prigovor i žalba (Complaint and Appeal)",
+      "content": "A person who is not satisfied with the response to their request, or who has not received a response within the applicable timeframe, may lodge a complaint with the Commissioner within fifteen days. The Commissioner shall review the complaint and shall issue a decision within thirty days, ordering the public authority to grant access to the information, upholding the refusal, or establishing another outcome as appropriate. Decisions of the Commissioner are binding on the public authority and may be enforced. Decisions of the Commissioner may be challenged before the Administrative Court within thirty days of the decision."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Proaktivno objavljivanje (Proactive Disclosure)",
+      "content": "Public authorities shall proactively publish and make available to the public, without requiring a formal request, categories of information of general public interest, including information on their structure, functions, and competences; key decisions and measures and the basis for their adoption; budget and expenditure; public procurement and contracts above specified thresholds; and any other information the Commissioner determines should be proactively published. Proactive disclosure shall be made through the public authority's website and, where applicable, through the Government's transparency portal. Proactively disclosed information shall be updated regularly and shall be presented in a clear and accessible format."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Takse i naknade (Fees and Charges)",
+      "content": "No fee shall be charged for submitting a request for access to information or for access to information provided in electronic format. Fees may be charged for access to information provided in physical form, such as printed copies, provided that fees do not exceed the cost of reproduction and are published in advance. Fees shall not be charged for appeals to the Commissioner. The Commissioner may, by decision, exempt specified categories of requestors from the obligation to pay fees, in particular where the requestor demonstrates limited financial means or where the public interest in the request is significant."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Zaštita privatnosti i ličnih podataka",
+      "content": "The right of access to information of public importance shall be exercised in a manner that respects the right to privacy and the protection of personal data of third parties whose information may be contained in the requested documents. Where access is requested to information containing personal data of a third party, the public authority shall apply applicable data protection principles in assessing whether disclosure is appropriate, including the principle that personal data shall not be disclosed where disclosure is not compatible with the purpose for which it was collected and where the interests of the data subject override the public interest in disclosure."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Izveštaj Poverenika (Commissioner's Report)",
+      "content": "The Commissioner shall submit an annual report to the National Assembly on the exercise of the right of access to information, covering the number of requests received, the number granted in full and in part and refused, the grounds for refusals, the number of complaints received and decided, the outcomes of complaints, and any systemic issues identified in the implementation of the Law. The annual report shall be published on the Commissioner's website and shall include recommendations for improving the implementation of the right of access to information by public authorities. The Commissioner may also publish special reports on specific issues relevant to freedom of information."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Obuka i podizanje svesti (Training and Awareness)",
+      "content": "The Commissioner shall promote awareness of the right of access to information among citizens, businesses, and civil society organisations and shall conduct training programmes for public authority officials responsible for implementing this Law. Training shall address the interpretation of the right of access, the processing of requests, the application of limitations, the conduct of internal reviews, and proactive disclosure practices. The Commissioner shall develop and publish guidance documents, model procedures, and other resources to assist public authorities in implementing this Law effectively and consistently. Citizens and civil society shall be encouraged to monitor and report on the implementation of the Law."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Registar pečata i poverljivih informacija",
+      "content": "The Government shall establish and maintain a registry of documents and categories of information classified as confidential under applicable law, including state secrets, official secrets, and other restricted information. The registry shall be updated regularly and shall be publicly available to the extent possible without disclosing the classified information itself. Public authorities shall apply classifications in accordance with applicable criteria and shall not classify information for the purpose of preventing access to information of public importance that would otherwise be accessible under this Law. The Commissioner may challenge classifications that appear to exceed applicable legal authority."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. Međunarodni standardi",
+      "content": "This Law shall be interpreted in a manner consistent with applicable international human rights standards on the right of access to information, including Article 19 of the International Covenant on Civil and Political Rights, the Council of Europe Convention on Access to Official Documents, and applicable case law of the European Court of Human Rights. The Commissioner shall cooperate with international bodies and organisations working on freedom of information, including the Council of Europe, the Office of the UN High Commissioner for Human Rights, and the Open Government Partnership. Serbia shall participate in relevant international transparency and accountability initiatives and shall report on the implementation of international standards."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Borba protiv korupcije",
+      "content": "The right of access to information of public importance established by this Law serves as an important instrument for preventing and combating corruption in public administration and in entities exercising public authority. Public authorities shall implement the right of access in a manner that contributes to the transparency and accountability of public institutions and facilitates the oversight role of citizens, civil society organisations, and the media. The Commissioner shall cooperate with the Anti-Corruption Agency and other bodies responsible for anti-corruption activities in identifying systemic transparency deficiencies and in promoting improvements to public authority practices. Proactive disclosure of information on public contracts, procurement, and budget execution is a key anti-corruption measure under this Law."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "information of public importance",
+      "definition": "Information in the possession of a public authority, created in the performance of public duties, that contains anything the public has a justified interest in knowing.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "public authority",
+      "definition": "State bodies, judicial bodies, local self-government bodies, public enterprises and institutions, and other legal persons performing public duties or exercising public authority.",
+      "source_provision": "art4"
+    },
+    {
+      "term": "Poverenik",
+      "definition": "The Commissioner for Information of Public Importance and Personal Data Protection, designated as the independent supervisory authority for this Law.",
+      "source_provision": "art3"
+    }
+  ]
+}

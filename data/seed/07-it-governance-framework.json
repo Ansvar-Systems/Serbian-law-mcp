@@ -1,0 +1,127 @@
+{
+  "id": "rs-it-governance-framework",
+  "type": "statute",
+  "title": "Zakon o informacionom sistemu javne uprave — Regulatorni okvir upravljanja informacionim tehnologijama",
+  "title_en": "Law on Information System of Public Administration — IT Governance Regulatory Framework",
+  "short_name": "ZISJU",
+  "status": "in_force",
+  "issued_date": "2016-07-20",
+  "in_force_date": "2016-08-09",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-informacionom-sistemu-javne-uprave.html",
+  "description": "Zakon o informacionom sistemu javne uprave (ZISJU) uspostavlja okvir upravljanja informacionim tehnologijama u srpskoj javnoj upravi, uređuje zajednički razvoj i upravljanje informatičkim sistemima, standardizaciju i interoperabilnost. Uz Zakon o elektronskoj upravi, ovaj zakon čini regulatorni okvir za upravljanje informacionim tehnologijama u javnom sektoru u Republici Srbiji i podupire strateški cilj Srbije da izgradi modernu, digitalnu javnu upravu usklađenu sa standardima EU.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Predmet i svrha",
+      "content": "This Law establishes the governance framework for information systems of public administration bodies in the Republic of Serbia, governing the planning, development, implementation, maintenance, and security of ICT systems used by public authorities. The Law aims to promote the efficient and effective use of information technology in public administration, to ensure the interoperability of government information systems, to facilitate the electronic provision of public services, and to promote the security and resilience of government ICT infrastructure. The Law applies to all public administration bodies within the scope of the Law on General Administrative Procedure and to other public sector entities as determined by the Government."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Kancelarija za informacione tehnologije i elektronsku upravu",
+      "content": "The Office for Information Technology and e-Government (Kancelarija za informacione tehnologije i elektronsku upravu) is established as the central coordinating body responsible for the development and implementation of e-government policy, the standardisation of government ICT systems, and the operation of shared government ICT infrastructure. The Office shall develop the national strategy for digital transformation of public administration, establish technical standards and guidelines for government ICT systems, operate shared digital infrastructure including the government cloud and interoperability platform, and monitor the implementation of e-government policy across public administration bodies."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. Interoperabilnost (Interoperability)",
+      "content": "Public administration bodies shall develop and operate their information systems in accordance with interoperability standards established by the Office for IT and e-Government. Interoperability standards shall address technical interoperability (the use of common technical protocols and data formats), semantic interoperability (the consistent interpretation of data exchanged between systems), and organisational interoperability (the alignment of processes and governance arrangements enabling systems to work together). Standards shall be developed in alignment with the European Interoperability Framework and applicable EU e-government standards, consistent with Serbia's EU accession objectives."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. Bezbednost ICT sistema (ICT Security)",
+      "content": "Public administration bodies shall implement information security measures for their ICT systems in accordance with mandatory security standards established by the Office for IT and e-Government, in coordination with the competent authority for information security under the Law on Information Security. ICT security management in public administration shall be based on a risk management approach, addressing the identification, assessment, and treatment of security risks. Public administration bodies shall designate persons responsible for ICT security and shall conduct regular assessments of their ICT security posture. CERT-SRB shall provide technical assistance and coordinate the response to cybersecurity incidents affecting public administration ICT systems."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. Zajednička infrastruktura (Shared Infrastructure)",
+      "content": "The Office for IT and e-Government shall develop and operate shared government ICT infrastructure, including a government data centre and cloud computing infrastructure, a government communication network, the interoperability platform for government information systems, and shared application components available for reuse by public administration bodies. Public administration bodies shall use shared government infrastructure for the hosting of their information systems and services where this is technically and operationally feasible and cost-effective. The procurement of ICT infrastructure by individual public administration bodies outside the shared infrastructure framework shall require approval from the Office where the investment exceeds specified thresholds."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Registri i registarski sistemi",
+      "content": "The Law establishes the framework for government registries and registry systems, designating authoritative registers for key data categories including citizen registration, business registration, land and property registration, and vehicle registration. Authoritative registry data shall be accessible to public administration bodies for use in the processing of administrative applications and transactions, subject to applicable data protection requirements and access controls. The interoperability platform shall provide a secure mechanism for registry data exchange between public administration bodies, enabling the implementation of the once-only principle. The Office shall maintain a catalogue of government registries and data sources available for integration."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Digitalna transformacija (Digital Transformation)",
+      "content": "Public administration bodies shall progressively digitise their internal processes and citizen-facing services in accordance with the national strategy for digital transformation of public administration. The Office for IT and e-Government shall provide methodological guidance, technical support, and project management assistance to public administration bodies undertaking digital transformation projects. Digital transformation projects shall be aligned with the interoperability framework and shared infrastructure framework and shall incorporate principles of user-centred design, accessibility, and security by design. Progress in digital transformation shall be monitored and reported on an annual basis."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Portal eUprava",
+      "content": "The eUprava portal (eUprava.gov.rs) shall serve as the central point of access for citizens and businesses to electronic public services in Serbia, aggregating services from all public administration bodies in a single, user-friendly interface. The Office for IT and e-Government shall operate and develop the eUprava portal and shall establish standards for the integration of public administration services into the portal. All electronic public services developed by public administration bodies shall be made accessible through the eUprava portal to the extent technically and organisationally feasible. The portal shall provide multilingual access and shall comply with applicable accessibility standards."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Elektronska identifikacija i autentikacija",
+      "content": "The national electronic identification system for citizens and businesses interacting with public administration shall be operated by the Office for IT and e-Government in coordination with the supervisory body under the Law on Electronic Document, Electronic Identification and Trust Services. Public administration bodies shall integrate the national electronic identification system into their electronic services and shall not require citizens or businesses to use alternative identification mechanisms where the national system is available. The Office shall ensure that the national electronic identification system meets applicable security and reliability standards and is designed to be compatible with EU electronic identification systems as Serbia advances towards accession."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Otvoreni podaci (Open Data)",
+      "content": "Public administration bodies shall publish data held in their information systems as open data to the extent permitted by applicable law, including data protection, security, and confidentiality requirements. The Office for IT and e-Government shall operate the national open data portal (data.gov.rs) and shall establish policies and standards for the publication of government data in open, machine-readable formats. Public administration bodies shall submit inventories of their data assets to the Office and shall progressively expand the availability of their data on the national open data portal. Open data publication shall be aligned with applicable EU open data standards, consistent with Serbia's EU accession objectives."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Nabavka ICT resursa (ICT Procurement)",
+      "content": "Public administration bodies shall procure ICT products and services in accordance with applicable public procurement law and with ICT procurement standards established by the Office for IT and e-Government. ICT procurement shall incorporate information security requirements into technical specifications and shall take into account supply chain security risks associated with the procurement of ICT products and services from different vendors and geographies. The Office shall maintain a catalogue of pre-approved ICT products, services, and frameworks to facilitate the procurement of compliant ICT solutions by public administration bodies. Significant ICT procurement decisions shall be coordinated with the Office in advance to ensure alignment with the government ICT strategy."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Digitalne veštine (Digital Skills)",
+      "content": "The Office for IT and e-Government, in coordination with the Human Resources Management Service, shall develop and maintain a digital skills framework for public administration employees, specifying the digital competences required for different roles and functions. Training programmes shall be provided to ensure that public administration employees have the skills needed to work effectively in a digital government environment, including foundational digital skills, e-service delivery skills, data management skills, and cybersecurity awareness. The Office shall cooperate with educational institutions and the private sector in developing training resources for public administration employees."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Pristupačnost (Accessibility)",
+      "content": "Electronic public services and government websites shall be designed and implemented in accordance with applicable accessibility standards, ensuring that persons with disabilities can access and use them on an equal basis with other citizens. The Office shall establish technical standards for accessibility applicable to government digital services and shall monitor compliance with those standards across public administration bodies. Public administration bodies shall publish accessibility statements for their websites and applications and shall provide accessible alternatives for citizens who are unable to use standard digital channels. Accessibility requirements shall be aligned with applicable EU standards, consistent with Serbia's EU accession objectives."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Arhiviranje elektronskih dokumenata",
+      "content": "The Office for IT and e-Government shall cooperate with the Archives of Serbia in developing standards and systems for the long-term preservation of electronic records created by public administration bodies. Electronic records management systems used by public administration bodies shall comply with applicable archiving standards and shall ensure the integrity, authenticity, and long-term accessibility of records required to be retained under applicable retention schedules. The Archives of Serbia shall establish requirements for the format and metadata of electronic records submitted for archiving, taking into account applicable international standards for digital preservation."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. Inovacije u e-upravi",
+      "content": "The Office for IT and e-Government shall maintain an innovation programme for public sector digital services, piloting new technologies and approaches including artificial intelligence, advanced data analytics, and automated decision-making to improve the delivery and efficiency of public services. Innovation pilots shall be conducted in a controlled environment with appropriate safeguards for citizens' rights and with clear evaluation criteria. Successful innovations shall be scaled and disseminated across public administration bodies through the Office's guidance and shared infrastructure frameworks. The Office shall engage with the EU and other international partners in knowledge sharing on public sector digital innovation."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Izveštavanje i praćenje (Reporting and Monitoring)",
+      "content": "The Office for IT and e-Government shall establish a monitoring framework for government digital transformation, including indicators measuring the availability, uptake, quality, and security of electronic public services, and shall publish regular reports on progress. Public administration bodies shall provide information to the Office on their digital services and ICT systems as required for monitoring purposes. The Office shall contribute to Serbia's EU accession process by providing information on the state of e-government development and its alignment with EU standards, through appropriate reporting channels and in response to requests from the European Commission. Annual reports shall be submitted to the Government and published publicly."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "information system of public administration",
+      "definition": "ICT systems used by public administration bodies in the performance of their functions, including databases, electronic services, communication systems, and shared infrastructure.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "interoperability",
+      "definition": "The ability of information systems of different public administration bodies to exchange and use information and services effectively, covering technical, semantic, and organisational dimensions.",
+      "source_provision": "art3"
+    },
+    {
+      "term": "open data",
+      "definition": "Government data published in machine-readable, open formats and with open licences, available for free reuse by citizens, businesses, and other public administration bodies.",
+      "source_provision": "art10"
+    }
+  ]
+}

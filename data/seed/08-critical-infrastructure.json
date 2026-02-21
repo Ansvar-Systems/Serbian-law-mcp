@@ -1,0 +1,132 @@
+{
+  "id": "rs-critical-infrastructure",
+  "type": "statute",
+  "title": "Zakon o kritičnoj infrastrukturi",
+  "title_en": "Law on Critical Infrastructure",
+  "short_name": "ZKI",
+  "status": "in_force",
+  "issued_date": "2023-05-26",
+  "in_force_date": "2023-09-15",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-kriticnoj-infrastrukturi.html",
+  "description": "Zakon o kritičnoj infrastrukturi (ZKI) uspostavlja nacionalni okvir za identifikaciju, označavanje i zaštitu kritične infrastrukture u Republici Srbiji, usklađen sa Direktivom Saveta EU 2008/114/EZ i elementima Direktive (EU) 2022/2557 (CER direktive). Zakon propisuje nadležni organ, sektore kritične infrastrukture, obaveze operatora i koordinacioni okvir za zaštitu kritične infrastrukture. Kao zemlja kandidat za EU, Srbija nastoji da u potpunosti uskladi ovaj zakon sa CER direktivom u okviru procesa pristupanja.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Predmet zakona",
+      "content": "This Law establishes the national framework for the identification, designation, and protection of critical infrastructure in the Republic of Serbia, modelled on Council Directive 2008/114/EC on the identification and designation of European critical infrastructures and incorporating elements of Directive (EU) 2022/2557 on the resilience of critical entities (CER Directive). The Law designates the competent authority, defines critical infrastructure sectors, establishes the designation procedure and the obligations of critical infrastructure operators, and provides for the coordination of critical infrastructure protection activities at national level. Full alignment with the CER Directive is a component of Serbia's EU accession agenda."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Pojmovi (Definitions)",
+      "content": "For the purposes of this Law: 'critical infrastructure' means an asset, system, or part thereof essential for the maintenance of vital societal functions, health, safety, security, economic or social well-being, whose disruption or destruction would have a significant impact on the state or society; 'critical infrastructure operator' means an owner or operator of designated critical infrastructure; 'Security Plan' means the document prepared by a critical infrastructure operator identifying critical assets, assessing risks, and specifying protective measures; 'Security Liaison Officer' means the individual designated by a critical infrastructure operator as the contact point with the competent authority; 'incident' means an event causing, or having the potential to cause, significant disruption to critical infrastructure."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. Nadležni organ (Competent Authority)",
+      "content": "The Ministry of Internal Affairs is designated as the primary competent authority for the coordination of critical infrastructure protection at the national level, in cooperation with other relevant ministries and bodies. The Ministry shall maintain the national register of designated critical infrastructure, coordinate the designation process in cooperation with sectoral ministries and competent authorities, develop and maintain the national critical infrastructure protection plan, and serve as the national point of contact for international cooperation on critical infrastructure protection. The Sector for Emergency Management within the Ministry of Internal Affairs shall coordinate operational aspects of critical infrastructure protection."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. Sektori kritične infrastrukture",
+      "content": "The following sectors are designated as critical infrastructure sectors for the purposes of this Law: energy, including electricity generation, transmission, and distribution, oil and gas infrastructure; transport, including roads, railways, air transport, and waterways; water supply and distribution; information and communications technology, including telecommunications networks, internet infrastructure, and national data centres; banking and financial market infrastructure; health, including hospitals and healthcare facilities; food supply chains; government administration and public services; defence infrastructure; and emergency services. The Government may, on the recommendation of the competent authority, designate additional sectors or sub-sectors as the threat environment and critical infrastructure landscape evolve."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. Postupak označavanja (Designation Procedure)",
+      "content": "The designation procedure for critical infrastructure shall be initiated by the competent authority in cooperation with relevant sectoral ministries and authorities. Infrastructure meeting the cross-cutting assessment criteria, which address the significance of the potential impact of disruption in terms of casualties, economic consequences, public confidence effects, and political effects, shall be proposed for designation. Proposed designations shall be assessed through a defined process involving sectoral authorities and subject-matter experts. Operators shall be formally notified of designation and shall be informed of the obligations applicable to them as operators of designated critical infrastructure. The national register of designated critical infrastructure shall be classified."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Plan zaštite (Security Plan)",
+      "content": "Operators of designated critical infrastructure shall prepare a Security Plan within the period specified by the competent authority following designation. The Security Plan shall identify the critical assets of the operator within the designated infrastructure, assess the risks to those assets including physical threats, cybersecurity threats, insider threats, and natural hazards, and identify protective measures in place or to be implemented. The Security Plan shall be reviewed and updated at least every two years and following significant changes to the infrastructure, the threat environment, or the protective measures in place. Operators shall submit their Security Plans to the competent authority for review and comment."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Oficiri za vezu u pogledu bezbednosti (Security Liaison Officers)",
+      "content": "Each operator of designated critical infrastructure shall designate a Security Liaison Officer who shall serve as the primary contact point between the operator and the competent authority on critical infrastructure protection matters. The Security Liaison Officer shall have appropriate security clearance, shall be responsible for coordinating the preparation and updating of the Security Plan, and shall participate in relevant national forums and exercises organised by the competent authority. Operators shall notify the competent authority of the identity of their Security Liaison Officer promptly upon designation and shall notify the competent authority of any subsequent changes without undue delay."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Fizička zaštita (Physical Security)",
+      "content": "Operators of designated critical infrastructure shall implement physical security measures appropriate to the nature and risk of the designated infrastructure, addressing access control to critical facilities, perimeter security, detection of unauthorised access or tampering, protection of critical equipment and control systems, and personnel security. Physical security requirements shall be proportionate to the assessed threat level and the potential impact of disruption to the designated infrastructure. The competent authority may issue sector-specific guidance on minimum physical security standards and may verify compliance through inspections. Operators shall maintain records of physical security incidents and shall report significant incidents."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Sajber bezbednost kritične infrastrukture",
+      "content": "Operators of designated critical infrastructure that includes information systems, operational technology, or industrial control systems shall implement cybersecurity measures consistent with the requirements of the Law on Information Security and applicable sector-specific requirements. Cybersecurity measures shall address network segmentation, access control, vulnerability management, incident detection and response, and supply chain security. Operators shall notify CERT-SRB and the competent sectoral authority of significant cybersecurity incidents affecting designated infrastructure without undue delay. The competent authority shall cooperate with the national authority for information security in ensuring a coordinated approach to the cybersecurity of critical infrastructure."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Otpornost i kontinuitet poslovanja",
+      "content": "Operators of designated critical infrastructure shall develop and maintain business continuity and resilience plans addressing the measures to be implemented in the event of significant disruption to their critical assets, including arrangements for the continuation or rapid restoration of essential services. Business continuity plans shall identify critical business processes, minimum resource requirements, recovery time objectives, and alternative supply and service arrangements. Plans shall be tested at appropriate intervals and findings shall be used to improve preparedness. The competent authority shall coordinate sector-level and cross-sector exercises to test collective resilience and to identify systemic vulnerabilities."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Prijavljivanje incidenata (Incident Reporting)",
+      "content": "Operators of designated critical infrastructure shall report incidents causing, or having the potential to cause, significant disruption to their critical infrastructure to the competent authority without undue delay. The competent authority shall establish procedures specifying the threshold of significance, the content of incident reports, and the timeframes for initial and detailed notifications. Incident reports shall be treated as sensitive and subject to appropriate confidentiality protections. The competent authority shall maintain a database of significant incidents and shall use incident analysis to inform protective measures, national risk assessments, and guidance to operators."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Zaštita trećih lica (Third-Party Risk)",
+      "content": "Operators of designated critical infrastructure shall conduct appropriate due diligence when engaging third-party service providers for services affecting the security or resilience of their critical assets. Due diligence shall address the security practices of third-party providers, supply chain security, the applicability of foreign law or foreign ownership to the provider, and the contractual arrangements available to protect the operator's interests. Contracts with significant third-party service providers shall include appropriate security requirements, audit rights, and notification obligations in respect of security incidents. Operators shall maintain an inventory of significant third-party dependencies and shall assess associated risks."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Međunarodna saradnja",
+      "content": "The competent authority shall cooperate with the competent authorities of other states in matters relating to critical infrastructure protection, including the exchange of threat intelligence, the coordination of responses to cross-border incidents, and the conduct of joint exercises. Serbia participates in relevant Council of Europe and international critical infrastructure protection frameworks. As part of the EU accession process, Serbia shall develop cooperation arrangements with relevant EU bodies and Member State authorities responsible for critical infrastructure protection, consistent with the requirements of the CER Directive. Cooperation arrangements shall be subject to applicable confidentiality requirements."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Istraživanje i razvoj",
+      "content": "The competent authority shall promote research and development activities relevant to critical infrastructure protection, in cooperation with academic institutions, research organisations, and relevant industry bodies. Research priorities shall address emerging threats to critical infrastructure, new technologies for protective measures, risk assessment methodologies, and resilience testing approaches. Serbia shall participate in relevant EU research programmes relating to critical infrastructure protection, consistent with its status as an EU candidate country. Findings from research activities shall be shared with relevant stakeholders in the critical infrastructure protection community, subject to applicable classification and confidentiality requirements."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. Nadzor i sankcije (Supervision and Sanctions)",
+      "content": "The competent authority shall supervise compliance by operators of designated critical infrastructure with the obligations established under this Law, including through reviews of Security Plans, inspections of designated infrastructure, and exercises testing operators' incident response and resilience capabilities. Where deficiencies in an operator's security or resilience arrangements are identified, the competent authority may issue recommendations or binding requirements for corrective action. Operators failing to comply with binding requirements or applicable obligations may be subject to administrative sanctions, which shall be proportionate, effective, and dissuasive. Decisions imposing sanctions may be appealed before the Administrative Court."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Usklađivanje sa CER direktivom",
+      "content": "The Republic of Serbia is working towards full alignment of this Law with Directive (EU) 2022/2557 on the resilience of critical entities (CER Directive) as part of the EU accession process. Key areas of alignment include expanding the scope of covered sectors to include those specified in the CER Directive, introducing comprehensive risk assessment requirements, implementing background screening provisions for persons in sensitive roles, establishing cross-sector coordination mechanisms, and developing the national risk assessment framework. An action plan for CER Directive alignment shall be developed in consultation with relevant ministries, regulators, and operators and shall be updated annually."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "critical infrastructure",
+      "definition": "An asset, system, or part thereof essential for the maintenance of vital societal functions, health, safety, security, economic or social well-being, whose disruption or destruction would have a significant impact.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "critical infrastructure operator",
+      "definition": "An owner or operator of designated critical infrastructure.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Security Plan",
+      "definition": "A document prepared by a critical infrastructure operator identifying critical assets, assessing risks, and specifying protective measures in place or to be implemented.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Security Liaison Officer",
+      "definition": "The individual designated by a critical infrastructure operator as the contact point with the competent authority for critical infrastructure protection matters.",
+      "source_provision": "art7"
+    }
+  ]
+}

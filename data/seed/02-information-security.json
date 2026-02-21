@@ -1,0 +1,132 @@
+{
+  "id": "rs-information-security",
+  "type": "statute",
+  "title": "Zakon o informacionoj bezbednosti",
+  "title_en": "Law on Information Security",
+  "short_name": "ZIB",
+  "status": "amended",
+  "issued_date": "2016-07-20",
+  "in_force_date": "2016-08-09",
+  "url": "https://www.paragraf.rs/propisi/zakon-o-informacionoj-bezbednosti.html",
+  "description": "Zakon o informacionoj bezbednosti (ZIB) uspostavlja nacionalni okvir za informacionu bezbednost u Republici Srbiji, usklađen sa NIS direktivom EU (Direktiva (EU) 2016/1148). Zakon propisuje nadležne organe, uključujući Nacionalno telo za koordinaciju u oblasti informacione bezbednosti i CERT Srbije, i utvrđuje obaveze u pogledu bezbednosti i obaveštavanja o incidentima za operatore informaciono-komunikacione infrastrukture od posebnog značaja i pružaoce usluga informacionog društva.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Član 1. Predmet zakona",
+      "content": "This Law regulates the measures for achieving and maintaining a high level of information security in the Republic of Serbia, designates the competent authorities responsible for information security matters, establishes the obligations of operators of information and communication infrastructure of special importance and providers of information society services, and establishes a framework for incident reporting and coordination. The Law is modelled on the NIS Directive (Directive (EU) 2016/1148) and is being progressively aligned with the requirements of the NIS2 Directive (Directive (EU) 2022/2555) as part of Serbia's EU accession process. The Law applies to all entities operating information systems of importance to the functioning of the state and society."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Član 2. Pojmovi (Definitions)",
+      "content": "For the purposes of this Law: 'information security' means the preservation of the confidentiality, integrity, and availability of information and information systems; 'information system' means a device or group of inter-connected or related devices that automatically processes data; 'incident' means an event having an actual adverse effect on the security of network and information systems; 'operator of IKT infrastructure of special importance' means a public authority or other entity operating information systems identified as essential for the functioning of critical societal functions; 'national CERT' means CERT-SRB, the national Computer Emergency Response Team; 'risk' means the potential for loss or disruption caused by an incident, expressed as a combination of the magnitude of such loss or disruption and the likelihood of occurrence of the incident."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Član 3. Nacionalno telo za koordinaciju",
+      "content": "The National Body for Coordination in the Area of Information Security (Nacionalno telo za koordinaciju u oblasti informacione bezbednosti) is established as the central coordination body responsible for strategic coordination of information security activities across all sectors. The Coordination Body shall develop the national information security strategy, coordinate national risk assessments, oversee the development of sectoral information security frameworks, and serve as the national point of contact for cross-border information security cooperation with EU and other international partners. The Coordination Body shall include representatives of ministries responsible for defence, interior, digital affairs, and key infrastructure sectors."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Član 4. CERT-SRB",
+      "content": "CERT-SRB, operating within the Ministry of Information and Telecommunications, is designated as the national Computer Emergency Response Team responsible for receiving, analysing, and coordinating the response to cybersecurity incidents at a national level. CERT-SRB shall carry out monitoring of cybersecurity threats and incidents at the national level, provide early warning, alerts, and advisories on cybersecurity risks, coordinate incident response in cooperation with sectoral authorities and affected operators, and participate in international CSIRT cooperation networks. CERT-SRB shall publish its services, operational contact information, and procedures for incident reporting in an accessible format."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Član 5. Operatori od posebnog značaja (Operators of Special Importance)",
+      "content": "Operators of information and communication infrastructure of special importance (IKT operators of special importance) shall be identified through a procedure established by the competent ministry, taking into account the significance of the information systems operated for the functioning of critical societal functions, the dependence of those functions on the information systems, and the potential impact of a significant incident on the provision of essential services. The list of IKT operators of special importance shall be established by the Government and shall be updated at regular intervals. Operators shall be notified of their designation and shall be informed of the applicable security and incident notification requirements."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Član 6. Mere bezbednosti (Security Measures)",
+      "content": "Operators of IKT infrastructure of special importance and designated information society service providers shall implement appropriate technical and organisational measures to manage the risks to the security of the network and information systems used in their operations. Security measures shall be appropriate to the risk presented and shall take into account the state of the art. Minimum security measures required under this Law include risk assessment and management, incident handling procedures, business continuity measures, security in the acquisition and maintenance of systems, human resources security, and physical and environmental security. The competent authority shall issue guidelines on minimum security measures applicable to different categories of operators."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Član 7. Prijavljivanje incidenata (Incident Notification)",
+      "content": "Operators of IKT infrastructure of special importance shall notify CERT-SRB without undue delay of any incident that has or could have a significant impact on the security of information systems used in the provision of essential services. The notification shall include information on the nature of the incident, the systems affected, the estimated impact, and the measures taken or planned. CERT-SRB shall establish procedures for incident notification, specifying the timeframes, content, and format of notifications. Where an incident may have cross-border implications, CERT-SRB shall share relevant information with the competent authorities of affected states through applicable information sharing channels."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Član 8. Nadležna ministarstva i sektorski organi",
+      "content": "Sectoral competent authorities shall be designated for each sector identified as containing operators of special importance, responsible for supervising compliance with information security requirements in their respective sectors and for coordinating with CERT-SRB on incident response. Sectoral authorities shall carry out risk assessments relevant to their sectors, issue sector-specific guidance on information security requirements, and maintain liaison with operators in their sectors on information security matters. The Ministry of Information and Telecommunications shall serve as the lead ministry for information security policy and shall coordinate the activities of sectoral competent authorities."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Član 9. Nacionalna strategija informacione bezbednosti",
+      "content": "The Republic of Serbia shall maintain a national information security strategy establishing the strategic objectives, priorities, and policy measures for achieving and maintaining a high level of information security. The strategy shall address the identification of cybersecurity risks and threats, the objectives and priorities for national cybersecurity, the governance framework for information security including the roles and responsibilities of relevant authorities and stakeholders, measures for cybersecurity education, awareness, and capacity building, and the framework for international cybersecurity cooperation. The strategy shall be reviewed and updated at regular intervals and shall be aligned with applicable EU and international standards."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Član 10. Bezbednost lanaca snabdevanja",
+      "content": "Operators of IKT infrastructure of special importance shall take into account the security of their supply chains, including the cybersecurity practices of their key suppliers and service providers, in implementing their security risk management measures. Operators shall assess the risks posed by dependence on specific suppliers or technologies and shall implement measures to address identified supply chain risks. The competent authority shall issue guidance on supply chain security applicable to operators in different sectors, taking into account relevant international standards and threat intelligence. Information on supply chain vulnerabilities relevant to Serbia shall be shared through appropriate channels with CERT-SRB and relevant sectoral authorities."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Član 11. Međunarodna saradnja",
+      "content": "CERT-SRB and the competent national authorities shall cooperate with cybersecurity authorities, CERTs, and CSIRTs of other countries, including EU Member States, in matters of mutual interest relating to cybersecurity risks and incidents. Serbia participates in relevant international cybersecurity cooperation forums and networks, including the Forum of Incident Response and Security Teams (FIRST) and European cooperation networks. As part of Serbia's EU accession process, cooperation with EU cybersecurity institutions including ENISA is being progressively developed. Cooperation arrangements shall be subject to applicable confidentiality requirements."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Član 12. Nadzor i sankcije (Supervision and Sanctions)",
+      "content": "The competent authorities shall supervise compliance by operators of IKT infrastructure of special importance with the requirements of this Law, including through the review of security documentation, security audits, and inspections. Competent authorities may require operators to provide information necessary to assess the security of their information systems, to undergo security audits, and to implement specified corrective measures where deficiencies are identified. Administrative sanctions applicable to operators that fail to comply with applicable requirements shall be established in accordance with the Law and shall be proportionate, effective, and dissuasive. Decisions imposing administrative sanctions may be appealed before the competent administrative courts."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Član 13. Informaciona bezbednost u javnom sektoru",
+      "content": "Public authorities and public bodies in the Republic of Serbia shall implement information security measures consistent with the requirements of this Law and applicable technical standards. The competent ministry shall issue mandatory technical standards for information security management in the public sector, based on applicable international standards. Public authorities shall conduct regular assessments of their information security posture and shall report to the competent ministry on their compliance with applicable requirements. CERT-SRB shall provide technical assistance and guidance to public authorities on the implementation of information security requirements and on the response to cybersecurity incidents."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Član 14. Sajber kriminalitet (Cybercrime Framework)",
+      "content": "The framework for addressing cybercrime in Serbia is established by the Criminal Code and applicable procedural legislation, aligned with the Budapest Convention on Cybercrime which Serbia has ratified. The Ministry of Interior, including specialised cybercrime investigation units, is responsible for the investigation of cybercrime, in coordination with CERT-SRB for cybersecurity aspects. Serbia cooperates with Europol, Interpol, and other international law enforcement bodies in the investigation of cross-border cybercrime. The cybercrime framework is being progressively aligned with applicable EU law, including Directive 2013/40/EU on attacks against information systems, as part of the EU accession process."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Član 15. Usklađivanje sa NIS2",
+      "content": "The Republic of Serbia is progressively aligning this Law with the requirements of Directive (EU) 2022/2555 (NIS2 Directive) as part of its EU accession process, including expanding the scope of the Law to cover additional sectors, introducing enhanced security requirements and governance obligations for operators, strengthening incident notification requirements, establishing more comprehensive supervision and enforcement frameworks, and introducing more detailed provisions on supply chain security. The competent ministry shall develop an action plan for the alignment of this Law with NIS2 requirements and shall consult with relevant stakeholders in the process. Updated national implementing measures shall be published and made available to relevant stakeholders."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Član 16. Saradnja sa privatnim sektorom",
+      "content": "The competent authorities shall promote information sharing and cooperation on cybersecurity matters between the public sector and private sector operators, through established information sharing platforms, sectoral cybersecurity forums, and voluntary reporting mechanisms. The private sector is encouraged to participate in national cybersecurity exercises and to share threat intelligence with CERT-SRB on a voluntary basis. The competent authorities shall provide appropriate feedback to the private sector on the threat landscape and on the effectiveness of implemented security measures. Public-private partnership arrangements for cybersecurity shall be developed in coordination with relevant industry associations and technology providers."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "information security",
+      "definition": "The preservation of the confidentiality, integrity, and availability of information and information systems.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "incident",
+      "definition": "An event having an actual adverse effect on the security of network and information systems.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "CERT-SRB",
+      "definition": "The national Computer Emergency Response Team of Serbia, operating within the Ministry of Information and Telecommunications and designated as the national CSIRT.",
+      "source_provision": "art4"
+    },
+    {
+      "term": "operator of IKT infrastructure of special importance",
+      "definition": "A public authority or other entity operating information systems identified as essential for the functioning of critical societal functions in Serbia.",
+      "source_provision": "art5"
+    }
+  ]
+}
