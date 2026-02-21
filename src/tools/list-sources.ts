@@ -44,15 +44,15 @@ export async function listSources(
     results: {
       sources: [
         {
-          name: 'Official Legal Database',
-          authority: 'Government (State Chancellery of Serbian)',
+          name: 'Pravno-informacioni sistem Republike Srbije (PIS)',
+          authority: 'JP Službeni glasnik / Republika Srbija',
           url: 'https://www.pravno-informacioni-sistem.rs',
-          license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
+          license: 'Government terms (official legal information service)',
           coverage:
-            'All Commonwealth (federal) Acts and legislative instruments, ' +
-            'including privacy, cybersecurity, critical infrastructure, ' +
-            'corporations, consumer, telecommunications, and criminal law',
-          languages: ['en'],
+            'Republic of Serbia statutes in force, including data protection, ' +
+            'information security, electronic communications, e-commerce, ' +
+            'e-government, and access-to-information legislation.',
+          languages: ['sr', 'en'],
         },
       ],
       database: {

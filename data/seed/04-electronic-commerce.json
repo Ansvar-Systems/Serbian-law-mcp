@@ -1,127 +1,231 @@
 {
   "id": "rs-electronic-commerce",
   "type": "statute",
-  "title": "Zakon o elektronskoj trgovini",
-  "title_en": "Law on Electronic Commerce",
+  "title": "Закон о електронској трговини",
+  "title_en": "LAW ON ELECTRONIC COMMERCE",
   "short_name": "ZET",
-  "status": "amended",
-  "issued_date": "2009-05-29",
-  "in_force_date": "2009-06-16",
-  "url": "https://www.paragraf.rs/propisi/zakon-o-elektronskoj-trgovini.html",
-  "description": "Zakon o elektronskoj trgovini (ZET) uređuje elektronsku trgovinu u Republici Srbiji i usklađen je sa Direktivom o elektronskoj trgovini EU (Direktiva 2000/31/EZ). Zakon propisuje zahteve u pogledu informisanja, komercijalne komunikacije, isključenje odgovornosti posrednika i zaključivanje elektronskih ugovora. U okviru procesa pristupanja EU, Zakon se usklađuje sa Uredbom (EU) 2022/2065 (Zakon o digitalnim uslugama) i novim zahtevima u pogledu platformi i posrednika.",
+  "status": "in_force",
+  "url": "https://www.pravno-informacioni-sistem.rs/viewAct/8f5b6a5f-81d8-4785-8a38-82f39a09aaa6",
+  "description": "РЕПУБЛИЧКИ ПРОПИСИ ТРГОВИНА, ТУРИЗАМ И УГОСТИТЕЉСТВО Трговина, јавне набавке и заштита потрошача Закон о електронској трговини: 41/2009-68, 95/2013-14, 52/2019-14. Пречишћени текст је преузет са званичног портала Правно-информационог система Републике Србије.",
   "provisions": [
     {
       "provision_ref": "art1",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "1",
-      "title": "Član 1. Predmet zakona",
-      "content": "This Law regulates the conditions for the provision of services of the information society, including electronic commerce, in the Republic of Serbia, and establishes rights and obligations of service providers and service recipients. The Law is modelled on Directive 2000/31/EC (E-Commerce Directive) and establishes the legal framework for information society services, including requirements for commercial communications, liability exemptions for intermediary service providers, and provisions governing the conclusion of electronic contracts. The Law applies to service providers established in Serbia providing information society services and to the activities of foreign service providers directed at recipients in Serbia."
+      "title": "Члан 1. Предмет",
+      "content": "Овим законом уређују се услови и начин пружања услуга информационог друштва,\nобавезе информисања корисника услуга, комерцијална порука, правила у вези са\nзакључењем уговора у електронском облику, одговорност пружаоца услуга\nинформационог друштва, надзор и прекршаји."
     },
     {
       "provision_ref": "art2",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "2",
-      "title": "Član 2. Pojmovi (Definitions)",
-      "content": "For the purposes of this Law: 'service of the information society' means any service normally provided for remuneration, at a distance, by electronic means and at the individual request of a recipient of services; 'service provider' means any natural or legal person who provides a service of the information society; 'established service provider' means a service provider pursuing an economic activity using a fixed establishment in Serbia; 'recipient of the service' means any natural or legal person who uses an information society service; 'commercial communication' means any form of communication designed to promote, directly or indirectly, goods, services, or the image of a company, organisation, or person exercising a commercial activity."
+      "title": "Члан 2. Области на које се закон не примењује",
+      "content": "Одредбе овог закона не примењују се на: заштиту података\nо личности, делатност\nјавних бележника и других сродних професија у погледу примене поверених јавних\nовлашћења, рестриктивне споразуме у смислу прописа о заштити конкуренције, опорезивање,\nзаступање странака и заштиту њихових интереса пред судовима, као ни на игре на\nсрећу са новчаним улозима, укључујући лутријске игре, игре у казинима,\nкладионичке игре и игре на срећу на аутоматима, ако посебним законом није друкчије\nодређено.\n\n*Службени\nгласник РС, број 95/2013"
     },
     {
       "provision_ref": "art3",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "3",
-      "title": "Član 3. Opšte informacije (General Information Requirements)",
-      "content": "Service providers shall ensure that service recipients and competent authorities can easily, directly, and permanently access at least the following information: the name and geographic address of the service provider; electronic mail address and other contact details enabling direct and effective communication; trade registration details where the service provider is registered in a commercial register; particulars of any supervisory authority where the service is subject to an authorisation scheme; and applicable professional rules where the service provider exercises a regulated profession. This information shall be presented in a clear, comprehensible, and unambiguous manner on the service provider's website."
+      "title": "Члан 3. Значење појединих израза",
+      "content": "Поједини изрази у смислу овог закона имају следеће\nзначење:\n\n1) услуга информационог друштва је услуга која се\nпружа на даљину, по правилу уз накнаду путем електронске опреме за обраду и\nскладиштење података, на лични захтев корисника услуга, а посебно трговина путем\nинтернета, нуђење података и оглашавање путем интернета, електронски\nпретраживачи, као и омогућавање тражења података и услуга које се преносе\nелектронском мрежом, обезбеђивање приступа мрежи или складиштење података\nкорисника услуга;\n\n2) пружалац услуге информационог друштва је правно или\nфизичко лице. Пружање услуга информационог друштва у комерцијалне сврхе може\nобављати правно или физичко лице које је регистровано за обављање одређене\nделатности у складу са законом;\n\n3) корисник услуга је свако физичко лице, физичко лице\nкоје је регистровано за обављање одређене делатности у складу са законом или\nправно лице које због професионалних или других циљева користи услуге\nинформационог друштва;\n\n4) потрошач је физичко лице које купује робу, односно\nуслуге ради задовољавања личних потреба или потреба домаћинства;\n\n5) уговор у електронском облику је уговор закључен\nизмеђу пружаоца услуге информационог друштва и корисника услуге електронским\nпутем употребом електронских средстава;\n\n6) комерцијална порука је сваки облик комуникације у\nциљу промовисања робе, услуга или пословног угледа правног или физичког лица\nкоје обавља регистровану делатност, са изузетком:\n\n(1) давања информација које омогућавају непосредан\nприступ делатности овог лица, као што су информације о његовој електронској\nадреси или адреси електронске поште;\n\n(2) давања, без накнаде, информација које су\nприкупљене истраживањима или на други сличан начин, о роби, услугама или\nпословном угледу овог лица;\n\n7) оператор електронских комуникација је лице\nдефинисано у смислу закона којим се уређују електронске комуникације.\n\n*Службени гласник РС, број 52/2019"
     },
     {
       "provision_ref": "art4",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "4",
-      "title": "Član 4. Komercijalne komunikacije (Commercial Communications)",
-      "content": "Commercial communications which are part of or constitute a service of the information society shall be clearly identifiable as such, the natural or legal person on whose behalf the communication is made shall be clearly identifiable, and promotional offers shall be clearly identifiable and their conditions accessible and unambiguous. Commercial communications shall comply with applicable advertising standards and consumer protection requirements. Unsolicited commercial communications shall be identifiable as such upon receipt. Service providers relying on commercial communications for revenue shall comply with applicable data protection requirements regarding the collection and use of data for targeted advertising purposes."
+      "title": "Члан 4. Примена",
+      "content": "Пружалац услуга са седиштем у Републици Србији дужан је да поступа и пружа\nуслуге у складу са законима и прописима донетим на основу закона Републике\nСрбије.\n\nЕлектронска трговина робом и услугама јесте\nвид даљинске трговине у смислу закона\nкојим се уређује трговина.\n\nОдредбе овог закона примењују се и на питања заштите потрошача, ако су\nповољније за потрошача.\n\nОвлашћена струковна удружења и организације пружалаца услуга, могу да уређују\nпословање својих чланова својим унутрашњим правилима – кодексима.\n\nАко овим законом није друкчије одређено, на правне односе настале из или у вези\nса уговорима закљученим електронским путем односно у електронском облику, примењују\nсе прописи којима се уређују облигациони односи.\n\n*Службени\nгласник РС, број 95/2013"
     },
     {
       "provision_ref": "art5",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "5",
-      "title": "Član 5. Zaključivanje ugovora elektronskim putem (Electronic Contracts)",
-      "content": "Service providers shall ensure that contracts can be concluded electronically and that recipients have access to technical steps required to conclude the contract, whether the contract will be stored and whether it will be accessible, technical means for correcting input errors, and the languages available for contract conclusion. Service providers shall acknowledge receipt of orders electronically without undue delay. Contracts concluded by electronic means shall have full legal validity and enforceability in Serbia, and their conclusion shall not be restricted by formal requirements that cannot be satisfied electronically, except for contracts specifically excluded by the Government from the scope of this provision."
+      "title": "Члан 5. Слобода пружања услуга",
+      "content": "Пружање услуга информационог друштва слободно је.\n\nЗа пружање услуга информационог друштва није потребна посебна дозвола или одобрење.\n\nБрисани су ранији ст. 3. и 4. (види члан 4. Закона - 95/2013-14)\n\n*Службени гласник РС, број 52/2019"
+    },
+    {
+      "provision_ref": "art5a",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
+      "section": "5a",
+      "title": "Члан 5a. Слобода прекограничног пружања услуга информационог друштва",
+      "content": "Прекогранично пружање услуга је пружање услуга у\nРепублици Србији или Европској унији када пружалац услуге нема седиште, односно\nније пословно настањен на територији државе у којој се услуга пружа.\n\nПрекогранично пружање услуга је слободно.\n\nМинистарство надлежно за електронске комуникације и\nинформационо друштво (у даљем тексту: министарство) преко инспекције може,\nсразмерно циљу који се жели постићи, предузети мере ограничавања слободе пружања\nуслуга информационог друштва из члана 21. став 3. овог закона пружаоцима услуга\nса седиштем у земљама чланицама Европске уније, само ако је то неопходно за\nзаштиту (од стварне и озбиљне опасности):\n\n1) јавног поретка, а нарочито спречавањe, истраживање,\nоткривање и гоњење извршилаца кривичних дела, заштиту малолетника и борбу против\nизазивања мржње по основу расе, пола, вере или националности и повреде људског\nдостојанства појединца;\n\n2) јавне безбедности, укључујући заштиту националне\nбезбедности и одбрану;\n\n3) јавног здравља;\n\n4) заштиту потрошача укључујући и улагаче.\n\nУ случају наступања околности из става 3. овог члана,\nминистарство је дужно да:\n\n1) о намери изрицања мере из става 3. овог члана\nобавести Европску комисију и надлежни орган земље чланице Европске уније у којој\nпружалац услуге има седиште;\n\n2) тражи од надлежног органа државе седишта пружаоца\nуслуге да предузме мере ограничавања слободе пружања услуге информационог\nдруштва.\n\nАко надлежни орган државе седишта пружаоца услуге не\nпредузме мере у року од 15 дана од дана достављања захтева из става 4. овог\nчлана или су предузете мере недовољне, министарство може предузети мере\nограничавања слободе пружања услуга информационог друштва уз претходно\nобавештавање надлежног органа државе седишта пружаоца услуге и Европске\nкомисије.\n\nИзузетно од ст. 4. и 5. овог члана, министарство може\nпредузети мере ограничавања слободе пружања услуга информационог друштва\nпружаоца услуга са седиштем у земљи чланици Европске уније без претходног\nобавештења земље чланице Европске уније у којој пружалац услуга има седиште и\nЕвропске комисије, ако постоји основана опасност од настанка штете због одлагања\nпредузимања мера.\n\nУ случају из става 6. овог члана министарство је дужно\nда, без одлагања, а најкасније у року од 15 дана од дана предузимања мера\nобавести надлежни орган државе седишта пружаоца услуге и Европску комисију о\nизреченој мери и разлозима због којих се сматра да се ради о хитном случају.\n\nМинистарство поступа у складу са овим чланом на\nобразложени предлог органа јавне власти надлежног за питања из става 3. тач.\n1)–4) овог члана.\n\nПокретање судског поступка услед наступања околности\nиз става 3. овог члана не искључује обавезу министарства за поступање у складу\nса овим чланом.\n\nМере којима се ограничава слобода пружања услуга\nинформационог друштва потребно је укинути или опозвати одмах након престанка\nпостојања разлога због којег су одређене, а на захтев пружаоца услуге\nинформационог друштва коме је мера изречена, другог заинтересованог лица или\nЕвропске комисије.\n\nМеру из става 10. овог члана може опозвати или укинути\nнадлежно министарство по службеној дужности након престанка разлога због којих\nје мера одређена.\n\nВлада уређује спровођење административне сарадње и\nелектронске размене података са земљама чланицама Европске уније у вези са\nнадзором над пружањем услуга информационог друштва и предузимањем мера\nупозорења.\n\n*Службени гласник РС, број 52/2019\n\nНАПОМЕНА ИЗДАВАЧА: Закон о изменама и допунама Закона о електронској\nтрговини ступио на снагу осмог дана од дана објављивања у „Службеном гласнику\nРепублике Србије”, односно 30. јула 2019. године, осим одредаба члана 2. овог\nзакона (нови члан 5а) које се примењују од дана уласка Републике Србије у\nЕвропску унију (види члан 10. Закона - 52/2019-16)."
     },
     {
       "provision_ref": "art6",
+      "chapter": "II. ОБАВЕЗА ИНФОРМИСАЊА И КОМЕРЦИЈАЛНА\nПОРУКА",
       "section": "6",
-      "title": "Član 6. Odgovornost posrednika — Puki prenosilac",
-      "content": "A service provider transmitting information in a communication network or providing access to a communication network shall not be liable for the information transmitted, provided the service provider did not initiate the transmission, did not select the receiver of the transmission, and did not select or modify the information contained in the transmission. Automatic, intermediate, and transient storage of the information transmitted for the sole purpose of carrying out the transmission, for no longer than is reasonably necessary for the transmission, shall not affect this exemption. This provision does not affect the power of courts or competent administrative authorities to require the service provider to terminate or prevent an infringement."
+      "title": "Члан 6. Обавезне информације",
+      "content": "Пружалац услуга дужан је да, у облику и на начин који је непосредно и стално\nдоступан, корисницима услуга и надлежним органима државне управе пружи следеће\nинформације:\n\n1) име и презиме или назив пружаоца услуга;\n\n2) седиште пружаоца услуга;\n\n3) остале податке о пружаоцу услуга на основу којих корисник услуга може са њим\nбрзо и несметано да оствари комуникацију, укључујући и електронску адресу;\n\n4) податке о упису у Регистар привредних субјеката,\nодносно други јавни\nрегистар;\n\n5) појединости о надлежном органу, ако делатност пружаоца услуга подлеже\nслужбеном надзору;\n\n6) у погледу посебно регулисних делатности, односно професија:\n\n– професионално или слично струковно удружење код кога је пружалац услуга\nрегистрован;\n\n– професионални назив и држава која га је одобрила;\n\n– упутства о професионалним правилима у држави у којој се обавља делатност и\nместу њихове доступности;\n\n7) порески идентификациони број (ПИБ), као и број обвезника пореза на додату\nвредност, из потврде о извршеном евидентирању за порез на додату вредност\nиздате од стране надлежног пореског органа, ако је пружалац услуга обвезник\nпореза на додату вредност.\n\nАко пружалац услуга наводи цене, оне морају бити јасно и недвосмислено\nназначене, а посебно мора назначити да ли су у те цене укључени трошкови\nдоставе, остали манипулативни трошкови, порез и други трошкови који на њих\nутичу.\n\n*Службени\nгласник РС, број 95/2013"
     },
     {
       "provision_ref": "art7",
+      "chapter": "II. ОБАВЕЗА ИНФОРМИСАЊА И КОМЕРЦИЈАЛНА\nПОРУКА",
       "section": "7",
-      "title": "Član 7. Odgovornost posrednika — Keširanje",
-      "content": "A service provider automatically, intermediately, and temporarily storing information for the sole purpose of making more efficient the onward transmission of the information to other recipients shall not be liable for that stored information where the service provider does not modify the information, complies with conditions on access, complies with updating rules, does not interfere with lawful technology for obtaining data on usage, and acts expeditiously to remove or disable access to the stored information upon actual knowledge that the information at the original source has been removed or access has been disabled or that a court or competent authority has ordered such removal or disablement."
+      "title": "Члан 7. Комерцијална порука",
+      "content": "Комерцијална порука која је делимично или у целини\nуслуга информационог друштва мора да задовољи следеће услове:\n\n1) да је комерцијалну поруку могуће као такву јасно идентификовати у тренутку\nкада је корисник услуга прими;\n\n2) да је лице у чије име је комерцијална порука сачињена могуће јасно\nидентификовати;\n\n3) да сваки промотивни позив за стављање понуде из комерцијалне поруке\n(укључујући попусте и поклоне) мора као такав бити јасно идентификован;\n\n4) да услови који морају бити испуњени за стављање понуде из комерцијалне\nпоруке морају бити лако доступни, као и да су предочени на јасан и недвосмислен\nначин.\n\n*Службени гласник РС, број 52/2019\n\n*Службени гласник РС, број 52/2019"
     },
     {
       "provision_ref": "art8",
+      "chapter": "II. ОБАВЕЗА ИНФОРМИСАЊА И КОМЕРЦИЈАЛНА\nПОРУКА",
       "section": "8",
-      "title": "Član 8. Odgovornost posrednika — Hosting",
-      "content": "A service provider storing information provided by a recipient of the service shall not be liable for the stored information where the service provider does not have actual knowledge of illegal activity or information and, as regards claims for damages, is not aware of facts or circumstances from which the illegal activity or information is apparent, or where the service provider, upon obtaining such knowledge or awareness, acts expeditiously to remove or disable access to the information. This exemption does not apply where the recipient of the service is acting under the authority or the control of the service provider."
+      "title": "Члан 8. Слање комерцијалне поруке",
+      "content": "Слање комерцијалне поруке електронским путем,\nдозвољено је само уз претходни пристанак лица коме је таква врста поруке\nнамењена.\n\nПружалац услуге дужан је да редовно проверава и\nприхвата oпозив пристанка који упућује лице које не жели да прима такве\nкомерцијалне поруке.\n\n*Службени гласник РС, број 52/2019"
     },
     {
       "provision_ref": "art9",
+      "chapter": "III. УГОВОРИ У ЕЛЕКТРОНСКОМ ОБЛИКУ",
       "section": "9",
-      "title": "Član 9. Nema opšte obaveze nadzora (No General Monitoring Obligation)",
-      "content": "Service providers shall not be subject to a general obligation to monitor the information they transmit or store, nor to actively seek facts or circumstances indicating illegal activity. Competent authorities may impose obligations on information society service providers to inform the competent authorities of alleged illegal activities or information provided by recipients of their service, or to communicate to the competent authorities, at their request, information enabling the identification of recipients of their service with whom storage agreements exist. Such obligations shall be proportionate and shall respect applicable constitutional protections."
+      "title": "Члан 9. Пуноважност уговора",
+      "content": "Уговор може бити закључен електронским путем, односно у\nелектронском облику.\n\nПонуда и прихват понуде могу се дати електронским путем, односно у\nелектронском облику.\n\nКада се електронска порука, односно електронски облик користи приликом\nзакључења уговора, таквом уговору се не може оспорити пуноважност само због\nтога што је сачињен у електронском облику.\n\n*Службени\nгласник РС, број 95/2013"
     },
     {
       "provision_ref": "art10",
+      "chapter": "III. УГОВОРИ У ЕЛЕКТРОНСКОМ ОБЛИКУ",
       "section": "10",
-      "title": "Član 10. Nadležni organ (Competent Authority)",
-      "content": "The Ministry responsible for trade and information society services is designated as the competent authority for the implementation of this Law, responsible for the supervision of service providers established in Serbia and for coordinating with foreign authorities on cross-border matters. The Ministry shall cooperate with other relevant ministries and regulators, including RATEL, the Commissioner for Data Protection, and the consumer protection authority, in matters at the intersection of electronic commerce and other regulatory frameworks. As part of Serbia's EU accession, the Ministry shall coordinate alignment of this Law with the Digital Services Act (Regulation (EU) 2022/2065)."
+      "title": "Члан 10. Уговори на које се закон не примењује",
+      "content": "Одредбe члана 9. ст. 1. и 3. овог закона не примењују\nсе на уговоре за које је посебним законом предвиђено да се не могу закључити у\nелектронској форми.\n\nОдредбе члана 9. ст. 1. и 3. овог закона не примењују\nсе на уговоре и друге правне послове за које је посебним законом прописано да се\nсачињавају у форми јавно потврђене (солемнизоване) исправе или у форми\nјавнобележничког записа или је за њихову пуноважност потребно да потписи\nуговарача буду оверени, осим ако је другачије прописано посебним законом или\nпрописима којима се уређују овера потписа, потврђивање и сачињавање исправа.\n\nОдредбe члана 9. ст. 1. и 3. овог закона не примењују\nсе на уговоре о јемству и исказе воље јемаца, ако је јемац лице која делује\nизван оквира трговачке, пословне или професионалне делатности.\n\n*Службени гласник РС, број 52/2019"
     },
     {
       "provision_ref": "art11",
+      "chapter": "III. УГОВОРИ У ЕЛЕКТРОНСКОМ ОБЛИКУ",
       "section": "11",
-      "title": "Član 11. Alternativno rešavanje sporova",
-      "content": "The competent authority shall promote the availability of adequate and effective out-of-court dispute resolution mechanisms for disputes between information society service providers and recipients arising from the provision of services covered by this Law. Service providers shall inform recipients of the service of applicable out-of-court dispute resolution bodies and of the means by which those bodies are accessible. The availability of out-of-court dispute resolution shall not affect the right of parties to pursue claims through the courts of Serbia. The competent authority shall monitor the effectiveness of out-of-court dispute resolution mechanisms and shall publish information on available options for consumers and businesses."
+      "title": "Члан 11. Електронски потпис",
+      "content": "Брисан је (види члан 7. Закона - 95/2013-14)"
     },
     {
       "provision_ref": "art12",
+      "chapter": "III. УГОВОРИ У ЕЛЕКТРОНСКОМ ОБЛИКУ",
       "section": "12",
-      "title": "Član 12. Zaštita potrošača (Consumer Protection in E-Commerce)",
-      "content": "Service providers engaged in electronic commerce shall comply with applicable consumer protection legislation in providing their services to consumers, including requirements on pre-contractual information, the right of withdrawal, unfair commercial practices, and product and service conformity. Consumer protection provisions applicable to electronic commerce shall be interpreted in a manner consistent with applicable EU consumer protection standards to which Serbia is aligning as part of the EU accession process. The Ministry of Trade, in coordination with the Ministry responsible for information society services, shall issue guidance on consumer protection requirements applicable to electronic commerce in Serbia."
+      "title": "Члан 12. Обавезни подаци и обавештења пре закључења\nуговора",
+      "content": "Пружалац услуга дужан је да потенцијалном кориснику услуга, пре закључења\nуговора о пружању услуга, обезбеди на јасан, разумљив и недвосмислен начин\nподатке и обавештења о:\n\n1) поступку који се примењује код закључивања уговора;\n\n2) уговорним одредбама;\n\n3) општим условима пословања, ако су саставни део уговора;\n\n4) језицима на којима уговор може бити закључен;\n\n5) кодексима понашања у складу са којима поступају пружаоци услуга и како се ти\nкодекси могу прегледати електронским путем.\n\nПружалац услуга дужан је да потенцијалном кориснику услуга, пре закључења\nуговора, обезбеди техничка средства за препознавање и исправљање погрешног\nуноса података у поруку пре њене предаје или слања.\n\nУговорне стране које нису потрошачи у међусобним уговорним односима могу\nизричито уговорити одступање од одредаба ст. 1. и 2. овог члана.\n\nОдредбе ст. 1, 2. и 3. овог члана не примењују се на уговоре закључене путем\nелектронске поште, односно другим видом личне комуникације остварене\nелектронским путем."
     },
     {
       "provision_ref": "art13",
+      "chapter": "III. УГОВОРИ У ЕЛЕКТРОНСКОМ ОБЛИКУ",
       "section": "13",
-      "title": "Član 13. Sankcije (Sanctions)",
-      "content": "The competent authority shall have the power to take enforcement action against service providers established in Serbia that fail to comply with applicable requirements of this Law. Enforcement powers include the power to issue orders requiring compliance, to impose administrative fines, and to publish information on non-compliant providers. Administrative fines shall be proportionate to the nature and gravity of the breach and the economic capacity of the provider. In cross-border cases, the competent authority shall coordinate with the relevant authorities of the state of establishment of the service provider in accordance with applicable international cooperation frameworks and the Stabilisation and Association Agreement with the EU."
+      "title": "Члан 13. Доступност уговора",
+      "content": "Пружалац услуга дужан је да обезбеди да текст уговора и одредбе општих услова\nпословања које су саставни део уговора закључених у електронском облику буду\nдоступни корисницима услуга на начин који омогућава њихово складиштење, поновно\nкоришћење и репродуковање.\n\n*Службени\nгласник РС, број 95/2013"
     },
     {
       "provision_ref": "art14",
+      "chapter": "III. УГОВОРИ У ЕЛЕКТРОНСКОМ ОБЛИКУ",
       "section": "14",
-      "title": "Član 14. Transparentnost platformi",
-      "content": "Online platforms and marketplaces operating in or directed at users in Serbia shall provide transparent and accessible information on their terms and conditions for use, their mechanisms for handling complaints, and the criteria applied in displaying information to users. Platforms facilitating transactions between consumers and traders shall ensure that traders are clearly identifiable and shall implement appropriate mechanisms for addressing illegal content and products listed on their platforms. As Serbia aligns with the Digital Services Act (Regulation (EU) 2022/2065), additional transparency and accountability requirements applicable to platforms will be introduced into the Serbian legal framework."
+      "title": "Члан 14. Потврда пријема",
+      "content": "Пружалац услуга дужан је да, без одлагања, електронским путем, посебном\nелектронском поруком, потврди пријем електронске поруке која садржи понуду или\nприхват понуде за закључење уговора.\n\nУговорне стране, које нису потрошачи, у међусобним уговорним односима могу\nизричито уговорити одступање од одредбе става 1. овог члана.\n\nОдредбе ст. 1. и 2. овог члана не примењују се на уговоре закључене путем\nелектронске поште, односно другим видом личне комуникације остварене\nелектронским путем."
     },
     {
       "provision_ref": "art15",
+      "chapter": "III. УГОВОРИ У ЕЛЕКТРОНСКОМ ОБЛИКУ",
       "section": "15",
-      "title": "Član 15. Digitalne usluge",
-      "content": "This Law is being progressively aligned with Regulation (EU) 2022/2065 (Digital Services Act) as part of Serbia's EU accession process. Alignment will include the introduction of enhanced obligations for hosting service providers, online platforms, and very large online platforms regarding the detection, notification, and removal of illegal content; transparency obligations regarding content moderation and advertising; and enhanced accountability mechanisms. The competent national authority for the implementation of the Digital Services Act in Serbia will be designated in the updated legislation. Serbia participates in relevant EU dialogues on platform regulation and digital services governance."
+      "title": "Члан 15. Време закључења уговора",
+      "content": "Уговор у\nелектронском облику сматра се закљученим оног часа када понуђач прими\nелектронску поруку која садржи изјаву понуђеног да прихвата понуду.\n\nПонуда и прихват понуде, као и друге изјаве воље учињене електронским путем,\nсматрају се примљеним када им лице коме су упућене може приступити.\n\n*Службени\nгласник РС, број 95/2013"
     },
     {
       "provision_ref": "art16",
+      "chapter": "IV. ОДГОВОРНОСТ ПРУЖАОЦА УСЛУГА",
       "section": "16",
-      "title": "Član 16. Digitalna ekonomija i inovacije",
-      "content": "The Republic of Serbia shall promote the development of a thriving digital economy by maintaining a clear and predictable regulatory framework for information society services, reducing administrative barriers to digital entrepreneurship, and fostering innovation in the digital sector. The Government shall adopt strategies and action plans for digital economy development, addressing broadband connectivity, digital skills, digital public services, and the regulatory environment for digital businesses. Serbia participates in relevant EU digital economy initiatives and programmes and shall ensure that its digital economy regulatory framework supports Serbia's integration into the European digital single market as part of the EU accession process."
+      "title": "Члан 16. Искључење одговорности",
+      "content": "Пружалац услуга који преноси електронске поруке које му је предао корисник\nуслуга, није одговоран за садржај послате поруке и њено упућивање, ако није:\n\n1) иницирао пренос;\n\n2) извршио одабир података или докумената који се преносе;\n\n3) изузео или изменио податке у садржају поруке или докумената;\n\n4) одабрао примаоца преноса.\n\nПренос порука и пружање приступа порукама из става 1. овог члана морају бити\nобављени на начин који омогућава аутоматско, посредничко и привремено\nскладиштење пренетих порука и у њима садржаних података и морају бити\nпривремено складиштене само у временском периоду који је неопходан за пренос\nпорука.\n\nПружалац услуга информационог друштва који преноси електронске поруке које му је\nпредао корисник, дужан је да током пружања услуге информационог друштва и\nминимум 30 дана након престанка пружања услуге чува податке о кориснику услуге\nинформационог друштва, а нарочито податке о IP адреси са које корисник приступа\nуслугама информационог друштва тог пружаоца.\n\n*Службени гласник РС, број 52/2019"
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "IV. ОДГОВОРНОСТ ПРУЖАОЦА УСЛУГА",
+      "section": "17",
+      "title": "Члан 17. Привремено складиштење података",
+      "content": "Пружалац услуга који податке унете од стране корисника услуга преноси\nпосредством комуникационе мреже, није одговоран за аутоматско, посредничко и\nпривремено складиштење које служи само за ефикасније формирање преноса података\nтражених од стране других корисника услуга, ако:\n\n1) не мења податке;\n\n2) уважава услове за приступ подацима;\n\n3) поступа у складу са правилима за ажурирање података;\n\n4) делује у складу са дозвољеном применом технологија за прикупљање података;\n\n5) уклони или онемогући приступ подацима које је чувао одмах након сазнања да\nсу подаци уклоњени из преноса посредством мреже или је онемогућен приступ до\nњих, као и када је суд, односно други надлежни орган, наредио њихово уклањање\nили онемогућавање приступа."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "IV. ОДГОВОРНОСТ ПРУЖАОЦА УСЛУГА",
+      "section": "18",
+      "title": "Члан 18. Трајно складиштење података",
+      "content": "Пружалац услуга који складишти податке пружене од стране корисника услуга, на\nзахтев корисника услуга, није одговоран за садржај складиштеног податка, ако:\n\n1) није знао нити је могао знати за недопуштено деловање корисника услуга или\nза садржај податка;\n\n2) одмах након сазнања да се ради о недопуштеном деловању или податку уклони\nили онемогући приступ том податку.\n\nОдредба става 1. овог члана не примењује се у случајевима када је корисник\nуслуга лице зависно на било који начин од пружаоца услуга (повезана привредна\nдруштва у смислу закона којим се уређује положај привредних друштава)."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "IV. ОДГОВОРНОСТ ПРУЖАОЦА УСЛУГА",
+      "section": "19",
+      "title": "Члан 19. Линкови",
+      "content": "Пружалац услуга који посредством електронског упућивања омогући приступ\nподацима другог пружаоца услуга, није одговоран за те информације, ако:\n\n1) није знао нити је могао знати за недопуштено деловање корисника услуга или\nза садржај података у тим информацијама;\n\n2) одмах након сазнања да се ради о недопуштеном деловању или податку уклони\nили онемогући приступ подацима."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "IV. ОДГОВОРНОСТ ПРУЖАОЦА УСЛУГА",
+      "section": "20",
+      "title": "Члан 20. Обавезна обавештења",
+      "content": "Приликом пружања услуга информационог друштва, пружалац услуга није дужан да\nпрегледа податке које је складиштио, пренео или учинио доступним, односно да\nиспитује околности које би упућивале на недопуштено деловање корисника услуга.\n\nПружалац услуга мора да обавести надлежни државни орган ако основано сумња да:\n\n1) коришћењем његове услуге корисник услуга предузима недопуштене активности;\n\n2) је корисник његове услуге пружио недопуштени податак.\n\nПружалац услуга дужан је да на основу одговарајућег судског, односно управног\nакта, предочи све податке на основу којих се може предузети откривање или\nгоњење починилаца кривичних дела, односно заштита права трећих лица.\n\nОбавештење о недопуштеном деловању или податку на основу којег пружалац услуга\nпоступа у смислу члана 18. став 1. тачка 2) и члана 19. став 1. тачка 2) овог\nзакона, мора да садржи податке о пошиљаоцу обавештења, прецизном опису места на\nинтернет страници, односно другом електронском приказу на којем се јавља\nнедопуштени податак, као и образложење недопуштености.\n\nПружалац услуге информационог друштва је дужан да\nуклони недопуштени садржај без одлагања, а најкасније у року од два радна дана\nод дана пријема акта органа надлежног за примену и поступање по закону чија је\nодредба повређена, а којим му се налаже уклањање недопуштеног садржаја. Надлежни\nорган доноси акт по службеној дужности или по захтеву странке.\n\nПо захтеву трећег лица, пружалац услуге информационог\nдруштва је дужан да без одлагања, а најкасније у року од два радна дана од дана\nпријема захтева тог лица уклони недопуштени садржај, осим уколико сматра да\nобјављени садржај није у супротности са одредбама закона. У том случају,\nпружалац услуге информационог друштва може да се обрати органу надлежном за\nпримену и поступање по закону и захтева да надлежни орган утврди да ли су у\nконкретном случају повређене одредбе закона, услед чега је потребно садржај\nуклонити.\n\nАкт надлежног органа из ст. 5. и 6. овог члана којим\nсе пружаоцу услуге информационог друштва налаже уклањање недопуштеног садржаја\nобавезно садржи прецизан опис места на интернет страници, односно другом\nелектронском приказу на којем се јавља недопуштен садржај, као и образложење\nнедопуштености.\n\n*Службени\nгласник РС, број 95/2013\n\n**Службени гласник РС, број 52/2019"
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "V. НАДЗОР",
+      "section": "21",
+      "title": "Члан 21. Надзор над применом закона",
+      "content": "Надзор над применом овог закона врши министарство\nнадлежно за послове трговине и услуга, односно министарство надлежно за послове\nелектронских комуникација и информационог друштва.\n\nИнспекцијски надзор над применом овог закона\nминистарство надлежно за послове трговине и услуга врши преко тржишних\nинспектора, а министарство надлежно за послове електронских комуникација и\nинформационог друштва преко инспектора за услуге информационог друштва, у складу\nса овим законом и прописима којима се уређује инспекцијски надзор.\n\nИнспектор за услуге информационог друштва обавештава\nоператора електронских комуникација да је изречена мера из члана 5а овог закона\nи издаје налог оператору, сходно којем се оператор обавезује да онемогући\nприступ услугама пружаоца услуге информационог друштва који има седиште у земљи\nчланици Европске уније.\n\nОператор електронских комуникација дужан је да поступи\nпо налогу инспектора из става 3. овог члана и онемогући приступ услугама\nпружаоца услуге који има седиште у земљи чланици Европске уније у складу са\nсвојим техничким могућностима.\n\nРади вршења надзора, пружаоци услуга дужни су да\nовлашћеним лицима органа из става 2. овог члана без одлагања покажу или доставе\nпотребне податке и документацију у вези са предметом надзора.\n\nУ циљу примене овог закона, у делу који се односи на\nуклањање недопуштеног садржаја, органи надлежни за примену и поступање по\nзаконима сарађују са тржишном инспекцијом и обавештавају се о неправилностима и\nповредама закона које су утврдили. У поступку инспекцијског надзора, тржишни\nинспектор проверава да ли пружалац услуге информационог друштва поступа у складу\nса актом органа надлежног за примену и поступање по закону којим му је наложено\nуклањање недопуштеног садржаја.\n\n*Службени гласник РС, број 52/2019\n\nНАПОМЕНА ИЗДАВАЧА: Закон о изменама и допунама Закона о електронској\nтрговини ступио на снагу осмог дана од дана објављивања у „Службеном гласнику\nРепублике Србије”, односно 30. јула 2019. године, осим одредаба члана 8. овог\nзакона (у делу измењеног члана 21. ст. 3. и 4) које се примењују од дана уласка\nРепублике Србије у Европску унију (види члан 10. Закона - 52/2019-16).\n\n*Службени гласник РС, број 95/2013"
+    },
+    {
+      "provision_ref": "art21a",
+      "chapter": "V. НАДЗОР",
+      "section": "21а",
+      "title": "Члан 21а. Мера ограничења пружања услуга информационог друштва",
+      "content": "На захтев субјекта чија су права повређена, суд може\nодредити меру ограничења пружања услуге информационог друштва, ако подносилац\nзахтева учини вероватним постојање повреде, односно наступање ненадокнадиве\nштете.\n\nСуд може мером из става 1. овог члана да нареди\nуклањање спорног садржаја, забрану радњи које су довеле до кршења права, односно\nдругог облика заштите сразмерно циљу који се жели постићи мером.\n\nПо налогу из мере из става 1. овог члана, дужни су да\nпоступају сви пружаоци услуга који преносе, складиште или омогућавају приступ\nподацима на које се мера односи.\n\nНа поступак, надлежност и услове одређивања мере из\nстава 1. овог члана сходно се примењују правила о привременим мерама, у складу\nса законом којим се уређује извршење и обезбеђење.\n\n*Службени\nгласник РС, број 95/2013"
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "VI. КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "22",
+      "title": "Члан 22. Прекршаји",
+      "content": "Новчаном казном од 100.000 до 1.500.000 динара казниће\nсе за прекршај пружалац услуга – правно лице, ако:\n\n1) потенцијалном кориснику услуга, пре закључења\nуговора, не обезбеди на разумљив и недвосмислен начин прописане податке и\nобавештења (члан 12. став 1);\n\n2) не омогући приступ тексту уговора и општих услова\nпословања на начин који омогућава да их корисник услуга може складиштити, поново\nкористити и репродуковати (члан 13);\n\n3) не уклони или ако не ускрати приступ подацима које\nје чувао одмах након сазнања да су подаци уклоњени из преноса посредством мреже\nили онемогућен приступ до њих, као и када је суд, односно други надлежни орган\nнаредио њихово уклањање или онемогућавање приступа (члан 17. став 1. тачка 5);\n\n4) не уклони или ако не ускрати приступ податку, одмах\nнакон сазнања да се ради о недопуштеном деловању или податку (члан 18. став 1.\nтачка 2);\n\n5) не уклони или ако не ускрати приступ податку одмах\nнакон сазнања да се ради о недопуштеном деловању или податку (члан 19. став 1.\nтачка 2);\n\n6) не обавести надлежни државни орган о недопуштеним\nактивностима или подацима корисника његове услуге или не предочи све податке,\nсагласно одговарајућем судском, односно управном акту (члан 20. ст. 2. и 3);\n\n7) не уклони недопуштени садржај у складу са актом\nоргана надлежног за примену и поступање по закону (члан 20. ст. 5. и 6);\n\n8) ако без одлагања не покаже или не достави потребне\nподатке или документацију ради вршења надзора (члан 21. став 5).\n\nЗа радње из става 1. овог члана казниће се одговорно\nлице у правном лицу новчаном казном од 10.000 до 150.000 динара.\n\nАко прекршај из става 1. овог члана учини пружалац\nуслуга – предузетник, казниће се новчаном казном од 10.000 до 300.000 динара.\n\nУ случају посебно тешких повреда или понављања повреда\nиз става 1. овог члана може се изрећи забрана вршења делатности правном лицу у\nтрајању од три до шест месеци.\n\nНовчаном казном од 100.000 динара казниће се за\nпрекршај пружалац услуга – правно лице ако:\n\n1) корисницима услуга и надлежним органима државне\nуправе не пружи прописане информације у облику и на начин који је непосредно и\nстално доступан (члан 6);\n\n2) поступи супротно члану 8. овог закона.\n\nЗа радње из става 5. овог члана казниће се одговорно\nлице у правном лицу новчаном казном од 10.000 динара.\n\nАко прекршај из става 5. овог члана учини пружалац\nуслуга – предузетник, казниће се новчаном казном од 20.000 динара.\n\nНовчаном казном од 50.000 до 1.000.000 динара казниће\nсе за прекршај оператор електронских комуникација – правно лице уколико не\nпоступи по налогу инспектора за услуге информационог друштва из члана 21. став\n3. овог закона.\n\nЗа радњу из става 8. овог члана казниће се одговорно\nлице у правном лицу новчаном казном од 10.000 до 150.000 динара.\n\nАко прекршај из става 8. овог члана учини оператор\nелектронских комуникација – предузетник, казниће се новчаном казном од 10.000 до\n300.000 динара.\n\n*Службени гласник РС, број 52/2019"
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "VII. ЗАВРШНА ОДРЕДБА",
+      "section": "23",
+      "title": "Члан 23.",
+      "content": "Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику\nРепублике Србије”."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "VII. ЗАВРШНА ОДРЕДБА",
+      "section": "10",
+      "title": "Члан 10. Закон о изменама и допунама Закона о електронској трговини:\n„Службени гласник РС“, број 52/2019-16",
+      "content": "Подзаконски акт из члана 2. овог закона\nдонеће се до уласка Републике Србије у Европску унију.\n\nОвај закон ступа на снагу осмог дана од дана\nобјављивања у „Службеном гласнику Републике Србије”, осим одредаба члана 2. овог\nзакона (нови члан 5а) и члана 8. овог закона (у делу измењеног члана 21. ст. 3.\nи 4), које се примењују од дана уласка Републике Србије у Европску унију."
     }
   ],
   "definitions": [
     {
-      "term": "service of the information society",
-      "definition": "Any service normally provided for remuneration, at a distance, by electronic means and at the individual request of a recipient of services.",
-      "source_provision": "art2"
+      "term": "услуга информационог друштва",
+      "definition": "услуга која се",
+      "source_provision": "art3"
     },
     {
-      "term": "service provider",
-      "definition": "Any natural or legal person who provides a service of the information society.",
-      "source_provision": "art2"
+      "term": "пружалац услуге информационог друштва",
+      "definition": "правно или",
+      "source_provision": "art3"
     },
     {
-      "term": "commercial communication",
-      "definition": "Any form of communication designed to promote, directly or indirectly, goods, services, or the image of a company, organisation, or person exercising a commercial activity.",
-      "source_provision": "art2"
+      "term": "корисник услуга",
+      "definition": "свако физичко лице, физичко лице",
+      "source_provision": "art3"
+    },
+    {
+      "term": "потрошач",
+      "definition": "физичко лице које купује робу, односно",
+      "source_provision": "art3"
+    },
+    {
+      "term": "уговор у електронском облику",
+      "definition": "уговор закључен",
+      "source_provision": "art3"
+    },
+    {
+      "term": "комерцијална порука",
+      "definition": "сваки облик комуникације у",
+      "source_provision": "art3"
+    },
+    {
+      "term": "оператор електронских комуникација",
+      "definition": "лице",
+      "source_provision": "art3"
     }
   ]
 }

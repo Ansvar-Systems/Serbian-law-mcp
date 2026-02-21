@@ -1,127 +1,398 @@
 {
   "id": "rs-electronic-government",
   "type": "statute",
-  "title": "Zakon o elektronskoj upravi",
-  "title_en": "Law on Electronic Government",
+  "title": "Закон о електронској управи",
+  "title_en": "LAW ON ELECTRONIC GOVERNMENT",
   "short_name": "ZEU",
   "status": "in_force",
-  "issued_date": "2016-07-20",
-  "in_force_date": "2016-09-01",
-  "url": "https://www.paragraf.rs/propisi/zakon-o-elektronskoj-upravi.html",
-  "description": "Zakon o elektronskoj upravi (ZEU) uspostavlja pravni okvir za elektronsku komunikaciju između građana, privrednih subjekata i organa javne uprave u Republici Srbiji, kao i za pružanje javnih usluga elektronskim putem. Zakon propisuje načela elektronske uprave, uključujući princip 'samo jednom', interoperabilnost i digitalne inicijative. Zakon je usklađen sa principima EU e-uprave i podupire strateški cilj Srbije da izgradi modernu digitalnu upravu dok napreduje u procesu pristupanja EU.",
+  "url": "https://www.pravno-informacioni-sistem.rs/viewAct/2bd17d5f-15cc-4b72-ae79-e534ab25b4b2",
+  "description": "РЕПУБЛИЧКИ ПРОПИСИ ДРЖАВНО УРЕЂЕЊЕ Државна управа, управна инспекција и инспекцијски надзор Државна управа Закон о електронској управи: 27/2018-25. Пречишћени текст је преузет са званичног портала Правно-информационог система Републике Србије.",
   "provisions": [
     {
       "provision_ref": "art1",
+      "chapter": "I. OСНOВНE ОДРЕДБЕ",
       "section": "1",
-      "title": "Član 1. Predmet zakona",
-      "content": "This Law establishes the legal framework for electronic government in the Republic of Serbia, governing the electronic provision of public services by public administration bodies, the electronic exchange of information and documents within public administration and with citizens and businesses, and the management of government information systems. The Law aims to improve the quality, accessibility, and efficiency of public services through digitisation, to reduce administrative burdens on citizens and businesses, and to support Serbia's alignment with EU e-government standards as part of the EU accession process. The Law applies to all public administration bodies within its scope and to citizens and businesses interacting with those bodies through electronic means."
+      "title": "Члан 1. Предмет уређивања",
+      "content": "Овим законом уређују се обављање послова управе државних органа и организација, органа и организација покрајинске аутономије, органа и организација јединица локалне самоуправе, установа, јавних предузећа, посебних органа преко којих се остварује регулаторна функција и правних и физичких лица којима су поверена јавна овлашћења (у даљем тексту: орган) употребом информационо-комуникационих технологија, односно услови за успостављање, одржавање и коришћење интероперабилних информационо-комуникационих технологија органа (у даљем тексту: електронска управа).\n\nОдредбе овог закона сходно се примењују и на друге послове државних органа када поступају у електронском облику, ако другим законом није другачије уређено."
     },
     {
       "provision_ref": "art2",
+      "chapter": "I. OСНOВНE ОДРЕДБЕ",
       "section": "2",
-      "title": "Član 2. Pojmovi (Definitions)",
-      "content": "For the purposes of this Law: 'electronic public service' means any service provided by a public administration body to citizens, businesses, or other public bodies through electronic means; 'electronic communication' means the exchange of information, documents, and data between public administration bodies or between public administration bodies and citizens or businesses through electronic channels; 'eUprava portal' means the central government portal for electronic public services at eUprava.gov.rs; 'once-only principle' means the principle that citizens and businesses are required to submit data to public authorities only once; 'interoperability platform' means the technical infrastructure enabling the exchange of data between government information systems."
+      "title": "Члан 2. Примена",
+      "content": "Орган је дужан да електронски управно поступа и електронски комуницира у складу са овим законом и прописима донетим на основу њега.\n\nОдредбе овог закона примењују се и на електронску комуникацију између органа, као и на комуникацију тих органа са странкама у обављању послова из делокруга и надлежности државних органа који се не односе на управно поступање, ако посебним законом није друкчије уређено.\n\nИзузетно од ст. 1. и 2. овог члана, електронско управно поступање органа у складу са овим законом не обухвата и поступање са актима који су, сагласно закону којим се уређује тајност података, одређени као тајна и означени одређеним степеном тајности."
     },
     {
       "provision_ref": "art3",
+      "chapter": "I. OСНOВНE ОДРЕДБЕ",
       "section": "3",
-      "title": "Član 3. Kancelarija za IT i e-Upravu",
-      "content": "The Office for Information Technology and e-Government (Kancelarija za informacione tehnologije i elektronsku upravu) is designated as the coordinating body responsible for implementing the e-government policy of the Republic of Serbia, developing and maintaining the national e-government strategy, establishing technical standards for government ICT systems, operating shared digital infrastructure, and monitoring the uptake and quality of electronic public services. The Office shall coordinate with all public administration bodies in implementing e-government measures and shall represent Serbia in relevant international e-government forums, including those related to EU accession."
+      "title": "Члан 3. Однос према другим законима",
+      "content": "Питања електронске управе, која су одређена овим законом, не могу се друкчије уредити посебним законом, осим у случајевима предвиђеним овим законом."
     },
     {
       "provision_ref": "art4",
+      "chapter": "I. OСНOВНE ОДРЕДБЕ",
       "section": "4",
-      "title": "Član 4. Načelo 'samo jednom' (Once-Only Principle)",
-      "content": "Public administration bodies shall implement the once-only principle, under which citizens and businesses are required to submit data to public authorities only once, with public authorities exchanging data between themselves as necessary for the processing of applications and transactions. Implementation of the once-only principle shall comply with applicable data protection law, including the requirement for a lawful basis for data exchange and, where required, the consent of the data subject. The Office for IT and e-Government shall develop and operate the technical infrastructure for inter-agency data exchange and shall coordinate the implementation of the once-only principle across public administration."
+      "title": "Члан 4. Значење појединих израза",
+      "content": "Изрази који се користе у овом закону имају следеће значење:\n\n1) база података је организован и уређен скуп међусобно повезаних структуираних података, која може садржати једну или више евиденција;\n\n2) веб портал је приступна тачка електронској управи једног или више органа;\n\n3) веб презентација органа је званична презентација органа на којој се објављују информације о његовом раду и представља скуп података и информација помоћу посебних рачунарских програма који су на располагању корисницима преко рачунарских мрежа;\n\n4) веб сервиси су дистрибуиране софтверске компоненте које су доступне кроз стандардне интернет протоколе;\n\n5) домен органа је текстуална ознака која идентификује орган на јединственој информационо-комуникационој мрежи;\n\n6) Државни центар за управљање и чување података је физичка и виртуелна инфраструктура чија је намена смештање рачунара, сервера, мрежних и безбедносних система неопходних за функционисање електронске управе;\n\n7) Државни клауд је дељени, динамички скалабилан скуп ресурса заснован на технологијама виртуализације и/или скалираним апликативним окружењима, који је намењен органима у електронској управи;\n\n8) електронска писарница је информациони систем за управљање електронским документима, у циљу обављања послова пријема, отварања, прегледања и распоређивања поште, евидентирања предмета, здруживања аката, достављања предмета и аката унутрашњим организационим јединицама, отпремања поште, развођења предмета као и њихова чувања и архивирања;\n\n9) електронски поднесак је поднесак у електронском облику;\n\n10) електронско управно поступање је поступање у управним стварима електронским путем;\n\n11) електронско јединствено управно место је веб портал или друго софтверско решење које на једном месту омогућава електронско управно поступање једног или више органа ради остваривања једног или више права;\n\n12) идентификациона ознака је ознака која на јединствен начин одређује корисника услуге;\n\n13) Јединствена информационо-комуникациона мрежа електронске управе је информационо-комуникациона мрежа која омогућава пренос података између органа којом управља надлежни орган;\n\n14) Јединствен елекронски сандучић је електронски поштански сандучић корисника за пријем свих електронских докумената у електронској управи;\n\n15) комуникација је свака размена информација или података између ограниченог броја лица, физичких и правних, путем доступне информационо-комуникационе мреже;\n\n16) корисник је сваки учесник у електронској управи;\n\n17) корисник услуге електронске управе је физичко и правно лице о чијим се правима, правним интересима и обавезама одлучује у електронској управи;\n\n18) метаподаци су структурирани подаци који описују, лоцирају и на други начин омогућавају коришћење података;\n\n19) метарегистар је јединствен јавни електронски регистар о свим електронским регистрима успостављеним у Републици Србији;\n\n20) машински читљив облик је облик електронски меморисаног записа структуриран тако да га програмска апликација може лако идентификовати, препознати и из њега издвојити одређене податке, укључујући појединачне податке и њихову унутрашњу структуру;\n\n21) налог електронске поште овлашћеног службеног лица је додељена електронска адреса помоћу које овлашћена службена лица електронски комуницирају на Јединственој информационо-комуникационој мрежи електронске управе;\n\n22) Портал еУправе је национални веб портал еУправа као јединствена приступна тачка електронској управи органа;\n\n23) опрема су ресурси информационо-комуникационих технологија који се користе у електронској управи;\n\n24) отворени облик је облик електронски меморисаног записа који има својство независности од платформе на којој је настала и која је доступна јавности без ограничења која би могла спречити поновну употребу;\n\n25) отворени подаци су подаци који су доступни за поновну употребу, заједно са метаподацима, у машински читљивом и отвореном облику;\n\n26) податак је електронски меморисан запис о одређеној чињеници од значаја за електронско управно поступање и електронске комуникације који је садржан у електронском документу, регистру и/или бази података;\n\n27) поновна употреба података је коришћење отворених података и/или докумената органа од стране физичких или правних лица за комерцијалне и некомерцијалне сврхе другачије од првобитне за коју су били израђени;\n\n28) Портал отворених података је збирка отворених података која служи за прикупљање, категоризацију и дистрибуцију отворених података у поседу органа и омогућава њихово лакше претраживање и поновну употребу;\n\n29) расположивост податка је својство које значи да је податак доступан у електронском облику и употребљив на захтев овлашћеног лица;\n\n30) регистар је јединствен централизован скуп података који се налазе у једној или више евиденција, који се воде у електронском облику;\n\n31) Сервисна магистрала органа је централизована софтверско-хардверска платформа за интеграцију и управљање електронским услугама органа;\n\n32) услуга електронске управе је електронско управно поступање и електронско комуницирање корисника;\n\n33) федерација идентитета представља процес повезивања атрибута електронске идентификације корисника између различитих имаоца система за управљање електронском идентификацијом у електронској управи;\n\n34) шифарник је скуп ознака којим се на јединствен начин идентификује податак који се користи у електронској управи."
     },
     {
       "provision_ref": "art5",
+      "chapter": "I. OСНOВНE ОДРЕДБЕ",
       "section": "5",
-      "title": "Član 5. eUprava portal",
-      "content": "The eUprava portal (eUprava.gov.rs) is designated as the central access point through which citizens and businesses can access electronic public services in Serbia. All public administration bodies shall make their citizen-facing electronic services accessible through the eUprava portal, subject to the technical and organisational requirements established by the Office for IT and e-Government. The portal shall provide authenticated access using the national electronic identification system and shall enable citizens to view the status of their applications and transactions with public authorities. The Office shall develop and maintain the portal in accordance with applicable standards for usability, accessibility, and security."
+      "title": "Члан 5. Начело ефикасности управљања опремом",
+      "content": "Орган је дужан да ефикасно управља опремом којом располаже тако да омогући њено правилно и економично коришћење."
     },
     {
       "provision_ref": "art6",
+      "chapter": "I. OСНOВНE ОДРЕДБЕ",
       "section": "6",
-      "title": "Član 6. Elektronska identifikacija (Electronic Identification)",
-      "content": "Public administration bodies shall accept electronic identification means compliant with the requirements established under the Law on Electronic Document, Electronic Identification and Trust Services for the authentication of citizens and businesses accessing electronic public services. The national electronic identification system shall provide the minimum identification and authentication capabilities required for different assurance levels applicable to different categories of electronic public services. The Office for IT and e-Government shall ensure that the national electronic identification system is integrated into the eUprava portal and that public administration bodies implement the required integration with the national system for their electronic services."
+      "title": "Члан 6. Начело сигурности електронске управе",
+      "content": "Информациони системи, електронске комуникационе мреже и опрема која се користи за вршење електронског управног поступања морају да испуњавају услове и стандарде информационе безбедности, у складу са прописима."
     },
     {
       "provision_ref": "art7",
+      "chapter": "I. OСНOВНE ОДРЕДБЕ",
       "section": "7",
-      "title": "Član 7. Elektronski dokumenti u upravi",
-      "content": "Electronic documents shall have equivalent legal standing to paper documents for interactions between citizens or businesses and public administration bodies, in accordance with the Law on Electronic Document, Electronic Identification and Trust Services. Public administration bodies shall accept applications, forms, and supporting documents submitted electronically and shall not require the submission of original paper documents where electronic equivalents are acceptable. Internal administrative processes of public administration bodies shall progressively transition to electronic document management, in accordance with the national digital transformation strategy. The Archives of Serbia shall establish requirements for the long-term preservation of electronic administrative records."
+      "title": "Члан 7. Забрана дискриминације",
+      "content": "Свако има права да користи услугу електронске управе у складу са овим законом.\n\nСви корисници услуге електронске управе на једнак начин и под једнаким условима имају приступ електронским подацима и документима и равноправни су у остваривању овог права.\n\nУслуга електронске управе пружа се на начин који обезбеђује приступ и коришћење особама са инвалидитетом без техничких, аудио-визуелних, семантичких и језичких ограничења."
     },
     {
       "provision_ref": "art8",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "8",
-      "title": "Član 8. Interoperabilnost sistema (System Interoperability)",
-      "content": "Government information systems shall be developed and operated in accordance with the interoperability framework established by the Office for IT and e-Government, addressing technical, semantic, and organisational dimensions of interoperability. Public administration bodies shall use the government interoperability platform for the exchange of data and services between their information systems, in accordance with the standards and procedures established by the Office. The Office shall maintain a catalogue of shared services and data sources available through the interoperability platform and shall promote the reuse of existing solutions rather than the development of duplicative systems."
+      "title": "Члан 8. Јединствена информационо-комуникациона мрежа електронске управе",
+      "content": "Орган је дужан да послове електронске управе обавља преко Јединствене информационо-комуникационе мреже електронске управе или на други безбедан начин, у складу са прописима којима се уређује питање информационе безбедности.\n\nИзузетно од става 1. овог члана, орган користи интерну рачунарску мрежу за обављање послова електронске управе, ако је због природе послова, разлога безбедности или других оправданих разлога утврђених посебним законом то прописано.\n\nПослове који се односе на заштиту од инцидената у оквиру Јединствене информационо-комуникационе мреже електронске управе обавља Центар за безбедност информационо-комуникационих система републичких органа (ЦЕРТ) у оквиру службе Владе која је надлежна за пројектовање, усклађивање, развој и функционисање система електронске управе (у даљем тексту: надлежни орган).\n\nОрган подноси захтев за прикључење на Јединствену информационо-комуникациону мрежу електронске управе надлежном органу.\n\nПриступ Јединственој информационо-комуникационој мрежи електронске управе омогућава надлежни орган.\n\nОрганизационе и техничке стандарде за одржавање и унапређење Јединствене информационо-комуникационе мреже електронске управе и повезивање органа на мрежу ближе уређује Влада."
     },
     {
       "provision_ref": "art9",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "9",
-      "title": "Član 9. Dostupnost i pristupačnost (Availability and Accessibility)",
-      "content": "Electronic public services shall be designed to be accessible to all citizens, including persons with disabilities, older persons, and persons with limited digital literacy, in accordance with applicable accessibility standards. Public administration bodies shall implement the Web Content Accessibility Guidelines (WCAG) or equivalent standards for their websites and digital services and shall conduct regular accessibility audits. The Office for IT and e-Government shall monitor compliance with accessibility standards and shall publish annual reports on the accessibility of government digital services. Citizens unable to access electronic public services independently shall be provided with appropriate assistance through alternative channels."
+      "title": "Члан 9. Сервисна магистрала органа",
+      "content": "Орган који води регистре из своје области у складу са посебним законима, податке и документа у електронском облику из тих регистара размењује преко Сервисне магистрале органа.\n\nСервисном магистралом органа из става 1. овог члана управља надлежни орган.\n\nОрган приступа Сервисној магистрали органа преко Јединствене информационо-комуникационе мреже електронске управе или на други безбедан начин.\n\nНадлежни орган дужан је да органу омогући коришћење Сервисне магистрале органа за прибављање и уступање података и докумената у електронском облику са другим органима.\n\nНачин одобравања, суспендовања и укидања приступа Сервисној магистрали органа ближе уређује Влада."
     },
     {
       "provision_ref": "art10",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "10",
-      "title": "Član 10. Zaštita podataka u e-upravi",
-      "content": "The processing of personal data in the context of e-government activities shall comply with the Law on Personal Data Protection and applicable data protection principles, including lawfulness, fairness, transparency, purpose limitation, data minimisation, and security. Public administration bodies implementing e-government systems shall conduct data protection impact assessments for high-risk processing operations and shall designate Data Protection Officers as required by applicable law. The Commissioner for Personal Data Protection shall supervise compliance with data protection requirements in the context of e-government activities and shall provide guidance on privacy-preserving approaches to e-government design."
+      "title": "Члан 10. Успостављање и вођење регистара и евиденција у електронском облику",
+      "content": "Органи успостављају и воде регистре и евиденције у електронском облику у складу са законом.\n\nОрган прикупља, обрађује и чува податке у регистрима и евиденцијама у електронском облику.\n\nРегистри и евиденције у електронском облику, као и налози за електронску комуникацију, могу се налазити само у Републици Србији, а изузетно налози за електронску комуникацију органа који обављају делатност изван Републике Србије, уз прописане мере безбедности, могу се налазити ван Републике Србије.\n\nОрган је дужан да уреди начин прикупљања, управљања, чувања, коришћења података, употребу идентификационе ознаке и друга питања од значаја за вођење регистара и евиденција које се воде у електронском облику, у складу са законом којим се уређује заштита података о личности."
     },
     {
       "provision_ref": "art11",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "11",
-      "title": "Član 11. Lokalna samouprava (Local Government)",
-      "content": "Local self-government units in Serbia shall develop and deliver electronic public services in accordance with the standards and guidelines established by the Office for IT and e-Government, enabling citizens to access local government services through the eUprava portal. The Office shall provide technical and methodological support to local governments implementing e-government measures and shall facilitate the sharing of solutions between local governments through the shared infrastructure framework. Local governments with limited technical capacity may request assistance from the Office in the development and implementation of electronic services, and may benefit from centrally-developed solutions made available through the Office's shared services portfolio."
+      "title": "Члан 11. Коришћење података из регистара и евиденција у електронском облику",
+      "content": "Орган преузима податке из регистара и евиденција у електронском облику без додатних провера, у складу са законом.\n\nИзузетно од става 1. овог члана, ако постоји сумња у тачност података садржаних у регистрима и електронским евиденцијама које води орган који је надлежан за њихово вођење дужан је да изврши проверу и за то време податак означи статусом „Податак је у статусу провере”.\n\nПодаци који су означени статусом „Податак је у статусу провере” не преузимају се.\n\nУвид у податке и њихово преузимање врши се преко Сервисне магистрале органа или другог прихваћеног решења на основу јединствених шифарника и јединствених идентификатора корисника услуге електронске управе чије податке орган у оквиру својих надлежности обрађује.\n\nЈединствени идентификатори су подаци на основу којих се, из регистара и евиденција у електронском облику које органи воде у складу са посебним законима, могу упоредити подаци о корисницима, и то: јединствени матични број грађана, јединствени образовни број, јединствени број који додељује Централни регистар обавезног социјалног осигурања за потребе обавезног социјалног осигурања обвезницима доприноса и осигураним лицима, лични број осигураника, матични број и порески идентификациони број.\n\nОрган је дужан да податке из евиденција у електронском облику које су законом, односно другим прописом установљене, достави другом органу који води регистар, ако су ти подаци неопходни за вођење тог регистра, а ради извршавања послова из њихове надлежности.\n\nОрган надлежан за вођење регистра дужан је да одмах, а најкасније у року од три радна дана од дана подношења захтева, достави податке неопходне за електронско управно поступање и вођење других регистара.\n\nОрган мора водити евиденцију сваког приступа и увида у електронске документе и податке из своје надлежности, и то податке о: идентитету овлашћеног лица (јединствени матични број грађана и лично име), датуму и времену приступа и скупу података којима се приступало.\n\nНачин на који органи врше увид, прибављају, обрађују и уступају, односно достављају податке о чињеницама о којима се води службена евиденција из регистара у електронском облику, а који су неопходни за одлучивање у управном поступку ближе уређује министарство надлежно за послове државне управе."
     },
     {
       "provision_ref": "art12",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "12",
-      "title": "Član 12. Digitalna transformacija (Digital Transformation Strategy)",
-      "content": "The Government shall adopt a national strategy for the digital transformation of public administration, setting out the vision, strategic objectives, priorities, and measures for the development of e-government in Serbia over a defined planning horizon. The strategy shall address broadband connectivity, electronic service development, digital skills, open data, cybersecurity, and interoperability, and shall include measurable targets and a monitoring framework. The strategy shall be aligned with applicable EU e-government principles and benchmarks, consistent with Serbia's EU accession objectives. Progress in implementing the strategy shall be reviewed and reported annually."
+      "title": "Члан 12. Заштита података и докумената при њиховом прибављању и уступању",
+      "content": "Подаци и електронска документа прибављају се и уступају у оквиру Јединствене информационо-комуникационе мреже електронске управе или на други безбедан начин преко Сервисне магистрале органа.\n\nПодаци и електронска документа који се износе из Републике Србије на основу посебних прописа, односно потврђених међународних уговора морају се посебно заштитити.\n\nИзношење података и електронских докумената из става 2. овог члана може се обављати само ако је обезбеђен одређени степен заштите у тим земљама, односно међународним организацијама, који не може бити мањи од степена заштите који је обезбеђен у Републици Србији.\n\nБлиже услове, мере и начин издавања дозвола за изношење података и електронских докумената из Републике Србије, заједнички прописују министарство надлежно за послове државне управе, министарство надлежно за послове правосуђа и орган надлежан за изношење тајних података.\n\nУ случају да се износе подаци о личности примењују се одредбе закона којим се уређује заштита података о личности."
     },
     {
       "provision_ref": "art13",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "13",
-      "title": "Član 13. Digitalne veštine (Digital Skills)",
-      "content": "The Office for IT and e-Government, in coordination with relevant ministries and agencies, shall promote digital literacy and skills among public administration employees, businesses, and citizens. Training programmes for public administration employees shall address the use of electronic government systems, data management, cybersecurity awareness, and user-centred service design. Citizens with limited digital skills shall be supported through public digital assistance points and shall be provided with the assistance necessary to access electronic public services. Educational institutions shall be encouraged to integrate digital skills into curricula at all levels."
+      "title": "Члан 13. Успостављање и вођење Метарегистра",
+      "content": "Интероперабилност регистара и евиденција у електронском облику обезбеђује се успостављањем и вођењем Метарегистра.\n\nМетарегистар садржи основне податке о регистрима и евиденцијама у електронском облику, основ њиховог успостављања, врсту података који се прикупљају уз ознаку изворности података, могућност уступања односно прибављања података и органе који им приступају, правни основ за уступање односно прибављање података, опис процеса уноса података у регистар и преглед начина и услова коришћења података, као и друге податке које, у погледу регистара и евиденција, као обавезне предвиђа закон којим се регулише заштита података о личности.\n\nНачин вођења Метарегистра ближе уређује Влада."
     },
     {
       "provision_ref": "art14",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "14",
-      "title": "Član 14. Otvoreni podaci uprave (Government Open Data)",
-      "content": "Public administration bodies shall proactively publish data of public interest held in their information systems as open data on the national open data portal (data.gov.rs), subject to applicable confidentiality and data protection requirements. Open data shall be published in machine-readable, open formats and with open licences enabling free reuse. The Office for IT and e-Government shall operate the national open data portal and shall establish standards for open data publication. High-value datasets of particular public interest shall be identified and prioritised for open data publication, in accordance with guidance from the Office and applicable EU open data standards."
+      "title": "Члан 14. Налог електронске поште овлашћеног службеног лица",
+      "content": "Овлашћено службено лице има јединствен налог електронске поште за електронску комуникацију са органима и корисницима услуга електронске управе.\n\nОрган подноси захтев за отварање налога електронске поште надлежном органу који издаје налог електронске поште овлашћеном службеном лицу, у року од три радна дана од дана подношења захтева.\n\nНадлежни орган дужан је да, са отварањем налога из става 1. овог члана, овлашћеном службеном лицу истовремено обезбеди и Јединствен електронски сандучић."
     },
     {
       "provision_ref": "art15",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "15",
-      "title": "Član 15. Saradnja sa EU (EU Cooperation)",
-      "content": "Serbia shall participate in EU e-government cooperation initiatives, including the CEF (Connecting Europe Facility) digital programmes, the ISA2 and ISA³ interoperability programmes, and the Single Digital Gateway, to the extent available to EU candidate countries. The Office for IT and e-Government shall coordinate Serbia's participation in these programmes and shall ensure that national e-government development is aligned with applicable EU standards and frameworks. Progress in aligning Serbia's e-government framework with EU requirements shall be reported to the European Commission through applicable accession monitoring channels. Serbia aims to be in a position to fully participate in the EU's digital single market frameworks upon accession."
+      "title": "Члан 15. Јединствен електронски сандучић",
+      "content": "Физичко и правно лицe може да користи услуге електронске управе, ако се за то региструје.\n\nНадлежни орган отвара налог кориснику услуге електронске управе.\n\nКорисник услуге електронске управе може да повуче сагласност о прихватању услова коришћења услуга, након чега га надлежни орган брише из евиденције и затвара налог из става 2. овог члана.\n\nНадлежни орган дужан је да кориснику услуге електронске управе, након регистрације, обезбеди коришћење Јединственог електронског сандучића."
     },
     {
       "provision_ref": "art16",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
       "section": "16",
-      "title": "Član 16. Praćenje i ocena (Monitoring and Evaluation)",
-      "content": "The Office for IT and e-Government shall establish a monitoring framework for e-government in Serbia, including indicators measuring the availability, quality, security, and uptake of electronic public services. Public administration bodies shall submit annual reports on their electronic services and ICT systems to the Office. The Office shall publish an annual report on the state of e-government in Serbia, covering progress against national targets, benchmarking against EU and international comparators, and recommendations for improvement. The annual report shall be submitted to the Government and made publicly available on the Office's website and on the eUprava portal."
+      "title": "Члан 16. Софтверско решење",
+      "content": "Орган је дужан да изради софтверско решење које омогућава коришћење услуга електронске управе, у складу са прописима којима се уређују електронски документ, електронска идентификација и услуге од поверења у електронском пословању и законом којим се уређује заштита података о личности.\n\nСофтверско решење из става 1. овог члана требало би да обезбеди управљање, поуздано чување и заштиту електронских докумената, односно трајно чување и заштиту електронских докумената који представљају архивску грађу, у складу са законом.\n\nОрган је дужан да при дизајнирању, изради, одржавању и ажурирању софтверског решења поштује стандарде приступачности, како би услуге електронске управе биле доступне свима, а нарочито особама са инвалидитетом.\n\nОрган је дужан да софтверско решење прилагоди мобилним уређајима."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "17",
+      "title": "Члан 17. Портал еУправа",
+      "content": "Портал еУправа налази се на Јединственој информационо-комуникационој мрежи органа.\n\nОрган подноси захтев ради успостављања услуга електронске управе на Порталу еУправа надлежном органу, који је дужан да у року од осам дана одлучи о захтеву.\n\nПриликом пружања услуга електронске управе на Порталу еУправа води се евиденција о корисницима услуга електронске управе, и то: јединствени матични број грађана, лично име, корисничко име корисника услуге електронске управе, адреса, број мобилног телефона, налог електронске поште.\n\nПриликом пружања услуга електронске управе на Порталу еУправа води се евиденција о приступу систему и коришћењу сервиса (корисничко име, ИП адреса са које се приступа, датум и време приступа), у складу са законом којима се уређују електронске комуникације.\n\nСврха обраде података од стране надлежног органа као обрађивача података је несметано омогућавањe пружања услуга електронске управе од стране органа.\n\nПодаци из евиденција из ст. 3. и 4. овог члана чувају се десет година.\n\nПорталом еУправа управља надлежни орган.\n\nНачин рада на Порталу еУправа ближе уређује Влада."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "18",
+      "title": "Члан 18. Рад органа на Порталу еУправа",
+      "content": "Орган преко Портала еУправа:\n\n1) објављује услуге електронске управе;\n\n2) управља правима приступа овлашћених службених лица објављеним услугама електронске управе;\n\n3) поучава корисника услуга електронске управе о начину остваривања права;\n\n4) прима електронске поднеске за признавање права или друго поступање о управној ствари;\n\n5) обавештава корисника о предузетим радњама и донетим правним актима, односно о статусу предмета у поступку;\n\n6) омогућава плаћање такси, накнада и других трошкова;\n\n7) прибавља, односно уступа и доставља податке преко Сервисне магистрале органа;\n\n8) прати статистику коришћења услуга електронске управе;\n\n9) пријављује сваку неправилност у раду на Порталу еУправа надлежном органу.\n\nОрган на Порталу еУправа може успоставити електронско јединствено управно место."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "19",
+      "title": "Члан 19. Овлашћена лица Портала еУправа",
+      "content": "Овлашћена лица Портала еУправа су:\n\n1) главни администратор Портала еУправа, кога одреди надлежни орган;\n\n2) администратор органа, кога одреди орган који користи Портал еУправа."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "20",
+      "title": "Члан 20. Обавезе главног администратора Портала еУправа",
+      "content": "Главни администратор Портала еУправа:\n\n1) управља радом Портала еУправа;\n\n2) обезбеђује континуирани рад Портала еУправа;\n\n3) на захтев органа активира и деактивира налог и објављује услуге електронске управе у складу са чланом 17. овог закона;\n\n4) пружа техничку подршку корисницима и на Порталу еУправа објављује упутство за коришћење."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "21",
+      "title": "Члан 21. Обавезе администратора органа на Порталу еУправа",
+      "content": "Администратор органа на Порталу еУправа:\n\n1) управља налозима овлашћених службених лица органа и додељује нивое приступа;\n\n2) обезбеђује приступ подацима из електронских службених евиденција органа;\n\n3) развија и поставља услуге електронске управе органа;\n\n4) омогућава овлашћеном службеном лицу органа да пружи услугу електронске управе;\n\n5) врши регистрацију корисника, односно брисање у року од два радна дана од дана подношења захтева;\n\n6) обавештава корисника о извршеној регистрацији, односно брисању из евиденције;\n\n7) обавештава корисника услуге електронске управе да му је обезбеђено коришћење Јединственог електронског сандучића;\n\n8) обавештава овлашћено службено лице органа о промени статуса регистрованог корисника."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "22",
+      "title": "Члан 22. Плаћање на Порталу еУправа",
+      "content": "Кориснику услуге електронске управе орган омогућава плаћање таксе и услуге електронске управе на Порталу еУправа у складу са законом којим се уређују платне услуге.\n\nОрган је дужан да приликом пружања услуге из става 1. овог члана електронски прикупља податке о извршеном плаћању, који обавезно садрже:\n\n1) податке о платиоцу, и то: лично име, јединствени матични број грађана и адреса за физичко лице, односно пословно име или назив, матични број, порески идентификациони број и адреса седишта за правно лице;\n\n2) податке о примаоцу уплате, и то: лично име, јединствени матични број грађана и адреса за физичко лице, односно пословно име или назив, матични број, порески идентификациони број и адреса седишта за правно лице, износ и сврха уплате, број платног рачуна и време плаћања.\n\nСврха обраде података о личности из става 2. овог члана је вршење плаћања електронске управе.\n\nПодаци о личности из става 2. овог члана чувају се десет година.\n\nРади омогућавања плаћања из става 1. овог члана, орган може пружати услуге прихвата платних инструмената, преноса новчаних средстава и друге платне услуге утврђене законом којим се уређују платне услуге.\n\nНачин пружања услуга из става 5. овог члана ближе уређује Влада."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "23",
+      "title": "Члан 23. Права корисника услуга електронске управе на Порталу еУправа",
+      "content": "Корисник услуга електронске управе преко Портала еУправа може да:\n\n1) остварује своја права и испуњава обавезе коришћењем успостављених услуга електронске управе;\n\n2) подноси електронске поднеске и комуницира са органом;\n\n3) прима обавештења о предузетим радњама и донетим актима надлежних органа и прати статус свог предмета;\n\n4) прима акте надлежних органа у Јединствени електронски сандучић;\n\n5) користи и друге функционалности Портала еУправа."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "24",
+      "title": "Члан 24. Успостављање и вођење веб портала у електронској управи",
+      "content": "Одредбе овог закона које се односе на вођење Портала еУправа сходно се примењују и на друге веб портале одређене посебним законом."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "25",
+      "title": "Члан 25. Поновна употреба",
+      "content": "Свако има право на поновну употребу података у комерцијалне или некомерцијалне сврхе.\n\nЗахтев за поновну употребу података подноси се органу који располаже тим подацима.\n\nЗахтев садржи назив органа, лично име подносиоца захтева, адресу, прецизан опис података за које се тражи поновна употреба, као и облик и начин добијања података за поновну употребу.\n\nУ захтеву се обавезно наводи сврха поновне употребе тражених података.\n\nОрган може одбити захтев за поновну употребу ако се захтев односи на:\n\n1) податке за које се може ограничити остваривање права на приступ информацијама од јавног значаја у складу са законом којим се уређује слободан приступ информацијама од јавног значаја;\n\n2) податке у поседу органа коме је упућен захтев чија је употреба изван делокруга послова које обавља, у складу са законом;\n\n3) податке на којима постоји искључиво право интелектуалне својине;\n\n4) податке органа који пружају услуге јавних медијских сервиса или обављају радиодифузну делатност, а који се односе на медијске услуге у складу са законом који уређује делатност јавних медијских сервиса и електронских медија;\n\n5) податке који су резултат истраживања образовних и научних установа, осим библиотека у установама високог образовања.\n\nОрган који одбије захтев за поновну употребу због заштите права интелектуалне својине, дужан је да да обавештење о носиоцу права интелектуалне својине уколико му је познат, односно о лицу које је пренело права интелектуалне својине у складу са законима којим се уређује право интелектуалне својине.\n\nОрган не наплаћује накнаду за поновну употребу, осим ако то посебним законом није другачије утврђено.\n\nУ случају да орган наплаћује накнаду за поновну употребу износ накнаде не сме прелазити укупан износ трошкова прикупљања, производње, репродукције и давања података.\n\nНа поступак остваривања права на поновну употребу сходно се примењују одредбе закона којим се уређује поступак остваривања права на слободан приступ информацијама од јавног значаја."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "26",
+      "title": "Члан 26. Лиценце за поновну употребу",
+      "content": "Орган омогућава поновну употребу података у машински читљивом облику и отвореном облику у складу са слободном лиценцом, осим ако посебним законом није другачије утврђено.\n\nСлободна лиценца омогућава слободну поновну употребу, у комерцијалне или некомерцијалне сврхе, које укључују умножавање, дистрибуцију, стављање на располагање трећим лицима, прилагођавање и повезивање са другим подацима, интегрисање у пословне процесе, производе и сервисе, измене, као и друге поновне употребе.\n\nСлободна лиценца обавезује на упућивање на извор података, укључујући назив органа који је податке учинио доступним за поновну употребу, датум преузимања, адресу на којој се подаци могу преузети, као и јасну ознаку свих измена, уређивања или новог дизајна преузетих података."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "27",
+      "title": "Члан 27. Портал отворених података",
+      "content": "Орган је дужан да на Порталу отворених података објављује отворене податке из делокруга своје надлежности на начин који омогућава њихово лако претраживање и поновну употребу.\n\nУ сврху поновне употребе орган нема обавезу да отворене податке изради или прилагоди ако то захтева несразмеран утрошак времена или средстава.\n\nПриступ подацима из става 1. овог члана омогућен је без накнаде.\n\nПортал отворених података води и одржава надлежни орган.\n\nБлиже услове о успостављању и начину рада Портала отворених података, укључујући организационе и техничке стандарде, уређује Влада."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "28",
+      "title": "Члан 28. Израда и одржавање веб презентације",
+      "content": "Орган је дужан да изради и одржава веб презентацију.\n\nОрган је дужан да омогући да садржај веб презентације буде доступан и на мобилним уређајима и приступачан свакоме, а нарочито особама са инвалидитетом.\n\nВеб презентација органа израђује се у оквиру прописаног .rs и .срб домена.\n\nЗа објављивање веб презентација, редовно ажурирање, тачност и потпуност објављеног садржаја, одговоран је руководилац органа.\n\nРуководилац органа дужан је да именује администратора веб презентације.\n\nАдминистратор веб презентације дужан је да редовно ажурира садржај и изглед веб презентације.\n\nАко орган престаје са радом, дужан је да пре дана одређеног за престанак његовог рада, своје сервисе и садржај веб презентације преда органу који преузима његове надлежности, а уколико таквог органа нема, веб презентација се архивира у складу са законом, уз обавезу да се јасно обележи датум архивирања.\n\nБлиже услове за одређивање домена, тачност и потпуност садржаја веб презентације, представљање услуга које орган пружа, техничко решење, функционалност, приступачност, језик и писмо, графичко решење, дизајн, употребљивост, доступност, безбедност, одржавање, ажурирање и друга питања везана за развој веб презентација, уређује Влада."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "29",
+      "title": "Члан 29. Физичка заштита података и чување безбедносних копија",
+      "content": "Управљање подацима и физичка заштита података врше се у складу са прописима којима се одређују мере заштите информационо-комуникационих система од посебног значаја.\n\nРади обезбеђења непрекидног функционисања услуга електронске управе, складиштења и чувања података из регистара, надлежни орган успоставља и управља Државним центром за управљање и чување података.\n\nНадлежни орган обезбеђује додатну физичку заштиту података формирањем секундарне базе података и секундарног рачунарског система ради обезбеђења непрекидног функционисања услуга електронске управе.\n\nПриступ локацијама на којима се налазе базе података и чувају безбедносне копије имају искључиво овлашћена лица.\n\nБлиже услове за одржавање и унапређење Државног центра за управљање и чување података уређује Влада."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "30",
+      "title": "Члан 30. Одржавање, поправка и повлачење из употребе опреме за рад",
+      "content": "Орган је дужан да одржава рачунарску опрему која се користи у електронској управи, а у случају поправки, дужан је да претходно направи безбедносне копије података, како би се спречио губитак података.\n\nОдржавање и поправка рачунарске опреме, врши се искључиво под контролом овлашћених лица органа.\n\nУ случају повлачења рачунарске опреме, сви подаци претходно морају бити трајно и сигурно избрисани, а сви медији за складиштење и чување података уништени, под надзором овлашћених лица органа."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "II. ИНФРАСТРУКТУРА У ЕЛЕКТРОНСКОЈ УПРАВИ",
+      "section": "31",
+      "title": "Члан 31. Услови за успостављање електронске управе",
+      "content": "Ради успостављања електронске управе орган је дужан да:\n\n1) успостави одговарајућу организацију послова и радних задатака за електронску управу;\n\n2) обезбеди кадрове који имају неопходну стручност, искуство и квалификације за примену административних и управљачких процедура које одговарају стандардима и који су прошли одговарајућу обуку у области коришћења информационо-комуникационих технологија, информационе безбедности, заштите података о личности, информација од јавног значаја и отворених података;\n\n3) обезбеди одговарајућу опрему и софтверска решења за послове које обавља;\n\n4) успостави механизам за ауторизовани приступ систему;\n\n5) омогући пријем поднесака и достављање електронским путем као и праћења статуса поднеска;\n\n6) омогући одлагање прилога и електронски потписаних докумената у електронске архиве, аутоматско рачунање рока чувања, управну статистику и различите претраге и прегледе;\n\n7) омогући пријем електронске поште, аутоматско потврђивање примљених порука, повезивање са електронским адресама овлашћених службених лица и могућност аутоматског слања порука;\n\n8) развија сервисе за прибављање и уступање података из регистара и евиденција у електронском облику;\n\n9) омогући електронско плаћање такси и накнада у електронској управи;\n\n10) успостави интероперабилност информационих система који се користе у електронској управи, у складу са Листом стандарда интероперабилности;\n\n11) испуни услове информационе безбедности у складу са законом;\n\n12) води евиденцију о корисницима услуга електронске управе, која садржи податке прописане чланом 17. овог закона;\n\n13) омогући утврђивање тачног датума и времена подношења електронских поднесака;\n\n14) обезбеди могућност електронске идентификације корисника услуге електронске управе;\n\n15) води евиденцију о поднетим електронским поднесцима у електронској управи;\n\n16) успоставља и води регистар у складу са овим законом и другим прописима;\n\n17) омогући чување електронских података и докумената у прописаном времену како би се могли обезбедити докази у управном и судском поступку;\n\n18) осигура чување и заштиту електронских података и докумената и трајно чување и заштиту архивске грађе у електронском облику, њено одржавање, пребацивање на савремене носаче у прописаним форматима све до предаје надлежном архиву;\n\n19) омогући приступ садржају и услугама електронске управе свакоме, у складу са стандардима приступачности;\n\n20) омогући приступ садржају и услугама електронске управе и на мобилним уређајима.\n\nБлиже услове за извршавање дужности из става 1. овог члана прописује Влада."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "32",
+      "title": "Члан 32. Успостављање електронског управног поступања органа",
+      "content": "При електронском управном поступању орган је дужан да:\n\n1) обавести надлежни орган о почетку и престанку примене електронског управног поступања;\n\n2) надлежном органу достави списак одговорних лица овлашћених за електронско управно поступање."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "33",
+      "title": "Члан 33. Услови за прибављање и уступање података и електронских докумената",
+      "content": "Руководилац органа којем су подаци потребни за одлучивање у управном поступку одређује овлашћена службена лица која могу да их прибављају, а руководилац органа који води одговарајућу службену евиденцију овлашћује службена лица која могу да уступају ове податке.\n\nРуководиоци органа надлежних за одлучивање у електронском управном поступању и органа надлежних за вођење службених евиденција обавештење о службеним лицима овлашћеним за прибављање и уступање података и докумената неопходних за одлучивање, пре него што овлашћена службена лица почну да приступају тим подацима, достављају једни другима и надлежном органу.\n\nПодатке о личности, и то: јединствени матични број грађана, лично име, адреса, број телефона и налог електронске поште о овлашћеним службеним лицима из става 1. овог члана, орган прикупља у сврху ауторизације приступа подацима потребним за одлучивање у управном поступку.\n\nПодаци о личности из става 3. овог члана чувају се трајно.\n\nОрган је дужан да приликом пријема захтева, који је основ за покретање управног поступка:\n\n1) обавести корисника услуге електронске управе о свим подацима које је у складу са законом потребно прибавити за потребе вођења управног поступка и о обавези органа да по службеној дужности прибави податке из службених евиденција;\n\n2) омогући кориснику услуге електронске управе да изјави да ће податке о личности из службених евиденција прибавити сам;\n\n3) обавести о потребним подацима које је у складу са законом потребно прибавити за потребе вођења управног поступка, а који се односе на треће лице (члан породице, односно члан породичног домаћинства и сл.), као и о томе да је приступ тим подацима могућ само на основу пристанка тог лица, у складу са законом.\n\nОргани који воде службене евиденције успостављају техничке услове за прибављање и достављање података и докумената електронским путем, а надлежан орган, преко Сервисне магистрале органа обезбеђује њихову размену.\n\nОвлашћено лице органа којем су потребни подаци за одлучивање при електронском управном поступању при сваком приступу подацима и документима упућује упит за приступ који садржи податке о:\n\n1) идентитету овлашћеног лица;\n\n2) управном поступку који се води и броју предмета за чије решавање је неопходно приступити подацима;\n\n3) датуму и времену приступа.\n\nОрган који води службену евиденцију бележи податке из става 7. овог члана о сваком појединачном приступу.\n\nАко се приступ врши преко Портала еУправа податке из става 7. овог члана, о сваком појединачном приступу, бележи надлежни орган.\n\nОвлашћено службено лице органа којем су потребни подаци за одлучивање у електронском управном поступању преузима податке и документа који постају саставни део списа предмета, тако што се преузимају у информациони систем органа."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "34",
+      "title": "Члан 34. Аутентикација корисника",
+      "content": "Корисник се у електронском управном поступању мора аутентиковати.\n\nЗа аутентикацију корисника користи се електронска идентификација у складу са законом којим се уређује електронска идентификација.\n\nУ електронском управном поступању користи се регистрована шема електронске идентификације различитог нивоа преко налога који је кориснику електронске услуге додељен приликом регистрације на Порталу еУправа или другом веб порталу.\n\nШему електронске идентификације која се користи утврђује сваки орган појединачно на основу процене ризика од злоупотребе и могуће штете од злоупотребе настале коришћењем шеме електронске идентификације."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "35",
+      "title": "Члан 35. Ауторизација корисника",
+      "content": "Кориснику се у електронском управном поступању додељују различити нивои приступа у складу са законом.\n\nОрган кроз ауторизацију овлашћује одређено службено лице за електронско управно поступање.\n\nПрибављање и уступање података врши се искључиво између ауторизованих учесника у циљу обезбеђења интегритета пренетих података."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "36",
+      "title": "Члан 36. Федерација идентитета",
+      "content": "Надлежни орган дужан је да омогући федерацију идентитета односно налога који је доделио кориснику.\n\nПроверу електронске идентификације корисника приликом аутентикације из члана 34. овог закона и ауторизације из члана 35. овог закона врши надлежни орган, осим у случајевима када је у питању идентификација коју додељује пружалац услуге електронске идентификације."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "37",
+      "title": "Члан 37. Обавезе органа у комуникацији са корисником услуге електронске управе",
+      "content": "Орган је дужан да на својој веб презентацији, Порталу еУправа и/или другом веб порталу објави листу управних поступака који се могу реализовати електронским путем, начин вођења електронског управног поступка и ограничења при електронском управном поступању."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "38",
+      "title": "Члан 38. Електронски поднесак",
+      "content": "Орган је дужан да припреми електронске обрасце за подношење електронских поднесака.\n\nЕлектронски обрасци морају бити јасни, прегледни и припремљени на начин који омогућава упис свих података неопходних за ефикасно и економично вођење поступка.\n\nУколико је прописана обавезност потписивања, eлектронски поднесак се потписује регистрованом шемом електронске идентификације високог нивоа поузданости."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "39",
+      "title": "Члан 39. Пријем електронског поднеска",
+      "content": "Орган је дужан да омогући пријем електронског поднеска преко Портала еУправа, другог електронског јединственог управног места или другим путем достављања између органа и корисника, у складу са законом којим се уређује електронски документ и услуге од поверења у електронском пословању.\n\nПријем електронског поднеска евидентира се у електронској писарници.\n\nПотврда о пријему електронског поднеска шаље се подносиоцу одмах, на исти начин на који је поднесак послат.\n\nПотврда из става 3. овог члана садржи обавештење о пријему електронског поднеска, датум и време пријема и напредни електронски печат органа.\n\nВреме пријема електронског поднеска је време одређено квалификованим електронским временским жигом."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "40",
+      "title": "Члан 40. Електронско достављање",
+      "content": "Орган је дужан да уверење, одлуку, решење, закључак, други електронски документ и/или податак из оквира своје надлежности достави кориснику електронским путем.\n\nНа захтев корисника достављање уверења, одлука, решења, закључака и других докумената у поступку врши се и у папирном облику.\n\nТрошкове доставе из става 2. овог члана сноси корисник који захтева доставу и у папирном облику.\n\nЕлектронско достављање електронског документа врши се у Јединствени електронски сандучић корисника услуга електронске управе или другим електронским путем у складу са законом којим се уређује електронски документ и услуге од поверења у електронском пословању."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "41",
+      "title": "Члан 41. Потврда о електронској достави",
+      "content": "Електронски документ сматра се лично преузетим када корисник органу потврди пријем отварањем електронске повратнице која се аутоматски израђује након пријема документа у Јединствени електронски сандучић.\n\nАко након електронске доставе, у законом предвиђеном року, орган није добио електронску повратницу, достава електронског документа ће се поновити.\n\nЕлектронски документ и/или податак сматра се лично преузетим када орган напредним електронским печатом потврди пријем електронске повратнице.\n\nАко након поновљене електронске доставе, у законом предвиђеном року, орган није добио електронску повратницу аутоматски се израђује обавештење о неуспелој електронској достави.\n\nОрган је електронску доставу обавио оног дана када је корисник преузео електронски документ у складу са ставом 1. овог члана, односно у року од 15 дана након доставе обавештења из става 4. овог члана.\n\nПотврда о електронској достави садржи лично име и адресу корисника који се обрађују у сврху потврђивања идентитета лица коме је електронски документ достављен.\n\nПодаци о личности из става 6. овог члана чувају се трајно.\n\nТехничке услове електронске доставе, као и садржај потврда уређује Влада."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "III. ЕЛЕКТРОНСКО УПРАВНО ПОСТУПАЊЕ",
+      "section": "42",
+      "title": "Члан 42. Адреса електронске поште органа у електронском управном поступању",
+      "content": "Адреса електронске поште органа предвиђена за пријем електронског поднеска и електронску доставу при електронском управном поступању, објављује се на веб презентацијама органа, на Порталу еУправа и/или на другом веб порталу.\n\nАдреса електронске поште за пријем електронских поднесака и електронску доставу додељује се органима државне управе и органима територијалне аутономије на домену gov.rs, односно упр.срб, а органима јединица локалне самоуправе ls.gov.rs, односно лс.упр.срб.\n\nНадлежни орган дужан је да отвори налог за електронску пошту и додели му Јединствени електронски сандучић, у року од пет радних дана од дана подношења захтева за њено отварање."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "IV. НАДЗОР",
+      "section": "43",
+      "title": "Члан 43. Надлежност",
+      "content": "Надзор над спровођењем овог закона и на основу њега донетих прописа врши министарство надлежно за развој електронске управе."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "V. КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "44",
+      "title": "Члан 44. Прекршајна одговорност",
+      "content": "Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај главни администратор веб портала ако:\n\n1) не управља радом веб портала из члана 20. став 1. тачка 1) овог закона;\n\n2) не обезбеди континуирани рад веб портала из члана 20. став 1. тачка 2) овог закона."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "V. КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "45",
+      "title": "Члан 45.",
+      "content": "Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај администратор органа на веб порталу ако не управља налозима овлашћених службених лица органа и не додељује адекватне нивое приступа из члана 21. став 1. тачка 1) овог закона."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "V. КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "46",
+      "title": "Члан 46.",
+      "content": "Новчаном казном од 30.000 до 150.000 динара казниће се за прекршај одговорно лице у органу овлашћено за вођење електронских регистара ако:\n\n1) не успостави и не води електронски регистар на основу службених евиденција за које је надлежан из члана 10. став 1. овог закона;\n\n2) не уреди посебним актом начин размене, одржавања, чувања и коришћења података, употребу идентификационе ознаке, као и друга питања од значаја за вођење електронског регистра из члана 10. став 4. овог закона;\n\n3) не достави податке из службених евиденција неопходне за вођење електронског регистра другом органу из члана 11. став 6. овог закона;\n\n4) не изврши проверу из члана 11. став 2. овог закона;\n\n5) не користи јединствене шифарнике при размени података из јавних електронских регистара из члана 11. став 4. овог закона."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "V. КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "47",
+      "title": "Члан 47.",
+      "content": "Новчаном казном од 30.000 до 150.000 динара казниће се за прекршај одговорно лице у органу ако:\n\n1) не омогући електронско управно поступање и друге електронске управне радње на Порталу еУправе из члана 18. став 1. тач. 1)–9) овог закона;\n\n2) пређе на електронску управу, а не испуни услове из члана 31. став 1. тач. 1)–20) овог закона;\n\n3) не припреми електронске обрасце за подношење захтева, предлога, пријава, молби, жалби, представки, приговора, обавештења, саопштења и другу врсту писаног обраћања органу при електронском управном поступању из члана 38. став 1. овог закона;\n\n4) не омогући пријем електронских поднеска из члана 39. овог закона;\n\n5) не достави електронским путем одлуку или други акт из оквира своје надлежности уколико корисник захтева електронско достављање из члана 40. овог закона."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "VI. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "48",
+      "title": "Члан 48. Рок за доношење подзаконских аката",
+      "content": "Подзаконски акти за спровођење овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "VI. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "49",
+      "title": "Члан 49. Рок за успостављање Сервисне магистрале органа",
+      "content": "Сервисну магистралу органа из члана 9. овог закона, надлежни орган дужан је да успостави у року од 12 месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "VI. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "50",
+      "title": "Члан 50. Рок за успостављање регистара и евиденција у електронском облику",
+      "content": "Органи су дужни да успоставе регистре и евиденције у електронском облику у складу са чланом 10. овог закона у року од 36 месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "VI. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "51",
+      "title": "Члан 51. Рок за успостављање Метарегистра",
+      "content": "Метарегистар из члана 13. овог закона надлежни орган дужан је да успостави у року од 12 месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "VI. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "52",
+      "title": "Члан 52. Рок за израду софтверских решења",
+      "content": "Софтверско решење из члана 16. овог закона надлежни орган израдиће у року од 36 месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "VI. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "53",
+      "title": "Члан 53. Рок за електронско управно поступање",
+      "content": "Органи су дужни да омогуће пријем свих врста поднесака у складу са чланом 39. овог закона преко Портала еУправа или другог веб портала у року од 18 месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "VI. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "54",
+      "title": "Члан 54. Рок за пренос регистара и налога електронске поште на сервере у Републици Србији",
+      "content": "Органи чији су регистри и налози електронске поште пре ступања на снагу овог закона смештени на серверима ван Републике Србије дужни су да те регистре и налоге у складу са чланом 10. овог закона сместе на сервере у Републици Србији, у року од 18 месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "VI. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "55",
+      "title": "Члан 55. Ступање на снагу",
+      "content": "Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”."
     }
   ],
-  "definitions": [
-    {
-      "term": "electronic public service",
-      "definition": "Any service provided by a public administration body to citizens, businesses, or other public bodies through electronic means.",
-      "source_provision": "art2"
-    },
-    {
-      "term": "once-only principle",
-      "definition": "The principle that citizens and businesses are required to submit data to public authorities only once, with public authorities exchanging data between themselves as necessary.",
-      "source_provision": "art2"
-    },
-    {
-      "term": "eUprava portal",
-      "definition": "The central government portal at eUprava.gov.rs through which citizens and businesses access electronic public services in Serbia.",
-      "source_provision": "art5"
-    }
-  ]
+  "definitions": []
 }

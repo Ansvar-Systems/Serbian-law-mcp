@@ -23,7 +23,7 @@ npx @ansvar/serbian-law-mcp
 
 ## Data Sources
 
-AI-generated seed data covering 10 key cybersecurity and data protection laws. Full official ingestion pending.
+Official legislation from the Republic of Serbia legal portal (Pravno-informacioni sistem), ingested from machine-readable act text.
 
 ## License
 

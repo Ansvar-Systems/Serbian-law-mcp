@@ -1,127 +1,440 @@
 {
   "id": "rs-freedom-of-information",
   "type": "statute",
-  "title": "Zakon o slobodnom pristupu informacijama od javnog značaja",
-  "title_en": "Law on Free Access to Information of Public Importance",
-  "short_name": "ZSPI",
-  "status": "amended",
-  "issued_date": "2004-10-08",
-  "in_force_date": "2004-11-13",
-  "url": "https://www.paragraf.rs/propisi/zakon-o-slobodnom-pristupu-informacijama-od-javnog-znacaja.html",
-  "description": "Zakon o slobodnom pristupu informacijama od javnog značaja (ZSPI) uspostavlja pravo javnog pristupa informacijama u posjedu javnih organa u Republici Srbiji. Zakon imenuje Poverenika za informacije od javnog značaja i zaštitu podataka o ličnosti kao nadzorni organ i uspostavlja postupak podnošenja i odgovaranja na zahtjeve za pristup, kao i mehanizme za prigovor i žalbu. Zakon je usklađen sa principima prava EU u pogledu transparentnosti i pristupa informacijama i služi kao instrument za demokratsku odgovornost i borbu protiv korupcije.",
+  "title": "Закон о слободном приступу информацијама од јавног значаја",
+  "title_en": "LAW ON FREE ACCESS TO INFORMATION OF PUBLIC IMPORTANCE",
+  "short_name": "ZSPIJZ",
+  "status": "in_force",
+  "url": "https://www.pravno-informacioni-sistem.rs/viewAct/0b7f7931-f230-45cf-b550-a1495539249d",
+  "description": "РЕПУБЛИЧКИ ПРОПИСИ ЈАВНЕ УСТАНОВЕ, НАУКА, ПРОСВЕТА, КУЛТУРА, ИНФОРМИСАЊЕ И СПОРТ Информисање и оглашавање Закон о слободном приступу информацијама од јавног значаја: 120/2004-5, 54/2007-3, 104/2009-25, 36/201. Пречишћени текст је преузет са званичног портала Правно-информационог система Републике Србије.",
   "provisions": [
     {
       "provision_ref": "art1",
+      "chapter": "I ОСНОВНЕ ОДРЕДБЕ",
       "section": "1",
-      "title": "Član 1. Pravo na pristup informacijama",
-      "content": "This Law guarantees the right of every person to have access to information held by public authorities in the Republic of Serbia, in accordance with the principles of openness, transparency, and accountability of public administration. The right of access to information of public importance is a fundamental right of citizens that enables democratic participation, the exercise of other rights, and the oversight of the exercise of public power. The right of access applies to all information recorded in any form in the possession of public authorities and shall be exercised in accordance with the provisions of this Law, subject only to the limitations necessary to protect other legitimate interests as specified herein."
+      "title": "Члан 1. Предмет закона",
+      "content": "Овим законом уређују се права на\nприступ информацијама од јавног значаја којима располажу органи јавне власти,\nради остварења и заштите интереса јавности да зна и остварења слободног\nдемократског поретка и отвореног друштва.\n\nРади остваривања права на приступ\nинформацијама од јавног значаја којима располажу органи јавне власти, овим\nзаконом установљава се Повереник за информације од јавног значаја (у даљем\nтексту: Повереник), као самосталан државни орган, независан у вршењу своје\nнадлежности.\n\nУ сврху омогућавања остварења интереса јавности да\nзна, сви органи јавне власти треба да јавно објављују и тиме јавности учине\nдоступним све информације о свом раду које се, у складу са одредбама овог\nзакона, сматрају информацијама од јавног значаја.\n\nСви појмови који су у овом закону употребљени у\nграматичком мушком роду подразумевају природни мушки и женски род лица на која\nсе односе.\n\n*Службени гласник РС, број 105/2021"
     },
     {
       "provision_ref": "art2",
+      "chapter": "I ОСНОВНЕ ОДРЕДБЕ",
       "section": "2",
-      "title": "Član 2. Informacije od javnog značaja (Information of Public Importance)",
-      "content": "For the purposes of this Law, information of public importance means information in the possession of a public authority, created in the performance of public duties, that contains anything the public has a justified interest in knowing, regardless of the form of the information, the nature of the medium on which it is stored, or when it was created. Information of public importance includes information about the organisation and operations of public authorities, their decisions and measures, budget and public expenditure, contracts and procurement, and any other information related to the exercise of public authority. The concept of public importance shall be interpreted broadly, with the presumption in favour of disclosure."
+      "title": "Члан 2. Информација од јавног значаја",
+      "content": "Информација од јавног значаја, у смислу овог закона,\nјесте информација којом располаже орган јавне власти, настала у раду или у вези\nса радом органа јавне власти, садржана у одређеном документу, а односи се на све\nоно о чему јавност има оправдан интерес да зна.\n\nДа би се нека информација сматрала информацијом од\nјавног значаја није битно да ли је извор информације орган јавне власти или које\nдруго, лице, није битан носач информација (папир, трака, филм, електронски\nмедији и сл.) на коме се налази документ који садржи информацију, датум настанка\nинформације, начин сазнавања информације, нити су битна друга слична својства\nинформације."
     },
     {
       "provision_ref": "art3",
+      "chapter": "I ОСНОВНЕ ОДРЕДБЕ",
       "section": "3",
-      "title": "Član 3. Poverenik (The Commissioner)",
-      "content": "The Commissioner for Information of Public Importance and Personal Data Protection (Poverenik za informacije od javnog značaja i zaštitu podataka o ličnosti) is designated as the independent supervisory authority responsible for implementing and enforcing this Law. The Commissioner is elected by the National Assembly and shall exercise their functions independently, without seeking or accepting instructions from the Government or any other body. The Commissioner shall receive and investigate complaints from persons who have been denied access to information, review decisions of public authorities on access requests, and promote the right of access to information through training, guidelines, and public awareness activities."
+      "title": "Члан 3. Орган јавне власти",
+      "content": "Орган јавне власти (у даљем тексту: орган власти) у\nсмислу овог закона јесте:\n\n1) орган Републике Србије;\n\n2) орган aутономне покрајине;\n\n3) орган општине, града, градске општине и града\nБеограда;\n\n4) јавно предузеће, установа, организација и друго\nправно лице, које је основано прописом или одлуком органа из тач. 1) до 3) овог\nстава;\n\n5) привредно друштво чији је оснивач или члан\nРепублика Србија, аутономна покрајина, јединица локалне самоуправе, односно\nједан или више органа власти из тач. 1) до 4) овог става са 50% или више акција\nили удела у збиру односно са више од половине чланова органа управљања;\n\n6) привредно друштво чији је оснивач или члан један\nили више органа власти из тач. 1) до 5) овог става са 50% или више акција или\nудела у збиру;\n\n7) правно лице чији је оснивач привредно друштво из\nтач. 5) или 6) овог става;\n\n8) правно лице или предузетник који обавља делатности\nод општег интереса, у смислу закона којим се уређује положај јавних предузећа, у\nодносу нa информације кoje су у вези са обављањем тих делатности;\n\n9) правно или физичко лице кoje има јавна овлашћења, у\nодносу нa информације кoje су у вези са вршењем тих овлашћења;\n\n10) правно лице кoje je у години на коју се односе\nтражене информације остварило више од 50% прихода од једног или више органа\nвласти из тач. 1) до 7) oвoг става, у односу нa информације кoje су у вези са\nактивношћу кoja се финансира тим приходима, изузев цркве и верске заједнице.\n\n*Службени гласник РС, број 105/2021"
     },
     {
       "provision_ref": "art4",
+      "chapter": "I ОСНОВНЕ ОДРЕДБЕ",
       "section": "4",
-      "title": "Član 4. Organi javne vlasti (Public Authorities)",
-      "content": "For the purposes of this Law, public authorities include: state bodies, including the Government, ministries, and other executive bodies; the National Assembly and other legislative bodies; courts, public prosecutors' offices, and other judicial bodies; local self-government bodies, including municipalities and cities; public enterprises and institutions established by the state or local governments; legal persons performing public duties under applicable law; and other persons exercising public authority. The scope of public authorities covered by this Law shall be interpreted broadly to encompass all entities exercising public functions, regardless of their legal form."
+      "title": "Члан 4. Законске претпоставке о оправданом интересу",
+      "content": "Сматра се да оправдани интерес јавности да зна, из\nчлана 2. овог закона, постоји увек када се ради о информацијама којима располаже\nорган власти које се односе на угрожавање, односно заштиту здравља становништва\nи животне средине, а ако се ради о другим информацијама којима располаже орган\nвласти, сматра се да оправдани интерес јавности да зна, из члана 2. овог закона\nпостоји, осим ако орган власти докаже супротно."
     },
     {
       "provision_ref": "art5",
+      "chapter": "I ОСНОВНЕ ОДРЕДБЕ",
       "section": "5",
-      "title": "Član 5. Podnošenje zahteva (Submitting a Request)",
-      "content": "Any person may submit a request to a public authority for access to information of public importance, without being required to state reasons for the request and without being required to identify themselves. Requests shall be made in writing or orally and shall identify the information sought with sufficient specificity to enable the public authority to identify and locate the relevant information. Public authorities shall assist requestors who have difficulty formulating a request or identifying the relevant information. Requests may be submitted in person, by mail, or through electronic means, and the public authority shall acknowledge receipt of requests submitted in writing."
+      "title": "Члан 5. Садржина права на приступ информацијама од јавног\nзначаја",
+      "content": "Свако има право да му буде саопштено да ли орган\nвласти поседује одређену информацију од јавног значаја, односно да ли му је она\nиначе доступна.\n\nСвако има право да му се информација од јавног\nзначаја учини доступном тако што ће му се омогућити увид у документ који садржи\nинформацију од јавног значаја, право на копију тог документа, као и право да му\nсе, на захтев, копија документа упути поштом, факсом, електронском поштом или на\nдруги начин."
     },
     {
       "provision_ref": "art6",
+      "chapter": "I ОСНОВНЕ ОДРЕДБЕ",
       "section": "6",
-      "title": "Član 6. Postupanje po zahtevu (Responding to Requests)",
-      "content": "Public authorities shall respond to requests for access to information within fifteen days of receipt, or within forty days where the request relates to a large volume of information. The response shall either provide access to the requested information in the form requested, refer the requestor to another authority in possession of the information, or explain the reasons for a refusal to provide access. Where access is refused, the response shall inform the requestor of the grounds for refusal and of the right to complain to the Commissioner. Public authorities shall apply a presumption in favour of disclosure and shall provide partial access where a document contains both disclosable and non-disclosable information."
+      "title": "Члан 6. Начело једнакости",
+      "content": "Права из овог закона припадају свима под једнаким\nусловима, без обзира на држављанство, пребивалиште, боравиште, односно седиште,\nили лично својство као што је раса, вероисповест, национална и етничка\nприпадност, пол и слично."
     },
     {
       "provision_ref": "art7",
+      "chapter": "I ОСНОВНЕ ОДРЕДБЕ",
       "section": "7",
-      "title": "Član 7. Ograničenja prava pristupa (Limitations on Access)",
-      "content": "Access to information may be refused where the disclosure of the information would endanger or could endanger: the life, health, safety, or other vital interest of a person; official confidentiality, state secrecy, or sensitive information classified under applicable law; the conduct of a criminal investigation or prosecution; the defence of the country and national security; the proper functioning of the judiciary; the privacy, reputation, or dignity of a person; the intellectual property rights or economic interests of a party; and any other public or private interest protected by applicable law. Restrictions shall be applied only where the harm to the protected interest clearly outweighs the public interest in access."
+      "title": "Члан 7. Забрана дискриминације новинара и јавних гласила",
+      "content": "Орган власти не сме стављати у бољи положај ниједног\nновинара или јавно гласило, када је више њих упутило захтев, тако што ће само\nњему или њему пре него другим новинарима или јавним гласилима омогућити\nостваривање права на приступ информацијама од јавног значаја."
     },
     {
       "provision_ref": "art8",
+      "chapter": "I ОСНОВНЕ ОДРЕДБЕ",
       "section": "8",
-      "title": "Član 8. Prigovor i žalba (Complaint and Appeal)",
-      "content": "A person who is not satisfied with the response to their request, or who has not received a response within the applicable timeframe, may lodge a complaint with the Commissioner within fifteen days. The Commissioner shall review the complaint and shall issue a decision within thirty days, ordering the public authority to grant access to the information, upholding the refusal, or establishing another outcome as appropriate. Decisions of the Commissioner are binding on the public authority and may be enforced. Decisions of the Commissioner may be challenged before the Administrative Court within thirty days of the decision."
+      "title": "Члан 8. Ограничења права",
+      "content": "Права из овог закона могу се изузетно подврћи\nограничењима прописаним овим законом ако је то неопходно у демократском друштву\nради заштите од озбиљне повреде претежнијег интереса заснованог на уставу или\nзакону.\n\nНиједна одредба овог закона не сме се тумачити на\nначин који би довео до укидања неког права које овај закон признаје или до\nњеговог ограничења у већој мери од оне која је прописана у ставу 1. овог члана."
     },
     {
       "provision_ref": "art9",
+      "chapter": "II ИСКЉУЧЕЊЕ И ОГРАНИЧЕЊЕ СЛОБОДНОГ ПРИСТУПА\nИНФОРМАЦИЈАМА ОД ЈАВНОГ ЗНАЧАЈА",
       "section": "9",
-      "title": "Član 9. Proaktivno objavljivanje (Proactive Disclosure)",
-      "content": "Public authorities shall proactively publish and make available to the public, without requiring a formal request, categories of information of general public interest, including information on their structure, functions, and competences; key decisions and measures and the basis for their adoption; budget and expenditure; public procurement and contracts above specified thresholds; and any other information the Commissioner determines should be proactively published. Proactive disclosure shall be made through the public authority's website and, where applicable, through the Government's transparency portal. Proactively disclosed information shall be updated regularly and shall be presented in a clear and accessible format."
+      "title": "Члан 9. Живот, здравље, лична безбедност, правосуђе, одбрана земље,\nнационална и јавна безбедност, економска добробит земље, тајна, интелектуална и\nиндустријска својина, уметничка, културна и природна добра и животна средина",
+      "content": "Орган власти може тражиоцу ускратити приступ\nинформацијама од јавног значаја, ако би тиме:\n\n1) угрозио живот, здравље, безбедност или које друго\nважно добро неког лица;\n\n2) угрозио, омео или отежао спречавање или откривање\nкривичног дела, оптужење за кривично дело, вођење предистражног поступка, вођење\nсудског поступка, извршење пресуде или спровођење казне, вођење поступака у\nсмислу закона којим је уређена заштита конкуренције, или који други правно\nуређени поступак, или фер поступање и правично суђење, до окончања поступка;\n\n3) озбиљно угрозио одбрану земље, националну или јавну\nбезбедност, међународне односе или прекршио правила међународног арбитражног\nправа;\n\n4) битно умањио способност државе да управља\nекономским процесима у земљи, или битно отежао остварење оправданих економских\nинтереса Републике Србије или угрoзиo или би мoгao угрoзити спрoвoђeњe\nмoнeтaрнe, девизне или фискалне пoлитикe, финaнсиjску стaбилнoст, упрaвљaњe\nдeвизним рeзeрвaмa, нaдзoр нaд финaнсиjским институциjaмa или издaвaњe нoвчaницa\nи кoвaнoг нoвaцa;\n\n5) учинио доступним информацију или документ за који\nје прописима или службеним актом заснованим на закону одређено да се чува као\nтајни податак или представља пословну или професионалну тајну, или податак\nдобијен у поступку заступања за чије објављивање заступани није дао одобрење, у\nскладу са законом којим се уређује рад правобранилаштва, а због чијег би одавања\nмогле наступити тешке правне или друге последице по интересе заштићене законом\nкоји претежу над правом јавности да зна;\n\n6) повредио право интелектуалне или индустријске\nсвојине, угрозио заштиту уметничких, културних и природних добара;\n\n7) угрозио животну средину или ретке биљне и\nживотињске врсте.\n\n*Службени гласник РС, број 105/2021"
     },
     {
       "provision_ref": "art10",
+      "chapter": "II ИСКЉУЧЕЊЕ И ОГРАНИЧЕЊЕ СЛОБОДНОГ ПРИСТУПА\nИНФОРМАЦИЈАМА ОД ЈАВНОГ ЗНАЧАЈА",
       "section": "10",
-      "title": "Član 10. Takse i naknade (Fees and Charges)",
-      "content": "No fee shall be charged for submitting a request for access to information or for access to information provided in electronic format. Fees may be charged for access to information provided in physical form, such as printed copies, provided that fees do not exceed the cost of reproduction and are published in advance. Fees shall not be charged for appeals to the Commissioner. The Commissioner may, by decision, exempt specified categories of requestors from the obligation to pay fees, in particular where the requestor demonstrates limited financial means or where the public interest in the request is significant."
+      "title": "Члан 10. Информација од јавног значаја у поседу органа власти\nкоја је већ доступна јавности",
+      "content": "Орган власти не мора тражиоцу омогућити остваривање\nправа на приступ информацијама од јавног значаја, ако се ради о информацији која\nје већ објављена и јавно доступна .\n\nУ случају из става 1. овог члана, орган власти ће у\nодговору на захтев означити носач информације (број службеног гласила, назив\nпубликације и сл.), где је и када тражена информација објављена, осим ако је то\nопштепознато.\n\n*Службени гласник РС, број 105/2021"
     },
     {
       "provision_ref": "art11",
+      "chapter": "II ИСКЉУЧЕЊЕ И ОГРАНИЧЕЊЕ СЛОБОДНОГ ПРИСТУПА\nИНФОРМАЦИЈАМА ОД ЈАВНОГ ЗНАЧАЈА",
       "section": "11",
-      "title": "Član 11. Zaštita privatnosti i ličnih podataka",
-      "content": "The right of access to information of public importance shall be exercised in a manner that respects the right to privacy and the protection of personal data of third parties whose information may be contained in the requested documents. Where access is requested to information containing personal data of a third party, the public authority shall apply applicable data protection principles in assessing whether disclosure is appropriate, including the principle that personal data shall not be disclosed where disclosure is not compatible with the purpose for which it was collected and where the interests of the data subject override the public interest in disclosure."
+      "title": "Члан 11. Оспоравање објављене информације од стране органа\nвласти",
+      "content": "Ако орган власти оспори истинитост или потпуност\nинформације од јавног значаја која је објављена, саопштиће истиниту и потпуну\nинформацију, односно омогућиће увид у документ који садржи истиниту и потпуну\nинформацију, осим у случајевима из чл. 9. и 14. овог закона."
     },
     {
       "provision_ref": "art12",
+      "chapter": "II ИСКЉУЧЕЊЕ И ОГРАНИЧЕЊЕ СЛОБОДНОГ ПРИСТУПА\nИНФОРМАЦИЈАМА ОД ЈАВНОГ ЗНАЧАЈА",
       "section": "12",
-      "title": "Član 12. Izveštaj Poverenika (Commissioner's Report)",
-      "content": "The Commissioner shall submit an annual report to the National Assembly on the exercise of the right of access to information, covering the number of requests received, the number granted in full and in part and refused, the grounds for refusals, the number of complaints received and decided, the outcomes of complaints, and any systemic issues identified in the implementation of the Law. The annual report shall be published on the Commissioner's website and shall include recommendations for improving the implementation of the right of access to information by public authorities. The Commissioner may also publish special reports on specific issues relevant to freedom of information."
+      "title": "Члан 12. Раздвајање информација",
+      "content": "Ако тражена информација од јавног значаја може да се\nиздвоји од осталих информација у документу којима орган власти није дужан\nтражиоцу да омогући приступ, орган власти ће тражиоцу омогућити приступ делу\nдокумента који садржи само издвојену информацију, и обавестиће га да остала\nсадржина документа није доступна, у складу са законом.\n\n*Службени гласник РС, број 105/2021\n\nБрисан је назив изнад члана\n13. (види члан 6. Закона - 105/2021-8)"
     },
     {
       "provision_ref": "art13",
+      "chapter": "II ИСКЉУЧЕЊЕ И ОГРАНИЧЕЊЕ СЛОБОДНОГ ПРИСТУПА\nИНФОРМАЦИЈАМА ОД ЈАВНОГ ЗНАЧАЈА",
       "section": "13",
-      "title": "Član 13. Obuka i podizanje svesti (Training and Awareness)",
-      "content": "The Commissioner shall promote awareness of the right of access to information among citizens, businesses, and civil society organisations and shall conduct training programmes for public authority officials responsible for implementing this Law. Training shall address the interpretation of the right of access, the processing of requests, the application of limitations, the conduct of internal reviews, and proactive disclosure practices. The Commissioner shall develop and publish guidance documents, model procedures, and other resources to assist public authorities in implementing this Law effectively and consistently. Citizens and civil society shall be encouraged to monitor and report on the implementation of the Law."
+      "title": "Члан 13.",
+      "content": "Брисан је (види члан 6. Закона - 105/2021-8)"
     },
     {
       "provision_ref": "art14",
+      "chapter": "II ИСКЉУЧЕЊЕ И ОГРАНИЧЕЊЕ СЛОБОДНОГ ПРИСТУПА\nИНФОРМАЦИЈАМА ОД ЈАВНОГ ЗНАЧАЈА",
       "section": "14",
-      "title": "Član 14. Registar pečata i poverljivih informacija",
-      "content": "The Government shall establish and maintain a registry of documents and categories of information classified as confidential under applicable law, including state secrets, official secrets, and other restricted information. The registry shall be updated regularly and shall be publicly available to the extent possible without disclosing the classified information itself. Public authorities shall apply classifications in accordance with applicable criteria and shall not classify information for the purpose of preventing access to information of public importance that would otherwise be accessible under this Law. The Commissioner may challenge classifications that appear to exceed applicable legal authority."
+      "title": "Члан 14. Приватност и друга права личности",
+      "content": "Орган власти може тражиоцу ограничити остваривање\nправа на приступ информацијама од јавног значаја ако би тиме повредио право на\nприватност, право на заштиту података о личности, право на углед или које друго\nправо лица на које се тражена информација лично односи, осим:\n\n1) ако је лице на то пристало;\n\n2) ако се ради о личности, појави или догађају од\nинтереса за јавност, а нарочито ако се ради о јавном функционеру у смислу закона\nкојим се уређује спречавање сукоба интереса при обављању јавних функција и ако\nје информација везана за вршење његове јавне функције;\n\n3) ако се ради о лицу које је својим понашањем дало\nповода за тражење информације.\n\nИнформације од јавног значаја из документа који садржи\nподатке о личности могу бити учињене доступним тражиоцу на начин којим се\nобезбеђује да се право јавности да зна и право на заштиту података о личности\nмогу остварити заједно, у мери прописаној законом којим се уређује заштита\nподатака о личности и овим законом.\n\n*Службени гласник РС, број 105/2021"
     },
     {
       "provision_ref": "art15",
+      "chapter": "III ПОСТУПАК ПРЕД ОРГАНОМ ВЛАСТИ",
       "section": "15",
-      "title": "Član 15. Međunarodni standardi",
-      "content": "This Law shall be interpreted in a manner consistent with applicable international human rights standards on the right of access to information, including Article 19 of the International Covenant on Civil and Political Rights, the Council of Europe Convention on Access to Official Documents, and applicable case law of the European Court of Human Rights. The Commissioner shall cooperate with international bodies and organisations working on freedom of information, including the Council of Europe, the Office of the UN High Commissioner for Human Rights, and the Open Government Partnership. Serbia shall participate in relevant international transparency and accountability initiatives and shall report on the implementation of international standards."
+      "title": "Члан 15. Захтев за обавештење, увид, издавање копије и\nупућивање",
+      "content": "Тражилац подноси писмени захтев органу власти за\nостваривање права на приступ информацијама од јавног значаја (у даљем тексту:\nзахтев).\n\nЗахтев мора садржати назив органа власти, име,\nпрезиме, односно назив и адресу тражиоца, као и што прецизнији опис информације која се тражи.\n\nЗахтев може садржати и друге податке који олакшавају\nпроналажење тражене информације.\n\nТражилац не мора навести разлоге за захтев.\n\nАко захтев не садржи податке из става 2. овог члана,\nодносно ако захтев није уредан, овлашћено лице органа власти дужно је да,\nнајкасније у року од осам дана од дана пријема\nзахтева,без\nнадокнаде, поучи тражиоца како да те недостатке отклони, односно да достави\nтражиоцу упутство о допуни.\n\nАко тражилац не отклони недостатке у року\nкоји му одреди орган власти, а који не може бити краћи од осам ни дужи од 15\nдана од дана пријема упутства о допуни, а недостаци су такви да се по\nзахтеву не може поступати, орган власти донеће\nрешење о\nодбацивању захтева као неуредног.\n\nПриступ информацијама орган власти дужан је да\nомогући и на основу усменог захтева тражиоца који се саопштава у записник, при\nчему се такав захтев уноси у посебну евиденцију и примењују се рокови као да је\nзахтев поднет писмено.\n\nОрган власти може прописати образац за подношење\nзахтева, али мора размотрити и захтев који није сачињен на том обрасцу.\n\n*Службени гласник РС, број 105/2021\n\n*Службени гласник РС, број 104/2009"
     },
     {
       "provision_ref": "art16",
+      "chapter": "III ПОСТУПАК ПРЕД ОРГАНОМ ВЛАСТИ",
       "section": "16",
-      "title": "Član 16. Borba protiv korupcije",
-      "content": "The right of access to information of public importance established by this Law serves as an important instrument for preventing and combating corruption in public administration and in entities exercising public authority. Public authorities shall implement the right of access in a manner that contributes to the transparency and accountability of public institutions and facilitates the oversight role of citizens, civil society organisations, and the media. The Commissioner shall cooperate with the Anti-Corruption Agency and other bodies responsible for anti-corruption activities in identifying systemic transparency deficiencies and in promoting improvements to public authority practices. Proactive disclosure of information on public contracts, procurement, and budget execution is a key anti-corruption measure under this Law."
+      "title": "Члан 16. Поступање по захтеву",
+      "content": "Орган власти је дужан да без одлагања, а најкасније у\nроку од 15 дана од дана пријема захтева, односно уређеног захтева, тражиоца\nобавести о поседовању информације, стави му на увид документ који садржи потпуну\nи тачну тражену информацију, односно изда му или упути копију тог документа.\nКопија документа је упућена тражиоцу даном напуштања писарнице органа власти од\nкога је информација тражена односно даном упућивања електронске поште.\n\nАко се захтев односи на информацију за коју се, на\nоснову података који су наведени у захтеву, може претпоставити да је од значаја\nза заштиту живота или слободе неког лица, односно за угрожавање или заштиту\nздравља становништва или животне средине, орган власти мора да обавести тражиоца\nо поседовању те информације, да му стави на увид документ који садржи потпуну и\nтачну тражену информацију, односно да му изда копију тог документа најкасније у\nроку од 48 сати од пријема захтева.\n\nАко орган власти утврди да се захтев односи на\nинформације које су садржане у великом броју докумената, услед чега би поступање\nоргана у року из става 1. овог члана било отежано, може, у року од седам дана од\nдана пријема уредног захтева, обавестити тражиоца о томе и понудити му да захтев\nпрецизира или да оствари увид у документе пре него што одреди које су му копије\nдокумената потребне.\n\nАко орган власти није у могућности, из оправданих\nразлога, да у року из става 1. овог члана обавести тражиоца о поседовању\nинформације, да му стави на увид документ који садржи тражену информацију, да му\nизда, односно упути копију тог документа, дужан је да, најкасније у року од\nседам дана од дана пријема уредног захтева, тражиоцу достави обавештење о\nразлозима због којих није у могућности да по захтеву поступи у року из става 1.\nовог члана и одреди накнадни рок, који не може бити дужи од 40 дана од дана\nпријема уредног захтева, у којем ће поступити по захтеву.\n\nАко се захтев односи на увид, односно добијање копије\nдокумента који садржи информацију која представља тајни податак одређен од\nстране другог органа власти, орган власти ће у року од осам дана од дана\nпријема, захтев доставити органу власти који је одредио тајност податка на\nпоступање по захтеву и о томе обавестити подносиоца захтева. Рок из овог члана\nза поступање по захтеву од стране органа власти који је одредио тајност податка\nпочиње да тече од дана достављања.\n\nАко се захтев односи на информацију која представља\nтајни податак чију тајност је одредио орган власти који одлучује о захтеву и ако\nорган власти утврди да су престали разлози због којих је податак одређен као\nтајни, донеће одлуку о престанку тајности податка, у складу са законом којим је\nуређено одређивање и заштита тајних података, и подносиоцу захтева омогућити\nприступ траженој информацији.\n\nОрган власти ће заједно са обавештењем о томе да ће\nтражиоцу ставити на увид документ који садржи тражену информацију, односно\nиздати му копију тог документа, саопштити тражиоцу време, место и начин на који\nће му информација бити стављена на увид, износ нужних трошкова израде копије\nдокумента, а у случају да не располаже техничким средствима за израду копије,\nупознаће тражиоца са могућношћу да употребом своје опреме изради копију.\n\nУвид у документ који садржи тражену информацију врши\nсе у службеним просторијама органа власти.\n\nТражилац може из оправданих разлога тражити да увид у\nдокумент који садржи тражену информацију изврши у друго време од времена које му\nје одредио орган од кога је информација тражена.\n\nЛицу које није у стању да без пратиоца изврши увид у\nдокумент који садржи тражену информацију, омогућиће се да то учини уз помоћ\nпратиоца.\n\nАко удовољи захтеву, орган власти неће издати посебно\nрешење, него ће о томе сачинити службену белешку.\n\nАко орган власти одбије да у целини или делимично\nобавести тражиоца о поседовању информације, да му стави на увид документ који\nсадржи тражену информацију, да му изда, односно упути копију тог документа,\nдужан је да без одлагања, а најкасније у року од 15 дана од пријема захтева,\nдонесе решење о одбијању захтева и да то решење писмено образложи, као и да у\nрешењу упути тражиоца на правна средства која може изјавити против таквог\nрешења.\n\nАко се захтев односи на информацију која представља\nтајни податак чију тајност је одредио орган власти који одлучује о захтеву, или\nинформација представља пословну или професионалну тајну, у образложењу решења из\nстава 12. oвoг члана наводе ce и разлози за одређивање тајности и разлози због\nкојих податак и даље треба да се чува као тајни, односно разлози због којих је\nподатак одређен као пословна или професионална тajнa.\n\nОд обавеза поступања у складу са одредбама овог члана\nослобођено је правно лице из члана 3. тачка 10) овог закона које је све\nинформације које се односе на активности финансиране средствима органа власти из\nчлана 3. тач. 1) до 7) овог закона доставило органу који је финансирао те\nактивности или органу власти надлежном за контролу тог финансирања.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "III ПОСТУПАК ПРЕД ОРГАНОМ ВЛАСТИ",
+      "section": "17",
+      "title": "Члан 17. Накнада",
+      "content": "Увид у документ који садржи тражену информацију је\nбесплатан.\n\nКопија документа који садржи тражену информацију\nиздаје се уз обавезу тражиоца да плати накнаду нужних трошкова израде те копије,\nа у случају упућивања и трошкове упућивања.\n\nВлада прописује трошковник на основу кога орган\nобрачунава трошкове из претходног става.\n\nОд обавезе плаћања накнаде из става 2. овог члана\nослобођени су новинари, када копију документа захтевају ради обављања свог\nпозива, удружења за заштиту људских права, када копију документа захтевају ради\nостваривања циљева удружења и сва лица када се тражена информација односи на\nугрожавање, односно заштиту здравља становништва и животне средине, осим у\nслучајевима из члана 10. став 1. овог закона.\n\nПовереник прати праксу наплаћивања накнаде и\nослобађања од накнаде и упућује препоруке органима власти ради уједначавања те\nпраксе."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "III ПОСТУПАК ПРЕД ОРГАНОМ ВЛАСТИ",
+      "section": "18",
+      "title": "Члан 18. Стављање на увид и израда копије",
+      "content": "Увид у документ који садржи тражену информацију врши\nсе употребом опреме којом располаже орган власти, осим када тражилац захтева да\nувид изврши употребом сопствене опреме.\n\nОрган власти издаје копију документа (фотокопију, аудио копију, видео\nкопију, дигиталну копију и сл.) који садржи тражену информацију у облику у којем\nсе информација налази, а када је то могуће, у\nоблику у коме је тражена.\n\nАко орган власти не располаже техничким могућностима\nза израду копије документа у смислу става 2. овог члана, израдиће копију\nдокумента у другом облику.\n\nАко орган власти располаже документом који садржи\nтражену информацију на језику на којем је поднет захтев, дужан је да тражиоцу\nстави на увид документ и изради копију на језику на којем је поднет захтев.\n\n*Службени гласник РС, број 104/2009"
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "III ПОСТУПАК ПРЕД ОРГАНОМ ВЛАСТИ",
+      "section": "19",
+      "title": "Члан 19. Прослеђивање захтева Поверенику",
+      "content": "Када орган власти не поседује документ који садржи\nтражену информацију, проследиће захтев Поверенику и обавестиће Повереника и\nтражиоца о томе у чијем се поседу, по његовом знању, документ налази."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "III ПОСТУПАК ПРЕД ОРГАНОМ ВЛАСТИ",
+      "section": "20",
+      "title": "Члан 20. Поступање Повереника по прослеђеном захтеву",
+      "content": "По пријему захтева Повереник проверава да ли се\nдокумент који садржи тражену информацију на коју се захтев односи налази у\nпоседу органа власти који му је проследио захтев.\n\nАко утврди да се документ из става 1. овог члана не\nналази у поседу органа власти који му је проследио захтев тражиоца, Повереник ће\nдоставити захтев органу власти који тај документ поседује, осим ако је тражилац\nодредио другачије, и о томе ће обавестити тражиоца или ће тражиоца упутити на\nорган власти у чијем поседу се налази тражена информација.\n\nНачин поступања из става 2. овог члана, одредиће\nПовереник у зависности од тога на који ће се начин ефикасније остварити права на\nприступ информацијама од јавног значаја.\n\nАко Повереник достави захтев органу власти из става\n2. овог члана, рок предвиђен чланом 16. овог закона почиње да тече од дана\nдостављања."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "III ПОСТУПАК ПРЕД ОРГАНОМ ВЛАСТИ",
+      "section": "21",
+      "title": "Члан 21. Остале одредбе поступка",
+      "content": "На поступак пред органом власти примењују се одредбе\nзакона којим се уређује општи управни поступак, а које се односе на решавање\nпрвостепеног органа, осим ако је овим законом другачије одређено."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "22",
+      "title": "Члан 22. Право на жалбу",
+      "content": "Тражилац може изјавити жалбу Поверенику\n, ако:\n\n1) орган власти одбаци или одбије захтев тражиоца, у\nроку од 15 дана од дана када му је достављено решење или други акт;\n\n2) орган власти, супротно члану 16. ст. 1.\nдо 3. овог\nзакона, не одговори у прописаном року на захтев тражиоца;\n\n3) орган власти, супротно члану 17. став 2. овог\nзакона, услови издавање копије документа који садржи тражену информацију уплатом\nнакнаде која превазилази износ нужних трошкова израде те копије;\n\n4) орган власти не стави на увид документ који\nсадржи тражену информацију на начин предвиђен чланом 18. став 1. овог закона;\n\n5) орган власти не стави на увид документ који садржи тражену информацију,\nодносно не изда копију тог документа на начин предвиђен чланом 18. став 4. овог\nзакона или\n\n6) орган власти на други начин отежава или\nонемогућава тражиоцу остваривање права на слободан приступ информацијама од\nјавног значаја, супротно одредбама овог закона.\n\nПротив решења Повереника којим се одлучује о захтеву\nкоји је поднет Поверенику као органу власти, не може се изјавити жалба.\n\nПротив решења Народне скупштине, председника\nРепублике, Владе Републике Србије, Врховног\nкасационог суда, Уставног суда, Народне\nбанке Србије и\nРепубличког јавног тужиоца не може се изјавити жалба.\n\nПротив решења из ст. 2. и 3. овог члана може се\nпокренути управни спор, у складу са законом\n.\n\nО покретању управног спора против решења из става 3.\nовог члана суд по службеној дужности обавештава Повереника.\n\n*Службени гласник РС, број 104/2009\n\n**Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "23",
+      "title": "Члан 23. Решавање Повереника по жалби",
+      "content": "На поступак пред Повереником примењују се одредбе\nзакона којим се уређује општи управни поступак, а које се односе на решавање\nдругостепеног органа по жалби, осим ако је овим законом другачије одређено."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "24",
+      "title": "Члан 24.",
+      "content": "Повереник доноси решење без одлагања, а најкасније у\nроку од 60 дана од дана пријема жалбе, пошто омогући органу власти да се писмено\nизјасни, а по потреби и тражиоцу.\n\nИзузетно од става 1. овог члана, по жалби због\nнепоступања органа власти у складу са чланом 16. став 2. овог закона, Повереник\nдоноси решење у року од 30 дана од дана пријема жалбе.\n\nПовереник одбацује жалбу која је недопуштена,\nнеблаговремена и изјављена од стране неовлашћеног лица.\n\nОрган власти доказује да је поступао у складу са\nсвојим обавезама предвиђеним овим законом.\n\nКада утврди да је жалба основана, Повереник ће решењем\nналожити органу власти да тражиоцу омогући слободан приступ информацијама од\nјавног значаја.\n\nКада поводом жалбе због непоступања по захтеву (ћутање\nуправе) утврди да је жалба основана, Повереник ће решењем наложити органу власти\nда у одређеном року поступи по захтеву.\n\nАко у поступку по жалби против решења о одбијању\nзахтева који се односи на тајни податак из члана 9. тачка 5. овог закона\nПовереник утврди да су престали разлози због којих је податак одређен као тајни,\nодносно да податак није одређен као тајни у складу са законом којим је уређено\nодређивање и заштита тајних података, донеће решење којим се жалба усваја, а\nоргану власти налаже да опозове тајност траженог податка и подносиоцу захтева\nомогући приступ том податку.\n\nУ поступку по жалби из става 7. овог члана, Повереник\nје дужан да изврши увид у списе предмета на који се жалба односи ради потпуног\nутврђивања чињеничног стања неопходног за решавање по жалби.\n\nАко орган власти, након изјављене жалбе због\nнепоступања по захтеву, а пре доношења одлуке по жалби, тражиоцу омогући приступ\nинформацијама или по захтеву на други начин поступи, Повереник ће донети решење\nи обуставити поступак по жалби. Поступак по жалби се обуставља и када тражилац\nодустане од жалбе.\n\nУ случају доношења решења из става 6. овог члана због\nнепоступања по захтеву, Повереник, у складу са законом који регулише прекршајни\nпоступак, издаје прекршајни налог због прекршаја из члана 47. овог закона.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "25",
+      "title": "Члан 25. Одлучивање Повереника у вези са мерама за унапређење\nјавности рада",
+      "content": "Повереник може по пријави или по службеној дужности\nда донесе решење којим утврђује да орган власти, осим органа из члана 22. став\n2. овог закона, није извршио своје обавезе предвиђене овим законом и да му\nналожи мере за њихово извршење, пошто претходно омогући органу власти да се\nписмено изјасни.\n\nПријава из става 1. овог члана не може се поднети у\nслучајевима када је овим законом предвиђено право на жалбу."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "26",
+      "title": "Члан 26. Утврђивање чињеничног стања од стране Повереника",
+      "content": "Органи власти су дужни да Поверенику, на његов захтев\nи у року који он одреди, а који не може бити дужи од 15 дана, доставе све\nподатке неопходне за утврђивање чињеничног стања од значаја за доношење решења\nиз чл. 24. и 25. овог закона, као и за одлучивање о подношењу захтева за\nпокретање прекршајних поступака који су у вези са тим решењима.\n\nПоверенику ће, ради утврђивања чињеничног стања из\nстава 1. овог члана, бити омогућен приступ сваком носачу информације на који се\nовај закон примењује.\n\nОрган надлежан за вођење евиденција о пребивалишту и\nборавишту грађана и јединственом матичном броју грађана дужан је да Поверенику,\nна његов захтев, достави податке из тих евиденција који су неопходни за изрицање\nпрекршајног налога и подношење захтева за покретање прекршајног поступка.\n\n*Службени гласник РС, број 105/2021\n\n*Службени гласник РС, број 105/20212"
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "27",
+      "title": "Члан 27. Правни лек против решења  Повереника",
+      "content": "Против решења  Повереника може се\nпокренути управни спор.\n\nУправни спор поводом остваривања права на слободан\nприступ информацијама од јавног значаја је хитан.\n\n*Службени гласник РС, број 104/2009\n\n**Службени гласник РС, број 105/2021\n\n*Службени гласник РС, број 104/2009"
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "28",
+      "title": "Члан 28. Обавезност и извршење решења Повереника",
+      "content": "Решења Повереника су обавезујућа, коначна и извршна.\n\nУправно\nизвршење решења Повереника спроводи\nПовереник принудом (принудном мером, односно новчаном казном), у складу са\nзаконом којим се уређује општи управни поступак,\nосим ако је овим законом другачије одређено.\n\nУ поступку\nуправног извршења решења\nПовереника не може се изјавити жалба која се односи на извршење.\n\nАко Повереник не може спровести своје решење на\nначин из става 2. овог члана, Влада му на његов захтев пружа помоћ у поступку\nуправног извршења тог решења – применом мера из своје надлежности,\nодносно обезбеђивањем извршења решења Повереника непосредном принудом.\n\n*Службени гласник РС, број 36/2010\n\n**Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art28a",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "28а",
+      "title": "Члан 28а.",
+      "content": "Повереник ће принудити извршеника – орган власти да\nиспуни обавезе из решења Повереника посредном принудом, изрицањем новчаних\nказни.\n\nНовчана казна се изриче решењем.\n\nНовчана казна се изриче у распону од 20.000 до 100.000\nдинара и може бити изречена више пута.\n\nИзречену новчану казну извршава суд у складу са\nзаконом којим се регулише извршење и обезбеђење.\n\nИзречене новчане казне представљају приход буџетa\nРепублике Србије.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art28b",
+      "chapter": "IV ПОСТУПАК ПРЕД ПОВЕРЕНИКОМ",
+      "section": "28б",
+      "title": "Члан 28б.",
+      "content": "Повереник је овлашћен да поднесе захтев за покретање\nпрекршајног поступка за прекршаје предвиђене овим законом, када у поступку по\nжалби оцени да постоји прекршај.\n\nТражилац информације не може да поднесе захтев за\nпокретање прекршајног поступка против органа власти пре окончања поступка по\nжалби пред Повереником, односно пре окончања управног спора ако жалба Поверенику\nније допуштена.\n\nУ случају из става 2. овог члана, тражилац информације\nје дужан да се претходно обрати Поверенику захтевом да Повереник поднесе захтев\nза покретање прекршајног поступка, односно управној инспекцији, ако је вођен\nуправни спор.\n\nАко Повереник, односно управна инспекција у року од\nосам дана не одговори тражиоцу информације на захтев из става 3. овог члана или\nму одговори да нема основа за подношење захтева за покретање прекршајног\nпоступка, тражилац информације је овлашћен да сам поднесе захтев за покретање\nпрекршајног поступка.\n\nАко Повереник, односно управна инспекција поднесе\nзахтев за покретање прекршајног поступка, на захтев тражиоца информације или на\nсопствену иницијативу, дужан је да о евентуалном одустајању од тог захтева\nобавести тражиоца информације, у року од осам дана од дана одустајања од\nзахтева, да би тражилац информације могао да настави поступак.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "V ИЗБОР, ПОЛОЖАЈ И НАДЛЕЖНОСТ ПОВЕРЕНИКА",
+      "section": "29",
+      "title": "Члан 29. Седиште Повереника",
+      "content": "Седиште Повереника је у Београду.\n\nПовереник може образовати канцеларије и ван свог\nседишта.\n\nАктом о организацији и систематизацији послова стручне\nслужбе Повереника уређује се обављање послова у канцеларијама.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "V ИЗБОР, ПОЛОЖАЈ И НАДЛЕЖНОСТ ПОВЕРЕНИКА",
+      "section": "30",
+      "title": "Члан 30. Избор",
+      "content": "Народна скупштина бира Повереника већином гласова свих\nнародних посланика, на предлог одбора надлежног за државну управу (у даљем\nтексту: Одбор).\n\nПовереник се бира на време од осам година, без\nмогућности поновног избора на ову дужност.\n\nПредседник Народне скупштине расписује јавни позив\nсвим заинтересованим лицима да се пријаве за кандидата за Повереника (у даљем\nтексту: Јавни позив).\n\nЈавни позив се, истог дана, објављује на веб\nпрезентацији Народне скупштине и у најмање једном дневном листу који се\nдистрибуира на целој територији Републике Србије, најкасније 180 дана пре истека\nмандата претходног Повереника, односно најкасније 30 дана по доношењу одлуке о\nпрестанку дужности Повереника у смислу члана 31. овог закона.\n\nПријава на Јавни позив доставља се у писменом облику и\nмора да садржи лично име, адресу пребивалишта, број телефона за контакт, адресу\nза пријем електронске поште и потпис заинтересованог лица, а уз пријаву се\nдостављају биографија и докази о испуњености прописаних услова за избор за\nПовереника.\n\nРок за пријављивање на Јавни позив траје 30 дана од\nдана објављивања Јавног позива.\n\nУ року од 15 дана од истека рока за пријављивање на\nЈавни позив, Одбор утврђује и на веб презентацији Народне скупштине објављује\nсписак пријављених лица који испуњавају услове за избор за Повереника, са\nњиховим биографијама.\n\nУ року из става 7. овог члана, Одбор доставља позив\nпосланичким групама у Народној скупштини да са списка пријављених лица који\nиспуњавају услове за избор за Повереника предложе кандидата за Повереника.\n\nКандидата за Повереника Одбору има право да предложи\nсвака посланичка група у Народној скупштини.\n\nПосланичка група може да предложи кандидата за\nПовереника тек по истеку 15 дана од дана објављивања списка пријављених лица\nкоји испуњавају услове за избор за Повереника.\n\nВише посланичких група могу да предложе заједничког\nкандидата за Повереника.\n\nПре утврђивања предлога за избор Повереника, Одбор са\nкандидатима које су предложиле посланичке групе обавља јавни разговор на којем\nсе кандидатима омогућује да изнесу своје ставове о улози и начину остваривања\nдужности Повереника.\n\nПредлог за избор Повереника утврђује се већином\nгласова од укупног броја чланова Одбора.\n\nОбразложени предлог за избор Повереника Одбор подноси\nНародној скупштини најкасније 60 дана пре истека мандата претходног Повереника,\nодносно у року од 90 дана од дана доношења одлуке о разрешењу, односно о\nутврђивању дана престанка дужности Повереника.\n\nЗа Повереника се бира лице с признатим угледом и\nстручношћу у области заштите и унапређења људских права.\n\nПовереник може бити лице које испуњава услове за рад у\nдржавним органима, које је завршило правни факултет и има најмање десет година\nрадног искуства.\n\nПовереник не може да обавља другу јавну функцију или\nпрофесионалну делатност, као и другу дужност или посао који би могао утицати на\nњегову самосталност и независност.\n\nПовереник не може бити члан политичке странке.\n\nАко предложени кандидат за Повереника не добије\nпотребну већину гласова свих народних посланика, нови поступак избора се покреће\nу року од 15 дана од дана када Народна скупштина није изабрала Повереника.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "V ИЗБОР, ПОЛОЖАЈ И НАДЛЕЖНОСТ ПОВЕРЕНИКА",
+      "section": "31",
+      "title": "Члан 31. Престанак мандата",
+      "content": "Поверенику дужност престаје:\n\n1) истеком мандата;\n\n2) смрћу;\n\n3) на лични захтев;\n\n4) губитком држављанства;\n\n5) ако му правноснажном судском одлуком буде\nограничена пословна способност;\n\n6) ако правноснажно буде осуђен на казну затвора у\nтрајању од најмање шест месеци;\n\n7) разрешењем.\n\nПоверенику који у току мандата испуни услове за\nстаросну пензију у складу са законом, дужност престаје истеком мандата.\n\nУ случају престанка дужности Повереника из разлога\nнаведених у ставу 1. тач. 2) до 6) овог члана, Народна скупштина, без расправе,\nвећином гласова свих народних посланика, доноси одлуку кoјoм утврђује дан\nпрестанка дужности Повереника.\n\nПовереник се разрешава:\n\n1) ако нестручно или несавесно обавља своју дужност;\n\n2) ако буде изабран, постављен или именован на другу\nјавну функцију;\n\n3) ако започне обављање дужности, радње или\nпрофесионалне делатности без сагласности државног органа надлежног за одлучивање\nо сукобу интереса при вршењу јавних функција;\n\n4) ако постане члан политичке странке.\n\nПоступак за разрешење Повереника покреће ce на\nобразложени предлог једне трећине народних посланика.\n\nОдбор утврђује да ли постоје разлози за разрешење. Акo\nутврди да нема разлога за разрешење, Одбор о тoмe обавештава Народну скупштину.\nАкo утврди да има разлога за разрешење, Одбор подноси предлог одлуке о разрешењу\nНародној скупштини.\n\nПовереник има право да се на седници Одбора и Народне\nскупштине, нa којој се разматра предлог за његово разрешење, обрати народним\nпосланицима.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "V ИЗБОР, ПОЛОЖАЈ И НАДЛЕЖНОСТ ПОВЕРЕНИКА",
+      "section": "32",
+      "title": "Члан 32. Положај Повереника",
+      "content": "Повереник је самосталан и независан у вршењу своје\nнадлежности.\n\nУ вршењу своје надлежности Повереник неће тражити,\nнити примати налоге и упутства од државних органа и других лица.\n\nПовереник има право на плату једнаку плати судије\nВрховног касационог суда, као и друга права по основу рада, у складу са законом, и право на\nнакнаду трошкова насталих у вези са вршењем своје надлежности.\n\nПовереник се не може позвати на одговорност за\nмишљење које је изнео или предлог који је дао у вршењу своје надлежности, а у\nпоступку покренутом због кривичног дела учињеног у вршењу своје надлежности не\nможе бити притворен без одобрења Народне скупштине.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "V ИЗБОР, ПОЛОЖАЈ И НАДЛЕЖНОСТ ПОВЕРЕНИКА",
+      "section": "33",
+      "title": "Члан 33. Заменик Повереника",
+      "content": "Повереник има заменика за слободан приступ\nинформацијама од јавног значаја, кога бира Народна скупштина, већином гласова\nсвих народних посланика, на предлог Повереника.\n\nЗа заменика Повереника може бити изабрано лице које\nиспуњава услове прописане овим законом за избор Повереника.\n\nЗаменик Повереника бира се за време од осам година,\nбез могућности поновног избора на ову дужност.\n\nЗаменик Повереника обавља дужности Повереника у\nслучају његовог одсуства или спречености, као и у случају престанка дужности из\nразлога наведених у члану 31. овог закона.\n\nЗаменику Повереника престаје дужност на начин\nпредвиђен за престанак дужности Повереника.\n\nПоступак за разрешење заменика Повереника покреће се и\nна иницијативу Повереника.\n\nЗаменик Повереника има право нa плату у висини од 90%\nод плате Повереника.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "V ИЗБОР, ПОЛОЖАЈ И НАДЛЕЖНОСТ ПОВЕРЕНИКА",
+      "section": "34",
+      "title": "Члан 34. Стручна служба Повереника",
+      "content": "Повереник има стручну службу која му помаже у вршењу\nњегових надлежности.\n\nПовереник доноси општи акт о организацији и\nсистематизацији послова стручне службе у складу са буџетским средствима\nопредељеним за његов рад.\n\nО доношењу општег акта из става 2. овог члана\nПовереник обавештава Народну скупштину, у року од 15 дана од дана његовог\nдоношења.\n\nПовереник самостално одлучује, у складу са законом, о\nпријему лица у радни однос у стручну службу, руковођен потребом професионалног и\nделотворног вршења своје надлежности.\n\nНа права и дужности запослених у стручној служби\nПовереника примењују се прописи који уређују права и дужности државних\nслужбеника и намештеника.\n\nСредства за рад Повереника и стручне службе обезбеђују\nce у буџету Републике Србије.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "V ИЗБОР, ПОЛОЖАЈ И НАДЛЕЖНОСТ ПОВЕРЕНИКА",
+      "section": "35",
+      "title": "Члан 35. Надлежност Повереника",
+      "content": "Повереник:\n\n1) прати поштовање обавеза органа власти утврђених\nовим законом и извештава јавност и Народну скупштину о томе;\n\n2) даје иницијативу за доношење или измене прописа\nради спровођења и унапређења права на приступ информацијама од јавног значаја;\n\n3) предлаже органима власти предузимање мера у циљу\nунапређивања њиховог рада уређеног овим законом;\n\n4) предузима мере потребне за обуку запослених у\nорганима власти и упознавање запослених са њиховим обавезама у вези са правима\nна приступ информацијама од јавног значаја, ради делотворне примене овог закона;\n\n5) решава по жалби против решења органа власти\nкојима су повређена права уређена овим законом;\n\n6) обавештава јавност о садржини овог закона, као и\nо правима уређеним овим законом;\n\n6а) даје мишљење на\nнацрте закона и предлоге других прописа, као и докумената јавних политика, ако\nсе њима уређују питања која су од значаја за остваривање права на приступ\nинформацијама од јавног значаја;\n\n7) обавља и друге послове одређене овим законом\nи другим законима.\n\nПовереник може да покрене поступак за оцену\nуставности и законитости закона и других општих аката,\nкојима се уређују питања од значаја за остваривање\nправа на приступ информацијама од јавног значаја.\n\n*Службени гласник РС, број 54/2007\n\n**Службени гласник РС, број 104/2009\n\n***Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "V ИЗБОР, ПОЛОЖАЈ И НАДЛЕЖНОСТ ПОВЕРЕНИКА",
+      "section": "36",
+      "title": "Члан 36. Извештаји",
+      "content": "У року од три месеца од окончања фискалне године,\nПовереник подноси Народној скупштини годишњи извештај о радњама предузетим од\nстране органа власти у примени овог закона, као и о својим радњама и издацима.\n\nПоред извештаја из става 1. овог члана, Повереник\nподноси Народној скупштини и друге извештаје, када оцени да је то потребно."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "VI МЕРЕ ЗА УНАПРЕЂИВАЊЕ ЈАВНОСТИ РАДА ОРГАНА ВЛАСТИ",
+      "section": "37",
+      "title": "Члан 37. Приручник за остваривање права",
+      "content": "Повереник, без одлагања, на српском језику и на\nјезицима који су, у складу са законом, одређени као језици у службеној употреби\nиздаје и ажурира приручник са практичним упутствима за делотворно остваривање\nправа уређених овим законом.\n\nУ приручнику из става 1. овог члана мора се нарочито\nнавести садржина и обим права на приступ информацијама од јавног значаја као и\nначини на који се ова права могу остварити.\n\nОбавеза је Повереника да, путем штампе, електронских\nмедија, интернета, јавних трибина и на друге начине, упозна јавност са садржином\nприручника из става 1. овог члана.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "VI МЕРЕ ЗА УНАПРЕЂИВАЊЕ ЈАВНОСТИ РАДА ОРГАНА ВЛАСТИ",
+      "section": "38",
+      "title": "Члан 38. Овлашћено лице органа власти",
+      "content": "Руководилац органа власти може да одреди једног или\nвише запослених (у даљем тексту: овлашћено лице) за поступање по захтеву за\nслободан приступ информацијама од јавног значаја.\n\nОргани јединице локалне самоуправе односно градске\nопштине могу да одреде заједничко овлашћено лице за поступање по захтевима\nупућеним тим органима. Више јавних бележника или јавних извршитеља може да\nодреди заједничко овлашћено лице за поступање по захтевима, из реда запослених\nкод тих јавних бележника, односно јавних извршитеља.\n\nОвлашћено лице:\n\n1) обавештава тражиоца о поседовању информација и\nобезбеђује увид у документ који садржи тражену информацију, односно доставља\nинформацију на одговарајући начин, одбија захтев решењем, пружа тражиоцима\nнеопходну помоћ за остваривање њихових права утврђених овим законом;\n\n2) предузима мере за унапређење праксе поступања са\nносачима информација, праксе одржавања носача информација, као и праксе њиховог\nчувања и обезбеђења;\n\n3) предузима мере потребне за упознавање запослених са\nњиховим обавезама у вези са правима на приступ информацијама од јавног значаја,\nради делотворне примене овог закона.\n\nСви запослени у органу власти дужни су да овлашћеном\nлицу пруже сву неопходну помоћ и доставе потпуне и тачне информације неопходне\nза поступање по захтеву.\n\nАко овлашћено лице из става 1. овог члана није\nодређено, за поступање по захтеву и предузимање мера из става 3. тач. 2) и 3)\nовог члана надлежан је руководилац органа власти.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "VI МЕРЕ ЗА УНАПРЕЂИВАЊЕ ЈАВНОСТИ РАДА ОРГАНА ВЛАСТИ",
+      "section": "39",
+      "title": "Члан 39. Обавеза објављивања информатора",
+      "content": "Орган власти из члана 3. тач. 1) до 7) овог закона\nизрађује информатор о свом раду, који садржи нарочито:\n\n1) основне податке о органу и информатору (укључујући\nрадно време и информацију о приступачности особама са инвалидитетом објеката\nкоје користи орган);\n\n2) организациону структуру (органиграм);\n\n3) имена, податке за контакт и опис функција\nруководилаца организационих јединица;\n\n4) опис правила у вези са јавношћу рада;\n\n5) опис надлежности, овлашћења и обавеза;\n\n6) опис поступања у оквиру надлежности, овлашћења и\nобавеза;\n\n7) за колегијалне органе, податке о одржаним седницама\nи опис начина доношења одлука;\n\n8) навођење прописа које орган примењује у свом раду и\nпрописа за чије доношење је надлежан;\n\n9) навођење стратегија, програма, планова и извештаја\nкоје је донео орган;\n\n10) навођење аката из тач. 8) и 9) овог става који су\nу поступку припреме од стране органа;\n\n11) списак услуга кoje орган пружа заинтересованим\nлицима;\n\n12) поступак ради пружања услуга из тачке 11) овог\nстава;\n\n13) преглед података о пруженим услугама из тачке 11)\nовог става;\n\n14) финансијске податке (податке о буџету, односно\nфинансијском плану и изворима прихода);\n\n15) податке о јавним набавкама, укључујући план јавних\nнабавки и списак закључених уговора о набавкама добара, услуга, радова и\nнепокретности, са вредностима закључених уговора, датумом закључења и роком\nтрајања;\n\n16) податке о државној помоћи (са подацима о\nсубјектима субвенција и донација и њиховим износима);\n\n17) податке о извршеним инспекцијама и ревизијама\nпословања органа;\n\n18) податке о исплаћеним платама, зарадама и другим\nпримањима, укључујући податке о платама органа руковођења, односно управљања и\nруководилаца организационих јединица;\n\n19) податке о средствима рада и објектима које орган\nпоседује, односно користи;\n\n20) чување носача информација;\n\n21) врсте информација у поседу, укључујући садржај\nбаза података и регистара којима рукује орган;\n\n22) врсте информација којима орган власти омогућава\nприступ;\n\n23) списак најчешће тражених информација од јавног\nзначаја;\n\n24) информације о подношењу захтева, са адресама за\nпријем поште и електронске поште и подацима о роковима за поступање по захтеву,\nправу на правно средство и лицу надлежном за поступање по захтеву.\n\nИнформатор се израђује у електронском и машински\nчитљивом облику, а објављује се путем јединственог информационог система\nинформатора о раду, који води и одржава Повереник, у складу са упутством\nПовереника из члана 40. овог закона.\n\nМашински читљив облик је облик електронски меморисаног\nзаписа структуриран тако да га програмска апликација може лако идентификовати,\nпрепознати и из њега издвојити одређене податке, укључујући појединачне податке\nи њихову унутрашњу структуру.\n\nОрган власти редовно врши проверу тачности и\nпотпуности података објављених у информатору и, најкасније 30 дана од настанка\nпромене, ажурира информатор вршењем одговарајућих промена.\n\nУ случају да орган власти пропусти да изради и ажурира\nинформатор о свом раду, у складу са одредбама овог закона, Повереник је овлашћен\nда поднесе захтев за покретање прекршајног поступка за прекршај из члана 46.\nстав 1. тачка 6) овог закона.\n\n*Службени гласник РС, број 105/2021\n\n*Службени гласник РС, број 104/2009"
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "VI МЕРЕ ЗА УНАПРЕЂИВАЊЕ ЈАВНОСТИ РАДА ОРГАНА ВЛАСТИ",
+      "section": "40",
+      "title": "Члан 40. Упутство за израду и објављивање информатора",
+      "content": "Повереник издаје упутство по којем се израђује и\nобјављује информатор из члана 39. овог закона и пружа савете, на захтев\nоргана власти у циљу правилног, потпуног и благовременог испуњења обавезе објављивања\nинформатора.\n\n*Службени гласник РС, број 104/2009\n\n**Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "VI МЕРЕ ЗА УНАПРЕЂИВАЊЕ ЈАВНОСТИ РАДА ОРГАНА ВЛАСТИ",
+      "section": "41",
+      "title": "Члан 41. Одржавање носача информације",
+      "content": "Орган власти ће одржавати носаче информација тако да\nомогући остварење права на приступ информацијама од јавног значаја, у складу са\nовим законом."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "VI МЕРЕ ЗА УНАПРЕЂИВАЊЕ ЈАВНОСТИ РАДА ОРГАНА ВЛАСТИ",
+      "section": "42",
+      "title": "Члан 42. Обука запослених",
+      "content": "Ради делотворне примене овог закона, орган\nвласти\nспроводи обуку запослених и упознавање запослених са њиховим обавезама у вези са\nправима уређеним овим законом.\n\nОбука запослених из става 1. овог члана, обухватиће нарочито: садржину, обим\nи значај права на приступ информацијама од јавног значаја, поступак остваривања\nових права, поступање са носачима информација, њихово одржавање и чување, као и\nврсте података које је орган власти дужан да\nобјављује.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "VI МЕРЕ ЗА УНАПРЕЂИВАЊЕ ЈАВНОСТИ РАДА ОРГАНА ВЛАСТИ",
+      "section": "43",
+      "title": "Члан 43. Подношење извештаја Поверенику",
+      "content": "Орган власти, до\n31. јануара текуће године, за\nпредходну годину, подноси годишњи извештај Поверенику о радњама тог органа,\nпредузетим у циљу примене овог закона, који садржи податке о:\n\n1) броју поднетих захтева, броју потпуно или\nделимично усвојених захтева, као и о броју одбачених и одбијених захтева;\n\n2) броју и садржини жалби против решења којима се\nодбацује или одбија захтев;\n\n3) укупном износу наплаћених накнада за остваривање\nправа на приступ информацијама од јавног значаја;\n\n4) мерама предузетим у вези са обавезом израде\nи ажурирања\nинформатора;\n\n5) мерама предузетим у вези са одржавањем носача\nинформације;\n\n6) мерама предузетим у вези са обуком запослених;\n\n6а) руководиоцу органа власти и овлашћеном лицу;\n\n6б) броју поднетих захтева који се односе на\nинформације о здрављу становништва или заштити животне средине из члана 16. став\n2. овог закона;\n\n6в) броју поднетих захтева који се односе на\nинформације о располагању јавним средствима;\n\n6г) броју поднетих захтева који се односе на\nинформације из надлежности тог органа власти.\n\nПодаци из става 1. тач. 1) до 3) овог члана исказују\nсе укупно и посебно за тражиоце у категорији: грађана, јавних гласила, удружења\n, политичких странака, органа власти и других тражиоца.\n\nПовереник ближе прописује образац и начин достављања\nизвештаја из става 1. овог члана.\n\nУ случају да орган власти пропусти да Поверенику\nподнесе годишњи извештај из става 1. овог члана, Повереник је овлашћен да\nподнесе захтев за покретање прекршајног поступка за прекршај из члана 46. став\n1. тачка 9) овог закона.\n\n*Службени гласник РС, број 104/2009\n\n**Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "VII НАКНАДА ШТЕТЕ",
+      "section": "44",
+      "title": "Члан 44.",
+      "content": "Орган власти одговара за штету насталу тиме што\nјавно гласило није могло да објави информацију пошто му је неоправдано ускратио\nили ограничио права на приступ информацијама од јавног значаја из члана 5. овог\nзакона, односно тиме што је новинар или јавно гласило стављен у бољи положај\nсупротно одредби члана 7. овог закона."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "VIII НАДЗОР",
+      "section": "45",
+      "title": "Члан 45.",
+      "content": "Надзор над спровођењем овог закона врши министарство\nнадлежно за послове управе.\n\nИнспекцијски надзор над спровођењем овог закона врши\nминистарство надлежно за послове управе преко управне инспекције.\n\n*Службени гласник РС, број 104/2009"
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "IX КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "46",
+      "title": "Члан 46.",
+      "content": "Новчаном казном од 20.000 до 100.000 динара казниће се\nза прекршај руководилац органа власти ако орган власти:\n\n1) не саопшти, односно не омогући увид у истиниту и\nпотпуну информацију, а оспорава истинитост и потпуност објављене информације\n(члан 11);\n\n2) одбије да прими захтев тражиоца (члан 15. став 1);\n\n3) не води посебну евиденцију усмених захтева (члан\n15. став 7);\n\n4) не омогући Поверенику приступ носачу информације\n(члан 26. став 2);\n\n5) не поступи по решењу Повереника (члан 28. став 1);\n\n6) пропусти да изради и ажурира информатор о свом раду\n(члан 39);\n\n7) не одржава носач информације у складу са овим\nзаконом (члан 41);\n\n8) не спроводи обуку запослених и упознавање\nзапослених са њиховим обавезама у вези са правима утврђеним овим законом (члан\n42);\n\n9) пропусти да поднесе годишњи извештај Поверенику о\nрадњама тог органа, предузетим у циљу примене овог закона, са прописаним\nподацима (члан 43);\n\n10) спречи управног инспектора у вршењу инспекцијског\nнадзора и не изврши решење управног инспектора (члан 45. став 2).\n\nНовчаном казном од 20.000 до 100.000 динара казниће се\nза прекршај овлашћено лице органа власти ако:\n\n1) приступ информацијама условљава доказивањем\nоправданог или другог интереса (члан 4);\n\n2) поступи противно начелу једнакости (члан 6);\n\n3) дискриминише новинара или јавно гласило (члан 7);\n\n4) не означи носач информације, где је и када тражена\nинформација објављена (члан 10. став 2);\n\n5) по захтеву достави непотпуне или нетачне\nинформације (члан 16);\n\n6) приступ информацијама условљава уплатом трошкова у\nизносу већем од прописаног (члан 17);\n\n7) не изда информацију у траженом облику, а има\nтехничких могућности за то (члан 18. ст. 2. и 3);\n\n8) неосновано одбије да изда копију документа са\nинформацијом на језику на којем је поднет захтев (члан 18. став 4);\n\n9) на било који други начин, супротно одредбама овог\nзакона, онемогућава остваривање права на слободан приступ информацијама од\nјавног значаја (члан 22. став 1. тачка 6).\n\nНовчаном казном од 20.000 до 100.000 динара казниће се\nза прекршај запослени у органу власти ако овлашћеном лицу не достави информације\nнеопходне за поступање по захтеву, односно ако му достави непотпуне или нетачне\nинформације (члан 38. став 4).\n\nНије одговорно за прекршај овлашћено лице које је\nпоступало по налогу руководиоца органа власти и предузело све радње које је на\nоснову закона, другог прописа или акта било дужно да предузме да би спречило\nизвршење прекршаја.\n\nАко овлашћено лице није одређено, за прекршаје из\nстава 2. овог члана одговоран је руководилац органа власти.\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "IX КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "47",
+      "title": "Члан 47.",
+      "content": "Новчаном казном у износу од 30.000 динара казниће се\nза прекршај овлашћено лице, односно руководилац органа, ако не поступи по\nзахтеву у складу са роковима из члана 16. овог закона (ћутање управе).\n\n*Службени гласник РС, број 105/2021"
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "IX КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "48",
+      "title": "Члан 48.",
+      "content": "Брисан је (види члан 29. Закона - 105/2021-8)"
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "49",
+      "title": "Члан 49.",
+      "content": "Органи власти именоваће овлашћена лица за решавање о\nзахтевима на слободан приступ информацијама од јавног значаја у року од 30 дана\nод ступања на снагу овог закона.\n\nНародна скупштина изабраће Повереника у року од 45\nдана од ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "50",
+      "title": "Члан 50.",
+      "content": "Овај закон ступа на снагу осмог дана од дана\nобјављивања у \"Службеном гласнику Републике Србије\".\n\nЗакон о допунама Закона о слободном приступу\nинформацијама од јавног значаја: “Службени гласник РС”, број 54/2007-3"
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "5",
+      "title": "Члан 5. ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА",
+      "content": "Ако исто лице поново буде бирано за Повереника или\nзаменика Повереника пре него што му истекне мандат, њему мандат престаје по\nистеку седам година од првог избора и може бити бирано још једанпут."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "6",
+      "title": "Члан 6.",
+      "content": "Овај закон ступа на снагу даном објављивања у\n„Службеном гласнику Републике Србије”.\n\nЗакон о изменама и допунама Закона о слободном\nприступу информацијама од јавног значаја: “Службени гласник РС”, број\n104/2009-25"
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "16",
+      "title": "Члан 16.",
+      "content": "Овлашћује се Законодавни одбор Народне скупштине да\nутврди пречишћен текст Закона о слободном приступу информацијама од јавног\nзначаја."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "17",
+      "title": "Члан 17.",
+      "content": "Овај закон ступа на снагу осмог дана од дана\nобјављивања у „Службеном гласнику Републике Србије”.\n\nЗакон о изменама и допунама Закона о слободном приступу\nинформацијама од јавног значаја: “Службени гласник РС”, број 105/2021-8"
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "30",
+      "title": "Члан 30.",
+      "content": "Поступци за остваривање права на приступ\nинформацијама од јавног значаја започети пре почетка примене овог закона,\nокончаће се по одредбама Закона о слободном приступу информацијама од јавног\nзначаја („Службени гласник РС”, бр. 120/04, 54/07, 104/09 и 36/10)."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "31",
+      "title": "Члан 31.",
+      "content": "Повереник ће у року од 60 дана од дана\nступања на снагу овог закона издати нов приручник из члана 37. Закона о\nслободном приступу информацијама од јавног значаја („Службени гласник РС”, бр.\n120/04, 54/07, 104/09 и 36/10) и ново упутство за израду и објављивање\nинформатора из члана 40. Закона о слободном приступу информацијама од јавног\nзначаја („Службени гласник РС”, бр. 120/04, 54/07, 104/09 и 36/10), као и\nпрописати и објавити образац извештаја из члана 26. овог закона (измењени и\nдопуњени члан 43. Закона)."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "32",
+      "title": "Члан 32.",
+      "content": "Органи власти који у складу са чланом 24.\nовог закона (измењени члан 39. Закона) имају обавезу израђивања информатора о\nраду, дужни су да у року од годину дана од дана ступања на снагу овог закона\nизраде информаторе у складу са одредбама тог члана 24.\n\nГодишњи извештај за 2021. годину органи\nвласти из члана 2. овог закона (измењени члан 3. Закона) поднеће у складу са\nодредбама члана 43. Закона о слободном приступу информацијама од јавног значаја\n(„Службени гласник РС”, бр. 120/04, 54/07, 104/09 и 36/10)."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "33",
+      "title": "Члан 33.",
+      "content": "Повереник и заменик Повереника који су\nизабрани у складу са Законом о слободном приступу информацијама од јавног\nзначаја („Службени гласник РС”, бр. 120/04, 54/07, 104/09 и 36/10) настављају да\nврше дужност до истека мандата на које су изабрани."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "X ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "34",
+      "title": "Члан 34.",
+      "content": "Овај закон ступа на снагу осмог дана од дана\nобјављивања у „Службеном гласнику Републике Србије”, а почиње да се примењује по\nистеку три месеца од дана ступања на снагу."
     }
   ],
-  "definitions": [
-    {
-      "term": "information of public importance",
-      "definition": "Information in the possession of a public authority, created in the performance of public duties, that contains anything the public has a justified interest in knowing.",
-      "source_provision": "art2"
-    },
-    {
-      "term": "public authority",
-      "definition": "State bodies, judicial bodies, local self-government bodies, public enterprises and institutions, and other legal persons performing public duties or exercising public authority.",
-      "source_provision": "art4"
-    },
-    {
-      "term": "Poverenik",
-      "definition": "The Commissioner for Information of Public Importance and Personal Data Protection, designated as the independent supervisory authority for this Law.",
-      "source_provision": "art3"
-    }
-  ]
+  "definitions": []
 }

@@ -1,37 +1,152 @@
 /**
- * HTML parser for Serbian legislation from the Sejm ELI API (api.sejm.gov.pl).
+ * Parser for Serbian law HTML from the official PIS REG API.
  *
- * Parses the structured HTML served by the ELI text endpoint into seed JSON.
- * The HTML structure uses:
+ * Input format:
+ *   https://reg.pravno-informacioni-sistem.rs/api/viewAct/{guid}?lawActId={id}
  *
- * - <div class="unit unit_chpt" id="chpt_N"> for chapters (Rozdział)
- * - <div class="unit unit_arti" id="chpt_N-arti_M"> for articles (Art.)
- * - <h3> inside articles for article number (Art. N.)
- * - <div class="unit unit_pass"> for numbered paragraphs (ustępy)
- * - <div class="unit unit_pint"> for numbered points (punkty)
- * - <div data-template="xText" class="pro-text"> for text content
- *
- * Serbian legislation references: Dz.U. YYYY poz. NNNN
- * API endpoint: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
+ * The HTML is structured as paragraphs with classes such as:
+ * - odluka-zakon (law heading)
+ * - clan (chapter labels and article markers: "Члан N.")
+ * - bold / italik (article titles / subheadings)
+ * - Basic-Paragraph (article body text)
  */
 
-export interface ActIndexEntry {
+export interface TargetLaw {
+  order: number;
+  fileName: string;
   id: string;
-  title: string;
-  titleEn: string;
   shortName: string;
-  status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  issuedDate: string;
-  inForceDate: string;
-  /** ISAP display address, e.g. "Dz.U. 2018 poz. 1000" */
-  dziennikRef: string;
-  /** Year of publication in Dziennik Ustaw */
-  year: number;
-  /** Position number (poz.) in Dziennik Ustaw */
-  poz: number;
-  /** Human-readable URL on ISAP */
+  expectedTitle: string;
+  expectedGuid: string;
+  officialRef: string;
+  fallbackTitleEn?: string;
+}
+
+export const TARGET_LAWS: TargetLaw[] = [
+  {
+    order: 1,
+    fileName: '01-personal-data-protection.json',
+    id: 'rs-personal-data-protection',
+    shortName: 'ZZPL',
+    expectedTitle: 'Закон о заштити података о личности',
+    expectedGuid: '611b2ebf-189d-4421-bf11-b8906ed7ff54',
+    officialRef: '87/2018-54',
+    fallbackTitleEn: 'Law on Personal Data Protection',
+  },
+  {
+    order: 2,
+    fileName: '02-information-security.json',
+    id: 'rs-information-security',
+    shortName: 'ZIB',
+    expectedTitle: 'Закон о информационој безбедности',
+    expectedGuid: '218d8c7e-9304-4276-b39a-92c66133ab0f',
+    officialRef: '91/2025-17',
+    fallbackTitleEn: 'Law on Information Security',
+  },
+  {
+    order: 3,
+    fileName: '03-electronic-communications.json',
+    id: 'rs-electronic-communications',
+    shortName: 'ZEK',
+    expectedTitle: 'Закон о електронским комуникацијама',
+    expectedGuid: '54fc78b1-4aa0-4cd0-837a-0c709c5b6ddf',
+    officialRef: '35/2023-3',
+    fallbackTitleEn: 'Law on Electronic Communications',
+  },
+  {
+    order: 4,
+    fileName: '04-electronic-commerce.json',
+    id: 'rs-electronic-commerce',
+    shortName: 'ZET',
+    expectedTitle: 'Закон о електронској трговини',
+    expectedGuid: '8f5b6a5f-81d8-4785-8a38-82f39a09aaa6',
+    officialRef: '41/2009-68; 95/2013-14; 52/2019-14',
+    fallbackTitleEn: 'Law on Electronic Commerce',
+  },
+  {
+    order: 5,
+    fileName: '05-electronic-document-identification.json',
+    id: 'rs-electronic-document-identification',
+    shortName: 'ZEDEIUP',
+    expectedTitle: 'Закон о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању',
+    expectedGuid: 'ad1ba3ab-ac2a-4b7d-a08f-4faa6cfbcc26',
+    officialRef: '94/2017-9; 52/2021-22',
+    fallbackTitleEn: 'Law on Electronic Document, Electronic Identification and Trust Services in Electronic Business',
+  },
+  {
+    order: 6,
+    fileName: '06-freedom-of-information.json',
+    id: 'rs-freedom-of-information',
+    shortName: 'ZSPIJZ',
+    expectedTitle: 'Закон о слободном приступу информацијама од јавног значаја',
+    expectedGuid: '0b7f7931-f230-45cf-b550-a1495539249d',
+    officialRef: '120/2004-5; 54/2007-3; 104/2009-25; 36/2010-10; 105/2021-8',
+    fallbackTitleEn: 'Law on Free Access to Information of Public Importance',
+  },
+  {
+    order: 7,
+    fileName: '07-information-secrecy.json',
+    id: 'rs-information-secrecy',
+    shortName: 'ZTP',
+    expectedTitle: 'Закон о тајности података',
+    expectedGuid: '0f5a10f2-2e49-428a-8c83-ba0131a23b46',
+    officialRef: '104/2009-13',
+    fallbackTitleEn: 'Information Secrecy Law',
+  },
+  {
+    order: 8,
+    fileName: '08-critical-infrastructure.json',
+    id: 'rs-critical-infrastructure',
+    shortName: 'ZKI',
+    expectedTitle: 'Закон о критичној инфраструктури',
+    expectedGuid: 'fac7ef0b-8204-466b-8392-47ffbf027e4a',
+    officialRef: '87/2018-41',
+    fallbackTitleEn: 'Law on Critical Infrastructure',
+  },
+  {
+    order: 9,
+    fileName: '09-electronic-government.json',
+    id: 'rs-electronic-government',
+    shortName: 'ZEU',
+    expectedTitle: 'Закон о електронској управи',
+    expectedGuid: '2bd17d5f-15cc-4b72-ae79-e534ab25b4b2',
+    officialRef: '27/2018-25',
+    fallbackTitleEn: 'Law on Electronic Government',
+  },
+  {
+    order: 10,
+    fileName: '10-trade-secrets.json',
+    id: 'rs-trade-secrets',
+    shortName: 'ZZPT',
+    expectedTitle: 'Закон о заштити пословне тајне',
+    expectedGuid: '6e0c74bd-f0a6-442f-9f07-12a566de23b1',
+    officialRef: '53/2021-4',
+    fallbackTitleEn: 'Law on Protection of Trade Secret',
+  },
+];
+
+export interface RegSearchResult {
+  id: string;
+  uuid: string;
+  title: string;
+  docType: string;
+  l2: string;
+  l3: string;
+}
+
+export interface RegSearchResponse {
+  limit: number;
+  resultSize: number;
+  result: RegSearchResult[];
+}
+
+export interface RegActMetadata {
+  id: number;
+  hm: string;
+  title: string;
+  baseTitle: string;
+  actAbstract?: string;
   url: string;
-  description?: string;
 }
 
 export interface ParsedProvision {
@@ -52,397 +167,262 @@ export interface ParsedAct {
   id: string;
   type: 'statute';
   title: string;
-  title_en: string;
-  short_name: string;
+  title_en?: string;
+  short_name?: string;
   status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  issued_date: string;
-  in_force_date: string;
+  issued_date?: string;
+  in_force_date?: string;
   url: string;
   description?: string;
   provisions: ParsedProvision[];
   definitions: ParsedDefinition[];
 }
 
-/**
- * Strip HTML tags and decode common entities, normalising whitespace.
- */
-function stripHtml(html: string): string {
-  return html
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&shy;/g, '')
+interface ParsedParagraph {
+  className: string;
+  text: string;
+}
+
+function decodeHtmlEntities(input: string): string {
+  const named: Record<string, string> = {
+    '&nbsp;': ' ',
+    '&amp;': '&',
+    '&lt;': '<',
+    '&gt;': '>',
+    '&quot;': '"',
+    '&#39;': "'",
+    '&apos;': "'",
+    '&ldquo;': '“',
+    '&rdquo;': '”',
+    '&bdquo;': '„',
+    '&ndash;': '–',
+    '&mdash;': '—',
+  };
+
+  let output = input;
+  for (const [key, value] of Object.entries(named)) {
+    output = output.replaceAll(key, value);
+  }
+
+  output = output.replace(/&#x([0-9a-f]+);/gi, (_, hex: string) => {
+    const codePoint = parseInt(hex, 16);
+    return Number.isFinite(codePoint) ? String.fromCodePoint(codePoint) : _;
+  });
+
+  output = output.replace(/&#(\d+);/g, (_, dec: string) => {
+    const codePoint = parseInt(dec, 10);
+    return Number.isFinite(codePoint) ? String.fromCodePoint(codePoint) : _;
+  });
+
+  return output;
+}
+
+function stripTags(html: string): string {
+  const withBreaks = html.replace(/<br\s*\/?>/gi, '\n');
+  const withoutTags = withBreaks.replace(/<[^>]+>/g, '');
+  return decodeHtmlEntities(withoutTags)
     .replace(/\u00a0/g, ' ')
-    .replace(/\s+/g, ' ')
+    .replace(/\r/g, '')
+    .split('\n')
+    .map(line => line.trim())
+    .filter(Boolean)
+    .join('\n')
     .trim();
 }
 
-/**
- * Find the chapter heading (Rozdział) for a given article position.
- * Searches backwards from the article position for the nearest chapter div.
- */
-function findChapterHeading(html: string, articlePos: number): string | undefined {
-  const beforeArticle = html.substring(Math.max(0, articlePos - 10000), articlePos);
+function extractParagraphs(html: string): ParsedParagraph[] {
+  const paragraphs: ParsedParagraph[] = [];
+  const paragraphRegex = /<p\b([^>]*)>([\s\S]*?)<\/p>/gi;
 
-  // Look for the last chapter heading: Rozdział N ... Title
-  // Pattern in ISAP HTML: <div class="unit unit_chpt"...> <h3> Rozdział N ... Title </h3>
-  const chapterMatches = [
-    ...beforeArticle.matchAll(/Rozdzia[łl]\s*&nbsp;\s*(\d+[a-z]?)\s*(.*?)(?=<\/h3>|<\/P>)/gi),
-  ];
+  let match: RegExpExecArray | null;
+  while ((match = paragraphRegex.exec(html)) !== null) {
+    const attrs = match[1] ?? '';
+    const raw = match[2] ?? '';
 
-  if (chapterMatches.length > 0) {
-    const last = chapterMatches[chapterMatches.length - 1];
-    const chapterNum = last[1].trim();
-    // Try to find the title in subsequent <P> or <SPAN> tags
-    const afterChapter = beforeArticle.substring(last.index! + last[0].length);
-    const titleMatch = afterChapter.match(/<SPAN[^>]*class="pro-title-unit"[^>]*>(.*?)<\/SPAN>/i);
-    const title = titleMatch ? stripHtml(titleMatch[1]) : '';
+    const classMatch = attrs.match(/class\s*=\s*["']([^"']+)["']/i);
+    const className = classMatch ? classMatch[1].trim().split(/\s+/)[0] : '';
 
-    return title
-      ? `Rozdział ${chapterNum} - ${title}`
-      : `Rozdział ${chapterNum}`;
+    const text = stripTags(raw);
+    if (!text) continue;
+
+    paragraphs.push({ className, text });
   }
 
-  // Also check for Dział (Division) used in larger codes
-  const dzialMatches = [
-    ...beforeArticle.matchAll(/Dzia[łl]\s*&nbsp;\s*([IVXLCDM]+[a-z]?)\s*(.*?)(?=<\/h3>|<\/P>)/gi),
-  ];
-
-  if (dzialMatches.length > 0) {
-    const last = dzialMatches[dzialMatches.length - 1];
-    const dzialNum = last[1].trim();
-    const afterDzial = beforeArticle.substring(last.index! + last[0].length);
-    const titleMatch = afterDzial.match(/<SPAN[^>]*class="pro-title-unit"[^>]*>(.*?)<\/SPAN>/i);
-    const title = titleMatch ? stripHtml(titleMatch[1]) : '';
-
-    return title
-      ? `Dział ${dzialNum} - ${title}`
-      : `Dział ${dzialNum}`;
-  }
-
-  return undefined;
+  return paragraphs;
 }
 
-/**
- * Parse HTML from the Sejm ELI API (api.sejm.gov.pl/eli/acts/DU/YYYY/POZ/text.html)
- * to extract provisions from a Serbian statute.
- *
- * The HTML uses div-based structure:
- *   <div class="unit unit_arti" id="chpt_N-arti_M" data-id="arti_M">
- *     <h3><B>Art. M.</B></h3>
- *     <div class="unit-inner">
- *       <div class="unit unit_pass">
- *         <h3>1.</h3>
- *         <div class="unit-inner">
- *           <div data-template="xText">...content...</div>
- *         </div>
- *       </div>
- *     </div>
- *   </div>
- */
-export function parseSerbianHtml(html: string, act: ActIndexEntry): ParsedAct {
+function parseArticleSection(text: string): string | null {
+  const match = text.match(/^Члан\s+([0-9]+(?:[\p{L}]+)?(?:[\/-][0-9]+(?:[\p{L}]+)?)?)\.?$/u);
+  return match ? match[1].replace(/\s+/g, '') : null;
+}
+
+function isChapterHeading(paragraph: ParsedParagraph): boolean {
+  return paragraph.className.includes('clan')
+    && !parseArticleSection(paragraph.text)
+    && /^[IVXLCDM]+\.?\s+/u.test(paragraph.text);
+}
+
+function isTitleParagraph(paragraph: ParsedParagraph): boolean {
+  return (paragraph.className.includes('bold') || paragraph.className.includes('italik'))
+    && !parseArticleSection(paragraph.text);
+}
+
+function transliterateForRef(value: string): string {
+  const map: Record<string, string> = {
+    а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', ђ: 'dj', е: 'e', ж: 'z', з: 'z', и: 'i', ј: 'j',
+    к: 'k', л: 'l', љ: 'lj', м: 'm', н: 'n', њ: 'nj', о: 'o', п: 'p', р: 'r', с: 's',
+    т: 't', ћ: 'c', у: 'u', ф: 'f', х: 'h', ц: 'c', ч: 'c', џ: 'dz', ш: 's',
+    А: 'a', Б: 'b', В: 'v', Г: 'g', Д: 'd', Ђ: 'dj', Е: 'e', Ж: 'z', З: 'z', И: 'i', Ј: 'j',
+    К: 'k', Л: 'l', Љ: 'lj', М: 'm', Н: 'n', Њ: 'nj', О: 'o', П: 'p', Р: 'r', С: 's',
+    Т: 't', Ћ: 'c', У: 'u', Ф: 'f', Х: 'h', Ц: 'c', Ч: 'c', Џ: 'dz', Ш: 's',
+  };
+
+  const transliterated = value
+    .split('')
+    .map(ch => map[ch] ?? ch)
+    .join('')
+    .toLowerCase();
+
+  const compact = transliterated.replace(/[^0-9a-z]+/g, '');
+  return compact || 'x';
+}
+
+function buildProvisionRef(section: string): string {
+  return `art${transliterateForRef(section)}`;
+}
+
+function extractDefinitionsFromProvision(provision: ParsedProvision): ParsedDefinition[] {
+  const keyText = `${provision.title}\n${provision.content}`.toLowerCase();
+  const looksLikeDefinitions = keyText.includes('значење израза')
+    || keyText.includes('поједини изрази')
+    || keyText.includes('дефинициј');
+
+  if (!looksLikeDefinitions) {
+    return [];
+  }
+
+  const definitions: ParsedDefinition[] = [];
+  const seen = new Set<string>();
+
+  for (const rawLine of provision.content.split('\n')) {
+    const line = rawLine.trim();
+    if (!line) continue;
+
+    const numbered = line.match(/^\d+\)\s*[„"“]?([^„"”]+?)[”"“]?\s+(?:је|означава)\s+(.+)$/u);
+    if (!numbered) continue;
+
+    const term = numbered[1].trim().replace(/[.;:]+$/g, '');
+    const definition = numbered[2].trim().replace(/[;]+$/g, '');
+
+    if (term.length < 2 || definition.length < 4) continue;
+
+    const key = term.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+
+    definitions.push({
+      term,
+      definition,
+      source_provision: provision.provision_ref,
+    });
+  }
+
+  return definitions;
+}
+
+export interface ParseLawOptions {
+  id: string;
+  title: string;
+  titleEn?: string;
+  shortName?: string;
+  status?: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
+  url: string;
+  description?: string;
+  issuedDate?: string;
+  inForceDate?: string;
+}
+
+export function parseLawHtml(html: string, options: ParseLawOptions): ParsedAct {
+  const paragraphs = extractParagraphs(html);
+
   const provisions: ParsedProvision[] = [];
   const definitions: ParsedDefinition[] = [];
 
-  // Match all article divs: <div class="unit unit_arti ..." id="...-arti_N" data-id="arti_N">
-  const articleRegex = /<div[^>]*class="unit unit_arti[^"]*"[^>]*id="([^"]*-)?arti_(\d+[a-z_]*)"[^>]*data-id="arti_(\d+[a-z_]*)"[^>]*>/gi;
-  const articleStarts: { fullId: string; artNum: string; pos: number }[] = [];
+  let currentChapter: string | undefined;
+  let pendingTitle: string | undefined;
 
-  let match: RegExpExecArray | null;
-  while ((match = articleRegex.exec(html)) !== null) {
-    // Skip nested articles inside amendment provisions (chpt_12-arti_111-arti_22_2 etc.)
-    const fullId = match[0];
-    const idAttr = fullId.match(/id="([^"]+)"/)?.[1] ?? '';
-    // Count how many "arti_" segments appear in the ID
-    const artiSegments = (idAttr.match(/arti_/g) ?? []).length;
-    if (artiSegments > 1) continue;
+  let currentSection: string | null = null;
+  let currentContent: string[] = [];
+  let currentTitle: string | undefined;
 
-    articleStarts.push({
-      fullId: idAttr,
-      artNum: match[3],
-      pos: match.index,
-    });
-  }
-
-  for (let i = 0; i < articleStarts.length; i++) {
-    const article = articleStarts[i];
-    const startPos = article.pos;
-
-    // Extract content up to next article or end
-    const endPos = i + 1 < articleStarts.length
-      ? articleStarts[i + 1].pos
-      : html.length;
-    const articleHtml = html.substring(startPos, endPos);
-
-    // Extract article number from <h3><B>Art. N.</B></h3> or <h3><B>Art. N<sup>...</B></h3>
-    const artHeadingMatch = articleHtml.match(
-      /<h3[^>]*>\s*<B[^>]*>\s*Art\.?\s*&nbsp;?\s*(\d+[a-z]*)\b/i
-    );
-
-    const artNum = artHeadingMatch
-      ? artHeadingMatch[1].trim()
-      : article.artNum.replace(/_/g, '');
-
-    // Normalize: remove underscores from article numbers like "22_2"
-    const normalizedNum = artNum.replace(/_/g, '');
-    const provisionRef = `art${normalizedNum}`;
-
-    // Find chapter heading
-    const chapter = findChapterHeading(html, startPos);
-
-    // Extract text content, stripping HTML
-    // Remove the article heading to avoid duplication
-    const contentHtml = articleHtml
-      .replace(/<h3[^>]*>\s*<B[^>]*>\s*Art\.?\s*&nbsp;?\s*\d+[a-z]*\.?\s*<\/B>\s*<\/h3>/i, '');
-    let content = stripHtml(contentHtml);
-
-    // Skip very short articles (likely just structural markers)
-    if (content.length < 5) continue;
-
-    // Cap content at 12K characters
-    if (content.length > 12000) {
-      content = content.substring(0, 12000);
+  const flushCurrentProvision = (): void => {
+    if (!currentSection) return;
+    const content = currentContent.join('\n\n').trim();
+    if (!content) {
+      currentSection = null;
+      currentContent = [];
+      currentTitle = undefined;
+      return;
     }
 
-    // Build a title from the first sentence or paragraph if meaningful
-    const title = `Art. ${normalizedNum}`;
-
-    provisions.push({
-      provision_ref: provisionRef,
-      chapter,
-      section: normalizedNum,
-      title,
+    const provision: ParsedProvision = {
+      provision_ref: buildProvisionRef(currentSection),
+      chapter: currentChapter,
+      section: currentSection,
+      title: currentTitle ?? `Члан ${currentSection}.`,
       content,
-    });
+    };
 
-    // Extract definitions from definition articles
-    // Serbian acts use "ilekroć mowa" (whenever mentioned), "rozumie się przez to"
-    // (this is understood as), or "oznacza" (means)
-    if (
-      content.includes('ilekro') ||
-      content.includes('rozumie si') ||
-      content.includes('oznacza') ||
-      content.includes('nale') && content.includes('rozumie')
-    ) {
-      extractDefinitions(content, provisionRef, definitions);
+    provisions.push(provision);
+    definitions.push(...extractDefinitionsFromProvision(provision));
+
+    currentSection = null;
+    currentContent = [];
+    currentTitle = undefined;
+  };
+
+  for (const paragraph of paragraphs) {
+    const section = parseArticleSection(paragraph.text);
+
+    if (isChapterHeading(paragraph)) {
+      flushCurrentProvision();
+      currentChapter = paragraph.text;
+      pendingTitle = undefined;
+      continue;
+    }
+
+    if (isTitleParagraph(paragraph)) {
+      pendingTitle = paragraph.text;
+      continue;
+    }
+
+    if (section) {
+      flushCurrentProvision();
+      currentSection = section;
+      currentTitle = pendingTitle ? `Члан ${section}. ${pendingTitle}` : `Члан ${section}.`;
+      pendingTitle = undefined;
+      continue;
+    }
+
+    if (currentSection) {
+      currentContent.push(paragraph.text);
     }
   }
+
+  flushCurrentProvision();
 
   return {
-    id: act.id,
+    id: options.id,
     type: 'statute',
-    title: act.title,
-    title_en: act.titleEn,
-    short_name: act.shortName,
-    status: act.status,
-    issued_date: act.issuedDate,
-    in_force_date: act.inForceDate,
-    url: act.url,
-    description: act.description,
+    title: options.title,
+    title_en: options.titleEn,
+    short_name: options.shortName,
+    status: options.status ?? 'in_force',
+    issued_date: options.issuedDate,
+    in_force_date: options.inForceDate,
+    url: options.url,
+    description: options.description,
     provisions,
     definitions,
   };
 }
-
-/**
- * Extract definitions from Serbian legal text.
- *
- * Serbian definitions typically use patterns like:
- *   - "«term» – oznacza ..." ("term" – means ...)
- *   - "N) term – ..." (numbered list of definitions)
- *   - "ilekroć ... mowa o «term» – rozumie się przez to ..."
- */
-function extractDefinitions(
-  text: string,
-  sourceProvision: string,
-  definitions: ParsedDefinition[],
-): void {
-  // Pattern: numbered definitions like "1) term - definition;"
-  const numberedDefRegex = /\d+\)\s+([^–\-]+?)\s+[–\-]\s+(.*?)(?=;\s*\d+\)|$)/g;
-  let defMatch: RegExpExecArray | null;
-
-  while ((defMatch = numberedDefRegex.exec(text)) !== null) {
-    const term = defMatch[1].trim();
-    const definition = defMatch[2].replace(/;$/, '').trim();
-
-    if (term.length > 1 && term.length < 100 && definition.length > 5) {
-      definitions.push({
-        term,
-        definition,
-        source_provision: sourceProvision,
-      });
-    }
-  }
-
-  // Pattern: «quoted term» – definition
-  const quotedDefRegex = /[„«\u201e]([^"»\u201d]+)["\u201d»]\s*[–\-]\s*(.*?)(?=[;.]\s*[„«\u201e]|[;.]\s*$)/g;
-  while ((defMatch = quotedDefRegex.exec(text)) !== null) {
-    const term = defMatch[1].trim();
-    const definition = defMatch[2].replace(/[;.]$/, '').trim();
-
-    if (term.length > 1 && term.length < 100 && definition.length > 5) {
-      definitions.push({
-        term,
-        definition,
-        source_provision: sourceProvision,
-      });
-    }
-  }
-}
-
-/**
- * Pre-configured list of key Serbian Acts to ingest.
- *
- * Source: api.sejm.gov.pl (Sejm ELI API)
- * URL pattern: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- *
- * These are the most important Serbian statutes for cybersecurity, data protection,
- * and compliance use cases. References use the Dziennik Ustaw (Journal of Laws)
- * format: Dz.U. YYYY poz. NNNN.
- */
-export const KEY_SERBIAN_ACTS: ActIndexEntry[] = [
-  {
-    id: 'dpa-2018',
-    title: 'Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych',
-    titleEn: 'Personal Data Protection Act 2018',
-    shortName: 'UODO 2018',
-    status: 'in_force',
-    issuedDate: '2018-05-10',
-    inForceDate: '2018-05-25',
-    dziennikRef: 'Dz.U. 2018 poz. 1000',
-    year: 2018,
-    poz: 1000,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000',
-    description: 'GDPR implementing provisions (RODO); establishes UODO (Urząd Ochrony Danych Osobowych) as the supervisory authority; covers certification, codes of conduct, and administrative penalties',
-  },
-  {
-    id: 'ksc-2018',
-    title: 'Ustawa z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa',
-    titleEn: 'National Cybersecurity System Act 2018 (KSC)',
-    shortName: 'KSC',
-    status: 'in_force',
-    issuedDate: '2018-07-05',
-    inForceDate: '2018-08-28',
-    dziennikRef: 'Dz.U. 2018 poz. 1560',
-    year: 2018,
-    poz: 1560,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001560',
-    description: 'NIS Directive implementation; establishes national cybersecurity system with CSIRT teams (CSIRT NASK, CSIRT GOV, CSIRT MON); covers essential services operators and digital service providers',
-  },
-  {
-    id: 'ksh-2000',
-    title: 'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych',
-    titleEn: 'Commercial Companies Code (KSH)',
-    shortName: 'KSH',
-    status: 'in_force',
-    issuedDate: '2000-09-15',
-    inForceDate: '2001-01-01',
-    dziennikRef: 'Dz.U. 2000 nr 94 poz. 1037',
-    year: 2000,
-    poz: 1037,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000940037',
-    description: 'Comprehensive commercial companies law governing partnerships (spółka jawna, komandytowa, etc.) and capital companies (sp. z o.o. and S.A.); corporate governance requirements',
-  },
-  {
-    id: 'kodeks-karny-1997',
-    title: 'Ustawa z dnia 6 czerwca 1997 r. - Kodeks karny',
-    titleEn: 'Criminal Code (Kodeks karny)',
-    shortName: 'KK',
-    status: 'in_force',
-    issuedDate: '1997-06-06',
-    inForceDate: '1998-09-01',
-    dziennikRef: 'Dz.U. 1997 nr 88 poz. 553',
-    year: 1997,
-    poz: 553,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970880553',
-    description: 'Criminal Code; cybercrime provisions in Art. 267 (unauthorized access), Art. 268 (data destruction), Art. 268a (computer sabotage), Art. 269 (sabotage of critical systems), Art. 269a (DoS), Art. 269b (hacking tools)',
-  },
-  {
-    id: 'e-services-2002',
-    title: 'Ustawa z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną',
-    titleEn: 'Act on Provision of Electronic Services',
-    shortName: 'E-Services Act',
-    status: 'in_force',
-    issuedDate: '2002-07-18',
-    inForceDate: '2002-10-10',
-    dziennikRef: 'Dz.U. 2002 nr 144 poz. 1204',
-    year: 2002,
-    poz: 1204,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20021441204',
-    description: 'E-Commerce Directive implementation; regulates electronic services, ISP liability, spam prohibition, electronic contracts',
-  },
-  {
-    id: 'telecom-2004',
-    title: 'Ustawa z dnia 16 lipca 2004 r. - Prawo telekomunikacyjne',
-    titleEn: 'Telecommunications Law',
-    shortName: 'PT',
-    status: 'in_force',
-    issuedDate: '2004-07-16',
-    inForceDate: '2004-09-03',
-    dziennikRef: 'Dz.U. 2004 nr 171 poz. 1800',
-    year: 2004,
-    poz: 1800,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20041711800',
-    description: 'Telecommunications regulation; data retention, communications security, network integrity obligations, UKE (Office of Electronic Communications) authority',
-  },
-  {
-    id: 'constitution-1997',
-    title: 'Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.',
-    titleEn: 'Constitution of the Republic of Poland',
-    shortName: 'Konstytucja RP',
-    status: 'in_force',
-    issuedDate: '1997-04-02',
-    inForceDate: '1997-10-17',
-    dziennikRef: 'Dz.U. 1997 nr 78 poz. 483',
-    year: 1997,
-    poz: 483,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483',
-    description: 'Supreme law; Art. 47 (privacy), Art. 49 (communication secrecy), Art. 51 (personal data protection), Art. 54 (freedom of expression)',
-  },
-  {
-    id: 'kodeks-cywilny-1964',
-    title: 'Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny',
-    titleEn: 'Civil Code (Kodeks cywilny)',
-    shortName: 'KC',
-    status: 'in_force',
-    issuedDate: '1964-04-23',
-    inForceDate: '1965-01-01',
-    dziennikRef: 'Dz.U. 1964 nr 16 poz. 93',
-    year: 1964,
-    poz: 93,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19640160093',
-    description: 'Core private law; personality rights protection (Art. 23-24), contract law, liability for damages, electronic declarations of intent',
-  },
-  {
-    id: 'banking-law-1997',
-    title: 'Ustawa z dnia 29 sierpnia 1997 r. - Prawo bankowe',
-    titleEn: 'Banking Law',
-    shortName: 'PB',
-    status: 'in_force',
-    issuedDate: '1997-08-29',
-    inForceDate: '1998-01-01',
-    dziennikRef: 'Dz.U. 1997 nr 140 poz. 939',
-    year: 1997,
-    poz: 939,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971400939',
-    description: 'Banking regulation; banking secrecy obligations, outsourcing of banking activities, IT security requirements for banks, cloud computing provisions',
-  },
-  {
-    id: 'kpa-1960',
-    title: 'Ustawa z dnia 14 czerwca 1960 r. - Kodeks postępowania administracyjnego',
-    titleEn: 'Code of Administrative Procedure (KPA)',
-    shortName: 'KPA',
-    status: 'in_force',
-    issuedDate: '1960-06-14',
-    inForceDate: '1961-01-01',
-    dziennikRef: 'Dz.U. 1960 nr 30 poz. 168',
-    year: 1960,
-    poz: 168,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19600300168',
-    description: 'Administrative procedure code; governs proceedings before UODO (data protection authority), UKE, and other regulators; electronic administration provisions',
-  },
-];

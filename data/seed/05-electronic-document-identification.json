@@ -1,126 +1,774 @@
 {
   "id": "rs-electronic-document-identification",
   "type": "statute",
-  "title": "Zakon o elektronskom dokumentu, elektronskoj identifikaciji i uslugama od poverenja u elektronskom poslovanju",
-  "title_en": "Law on Electronic Document, Electronic Identification and Trust Services in Electronic Business",
-  "short_name": "ZEDITEP",
+  "title": "Закон о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању",
+  "title_en": "LAW ON ELECTRONIC DOCUMENT, ELECTRONIC IDENTIFICATION AND TRUST SERVICES IN ELECTRONIC BUSINESS",
+  "short_name": "ZEDEIUP",
   "status": "in_force",
-  "issued_date": "2017-05-25",
-  "in_force_date": "2017-06-07",
-  "url": "https://www.paragraf.rs/propisi/zakon-o-elektronskom-dokumentu-elektronskoj-identifikaciji-i-uslugama-od-poverenja-u-elektronskom-poslovanju.html",
-  "description": "Zakon o elektronskom dokumentu, elektronskoj identifikaciji i uslugama od poverenja u elektronskom poslovanju (ZEDITEP) uspostavlja pravni okvir za elektronske dokumente, elektronsku identifikaciju i usluge od poverenja u Republici Srbiji, usklađen sa Uredbom (EU) br. 910/2014 (eIDAS). Zakon uređuje uslove za pružanje usluga od poverenja, imenuje nadzorni organ za kvalifikovane pružaoce usluga od poverenja i uređuje pravna dejstva elektronskih potpisa, pečata, vremenskih žigova i registrovane elektronske dostave.",
+  "url": "https://www.pravno-informacioni-sistem.rs/viewAct/ad1ba3ab-ac2a-4b7d-a08f-4faa6cfbcc26",
+  "description": "РЕПУБЛИЧКИ ПРОПИСИ РАЗВОЈ Информационе технологије Закон о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању: 94/2017-9, 52/2021-22. Пречишћени текст је преузет са званичног портала Правно-информационог система Републике Србије.",
   "provisions": [
     {
       "provision_ref": "art1",
+      "chapter": "I. УВОДНЕ ОДРЕДБЕ",
       "section": "1",
-      "title": "Član 1. Predmet zakona",
-      "content": "This Law establishes the legal framework for electronic documents, electronic identification, and trust services in electronic business in the Republic of Serbia, modelled on Regulation (EU) No 910/2014 (eIDAS). The Law governs the conditions for the provision of trust services, including electronic signatures, electronic seals, electronic time stamps, electronic registered delivery services, and website authentication certificates. It designates the supervisory body for trust service providers established in Serbia, establishes requirements for the legal effect of trust services, and provides for the recognition of electronic documents in legal and administrative proceedings."
+      "title": "Члан 1. Предмет",
+      "content": "Овим законом уређују се електронски документ, електронска идентификација и услуге од поверења у електронском пословању."
     },
     {
       "provision_ref": "art2",
+      "chapter": "I. УВОДНЕ ОДРЕДБЕ",
       "section": "2",
-      "title": "Član 2. Pojmovi (Definitions)",
-      "content": "For the purposes of this Law: 'electronic document' means data in electronic form to which other electronic data are attached or which are logically associated with such data and which serve as a proof or as a means of communication; 'electronic identification' means the process of using person identification data in electronic form uniquely representing a natural or legal person; 'trust service' means an electronic service consisting of the creation, verification, and validation of electronic signatures, electronic seals, electronic time stamps, electronic registered delivery services, website authentication, or related certificates; 'trust service provider' means a natural or legal person providing one or more trust services; 'qualified trust service' means a trust service meeting the applicable requirements of this Law."
+      "title": "Члан 2. Значење појединих израза",
+      "content": "Поједини изрази, у смислу овог закона, имају следеће значење:\n\n1) електронско пословање је употреба података у електронском облику, средстава електронске комуникације и електронске обраде података у обављању послова физичких и правних лица;\n\n2) електронски облик података је дигитални запис података погодан за електронску обраду и пренос путем средстава електронске комуникације;\n\n3) електронска трансакција је пословна активност између две или више страна која се обавља електронским путем;\n\n4) електронски документ је скуп података састављен од слова, бројева, симбола, графичких, звучних и видео материјала, у електронском облику;\n\n5) производ је хардвер, софтвер односно хардвер са припадајућим софтвером, или њихове одговарајуће компоненте, намењен електронској обради, електронском преносу односно чувању података;\n\n6) интероперабилност је способност два или више система или њихових компоненти да размењују податке и омогуће заједничку употребу података и знања;\n\n7) орган јавне власти је државни орган, орган аутономне покрајине, орган јединице локалне самоуправе, предузећа, установе, организације и појединци којима су поверени послови из надлежности Републике Србије, односно јавна овлашћења;\n\n8) физичко лице у својству регистрованог субјекта је физичко лице које је регистровано за обављање одређене делатности у складу са законом;\n\n9) аутентикација је процес провере идентитета правног лица, физичког лица или физичког лица у својству регистрованог субјекта укључујући проверу интегритета и порекла података за које се претпоставља да их је то лице створило, односно послало;\n\n10) идентификациони подаци представљају скуп података на основу којих је могуће једнозначно утврдити идентитет правног лица, физичког лица или физичког лица у својству регистрованог субјекта;\n\n11) електронска идентификација је поступак коришћења личних идентификационих података у електронском облику који једнозначно одређују правно лице, физичко лице или физичко лице у својству регистрованог субјекта;\n\n12) средство електронске идентификације је материјално односно нематеријално средство које садржи идентификационе податке и којим се доказује идентитет приликом аутентикације;\n\n13) шема електронске идентификације је систем издавања средства електронске идентификације правном лицу, физичком лицу или физичком лицу у својству регистрованог субјекта;\n\n14) услуга електронске идентификације је услуга која омогућава коришћење одређене шеме електронске идентификације у електронским трансакцијама при чему се у оквиру те услуге пружају гаранције да идентификациони подаци из средства електронске идентификације одговарају лицу коме је средство издато;\n\n14а) чвор (енг. node) представља место\nприкључења који је део структуре интероперабилности електронске\nидентификације и омогућава прекограничну аутентикацију лица и\nима функцију препознавања и обраде, односно прослеђивања преноса\nподатака на друге чворове тако што обезбеђује да се\nинфраструктура електронске идентификације једне државе повеже са\nинфраструктуром електронске идентификације друге државе;\n\n15) услуга од поверења је електронска услуга која олакшава пословну активност између две или више страна при чему се заснива на томе да пружалац услуге странама гарантује веродостојност појединих података, а која је као таква одређена овим законом;\n\n16) пружалац услуга од поверења је правно лице или физичко лице у својству регистрованог субјекта које пружа једну или више услуга од поверења;\n\n17) поуздајућа страна је правно или физичко лице које се поуздаје у услугу електронске идентификације односно услугу од поверења;\n\n18) квалификована услуга од поверења је услуга од поверења која испуњава услове утврђене овим законом за квалификовану услугу од поверења;\n\n19) пружалац квалификоване услуге од поверења је правно лице или физичко лице у својству регистрованог субјекта које пружа једну или више квалификованих услуга од поверења,\nу складу са овим законом;\n\n20) електронски потпис је скуп података у електронском облику који су придружени или логички повезани са другим (потписаним) подацима у електронским облику тако да се електронским потписом потврђује интегритет тих података и идентитет потписника;\n\n21) електронски печат је скуп података у електронском облику који су придружени или логички повезани са другим (печатираним) подацима у електронском облику тако да се електронским печатом потврђује интегритет тих података и идентитет печатиоца;\n\n22) подаци за креирање електронског потписа односно печата су јединствени подаци које користи потписник односно печатилац за креирање електронског потписа односно печата и који су логички повезани са одговарајућим подацима за валидацију електронског потписа односно печата;\n\n23) подаци за валидацију електронског потписа односно печата су подаци на основу којих се проверава да ли електронски потпис односно печат одговара подацима који су потписани односно печатирани;\n\n24) сертификат за електронски потпис односно печат је електронска потврда којом се потврђује веза између података за валидацију електронског потписа односно печата и идентитета потписника односно печатиоца;\n\n25) потписник је физичко лице које је креирало електронски потпис и чији су идентификациони подаци наведени у сертификату на основу кога је креиран тај електронски потпис, то јест сертификату којим се потврђује веза између идентитета тог потписника и података за валидацију електронског потписа који одговарају подацима за креирање електронског потписа које је потписник користио при креирању тог електронског потписа;\n\n26) печатилац је правно лице, физичко\nлице у својству регистрованог субјекта, физичко лице коме је\nповерено вршење јавних овлашћења или физичко лице које у\nобављању делатности у складу са посебним прописима има право на\nкоришћење печата (нпр. лица која имају лиценцу за вршење послова\nили обављање делатности), у чије име се креира електронски печат\nи чији су идентификациони подаци наведени у сертификату на\nоснову кога је креиран тај електронски печат, односно у\nсертификату којим се потврђује веза између идентитета тог\nпечатиоца и података за валидацију електронског печата који\nодговарају подацима за креирање електронског печата који су по\nовлашћењу печатиоца коришћени при креирању тог електронског\nпечата;\n\n27) средство за креирање електронског потписа односно печата је техничко средство (софтвер односно хардвер) које се користи за креирање електронског потписа односно печата уз коришћење података за креирање електронског потписа односно печата;\n\n28) валидација је поступак провере и потврђивања исправности електронског потписа односно електронског печата;\n\n29) напредни електронски потпис је електронски потпис који испуњава додатне услове за обезбеђивање вишег нивоа поузданости потврђивања интегритета података и идентитета потписника у складу са овим законом;\n\n30) квалификовани електронски потпис је напредни електронски потпис који је креиран квалификованим средством за креирање електронског потписа и који се заснива на квалификованом сертификату за електронски потпис\nи који је издат од стране пружаоца\nквалификоване услуге од поверења у складу са овим законом;\n\n31) квалификовано средство за креирање електронског потписа је средство које испуњава услове прописане овим законом;\n\n32) квалификовани сертификат за електронски потпис је сертификат за електронски потпис који издаје\nпружалац квалификоване услуге од поверења и који испуњава услове предвиђене овим законом;\n\n33) напредни електронски печат је електронски печат који испуњава додатне услове за обезбеђивање вишег нивоа поузданости потврђивања интегритета података и идентитета печатиоца у складу са овим законом;\n\n34) квалификовани електронски печат је напредни електронски печат који је креиран квалификованим средством за креирање електронског печата и који је заснован на квалификованом сертификату за електронски печат;\n\n35) квалификовано средство за креирање електронског печата је средство које испуњава услове прописане овим законом;\n\n36) квалификовани сертификат за електронски печат је сертификат за електронски печат који издаје\nпружалац квалификоване услуге од поверења и испуњава услове предвиђене овим законом;\n\n36а) услуга управљања квалификованим\nсредством за креирање електронског потписа на даљину је услуга\nизраде квалификованог електронског потписа на даљину путем\nсредства за креирање електронског потписа којим у име потписника\nуправља пружалац квалификоване услуге од поверења и гарантује да\nсе подаци за израду електронског потписа користе под искључивом\nконтролом потписника, у складу са овим законом;\n\n36б) услуга управљања квалификованим\nсредством за креирање електронског печата на даљину је услуга\nизраде квалификованог електронског печата на даљину путем\nсредства за креирање електронског печата којим у име печатиоца\nуправља пружалац квалификоване услуге од поверења и гарантује да\nсе подаци за израду електронског печата користе под искључивом\nконтролом печатиоца, у складу са овим законом;\n\n37) сертификат за аутентикацију веб сајта је потврда помоћу које је могуће извршити аутентикацију веб сајта и којом се веб сајт повезује са идентитетом физичког или правног лица коме је сертификат издат;\n\n38) квалификовани сертификат за аутентикацију веб сајта је сертификат за аутентикацију веб сајта коју издаје\nпружалац квалификоване услуге од поверења и испуњава услове предвиђене овим законом;\n\n39) електронски временски жиг је званично време придружено подацима у електронском облику којим се потврђује да су ти подаци постојали у том временском тренутку;\n\n40) квалификовани електронски временски жиг је електронски временски жиг који испуњава услове утврђене овим законом за квалификовани електронски временски жиг\nи издат је од стране пружаоца\nквалификоване услуге од поверења у складу са овим законом;\n\n41) услуга електронске доставе је услуга преноса података електронским путем у оквиру које пружалац услуге обезбеђује доказе о поступању са пренесеним подацима, укључујући доказ слања и пријема података, чиме се пренесени подаци штите од ризика губитка, крађе, оштећења односно било којих неовлашћених промена;\n\n42) конверзија је превођење документа из једног облика у други тако да је очуван садржај документа;\n\n43) дигитализација је конверзија документа из облика који није електронски у електронски облик;\n\n44) дигитализовани документ је документ који је настао дигитализацијом изворног докумената;\n\n45) тело за оцењивање усаглашености је тело овлашћено за спровођење оцењивања усаглашености\nпружаоца квалификоване услуге од поверења и квалификоване услуге од поверења коју он пружа са условима за пружање квалификованих услуга од поверења.\n\nСви појмови који се користе у овом\nзакону у мушком роду, обухватају исте појмове у женском роду.\n\n*Службени гласник РС, број 52/2021"
     },
     {
       "provision_ref": "art3",
+      "chapter": "I. УВОДНЕ ОДРЕДБЕ",
       "section": "3",
-      "title": "Član 3. Elektronski dokument (Electronic Document)",
-      "content": "An electronic document shall have the same legal effect as a paper document, unless this Law or other applicable law requires a specific form or procedure. Electronic documents shall be admissible as evidence in judicial and administrative proceedings in Serbia and shall not be denied legal effect solely on the grounds that they are in electronic form. The authenticity and integrity of an electronic document may be established by means of a qualified electronic signature or other appropriate technical means. Public authorities shall accept electronic documents submitted by citizens and businesses in connection with administrative procedures, in accordance with applicable e-government provisions."
+      "title": "Члан 3. Примена",
+      "content": "Пружалац услуга од поверења пружа услуге од поверења у складу са овим законом.\n\nОдредбе овог закона не примењују се на услуге од поверења које се пружају\nискључиво у оквиру затвореног система, односно ограниченог круга учесника, који може бити одређен споразумом, интерним актом или прописом, и које немају утицај на треће стране, односно не обавезују трећа лица ван тог система.\n\n*Службени гласник РС, број 52/2021"
     },
     {
       "provision_ref": "art4",
+      "chapter": "I. УВОДНЕ ОДРЕДБЕ",
       "section": "4",
-      "title": "Član 4. Nadzorni organ (Supervisory Body)",
-      "content": "The Ministry of Information and Telecommunications is designated as the supervisory body responsible for the supervision of trust service providers established in Serbia, in accordance with the requirements of this Law. The supervisory body shall establish and maintain the national trusted list of qualified trust service providers and the qualified trust services they provide. The supervisory body shall carry out supervision of trust service providers through conformity assessment requirements, regular audits, and oversight of ongoing compliance with applicable requirements. The supervisory body shall cooperate with supervisory bodies of other states and with the EU in matters relating to cross-border recognition of trust services."
+      "title": "Члан 4. Обрада и заштита података",
+      "content": "Пружалац услуга од поверења односно услуге електронске идентификације приликом обраде података о личности поступа у складу са законом којим се уређује заштита података о личности.\n\nУ оквиру електронске трансакције стране се могу представљати псеудонимом ако прописом, уговором или на други обавезујући начин није другачије одређено."
     },
     {
       "provision_ref": "art5",
+      "chapter": "I. УВОДНЕ ОДРЕДБЕ",
       "section": "5",
-      "title": "Član 5. Kvalifikovani pružaoci usluga od poverenja",
-      "content": "Trust service providers wishing to obtain qualified status shall submit a conformity assessment report issued by an accredited conformity assessment body together with an application to the supervisory body. The supervisory body shall review the application and, where applicable requirements are satisfied, grant qualified status and include the provider on the trusted list. Qualified trust service providers shall maintain ongoing compliance with applicable requirements and shall undergo conformity assessment at least every twenty-four months. The supervisory body may suspend or withdraw qualified status where a provider no longer satisfies applicable requirements or commits a significant breach of applicable obligations."
+      "title": "Члан 5. Пристанак на идентификацију и аутентикацију",
+      "content": "Поступак електронске идентификације и аутентикације може бити покренут само на захтев правног или физичког лица које је предмет идентификације, осим ако је прописом другачије одређено."
     },
     {
       "provision_ref": "art6",
+      "chapter": "I. УВОДНЕ ОДРЕДБЕ",
       "section": "6",
-      "title": "Član 6. Elektronski potpis (Electronic Signature)",
-      "content": "An electronic signature shall not be denied legal effect and admissibility as evidence in legal proceedings solely on the grounds that it is in electronic form or does not meet the requirements for a qualified electronic signature. A qualified electronic signature shall have the equivalent legal effect of a handwritten signature for all purposes under Serbian law where a handwritten signature is required. Public authorities shall accept qualified electronic signatures for the submission of documents and applications in electronic form. The supervisory body shall publish guidance for public authorities on the verification and acceptance of electronic signatures and shall maintain the trusted list of qualified trust service providers."
+      "title": "Члан 6. Доступност и приступ особама са инвалидитетом",
+      "content": "Услуге од поверења, услуге електронске идентификације и производи који се користе за пружање тих услуга једнако су доступни и особама с инвалидитетом."
     },
     {
       "provision_ref": "art7",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "7",
-      "title": "Član 7. Elektronski pečat (Electronic Seal)",
-      "content": "An electronic seal shall not be denied legal effect and admissibility as evidence in legal proceedings solely on the grounds that it is in electronic form or does not meet the requirements for a qualified electronic seal. A qualified electronic seal shall enjoy the presumption of integrity of the data and of correctness of the origin of the data to which the qualified electronic seal is linked. Legal persons, including public authorities, may use electronic seals to authenticate documents and data in electronic form. Public authorities shall accept qualified electronic seals for the purposes of authenticating official documents and communications in electronic form."
+      "title": "Члан 7. Пуноважност и доказна снага електронског документа",
+      "content": "Електронском документу не може се оспорити пуноважност, доказна снага, као ни писана форма само зато што је у електронском облику."
     },
     {
       "provision_ref": "art8",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "8",
-      "title": "Član 8. Elektronski vremenski žig (Electronic Time Stamp)",
-      "content": "An electronic time stamp shall not be denied legal effect and admissibility as evidence in legal proceedings solely on the grounds that it is in electronic form or does not meet the requirements for a qualified electronic time stamp. A qualified electronic time stamp shall enjoy the presumption of the accuracy of the date and time it indicates and the integrity of the data to which the date and time are bound. Qualified electronic time stamps shall be accepted in judicial and administrative proceedings in Serbia for the purposes of establishing the date and time of electronic records and documents."
+      "title": "Члан 8. Израда електронског документа",
+      "content": "Електронски документ се израђује применом једне од доступних и употребљивих информационо комуникационих технологија, ако законом није другачије одређено.\n\nЕлектронски документ који представља архивску грађу израђује се у форми која задовољава услове прописане овим законом за поуздану припрему за електронско чување."
     },
     {
       "provision_ref": "art9",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "9",
-      "title": "Član 9. Registrovana elektronska dostava (Registered Electronic Delivery)",
-      "content": "A qualified electronic registered delivery service shall provide evidence of the sending of data by the identified sender and its receipt by the identified addressee, with a reliable indication of the date and time of sending and receipt. Data sent and received using a qualified electronic registered delivery service shall enjoy presumptions of integrity, authenticity, and accuracy of date and time. Public authorities shall use qualified electronic registered delivery services for the delivery of official communications and notifications where electronic delivery is permitted or required under applicable law. The supervisory body shall establish technical requirements for qualified electronic registered delivery services."
+      "title": "Члан 9. Форма приказа електронског документа",
+      "content": "Електронски документ садржи унутрашњу и спољну форму приказа.\n\nУнутрашња форма приказа састоји се од техничко-програмске форме записивања садржине електронског документа.\n\nСпољна форма приказа састоји се од визуелног или другог разумљивог приказа садржине електронског документа.\n\nАко документ садржи електронски потпис или електронски печат, та чињеница треба да буде јасно исказана у спољној форми електронског документа.\n\nУколико електронски документ садржи електронски потпис или печат физичког лица или овлашћеног лица правног субјекта, свака друга форма потписа или печата истог физичког лица или овлашћеног лица правног субјекта је излишна."
     },
     {
       "provision_ref": "art10",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "10",
-      "title": "Član 10. Bezbednost usluga od poverenja",
-      "content": "Trust service providers shall take appropriate technical and organisational measures to manage the security risks to the trust services they provide, ensuring a level of security appropriate to the degree of risk. Security requirements shall address key management, certificate issuance procedures, physical and environmental security, access controls, and incident detection and response. Trust service providers shall notify the supervisory body without undue delay of any breach of security or loss of integrity having a significant impact on a trust service or on personal data. The supervisory body shall establish detailed security requirements applicable to trust service providers and shall audit compliance with those requirements."
+      "title": "Члан 10. Оригинал и копија",
+      "content": "Електронски документ који је изворно настао у електронском облику сматра се оригиналом.\n\nЕлектронски документ који има истоветан дигитални запис оригиналном електронском документу сматра се оригиналом.\n\nКопија електронског документа на папиру израђује се штампањем спољне форме електронског документа.\n\nЕлектронски документ који је настао дигитализацијом изворног документа чија форма није електронска, сматра се копијом изворног документа."
     },
     {
       "provision_ref": "art11",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "11",
-      "title": "Član 11. Elektronska identifikacija (Electronic Identification)",
-      "content": "Serbia shall develop and maintain a national electronic identification framework enabling citizens and businesses to authenticate electronically with public authorities and service providers. The national electronic identification system shall meet applicable security and reliability standards and shall be designed to be compatible with systems of other states, including EU Member States. The supervisory body shall coordinate the development of the national electronic identification framework and shall engage with the EU in the context of accession preparations to facilitate the future mutual recognition of electronic identification means between Serbia and EU Member States."
+      "title": "Члан 11. Овера дигитализованог акта",
+      "content": "Акт који је дигитализован има исту доказну снагу као оригинални акт ако су кумулативно испуњени следећи услови и то:\n\n1) да је дигитализација акта обављена на један од следећих начина, односно под надзором:\n\n(1) физичког односно овлашћеног лица физичког лица у својству регистрованог субјекта или овлашћеног лица правног лица чији је то акт, или\n\n(2) лицa које је овлашћено за оверу потписа, рукописа и преписа у складу са законом који уређује оверу потписа, рукописа и преписа, или\n\n(3) лица које је посебним законом овлашћено за оверу дигитализованог акта;\n\n2) да је истоветност дигитализованог акта са оригиналом потврђена квалификованим електронским печатом или квалификованим електронским потписом лица из подтач. (1)–(3) овог става или лица на кога су пренете надлежности на основу којих је акт донет.\n\nОвлашћено лице органа јавне власти може у поступцима који се спроводе у вршењу јавних овлашћења дигитализовати акт и оверити дигитализовани акт квалификованим електронским печатом органа или својим квалификованим електронским потписом, чиме се потврђује истоветност дигитализованог акта са оригиналном исправом.\n\nДигитализовани акт који је оверен од стране органа из става 2. овог члана има исту доказну снагу као оригинал у оквиру спровођења тог поступка."
     },
     {
       "provision_ref": "art12",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "12",
-      "title": "Član 12. Odgovornost (Liability)",
-      "content": "Trust service providers shall be liable for damages caused intentionally or negligently to any natural or legal person due to a failure to comply with the obligations of this Law. The burden of proving that the trust service provider did not act intentionally or negligently shall rest on the trust service provider where the damage was caused by a qualified trust service. Trust service providers may limit their liability in relation to the use of services beyond specified limits as clearly stated in the terms and conditions of the service, provided such limitations are transparent, accessible, and non-discriminatory."
+      "title": "Члан 12. Овера одштампаног примерка електронског документа",
+      "content": "Одштампани примерак електронског документа има исту доказну снагу као оригинални акт, ако су кумулативно испуњени следећи услови и то:\n\n1) да је штампање електронског документа извршено под надзором:\n\n(1) физичког лица, овлашћеног лица физичког лица у својству регистрованог субјекта, односно овлашћеног лица правног лица чији је то акт, или\n\n(2) лицa које је овлашћено за оверу потписа, рукописа и преписа у складу са законом који уређује оверу потписа, рукописа и преписа;\n\n2) да је истоветност одштампаног примерка електронског документа са оригиналом потврђена, уз назнаку да је реч о одштампаном примерку електронског документа:\n\n(1) својеручним потписом физичког лица, или\n\n(2) својеручним потписом овлашћеног лица физичког лица у својству регистрованог субјекта, односно овлашћеног лица правног лица, као и печатом физичког лица у својству регистрованог субјекта, односно правног лица, ако постоји законска обавеза да акт садржи печат, или\n\n(3) од стране лицa које је овлашћено за оверу потписа, рукописа и преписа у складу са законом који уређује оверу потписа, рукописа и преписа.\n\nОвлашћено лице органа јавне власти може у поступцима који се спроводе у вршењу јавних овлашћења одштампати електронски документ на папиру и оверити одштампани примерак електронског документа на начин из става 1. тачка 2) подтачка (2) овог члана, при чему одштампани примерак електронског документа обавезно садржи печат утврђен законом којим се уређује печат државних и других органа.\n\nОдштампани примерак електронског документа који је оверен од стране органа из става 2. овог члана има исту доказну снагу као оригинал у оквиру спровођења тог поступка."
     },
     {
       "provision_ref": "art13",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "13",
-      "title": "Član 13. Prekogranično priznavanje (Cross-Border Recognition)",
-      "content": "Serbia shall work towards the mutual recognition of trust services with other states, including EU Member States, as part of the EU accession process and through bilateral recognition arrangements. The supervisory body shall maintain the national trusted list in a format compatible with applicable European standards to facilitate interoperability. Where trust services provided by trust service providers from other states are presented in Serbian legal or administrative proceedings, their legal effect shall be assessed in the light of applicable legal requirements and the level of security they provide. The Government may designate certain third-country trust services as recognised for specified purposes."
+      "title": "Члан 13. Потврда о пријему електронског документа",
+      "content": "Потврда о пријему електронског документа је доказ да је тај документ примљен од стране примаоца.\n\nПотврду о пријему електронског документа издаје прималац електронског документа или пружалац услуге електронске доставе.\n\nБрисан је ранији став 3. (види члан 3. Закона -\n52/2021-22)\n\nОбавеза издавања потврде о пријему електронског документа и елементи садржаја потврде уређују се прописима или вољом странака, ако законом није другачије одређено."
     },
     {
       "provision_ref": "art14",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "14",
-      "title": "Član 14. Nadzor i sprovođenje (Supervision and Enforcement)",
-      "content": "The supervisory body shall carry out ongoing supervision of trust service providers established in Serbia, including through the review of conformity assessment reports, on-site inspections, and requests for information. Where the supervisory body identifies non-compliance, it may issue compliance orders, impose administrative sanctions, suspend or withdraw qualified status, and take other proportionate enforcement action. Administrative sanctions shall be proportionate to the nature, gravity, and duration of the non-compliance. Decisions of the supervisory body may be appealed through applicable administrative and judicial appeal procedures."
+      "title": "Члан 14. Дуплирање електронских докумената",
+      "content": "Сваки примљени електронски документ сматра се посебним документом, осим ако је више пута примљен истоветан документ и прималац је знао или је морао знати да је реч о истоветном документу.\n\n*Службени гласник РС, број 52/2021"
     },
     {
       "provision_ref": "art15",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "15",
-      "title": "Član 15. E-uprava i prihvatanje elektronskih dokumenata",
-      "content": "Public authorities in Serbia shall accept electronic documents, electronic signatures, electronic seals, and electronic registered delivery services in the conduct of administrative procedures, consistent with the requirements of this Law and applicable e-government legislation. The Government shall establish procedures for the gradual extension of the acceptance of electronic documents and trust services across all administrative procedures, prioritising high-volume procedures with significant citizen impact. Public authorities shall implement the technical infrastructure necessary to verify and process electronic signatures, seals, and time stamps, in accordance with guidance issued by the supervisory body."
+      "title": "Члан 15. Електронско општење и електронско\nдостављање између органа јавне власти и странака",
+      "content": "Електронско општење и електронско\nдостављање између органа јавне власти и странака врши се у\nскладу са законом којим се уређује општи управни поступак,\nзаконом којим се уређује електронска управа и другим прописима,\nкао и путем услуге квалификоване електронске доставе.\n\n*Службени гласник РС, број 52/2021"
     },
     {
       "provision_ref": "art16",
+      "chapter": "II. ЕЛЕКТРОНСКИ ДОКУМЕНТ",
       "section": "16",
-      "title": "Član 16. Usklađivanje sa eIDAS",
-      "content": "The Republic of Serbia is progressively aligning this Law with Regulation (EU) No 910/2014 (eIDAS) and subsequent amendments, including Regulation (EU) 2024/1183 (eIDAS 2.0) introducing the European Digital Identity Wallet framework, as part of the EU accession process. Alignment activities include updating technical requirements to meet eIDAS standards, developing a national electronic identification scheme that can be notified to the EU upon accession, and ensuring that Liechtenstein's trust service framework is compatible with EU requirements. The supervisory body shall cooperate with EU institutions and Member State supervisory bodies in planning the alignment process."
+      "title": "Члан 16. Достављање електронских докумената између органа јавне власти",
+      "content": "Достављање електронских докумената између органа јавне власти обавља се путем електронске поште, сервисне магистрале органа, услуге квалификоване електронске доставе или другим електронским путем, у складу са прописом."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "III. ЕЛЕКТРОНСКА ИДЕНТИФИКАЦИЈА",
+      "section": "17",
+      "title": "Члан 17. Услови које мора да испуњава шема електронске идентификације",
+      "content": "Шема електронске идентификације мора:\n\n1) да садржи податке за идентификацију лица на издатим средствима за идентификацију, који јединствено одређују правно или физичко лице;\n\n2) да обезбеди да пружалац\nуслуге електронске идентификације обезбеди идентификационе податке у оквиру средства електронске идентификације који одговарају лицу коме је средство издато;\n\n3) да јасно дефинише техничке и друге услове који омогућавају поуздајућој страни проверу идентитета;\n\n4) да испуњава услове за ниво поузданости у који се разврстава, из члана 18. овог закона.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "III. ЕЛЕКТРОНСКА ИДЕНТИФИКАЦИЈА",
+      "section": "18",
+      "title": "Члан 18. Нивои поузданости шема електронске идентификације",
+      "content": "Шеме електронске идентификације разврставају се према нивоу поузданости на:\n\n1) шеме основног нивоа поузданости, које обезбеђују ограничено поверење у идентитет којим се лице представља и користе средства и процедуре чија сврха је да смање ризик злоупотребе односно неистинитог представљања;\n\n2) шеме средњег нивоа поузданости, које обезбеђују значајно поверење у идентитет којим се лице представља и користе средства и процедуре чија сврха је да значајно смање ризик злоупотребе односно неистинитог представљања;\n\n3) шеме високог нивоа поузданости, које обезбеђују високо поверење у идентитет којим се лице представља и користе средства и процедуре чија сврха је да онемогуће злоупотребу односно неистинито представљање.\n\nВлада, на предлог министарства надлежног за послове информационог друштва (у даљем тексту: Министарство), уређује ближе услове које морају да испуне шеме електронске идентификације за одређене нивое поузданости, а нарочито:\n\n1) начин доказивања и провере идентитета физичког односно правног лица које захтева издавање средстава електронске идентификације;\n\n2) начин издавања средстава електронске идентификације;\n\n3) механизам аутентикације, путем кога физичко односно правно лице коришћењем средстава идентификације потврђује свој идентитет другој страни у електронској трансакцији;\n\n4) услове које треба да испуни\nпружалац услуге електронске идентификације;\n\n4а) услове који се односе на податке\nкоји се користе у процесу прекограничне сарадње за физичка и\nправна лица приликом коришћења регистрованих шема електронске\nидентификације, а који од података о личности садрже име и\nпрезиме, датум рођења, адресу становања и пол а у сврху поуздане\nпровере идентитета лица;\n\n5) услове које треба да испуне други учесници који су укључени у поступак издавања средстава електронске идентификације;\n\n6) техничке и безбедносне карактеристике средстава електронске идентификације која се издају;\n\n7) минималне техничке и организационе услове у циљу обезбеђивања интероперабилности шема електронске идентификације у складу са домаћим и међународним стандардима из ове области.\n\n*Службени гласник РС, број 52/2021\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "III. ЕЛЕКТРОНСКА ИДЕНТИФИКАЦИЈА",
+      "section": "19",
+      "title": "Члан 19. Упис у Регистар пружалаца услуга\nелектронске идентификације и шема електронске идентификације",
+      "content": "Регистар пружалаца услуга електронске\nидентификације и шема електронске идентификације представља скуп\nподатака о пружаоцима услуге електронске идентификације и о\nшемама електронске идентификације, који води Mинистарство.\n\nПружалац услуге електронске\nидентификације подноси Mинистарству захтев и потребну\nдокументацију за упис у Регистар пружалаца услуга електронске\nидентификације и шема електронске идентификације.\n\nРегистар из става 1. овог члана од\nподатака о личности садржи податке о одговорним лицима, и то:\nиме, презиме, функцију и контакт податке као што су службена\nадреса, број службеног телефона и службена адреса електронске\nпоште у сврху доступности података корисницима услуге о пружаоцу\nуслуге електронске идентификације.\n\nСаставни део Регистра из става 1. овог\nчлана су и шеме електронске идентификације са листе коју, у\nскладу са чланом 9. Уредбе eIDAS, објављује Европска комисија.\n\nМинистарство прописује садржај и начин\nвођења Регистра из става 1. овог члана, као и начин подношења\nзахтева за упис у тај регистар, у складу са законом који уређује\nопшти управни поступак, потребну документацију уз захтев,\nобразац захтева и начин објављивања података из тог регистра.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "III. ЕЛЕКТРОНСКА ИДЕНТИФИКАЦИЈА",
+      "section": "20",
+      "title": "Члан 20. Коришћење шема електронске идентификације у електронском пословању и у општењу са органом јавне власти",
+      "content": "За утврђивање идентитета у електронском пословању могу се користити шеме електронске идентификације које су уписане у регистар из члана 19. овог закона, као и шеме електронске идентификације које нису уписане у регистар.\n\nИсказ воље не може се оспорити само зато што су, уместо потписа, коришћене шеме електронске идентификације из става 1. овог члана.\n\nШема електронске идентификације која је уписана у регистар из члана 19. овог закона (у даљем тексту: регистрована шема електронске идентификације) може се користити за утврђивање идентитета странке у општењу са органом јавне власти.\n\nУ општењу странке са органима јавне власти идентитет странке утврђен на основу регистроване шеме електронске идентификације високог нивоа поузданости замењује потпис странке на поднеску.\n\nПрописом може бити одређено да се у случају из става 4. овог члана може користити шема електронске идентификације средњег или основног нивоа поузданости, ако су ризик од злоупотребе и могућа штета од злоупотребе такви да није неопходно користити шему високог нивоа поузданости."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "III. ЕЛЕКТРОНСКА ИДЕНТИФИКАЦИЈА",
+      "section": "21",
+      "title": "Члан 21. Одговорност при електронској идентификацији",
+      "content": "Издавалац средстава електронске идентификације одговоран је за штету која је настала због тога што средство за идентификацију није издато у складу са шемом електронске идентификације која испуњава услове из члана 17. овог закона.\n\nЗа штету насталу услед неисправно спроведеног поступка аутентикације одговорна је страна која спроводи тај поступак, ако је штету проузроковала намерно или непажњом."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "III. ЕЛЕКТРОНСКА ИДЕНТИФИКАЦИЈА",
+      "section": "22",
+      "title": "Члан 22. Безбедносни услови које треба да испуњавају пружаоци услуга електронске идентификације",
+      "content": "Пружаоци услуга електронске идентификације предузимају потребне техничке, физичке и организационе мере за управљање ризицима који угрожавају поуздано и безбедно пружање тих услуга.\n\nТехничким и организационим мерама осигурава се да ниво безбедности одговара степену ризика и предвиђеном нивоу поузданости шеме електронске идентификације, узимајући у обзир најновија доступна технолошка решења, а посебно се предузимају мере за спречавање безбедносних инцидената и ограничавање штетних последица евентуалних инцидената, као и за обавештавање заинтересованих страна о нежељеним ефектима безбедносних инцидената."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "III. ЕЛЕКТРОНСКА ИДЕНТИФИКАЦИЈА",
+      "section": "23",
+      "title": "Члан 23. Интероперабилност техничких система",
+      "content": "Министарство сарађује са надлежним међународним телима по питањима прекограничне интероперабилности шема електронске идентификације и предузима мере из своје надлежности како би се успоставио што виши ниво интероперабилности шема електронске идентификације на националном нивоу.\n\nПрекогранична интероперабилност\nрегистрованих шема електронске идентификације се остварује путем\nуспостављања чвора који омогућава прекограничну аутентикацију\nлица, чиме се обезбеђује да се инфраструктура електронске\nидентификације једне државе повеже са инфраструктуром\nелектронске идентификације друге државе.\n\nЧвор успоставља и њиме управља служба\nВладе надлежна за пројектовање, развој, изградњу, одржавање и\nунапређење рачунарске мреже републичких органа.\n\nУ процесу управљања чвором орган из\nстава 3. овог члана дужан је да:\n\n1) обезбеди повезивање са чворовима\nдругих држава чије су шеме електронске идентификације саставни\nдео Регистра из члана 19. овог закона, односно које су признате\nна основу међународног споразума;\n\n2) примени мере заштите ради\nспречавања неовлашћеног приступа подацима који се размењују и\nобезбеди интегритет податка, који се преносе између чворова\nупотребом одговарајућих техничких решења и праксе;\n\n3) обезбеди да се подаци о личности не\nчувају у чвору;\n\n4) користи техничка решења која\nобезбеђују интегритет и аутентичност података, а која се користе\nприликом прекограничног повезивања чворова;\n\n5) обезбеди да чвор испуњава прописане\nуслове који се односе на формат порука;\n\n6) омогући достављање метаподатака о\nуправљању чвором у стандардном облику који је погодан за\nаутоматску обраду података, на безбедан и поуздан начин;\n\n7) обезбеди аутоматску обраду\nпараметара који се односе на безбедност;\n\n8) чува податке који би у случају\nинцидента омогућавали утврђивање места и врсте инцидента у\nзаконском року.\n\n9) обезбеди пренос података који\nобезбеђују поуздано представљање физичког или правног лица, на\nоснову употребе регистроване шеме електронске идентификације\nприликом прекограничне сарадње у складу са законом.\n\nПрописом Владе из члана 18. став 2.\nовог закона ближе се уређују услови из става 4. тач. 5), 8) и 9)\nовог члана који се односе на чвор.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "III. ЕЛЕКТРОНСКА ИДЕНТИФИКАЦИЈА",
+      "section": "24",
+      "title": "Члан 24. Пријављивање",
+      "content": "Министарство Европској комисији може пријављивати регистроване шеме електронског идентитета које испуњавају услове из Уредбе ЕУ бр. 910/2014 Европског парламента и Савета (у даљем тексту: Уредба eIDAS)."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "25",
+      "title": "Члан 25. Одговорност пружаоца услуга од поверења и терет доказивања",
+      "content": "Пружалац услуге од поверења одговоран је за штету насталу услед тога што није поступио у складу са овим законом уколико је штету проузроковао намерно или непажњом.\n\nТерет доказивања намере или непажње пружаоца услуга од поверења је на физичком или правном лицу које захтева накнаду штете из става 1. овог члана.\n\nТерет доказивања да штета није настала услед намере или непажње квалификованог пружаоца услуга од поверења из става 1. овог члана је на том пружаоцу услуга.\n\nПружалац услуга од поверења није одговоран за штету насталу због коришћења услуге којом је прекорачено назначено ограничење, ако је корисник услуге од поверења о таквом ограничењу унапред обавештен."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "26",
+      "title": "Члан 26. Одговорност корисника услуга од поверења за чување средстава и података за формирање електронског потписа односно печата",
+      "content": "Корисник услуге од поверења дужан је да чува средства и податке за формирање електронског потписа односно печата од неовлашћеног приступа и употребе, и да исте користи у складу са одредбама овог закона."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "27",
+      "title": "Члан 27. Безбедносни услови које треба да испуњавају пружаоци услуга од поверења",
+      "content": "Пружаоци услуга од поверења, укључујући пружаоце квалификованих услуга од поверења, предузимају потребне техничке и организационе мере за управљање ризицима који угрожавају поуздано и безбедно пружање тих услуга од поверења.\n\nТехничким и организационим мерама осигурава се да ниво безбедности одговара степену ризика, узимајући у обзир најновија доступна технолошка решења, а посебно се предузимају мере за спречавање безбедносних инцидената и ограничавање штетних последица евентуалних инцидената, као и за обавештавање заинтересованих страна о нежељеним ефектима безбедносних инцидената.\n\nПружаоци услуга од поверења, укључујући пружаоце квалификованих услуга од поверења, без одлагања, а најкасније у року од 24 сата од сазнања, обавештавају Министарство о сваком нарушавању безбедности или губитку интегритета услуге који имају значајан утицај на пружање услуга од поверења .\n\nАко би угрожавање безбедности или губитак интегритета услуге од поверења могли неповољно утицати на кориснике услуга од поверења, пружалац услуга од поверења о повреди безбедности или губитку интегритета услуге, без одлагања, обавештава корисника услуга од поверења.\n\nМинистарство обавештава јавност или захтева од пружаоца услуга од поверења да то учини, ако утврди да је објављивање података о повреди безбедности или губитка интегритета услуге у јавном интересу.\n\nМинистарство ће остварити сарадњу са одговарајућим институцијама других држава по питању размене података о нарушавању безбедности и интегритета, у складу са одговарајућим потврђеним међународним споразумима.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "28",
+      "title": "Члан 28. Надлежност Министарства",
+      "content": "Министарство врши следеће послове:\n\n1) води регистар пружаоца квалификованих услуга од поверења;\n\n2) разматра извештаје о провери испуњености услова за пружање квалификованих услуга од поверења;\n\n3) врши инспекцијски надзор над радом пружаоца услуга од поверења;\n\n4) налаже ванредну проверу испуњености услова за пружање квалификованих услуга од поверења, у складу са законом;\n\n5) сарађује са надлежним органом за заштиту података о личности, и обавештава га без одлагања уколико дође до сазнања да пружаоци квалификованих услуга од поверења не поступају у складу са прописима о заштити података о личности;\n\n6) проверава постојање и правилну примену одредаба о плановима прекида активности у случајевима када пружалац квалификоване услуге од поверења прекине своје активности, укључујући начин на који се одржава доступност информација које издаје и прима пружалац квалификоване услуге од поверења;\n\n7) сарађује са надзорним телима из члана 17. Уредбe eIDAS;\n\n8) обавештава јавност о угрожавању безбедности или губитку целовитости услуга од поверења који имају значајан утицај на пружену услугу од поверења или у њој садржане личне податке."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "29",
+      "title": "Члан 29. Надлежности Министарства у оквиру прекограничне сарадње\nу области услуга од поверења",
+      "content": "Министарство обавља и послове:\n\n1) обавештава надлежна тела страних држава о угрожавању безбедности или губитку целовитости који имају значајан утицај на пружену услугу од поверења или у њој садржане личне податке;\n\n2) извештава Европску комисију о својим активностима у складу са Уредбом eIDAS, почев од дана ступања Републике Србије у чланство у Европској унији."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "30",
+      "title": "Члан 30. Успостављање односа између пружаоца и корисника квалификоване услуге од поверења",
+      "content": "О пружању квалификоване услуге од поверења закључује се уговор између пружаоца и корисника квалификоване услуге од поверења, на захтев корисника.\n\nПружалац квалификоване услуге од поверења дужан је да, пре закључивања уговора из става 1. овог члана, обавести лице које је поднело захтев за пружање квалификоване услуге од поверења о свим важним околностима коришћења услуге, а нарочито о:\n\n1) прописима и правилима који се односе на коришћење квалификоване услуге од поверења;\n\n2) евентуалним ограничењима у коришћењу квалификоване услуге од поверења;\n\n3) мерама које треба да реализују корисници квалификоване услуге од поверења и о потребној технологији за безбедно коришћење квалификоване услуге од поверења.\n\nКорисник квалификоване услуге од поверења може користити услуге од поверења једног или више пружалаца услуга од поверења."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "31",
+      "title": "Члан 31. Услови за пружање квалификованих услуга од поверења",
+      "content": "Пружалац квалификованих услуга од поверења мора:\n\n1) имати запослене који поседују неопходну стручност, искуство и квалификације за примену административних и управљачких процедура које одговарају домаћим и међународним стандардима и који су прошли одговарајућу обуку у области информационе безбедности и заштите података о личности;\n\n2) бити осигуран од одговорности за штету насталу вршењем квалификоване услуге од поверења;\n\n3) користити сигурне уређаје и производе који су заштићени од неовлашћене промене и гарантују техничку безбедност и поузданост процеса које подржавају;\n\n4) користити сигурне системе за чување података који су му поверени тако:\n\n(1) да су јавно расположиви само када је добијена сагласност лица чији су то подаци,\n\n(2) да само овлашћена лица могу уносити податке и вршити измене,\n\n(3) да се може проверавати аутентичност података;\n\n5) спроводити мере против фалсификовања и крађе података;\n\n6) чувати у одговарајућем временском периоду све релевантне информације које се односе на податке који су креирани или примљени од стране пружаоца квалификованих услуга од поверења, а посебно за сврху пружања доказа у правним поступцима. Чување се може вршити електронским путем;\n\n7) водити ажурну, тачну и безбедним мерама заштићену базу података издатих електронских сертификата\nу случају када пружа услугу\nиздавања квалификованих електронских сертификата, као и базу\nподатака који су креирани или примљени од стране пружаоца\nквалификованих услуга од поверења у оквиру пружања\nквалификованих услуга од поверења;\n\n8) имати ажуран план завршетка рада који осигурава континуитет квалификованих услуга од поверења;\n\n9) осигурати обраду личних података у складу са законима Републике Србије.\n\nПружалац квалификоване услуге од поверења дужан је да донесе акта којима одређује:\n\n1) опште услове за пружање услуге који су јавно доступни;\n\n2) политике пружања услуга и\nпрактична правила за пружање услуга које пружалац\nквалификоване услуге од поверења користи како би обезбедио\nпружање услуге у складу са прописима и општим условима из тачке\n1) овог става;\n\n3) информациону безбедност.\n\nПружаоци услуга од поверења који\nиздају квалификоване електронске сертификате дужни су да\nдостављају Министарству податке о броју сертификата издатих од\nпочетка пружања услуге до 31. децембра календарске године и\nподатке о броју важећих сертификата на дан 31. децембар\nкалендарске године.\n\nАжурни подаци из става 3. овог члана\nдостављају се редовно, најкасније до 15. јануара за претходну\nгодину, као и по потреби, ванредно, на захтев Министарства.\n\nВлада, на предлог Министарства, ближе уређује услове за пружање квалификоване услуге од поверења из става 1. овог члана и садржај аката из става 2. овог члана, укључујући одређивање међународних стандарда који се примењују.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "32",
+      "title": "Члан 32. Осигурање од професионалне одговорности",
+      "content": "Министарство прописује најнижи износ осигурања од ризика одговорности за штету насталу вршењем услуге квалификоване услуге од поверења."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "33",
+      "title": "Члан 33. Провера идентитета корисника квалификоване услуге од поверења",
+      "content": "При издавању квалификованог сертификата за услуге од поверења пружалац квалификоване услуге од поверења проверава податке о идентитету физичког односно правног лица који су садржани у квалификованом сертификату, у складу са законом.\n\nПроверу података из става 1. овог члана пружалац квалификоване услуге од поверења врши:\n\n1) уз физичко присуство физичког лица или овлашћеног представника правног лица или\n\n2) путем јавне исправе која служи као средство идентификације на даљину, у складу са законом,\nили\n\n3) путем идентификације на даљину у\nскладу са законом.\n\nПровера података из става 2. овог\nчлана врши се на начин уређен прописом из члана 31. овог закона\nкоји ближе уређује услове за пружање квалификоване услуге од\nповерења.\n\nО промени података из става 1. овог члана, физичко односно правно лице дужно је да, без одлагања, обавести пружаоца квалификоване услуге од поверења.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "34",
+      "title": "Члан 34. Оцењивање испуњености услова за пружање квалификованих услуга од поверења",
+      "content": "Оцењивање испуњености услова за пружање квалификованих услуга од поверења (у даљем тексту: оцењивање испуњености услова) обавља тело за оцењивање усаглашености које је, у складу са законом којим се уређује акредитација, акредитовано за оцењивање усаглашености пружаоца квалификованих услуга од поверења и квалификованих услуга од поверења које они пружају.\n\nНакон спроведеног оцењивања испуњености услова тело за оцењивање усаглашености сачињава извештај о оцењивању усаглашености.\n\nОцењивање испуњености услова врши се пре почетка пружања квалификованих услуга од поверења и најмање једном у 24 месеца.\n\nНакон завршеног оцењивања испуњености услова пружалац услуге од поверења доставља Министарству извештај о оцењивању усаглашености, у року од три радна дана од дана када га је примио.\n\nМинистарство може наложити ванредно оцењивање испуњености услова ако се утврде неправилности у пружању квалификованих услуга од поверења или ако наступи инцидент који је у значајној мери угрозио или нарушио информациону безбедност.\n\nВанредно оцењивање испуњености услова врши тело за оцењивање усаглашености које није повезано са вршењем претходног оцењивања.\n\nТрошкове оцењивања испуњености услова, укључујући ванредна оцењивања, сноси пружалац квалификоване услуге од поверења.\n\nМинистарство утврђује листу стандарда које мора да испуни тело за оцењивање усаглашености, обавезну садржину извештаја о оцењивању усаглашености и поступак оцењивања испуњености услова односно оцењивања усаглашености квалификованих услуга од поверења.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "35",
+      "title": "Члан 35. Упис у Регистар пружалаца квалификованих\nуслуга од поверења",
+      "content": "Регистар\nпружалаца квалификованих услуга од поверења представља скуп\nподатака о пружаоцима квалификованих услуга од поверења и о\nквалификованим услугама од поверења који води Министарство.\n\nПружалац квалификованих услуга од поверења подноси\nМинистарству захтев за упис у Регистар пружалаца квалификованих\nуслуга од поверења .\n\nПружалац квалификованих услуга од поверења мора бити уписан у регистар из става 1. овог члана пре отпочињања пружања квалификованих услуга од поверења.\n\nУз захтев из става 1. овог члана прилажу се докази о чињеницама исказаним у захтеву укључујући извештај о оцењивању усаглашености из члана 34. став 4. овог закона којим је оцењено да подносилац захтева и квалификоване услуге од поверења које он намерава да пружа испуњавају услове из овог закона.\n\nМинистарство решава о упису пружаоца квалификованих услуга од поверења у регистар из става 1. овог члана у року од 60 дана од дана подношења уредног захтева.\n\nУ поступку решавања из става 4. овог члана Министарство може захтевати прилагање додатних доказа, као и додатну проверу техничких и безбедносних компоненти и оперативног рада.\n\nАко пружалац услуга престане да испуњава услове прописане овим законом Министарство доноси решење о његовом брисању из регистра из става 1. овог члана.\n\nРегистар из става 1. овог члана од\nподатака о личности садржи податке о одговорним лицима, и то:\nиме, презиме, функцију и контакт податке као што су службена\nадреса, службени број телефона и службена адреса електронске\nпоште у сврху доступности података о пружаоцу квалификоване\nуслуге од поверења са којим се закључује уговор о пружању\nуслуге.\n\nМинистарство прописује садржај и начин вођења регистра из става 1. овог члана, начин подношења захтева за упис у регистар из става 1. овог члана у складу са прописима који уређују општи управни поступак, потребну документацију уз захтев, образац захтева и начин провере испуњености услова за пружање квалификоване услуге од поверења.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "36",
+      "title": "Члан 36. Престанак пружања услуге издавања квалификованих електронских сертификата",
+      "content": "Издавалац квалификованих електронских сертификата који намерава да престане са обављањем делатности дужан је да о намери раскида уговора обавести сваког корисника квалификоване услуге од поверења и Министарство, најмање три месеца пре настанка намераваног престанка обављања делатности.\n\nИздавалац квалификованих електронских сертификата који престаје са обављањем послова дужан је да обезбеди код другог пружаоца услуга од поверења наставак обављања услуге за кориснике квалификоване услуге од поверења којима је издао сертификат, а ако за то нема могућности, дужан је да опозове све издате сертификате и о предузетим мерама одмах обавести Министарство.\n\nИздавалац квалификованих електронских сертификата дужан је да достави сву документацију и неопходна техничка средства у вези са обављањем услуга од поверења другом издаваоцу на кога преноси обавезе обављања једне или више услуга од поверења.\n\nАко издавалац квалификованих електронских сертификата не поступи у складу са ставом 3. овог члана, дужан је да достави сву документацију Министарству које ће извршити опозив свих сертификата, без одлагања, а на трошак издаваоца квалификованих електронских сертификата.\n\nУ случају привремене забране вршења услуга, сертификати издати до дана настанка узрока због којих је изречена мера забране, остају у важности.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art36a",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "36а",
+      "title": "Члан 36а. Употреба квалификованих\nелектронских сертификата и квалификованих електронских\nвременских жигова у софтверским решењима органа јавне власти",
+      "content": "Орган јавне власти дужан је да у\nпружању услуга електронске управе у смислу закона којим се\nуређује електронска управа у софтверским решењима омогући\nупотребу квалификованих електронских сертификата и\nквалификованих електронских временских жигова издатих од свих\nпружалаца квалификованих услуга од поверења уписаних у Регистар\nиз члана 35. овог закона.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "37",
+      "title": "Члан 37. Државни орган као пружалац квалификованих услуга од поверења",
+      "content": "Државни орган може пружати\nквалификоване услуге од поверења уколико испуњава услове за\nпружање услуга предвиђене овим законом.\n\nОцењивање испуњености услова државног\nоргана за пружање услуге од поверења врши министарство, односно\nинспектор за електронску идентификацију и услуге од поверења,\nнакон поднетог захтева.\n\nИзузетно од става 2. овог члана\nоцењивање испуњености услова врши се на основу интерне контроле\nу сарадњи са надлежним министарством само у случају када је\nпружалац квалификоване услуге од поверења министарство надлежно\nза послове одбране, уз обавезу достављања извештаја о извршеној\nинтерној контроли надлежном министарству.\n\nНакон провере испуњености услова Влада\nуредбом утврђује да државни орган може да обавља квалификовану\nуслугу од поверења која је била предмет оцењивања из става 2.\nовог члана.\n\nМинистарство врши упис државног органа\nу регистар из члана 35. овог закона, на основу уредбе из става\n4. овог члана.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "38",
+      "title": "Члан 38. Јавна листа квалификованих услуга од поверења",
+      "content": "Јавна листа квалификованих услуга од\nповерења на аутоматизујући начин поуздајућим странама обезбеђује\nпоуздану информацију о статусу пружаоца квалификованих услуга од\nповерења и њихових квалификованих услуга у складу са подацима\nуписаним у регистар из члана 35. овог закона.\n\nЈавна листа квалификованих услуга од\nповерења садржи информацију о релевантним протеклим догађајима у\nвези са статусом садашњих и бивших пружалаца и њихових услуга\nтоком времена, укључујући информацију о почетку пружања, губитку\nцеловитости услуге од поверења, привременој забрани, престанку\nпружања услуге, брисању из регистра и другим догађајима\nзабележеним у оквиру послова вођења регистра, инспекцијског\nнадзора или догађајима пријављеним од стране пружаоца, а који\nутичу на прихватљивост квалификоване услуге од поверења и\nпоступак утврђивања њеног статуса у одређеном временском\nтренутку.\n\nУ Јавну листу квалификованих услуга од\nповерења уписују се подаци из ст. 1. и 2. овог члана као и други\nподаци утврђени прописом Министарства из става 6. овог члана и\nодговарајућим стандардима.\n\nПружаоци квалификованих услуга од\nповерења дужни су да, на захтев Министарства, у року од седам\nдана, доставе податке из става 3. овог члана, као и да о свакој\nпромени података из става 3. овог члана обавесте Министарство\nбез одлагања.\n\nПодаци о сертификату којим је подржан\nпотпис Јавне листе квалификованих услуга од поверења, укључујући\nsha-256 отисак објављују се у „Службеном гласнику Републике\nСрбије”.\n\nМинистарство прописује техничке\nуслове, форму и начин објављивања јавне листе квалификованих\nуслуга од поверења и услове које министарство надлежно за\nобјављивање јавне листе квалификованих услуга од поверења мора\nда обезбеди при њеном формирању, потписивању и објављивању.\n\nФорма и начин објављивања јавне листе\nквалификованих услуга од поверења из става 6. овог члана треба\nда буду усклађени са техничким условима за листе од поверења из\nчлана 22. Уредбе eIDAS.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "39",
+      "title": "Члан 39. Знак поузданости за квалификоване услуге од поверења",
+      "content": "Знак поузданости за квалификоване услуге од поверења (у даљем тексту: Знак поузданости) je знак којим се на једноставан, препознатљив и јасан начин означава квалификована услуга од поверења.\n\nРегистровани пружаоци квалификованих услуга од поверења имају право да користе Знак поузданости за квалификоване услуге од поверења које пружају.\n\nЗнак поузданости из става 1. користи се до ступања Републике Србије у чланство у Европској унији.\n\nМинистарство прописује изглед, састав, величину и дизајн Знака поузданости за квалификоване услуге од поверења."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "IV. УСЛУГЕ ОД ПОВЕРЕЊА",
+      "section": "40",
+      "title": "Члан 40. Прекогранично признавање квалификованих услуга од поверења",
+      "content": "Квалификована услуга од поверења коју пружа страни пружалац услуге од поверења у реципроцитету је са домаћом услугом од поверења у земљи страног пружаоца услуге, што је регулисано потврђеним међународним споразумом."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "41",
+      "title": "Члан 41. Врсте услуга",
+      "content": "Услуге од поверења се пружају у областима:\n\n1) електронског потписа и електронског печата;\n\n2) електронског временског жига;\n\n3) електронске доставе;\n\n4) аутентикације веб сајтова;\n\n5) електронског чувања докумената.\n\nКвалификоване услуге од поверења су:\n\n1) издавање квалификованих сертификата за електронски потпис;\n\n2) услуга управљања квалификованим средством за креирање електронског потписа\nна даљину;\n\n3) услуга валидације квалификованог електронског потписа;\n\n4) издавање квалификованих сертификата за електронски печат;\n\n5) услуга управљања квалификованим средством за креирање електронског печата\nна даљину;\n\n6) услуга валидације квалификованог електронског печата;\n\n7) издавање квалификованих електронских временских жигова;\n\n8) услуга квалификоване електронске доставе;\n\n9) услуга издавања квалификованих сертификата за аутентикацију веб сајтова;\n\n10) услуга квалификованог електронског чувања докумената.\n\nПружалац услуга од поверења односно квалификованих услуга од поверења може пружати једну или више услуга из ст. 1. и 2. овог члана.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "42",
+      "title": "Члан 42. Напредни електронски потпис и напредни електронски печат",
+      "content": "Напредни електронски потпис односно напредни електронски печат мора:\n\n1) на недвосмислен начин да буде повезан са потписником односно печатиоцем;\n\n2) да омогућава утврђивање идентитета потписника, односно печатиоца;\n\n3) да буде израђен коришћењем података за израду електронског потписа односно електронског печата које потписник односно печатилац може, уз висок ниво поузданости, користити под својом искључивом контролом;\n\n4) да буде повезан са електронски потписаним односно електронски печатираним подацима, на начин да се може утврдити било која накнадна измена тих података."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "43",
+      "title": "Члан 43. Садржај квалификованог електронског сертификата",
+      "content": "Квалификовани електронски сертификат мора да садржи:\n\n1) ознаку, у форми погодној за аутоматску обраду, да се електронски сертификат користи као квалификовани сертификат за електронски потпис, односно печат;\n\n2) скуп података који јединствено идентификују квалификованог пружаоца услуге од поверења за издавање квалификованог електронског сертификата укључујући, најмање, земљу порекла пружаоца и назив пружаоца;\n\n3) скуп података који јединствено идентификују потписника односно печатиоца укључујући најмање:\n\n(1) за потписника:\n\n– име и презиме или псеудоним, а уколико је употребљен псеудоним то мора бити јасно обележено у оквиру квалификованог електронског сертификата;\n\n– ЈМБГ, уколико је у захтеву за издавање сертификата потписник захтевао да сертификат садржи ЈМБГ;\n\n(2) за печатиоца: назив, држава и матични број односно јединствена идентификациона ознака у складу са правном регулативом те државе, уколико постоји;\n\n4) податке за проверу електронског потписа односно електронског печата, који одговарају подацима за креирање тог електронског потписа односно електронског печата;\n\n5) податке о почетку и крају важења квалификованог електронског сертификата;\n\n6) серијски број квалификованог електронског сертификата, који мора бити јединствен у оквиру издаваоца квалификованог електронског сертификата;\n\n7) напредни електронски потпис или напредни електронски печат издаваоца квалификованог електронског сертификата;\n\n8) локацију на којој је, без накнаде, доступан сертификат напредног електронског потписа односно напредног електронског печата из тачке 7) овог става;\n\n9) локацију услуге путем које се проверава статус валидности квалификованог електронског сертификата;\n\n10) ознаку да су подаци за креирање електронског потписа односно печата, који одговарају подацима за проверу електронског потписа односно печата из квалификованог електронског сертификата, садржани у квалификованом средству за креирање електронског потписа односно печата, уколико је тај услов испуњен.\n\nКвалификовани електронски сертификати, поред обележја из става 1. овог члана, могу укључивати додатна обележја.\n\nМинистарство ближе прописује услове које морају да испуњавају квалификовани електронски сертификати из става 1. овог члана."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "44",
+      "title": "Члан 44. Опозив и суспензија квалификованог електронског сертификата",
+      "content": "Издавалац квалификованих сертификата дужан је да изврши опозив издатих сертификата, када:\n\n1) опозив сертификата захтева власник сертификата или његов пуномоћник;\n\n2) власник сертификата изгуби пословну способност, или је престао да постоји или су се промениле околности које битно утичу на важење сертификата;\n\n3) утврди да је податак у сертификату погрешан;\n\n4) утврди да су подаци за проверу квалификованог електронског потписа односно печата или систем пружаоца квалификованих услуга од поверења угрожени на начин који утиче на безбедност и поузданост сертификата;\n\n5) утврди да су подаци за електронско потписивање односно печатирање или систем власника сертификата угрожени на начин који утиче на поузданост и безбедност електронског потписа;\n\n6) престаје са радом или му је рад забрањен.\n\nИздавалац квалификованих сертификата дужан је да обавести корисника квалификоване услуге од поверења о опозиву сертификата у року од 24 часа од примљеног обавештења, односно настанка околности због којих се сертификат опозива.\n\nКорисник квалификоване услуге од поверења дужан је да одмах затражи опозив свог квалификованог електронског сертификата у случају губитка или оштећења уређаја или података за креирање сертификата.\n\nУ случају опозива квалификовани електронски сертификат трајно престаје да важи од тренутка опозива.\n\nУ случају суспензије квалификовани електронски сертификат губи важност током периода трајања суспензије.\n\nПодаци о суспензији и периоду трајања суспензије квалификованог електронског сертификата уписују се у базу података издатих сертификата коју води издавалац квалификованих електронских сертификата и морају бити видљиви током трајања суспензије у оквиру услуга којима се пружају информације о статусу сертификата."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "45",
+      "title": "Члан 45. Чување документације о издатим и опозваним квалификованим сертификатима",
+      "content": "Издавалац квалификованих електронских сертификата дужан је да чува комплетну документацију о издатим и опозваним квалификованим електронским сертификатима, као средство за доказивање и верификацију у управним, судским и другим поступцима, најмање десет година по престанку важења сертификата.\n\nПодаци из става 1. овог члана могу се чувати у електронској форми."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "46",
+      "title": "Члан 46. Квалификована средства за креирање електронског потписа и печата",
+      "content": "Квалификовано средство за креирање електронског потписа односно печата мора да, помоћу одговарајућих техничких решења и поступака, обезбеди:\n\n1) поверљивост података за креирање електронског потписа односно печата;\n\n2) да се подаци за креирање електронског потписа, односно печата појављују само једном;\n\n3) да се подаци за креирање електронског потписа, односно печата не могу добити изван средства за креирање електронског потписа, односно печата употребом доступне технологије у разумном времену;\n\n4) да је електронски потпис, односно печат поуздано заштићен од фалсификовања употребом доступне технологије;\n\n5) могућност поуздане заштите података за креирање електронског потписа, односно печата од неовлашћеног коришћења.\n\nСредства за креирање квалификованог електронског потписа, односно печата, приликом креирања електронског потписа односно печата, не смеју променити податке који се потписују односно печатирају или онемогућити потписнику, односно печатиоцу увид у те податке пре процеса креирања квалификованог електронског потписа односно печата.\n\nКвалификовано средство за креирање електронског потписа, односно печата\nна даљину (у даљем тексту: услуга\nуправљања квалификованим средством на даљину) корисник квалификоване услуге од поверења може користити путем услуге управљања квалификованим средством за креирање електронског потписа, односно печата, што такође представља квалификовану услугу од поверења.\n\nИзузетно од става 1. овог члана, квалификовани пружалац услуга од поверења из става 3. овог члана може израдити копију података за израду електронског потписа, односно печата у сврху заштите од губитка података ако:\n\n1) израда и чување копија података за креирање квалификованог електронског потписа односно печата не умањују прописани ниво заштите тих података;\n\n2) број израђених копија података за креирање електронског потписа односно печата није већи него што је то неопходно за обезбеђивање континуитета пружања услуге.\n\nМинистарство ближе прописује услове које мора да испуњава средство за креирање квалификованог електронског потписа односно печата.\n\n*Службени гласник РС, број 52/2021\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "47",
+      "title": "Члан 47. Сертификација\nквалификованих средстава за креирање електронског потписа\nодносно печата и упис у Регистар квалификованих средстава за\nкреирање електронских потписа и електронских печата",
+      "content": "У складу са законом којим се уређују\nтехнички захтеви за производе и оцењивање усаглашености,\nМинистарство именује тело за оцену усаглашености средстава за\nкреирање квалификованог електронског потписа односно печата (у\nдаљем тексту: именовано тело) које врши оцену усаглашености у\nскладу са прописом из члана 46. овог закона.\n\nПрописом из члана 46. овог закона\nближе се уређују услови које мора да испуњава именовано тело.\n\nРегистар квалификованих средстава за\nкреирање електронских потписа и електронских печата представља\nскуп података о квалификованим средствима за креирање\nелектронских потписа и електронских печата, који води\nМинистарство.\n\nЗахтев за упис у Регистар из става 3.\nовог закона подноси се Министарству, на основу извештаја које\nдобија од именованих тела.\n\nИменовано тело без одлагања, а\nнајкасније у року од седам дана од настале промене, обавештава\nМинистарство о издатим и повученим потврдама о усаглашености\nсредстава за креирање електронских потписа односно печата.\n\nСаставни део Регистра из става 3. овог\nчлана су и квалификована средства за креирање електронског\nпотписа и електронског печата са листе коју, у складу са чланом\n31. Уредбе eIDAS, објављује Европска комисија.\n\nЗа квалификована средства за креирање\nелектронских потписа и електронских печата из става 6. овог\nчлана не подноси се захтев за упис у Регистар квалификованих\nсредстава за креирање електронских потписа и електронских\nпечата.\n\nМинистарство прописује садржај и начин\nвођења Регистра из става 3. овог члана, начин подношења захтева\nза упис у тај регистар у складу са прописима који уређују општи\nуправни поступак, потребну документацију уз захтев и образац\nзахтева.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "48",
+      "title": "Члан 48. Поступак валидације квалификованог електронског потписа и квалификованог електронског печата",
+      "content": "Поступком валидације утврђује се да електронски потпис представља исправан квалификовани електронски потпис када:\n\n1) је утврђено да је сертификат који прати електронски потпис у тренутку потписивања представљао квалификовани електронски сертификат;\n\n2) је утврђено да је квалификовани електронски сертификат издат од стране пружаоца услуге издавања квалификованих сертификата за електронски потпис и да је важио у тренутку потписивања;\n\n3) је утврђено да подаци за валидацију електронског потписа из квалификованог електронског сертификата одговарају комбинацији електронског потписа и података који су потписани електронским потписом;\n\n4) је поуздајућој страни тачно приказан скуп података из квалификованог електронског сертификата који јединствено идентификују потписника;\n\n5) су поуздајућој страни тачно приказани подаци који су потписани електронским потписом;\n\n6) је коришћење псеудонима јасно назначено поуздајућој страни, у случају да је приликом електронског потписивања коришћен псеудоним;\n\n7) је утврђено да је електронски потпис креиран коришћењем квалификованог средства за креирање електронског потписа;\n\n8) је утврђено да није нарушен интегритет података који су потписани електронским потписом;\n\n9) је утврђено да електронски потпис испуњава услове за напредни електронски потпис из овог закона.\n\nСистем који се користи за валидацију квалификованог електронског потписа обезбеђује тачан резултат поступка валидације поуздајућој страни и омогућава јој идентификовање било ког проблема од значаја за поузданост.\n\nОдредбе ст. 1. и 2. овог члана сходно се примењују на електронски печат.\n\nМинистарство ближе прописује услове за поступак валидације квалификованог електронског потписа и квалификованог електронског печата."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "49",
+      "title": "Члан 49. Услуга квалификоване валидације квалификованих електронских потписа и квалификованих електронских печата",
+      "content": "Пружалац услуге квалификоване валидације квалификованих електронских потписа односно печата обезбеђује:\n\n1) валидацију квалификованог електронског потписа односно печата у складу са чланом 48. овог закона;\n\n2) да поуздајућа страна која користи услугу добије резултат поступка валидације електронским путем на аутоматизован начин, који је поуздан и ефикасан;\n\n3) да је резултат поступка валидације из тачке 2) овог става печатиран напредним електронским печатом или потписан напредним електронским потписом пружаоца услуге.\n\nМинистарство ближе прописује услове за пружање услуге квалификоване валидације квалификованих електронских потписа и квалификованих електронских печата."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "50",
+      "title": "Члан 50. Правно дејство електронског потписа",
+      "content": "Електронском потпису не може се оспорити пуноважност или доказна снага само због тога што је у електронском облику или што не испуњава услове за квалификовани електронски потпис.\n\nКвалификовани електронски потпис има исто правно дејство као и својеручни потпис.\n\nКвалификовани електронски потпис може да замени оверу својеручног потписа, ако је то прописано посебним законом.\n\nОдредбе ст. 1. и 2. овог члана не примењују се на правне послове за које је посебним законом предвиђено да се не могу предузети у електронској форми.\n\nУговори и други правни послови за које је посебним законом предвиђено да се сачињавају у форми овере потписа, јавно потврђене (солемнизоване) исправе, или у форми јавнобележничког записа не могу се сачинити у складу са ст. 1. и 2. овог члана већ у складу са прописима којима се уређује овера потписа, потврђивање и сачињавање исправа о правним пословима."
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "51",
+      "title": "Члан 51. Правно дејство електронског печата",
+      "content": "Електронском печату не може се оспорити пуноважност или доказна снага само због тога што је у електронском облику или што не испуњава услове за квалификовани електронски печат.\n\nЗа квалификовани електронски печат важи правна претпоставка очуваности интегритета и тачности порекла података за које је везан.\n\nАкт органа јавне власти који се доноси у вршењу јавних овлашћења у облику електронског документа уместо печата односно потписа службеног лица и печата садржи квалификовани електронски печат тог органа\nили квалификовани електронски\nпотпис овлашћеног лица органа јавне власти.\n\nКвалификовани електронски печат на поднеску у поступку који органи јавне власти спроводе у вршењу јавних овлашћења у облику електронског документа има исто правно дејство као и својеручни потпис, односно печат.\n\nОдредбе ст. 1–4. овог члана не примењују се на правне послове за које је посебним законом предвиђено да се не могу предузети у електронској форми.\n\nУговори и други правни послови за које је посебним законом предвиђено да се сачињавају у форми овере потписа, јавно потврђене (солемнизоване) исправе, или у форми јавнобележничког записа не могу се сачинити у складу са ст. 1–4. овог члана већ у складу са прописима којима се уређује овера потписа, потврђивање и сачињавање исправа о правним пословима.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "52",
+      "title": "Члан 52. Услови за квалификоване електронске временске жигове",
+      "content": "Квалификовани електронски временски жиг мора:\n\n1) да је повезан са координираним универзалним временом (UTC) тако да се спречава свака могућност промене података која се не може открити;\n\n2) да је заснован на прецизном временском извору;\n\n3) да је издат од стране пружаоца услуге издавања квалификованог временског жига;\n\n4) да је потписан, односно печатиран од стране пружаоца услуге издавања квалификованог временског жига помоћу напредног електронског потписа или напредног електронског печата.\n\nМинистарство прописује ближе услове за квалификоване електронске временске жигове."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "53",
+      "title": "Члан 53. Правно дејство електронског временског жига",
+      "content": "Електронском временском жигу не може се оспорити пуноважност или доказна снага само због тога што је у електронском облику или што не испуњава услове за квалификован временски жиг.\n\nЗа квалификовани електронски временски жиг и податке којима је тај временски жиг придружен важи правна претпоставка тачности датума и времена исказаног у временском жигу и очуваности интегритета тих података у односу на тај временски тренутак."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "54",
+      "title": "Члан 54. Услови за услуге квалификоване електронске доставе",
+      "content": "Услуга квалификоване електронске доставе мора:\n\n1) да је пружана од стране једног или више пружаоца квалификованих услуга од поверења;\n\n2) да, уз висок ниво поузданости, обезбеђује идентификацију пошиљаоца;\n\n3) да обезбеђује идентификацију примаоца приликом доставе података;\n\n4) у процесу слања и пријема електронске поруке, да користи напредни електронски потпис или напредни електронски печат пружаоца услуге квалификоване електронске доставе у сврху спречавања непримећене промене података;\n\n5) да обезбеди да измена података извршена у сврху слања или пријема података мора бити јасно назначена пошиљаоцу и примаоцу;\n\n6) да обезбеди да време и датум слања, пријема и евентуалне измене података морају бити назначени квалификованим електронским временским жигом;\n\n7) да, у случају да се подаци преносе између два или више пружалаца услуге квалификоване електронске доставе, обезбеди да се услови из овог става примењују на сваког од њих."
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "55",
+      "title": "Члан 55. Потврда о електронској достави",
+      "content": "Пружалац услуге је у обавези да\nприликом пружања услуге квалификоване електронске доставе изда\nдве потврде пошиљаоцу, и то:\n\n1) потврду да је примио електронску\nпоруку пошиљаоца и проследио је примаоцу;\n\n2) потврду да је прималац преузео\nдостављену електронску поруку.\n\nПотврде из става 1. овог члана пружалац услуге доставља аутоматски у електронском облику потписане напредним електронским печатом, а на захтев их може издати у електронском или папирном облику.\n\nПотврда из става 1. тач. 1) и 2) овог члана садржи:\n\n1) идентификациону ознаку електронске поруке коју је доделио пружалац услуге;\n\n2) податке о пошиљаоцу и примаоцу, који од података о личности могу да садрже податке из члана 43. став 1. тачка 3) овог закона као и адресу за електронску доставу;\n\n3) податке који повезују потврду са садржајем електронске поруке;\n\n4) датум и време пријема и\nпрослеђивања електронске поруке од стране пружаоца услуге,\nодносно датум и време преузимања достављене електронске поруке\nод стране примаоца.\n\nПотврда из става 1. тачка 2) овог члана сматра се доставницом у електронском облику у смислу закона којим се уређује управни поступак, при чему се датум и време\nпреузимања из става 3. тачка 4) овог члана сматрају датумом и временом уручења.\n\nДатум и време пријема поднеска који је странка у управном поступку упутила органу путем квалификоване електронске доставе сматра се да је\nдатум и време преузимања из става 3. тачка 4) овог члана.\n\nАко дође до техничких проблема приликом електронског достављања односно пријема података, пружалац услуге квалификоване електронске доставе дужан је да о томе обавести пошиљаоца и примаоца.\n\nМинистарство прописује ближе услове за услуге квалификоване електронске доставе из члана 54. овог закона и садржај потврда из става 3. овог члана.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "56",
+      "title": "Члан 56. Размена електронских порука између пружалаца услуге квалификоване електронске доставе",
+      "content": "Пружаоци услуге квалификоване\nелектронске доставе у обавези су да приликом пружања услуге\nквалификоване електронске доставе омогуће пријем и слање порука\nи када је пошиљалац или прималац поруке корисник другог пружаоца\nуслуге квалификоване електронске доставе.\n\nРазмена електронских порука из става\n1. овог члана врши се на начин уређен прописом из члана 55. овог\nзакона који ближе уређује услове за услуге квалификоване\nелектронске доставе.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "57",
+      "title": "Члан 57. Правно дејство услуге електронске доставе",
+      "content": "Подацима послатим или примљеним путем услуге електронске доставе не може се оспорити правна снага и допуштеност као доказ у правном промету само из разлога што су у електронској форми или из разлога што не испуњавају све услове услуге квалификоване електронске доставе.\n\nЗа податке из електронске поруке послате или примљене путем услуге квалификоване електронске доставе важи правна претпоставка интегритета података, слања података од назначеног пошиљаоца, пријем од стране назначеног примаоца, поузданости датума и времена слања или примања."
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "58",
+      "title": "Члан 58. Квалификовани сертификати за аутентикацију веб сајтова",
+      "content": "Аутентикација веб сајта користи се за потврду идентитета веб сајта од стране корисника квалификоване услуге од поверења, којом се гарантује његова поузданост коришћења.\n\nЗа аутентикацију веб сајта користи се квалификовани сертификат који издаје пружалац квалификованих услуга од поверења.\n\nКвалификовани сертификат за аутентикацију веб сајта мора да испуњава услове из члана 59. овог закона."
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "59",
+      "title": "Члан 59. Садржај квалификованих сертификата за аутентикацију веб сајтова",
+      "content": "Квалификовани сертификати за аутентикацију веб сајтова садрже:\n\n1) ознаку, која се може препознати при аутоматској обради, да је сертификат издат као квалификовани сертификат за аутентикацију веб сајтова;\n\n2) скуп података који недвосмислено представљају пружаоца услуге издавања квалификованих сертификата за аутентикацију веб сајтова, што обавезно укључује државу седишта, пословно име и матични број тог пружаоца услуге;\n\n3) име и презиме или псеудоним физичког лица коме је издат сертификат, односно пословно име и матични број правног лица коме је издат сертификат;\n\n4) адресу, односно седиште физичког или правног лица коме је издат сертификат;\n\n5) назив интернет домена физичког или правног лица коме је издат сертификат;\n\n6) податке о почетку и крају рока важења сертификата;\n\n7) идентификациону ознаку сертификата која мора да буде јединствена за пружаоца услуге издавања квалификованих сертификата за аутентикацију веб сајтова;\n\n8) напредан електронски потпис или напредан електронски печат пружаоца услуге издавања квалификованих сертификата за аутентикацију веб сајтова;\n\n9) локацију на којој је, без накнаде, доступан сертификат напредног електронског потписа односно напредног електронског печата из тачке 8) овог става;\n\n10) локацију услуге путем које се проверава статус валидности квалификованог електронског сертификата."
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "60",
+      "title": "Члан 60. Припрема докумената за електронско чување",
+      "content": "Припрема докумената за електронско чување односи се на:\n\n1) документа која су изворно настала у електронском облику који је погодан за чување;\n\n2) конверзију документа у другачији електронски облик погодан за чување;\n\n3) дигитализацију документа која су изворно настала у облику који није електронски у облик погодан за чување.\n\nДокумент припремљен за електронско чување може обухватити и додатне податке који описују документ или су изведени из документа."
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "61",
+      "title": "Члан 61. Припрема докумената за поуздано електронско чување",
+      "content": "Припрема документа за поуздано електронско чување мора:\n\n1) да обезбеди да сви битни елементи садржаја изворног документа буду верно пренети у документ припремљен за електронско чување, узимајући у обзир природу и сврху документа, тј. очуван је интегритет садржаја документа;\n\n2) да обезбеди да је очувана употребљивост садржаја изворног документа;\n\n3) да обезбеди да су укључени сви елементи садржаја изворног документа који су од значаја за аутентичност;\n\n4) да обезбеди потврду верности изворног документа и тачност додатно укључених података квалификованим електронским печатом или потписом са придруженим временским жигом;\n\n5) да обезбеди спровођење контроле тачности и квалитета конверзије као и отклањање грешака насталих у поступку конверзије;\n\n6) да обезбеди да се допуне садржаја, унете забележбе и подаци о предузетим радњама чувају одвојено од изворних докумената;\n\n7) да обезбеди да се о предузетим радњама у поступку припреме за електронско чување води уредна евиденција.\n\nАко је прописани рок за чување документа дужи од пет година, документ припремљен за чување треба да буде у формату који је погодан за дугорочно чување.\n\nВлада, на предлог Министарства, уређује ближе услове које мора да испуњава поуздана припрема документа за електронско чување и формате документа који су погодни за дуготрајно чување."
+    },
+    {
+      "provision_ref": "art62",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "62",
+      "title": "Члан 62. Поуздано електронско чување документа",
+      "content": "Поуздано електронско чување докумената који у изворном облику садрже квалификовани електронски потпис односно печат, као потврду интегритета и порекла тих докумената, врши се тако да се током чувања користе поступци и технолошка решења којима се обезбеђује могућност доказивања валидности квалификованог електронског потписа односно печата током целог периода чувања.\n\nПоуздано електронско чување докумената припремљених у складу са чланом 61. овог закона, којима је квалификованим електронским потписом односно печатом из члана 61. став 1. тачка 4) потврђена верност изворном документу и тачност додатно укључених података, врши се тако да се током чувања користе поступци и технолошка решења којима се обезбеђује могућност доказивања валидности квалификованог електронског потписа односно печата током целог периода чувања.\n\nМинистарство прописује ближе услове за поступке и технолошка решења из ст. 1. и 2. овог члана.\n\nМинистарство надлежно за послове културе уређује ближе услове, задатке, послове, стандарде и процесе дигитализације културног наслеђа и савременог стваралаштва који се односе на поступке и технолошка решења из чл. 61. и 62. овог закона."
+    },
+    {
+      "provision_ref": "art63",
+      "chapter": "V. ПОЈЕДИНЕ ВРСТЕ УСЛУГА ОД ПОВЕРЕЊА",
+      "section": "63",
+      "title": "Члан 63. Услуга квалификованог електронског чувања докумената",
+      "content": "Услуга квалификованог електронског чувања докумената је квалификована услуга од поверења путем које се пружа поуздано електронско чување докумената у складу са чл. 60– 62. овог закона.\n\nПружалац услуге квалификованог електронског чувања документа може се определити да услугу квалификованог електронског чувања докумената ограничи само на чување докумената који у изворном облику садрже квалификовани електронски потпис односно печат.\n\nЗа документ који се чува у оквиру услуге квалификованог електронског чувања докумената важи правна претпоставка верности изворном документу, о чему пружалац услуге квалификованог електронског чувања документа издаје потврду.\n\nАко се документ чува у оквиру услуге квалификованог електронског чувања докумената тако да период чувања предвиђен том услугом обухвата прописани период чувања датог документа, изворни документ може бити уништен, осим ако није другачије прописано."
+    },
+    {
+      "provision_ref": "art64",
+      "chapter": "VI. ИНСПЕКЦИЈСКИ НАДЗОР",
+      "section": "64",
+      "title": "Члан 64. Послови инспекције за електронску идентификацију и услуге од поверења у електронском пословању",
+      "content": "Инспекција за електронску идентификацију и услуге од поверења у електронском пословању врши инспекцијски надзор над применом овог закона и радом пружалаца услуга електронске идентификације и пружалаца услуга од поверења (у даљем тексту: пружаоци услуга) преко инспектора за електронску идентификацију и услуге од поверења (у даљем тексту: инспектор).\n\nУ оквиру инспекцијског надзора пружалаца услуга инспектор утврђује да ли су испуњени услови прописани овим законом и прописима донетим за спровођење овог закона."
+    },
+    {
+      "provision_ref": "art65",
+      "chapter": "VI. ИНСПЕКЦИЈСКИ НАДЗОР",
+      "section": "65",
+      "title": "Члан 65. Овлашћења инспектора",
+      "content": "Инспектор је овлашћен да у поступку инспекцијског надзора:\n\n1) налаже отклањање утврђених неправилности и за то остави рок;\n\n2) забрањује употребу неадекватних поступака и инфраструктуре, и даје рок пружаоцу услуга у којем је дужан да обезбеди адекватне поступке и инфраструктуру;\n\n3) привремено забрањује вршење услуге пружаоца услуга до отклањања неадекватности поступака и инфраструктуре;\n\n4) наређује привремени опозив неког или свих сертификата издатих од стране пружаоца услуге, ако постоји основана сумња да се ради о неадекватном поступку или фалсификату."
+    },
+    {
+      "provision_ref": "art66",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "66",
+      "title": "Члан 66.",
+      "content": "Новчаном казном од 50.000 до 2.000.000 динара казниће се за прекршај пружалац квалификоване услуге од поверења – правно лице ако:\n\n1) не предузима потребне техничке и организационе мере за управљање ризицима који угрожавају поуздано и безбедно пружање тих услуга од поверења (члан 27. став 1);\n\n2) без одлагања, а најкасније у року од 24 сата од сазнања,\nне обавести Министарство о сваком нарушавању безбедности или\nгубитку интегритета услуге који имају значајан утицај на пружање\nуслуга од поверења  (члан 27. став 3);\n\n3) о повреди безбедности или губитку интегритета услуге, без одлагања, не обавести корисника услуге од поверења, ако би угрожавање безбедности или губитак интегритета услуге од поверења могло неповољно утицати на кориснике услуга од поверења (члан 27. став 4);\n\n4) пре закључења уговора из члана 30. став 1. овог закона не обавести лице које је поднело захтев за пружање квалификоване услуге од поверења о свим важним околностима коришћења услуге из члана 30. став 2. тач. 1)–3) овог закона (члан 30. став 2);\n\n5) не испуњава услове из члана 31. (члан 31);\n\n6) при издавању квалификованог сертификата за услуге од поверења не провери податке о идентитету физичког односно правног лица који су садржани у квалификованом сертификату, у складу са чланом 33. став 2. закона (члан 33. ст. 1. и 2);\n\n7) не изврши проверу испуњености услова пре почетка пружања квалификованих услуга од поверења, односно најмање једном у 24 месеца (члан 34. став 3);\n\n8) не изврши налог за ванредно оцењивање испуњености услова (члан 34. став 5);\n\n9) пре отпочињања пружања квалификованих услуга од поверења не буде уписан у Регистар пружаоца квалификованих услуга од поверења (члан 35.\nстав 3);\n\n10) издавалац квалификованих електронских сертификата, који намерава да престане са обављањем делатности, о намери раскида уговора не обавести сваког корисника квалификоване услуге од поверења и Министарство најмање три месеца пре настанка о намераваном престанку обављања делатности (члан 36. став 1);\n\n11) у случају престанка са обављањем послова не обезбеди код другог пружаоца услуга од поверења наставак обављања услуге за кориснике којима је издао сертификат, или не опозове све издате сертификате и о предузетим мерама одмах не обавести Министарство (члан 36. став 2);\n\n12) не достави сву документацију у вези са обављањем услуга од поверења другом издаваоцу на кога преноси обавезе обављања једне или више услуга од поверења, односно Министарству (члан 36. ст. 3. и 4);\n\n13) квалификовани електронски сертификат не садржи све податке из члана 43. став 1. овог закона (члан 43. став 1);\n\n14) издавалац квалификованих сертификата не изврши опозив издатих сертификата, у случајевима из члана 44. став 1. (члан 44. став 1);\n\n15) издавалац квалификованих сертификата не обавести корисника квалификоване услуге од поверења о опозиву сертификата у року од 24 часа од примљеног обавештења, односно настанка околности због којих се сертификат опозива (члан 44. став 2);\n\n16) издавалац квалификованих сертификата не чува комплетну документацију о издатим и опозваним квалификованим сертификатима као средство за доказивање и верификацију у управним, судским и другим поступцима најмање десет година по престанку важења сертификата (члан 45);\n\n17) не обезбеди пријем и слање порука\nи када је пошиљалац или прималац поруке корисник другог пружаоца\nуслуге квалификоване електронске доставе (члан 56. став 1);\n\n18) поуздано електронско чување докумената припремљених у складу са чланом 61. овог закона, којима је квалификованим електронским потписом односно печатом из члана 61. став 1. тачка 4) потврђена верност изворном документу и тачност додатно укључених података, се не врши тако да се током чувања користе поступци и технолошка решења којима се обезбеђује могућност доказивања валидности квалификованог електронског потписа односно печата током целог периода чувања (члан 62. став 2).\n\nЗа прекршај из става 1. овог члана казниће се и одговорно лице пружаоца услуге од поверења новчаном казном од 5.000 до 100.000 динара.\n\nЗа прекршај из става 1. овог члана казниће се пружалац услуге од поверења – физичко лице у својству регистрованог субјекта новчаном казном од 10.000 до 500.000 динара.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art67",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "67",
+      "title": "Члан 67.",
+      "content": "Новчаном казном од 50.000 до 200.000 динара казниће се за прекршај корисник квалификоване услуге од поверења – правно лице ако:\n\n1) у случају промене података из става 1. члана 33. овог закона не обавести без одлагања пружаоца квалификоване услуге од поверења (члан 33. став 3);\n\nЗа прекршај из става 1. овог члана казниће се и одговорно лице у правном лицу новчаном казном од 5.000 до 50.000 динара.\n\nЗа прекршај из става 1. овог члана казниће се корисник услуге од поверења – физичко лице у својству регистрованог субјекта новчаном казном од 10.000 до 100.000 динара.\n\nЗа прекршај из става 1. овог члана казниће се корисник услуге од поверења – физичко лице новчаном казном од 5.000 до 50.000 динара."
+    },
+    {
+      "provision_ref": "art68",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "68",
+      "title": "Члан 68.",
+      "content": "Новчаном казном од 50.000 до 2.000.000 динара казниће се за прекршај регистрован пружалац услуге електронске идентификације – правно лице ако:\n\n1) шема електронске идентификације не испуњава услове из члана 17. (члан 17);\n\n2) не предузима потребне техничке и организационе мере за управљање ризицима који угрожавају поуздано и безбедно пружање тих услуга из члана 22. став 2. овог закона (члан 22. ст. 1. и 2);\n\nЗа прекршај из става 1. овог члана казниће се и одговорно лице пружаоца услуге електронске идентификације новчаном казном од 5.000 до 100.000 динара.\n\nЗа прекршај из става 1. овог члана казниће се пружалац услуге електронске идентификације – физичко лице у својству регистрованог субјекта новчаном казном од 10.000 до 500.000 динара."
+    },
+    {
+      "provision_ref": "art69",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "69",
+      "title": "Члан 69.",
+      "content": "Новчаном казном од 50.000 до 2.000.000 динара казниће се за прекршај пружалац услуге из члана 64. овог закона ако не поступи по налогу инспектора у остављеном року из члана 65. став 1. овог закона.\n\nЗа прекршај из става 1. овог члана казниће се и одговорно лице пружаоца услуге новчаном казном од 5.000 до 100.000 динара.\n\nЗа прекршај из става 1. овог члана казниће се пружалац услуге – физичко лице у својству регистрованог субјекта новчаном казном од 10.000 до 500.000 динара."
+    },
+    {
+      "provision_ref": "art70",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "70",
+      "title": "Члан 70.",
+      "content": "Новчаном казном од 5.000 до 100.000 динара казниће се за прекршај одговорно лице у државном органу, као и органу аутономне покрајине или јединице локалне самоуправе ако у поступку који спроводи у вршењу јавних овлашћења не призна пуноважност, односно оспори доказну снагу електронском документу сачињеном у складу са овим законом, односно дигитализованог акта овереног у складу са чланом 11. овог закона, само због тога што је достављен у таквом формату (члан 7).\n\nНовчаном казном од 20.000 до 150.000 динара казниће се за прекршај одговорно лице у државном органу, као и органу аутономне покрајине или јединице локалне самоуправе, ако у поступку који спроводи у вршењу јавних овлашћења не призна пуноважност електронском документу, укључујући и акте органа јавних власти, потписаном квалификованим електронским потписом или квалификованим електронским печатом, ако је за пуноважност тог документа прописана обавеза својеручног потписивања, односно стављања печата (чл. 50. и 51)."
+    },
+    {
+      "provision_ref": "art71",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "71",
+      "title": "Члан 71.",
+      "content": "Новчаном казном од 50.000 до 2.000.000 динара казниће се за прекршај правно лице које је орган јавне власти у смислу овог закона, изузев органа из члана 70. овог закона, ако у поступку који спроводи у вршењу јавних овлашћења не призна пуноважност, односно оспори доказну снагу електронском документу сачињеном у складу са овим законом, односно дигитализованог акта овереног у складу са чланом 11. овог закона, само због тога што је достављен у таквом формату (члан 7).\n\nЗа прекршај из става 1. овог члана казниће се и одговорно лице у правном лицу из става 1. овог члана новчаном казном од 5.000 до 100.000 динара.\n\nЗа прекршај из става 1. овог члана казниће се орган јавне власти ако је физичко лице новчаном казном од 5.000 до 100.000 динара.\n\nНовчаном казном од 100.000 до 2.000.000 динара казниће се за прекршај правно лице које је орган јавне власти у смислу овог закона, изузев органа из члана 70. овог закона, ако у поступку који спроводи у вршењу јавних овлашћења не призна пуноважност електронском документу, укључујући и акте органа јaвних власти, потписаном квалификованим електронским потписом или квалификованим електронским печатом, ако је за пуноважност тог документа прописана обавеза својеручног потписивања, односно стављања печата (чл. 50. и 51).\n\nЗа прекршај из става 4. овог члана казниће се и одговорно лице у правном лицу из става 4. овог члана новчаном казном од 20.000 до 150.000 динара.\n\nЗа прекршај из става 4. овог члана казниће се орган јавне власти ако је физичко лице новчаном казном од 20.000 до 150.000 динара."
+    },
+    {
+      "provision_ref": "art72",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "72",
+      "title": "Члан 72. Спровођење закона",
+      "content": "Подзаконска акта из члана 18. став 2, члана 19. став 3, члана 31. став 3, члана 35. став 8, члана 46. став 5. и члана 47. став 7. овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона.\n\nПодзаконска акта из члана 34. став 8, члана 38. став 4, члана 39. став 4, члана 43. став 3, члана 48. став 4, члана 49. став 2. и члана 52. став 2. овог закона донеће се у року од 12 месеци од дана ступања на снагу овог закона.\n\nПодзаконска акта из члана 55. став 7, члана 61. став 3. и члана 62. ст. 3. и 4. овог закона донеће се у року од 18 месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art73",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "73",
+      "title": "Члан 73. Престанак важења досадашњих прописа, наставак примене подзаконских аката и наставак рада на основу претходне регистрације",
+      "content": "Даном ступања на снагу овог закона престаје да важи Закон о електронском потпису („Службени гласник РС”, број 135/04) и Закон о електронском документу („Службени гласник РС”, број 51/09).\n\nПодзаконски акти донети на основу закона из става 1. овог члана примењиваће се и после престанка важења наведених закона, све до доношења одговарајућих прописа сагласно овом закону, осим ако су у супротности са одредбама овог закона.\n\nДаном ступања на снагу овог закона сертификациона тела за издавање квалификованих електронских сертификата која су регистрована на основу Закона о електронском потпису настављају са радом као квалификовани пружаоци услуге издавања квалификованих сертификата за електронски потпис.\n\nДаном ступања на снагу овог закона издаваоци временског жига који су регистровани на основу Закона о електронском документу настављају са радом као квалификовани пружаоци услуге издавања квалификованих електронских временских жигова.\n\nСертификациона тела из става 3. овог члана и издаваоци временског жига из става 4. овог члана дужни су да у року од 12 месеци од дана ступања на снагу овог закона ускладе своје пословање са одредбама овог закона и доставе Министарству извештај о оцењивању усаглашености из члана 34. овог закона.\n\nМинистарство врши оцењивање усаглашености из члана 34. овог закона до акредитације првог тела за оцењивање усаглашености, у складу са прописима.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art73a",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "73а",
+      "title": "Члан 73а. Начин оцене усаглашености средства за\nкреирање квалификованог електронског потписа односно печата на\nдаљину до именовања тела за оцену усаглашености",
+      "content": "Приликом вршења оцењивања\nусаглашености услуге управљања квалификованим средством на\nдаљину, врши се и оцена усаглашености средства за креирање\nелектронског потписа односно печата са прописаним условима.\n\nОцену усаглашености средства из става\n1. овог члана врши Министарство, односно тело за оцењивање\nусаглашености из члана 34. овог закона, до именовања тела из\nчлана 47. овог закона.\n\nСредство из става 1. овог члана сматра\nсе квалификованим само у оквиру оцењене услуге управљања\nквалификованим средством за креирање електронског потписа,\nодносно печата на даљину коју пружа пружалац квалификоване\nуслуге од поверења.\n\nСредство из става 1. овог члана\nуписује се у Регистар квалификованих средстава за креирање\nелектронских потписа и електронских печата уз напомену да се\nсредство сматра квалификованим само када се користи у оквиру\nоцењене услуге.\n\n*Службени гласник РС, број 52/2021"
+    },
+    {
+      "provision_ref": "art74",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "74",
+      "title": "Члан 74. Ступање на снагу закона",
+      "content": "Овај закон ступа на снагу осам дана од дана објављивања у „Службеном гласнику Републике Србије”.\n\nЗакон о изменама и допунама Закона о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању:\n„Службени гласник РС“, број 52/2021-22"
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "24",
+      "title": "Члан 24. ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У\n„ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА",
+      "content": "Прописи донети на основу\nЗакона о електронском документу, електронској идентификацији и\nуслугама од поверења у електронском пословању („Службени гласник\nРС”, број 94/17), ускладиће се са одредбама овог закона у року\nод шест месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "VII. КАЗНЕНЕ, ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "25",
+      "title": "Члан 25.",
+      "content": "Овај закон ступа на снагу\nосмог дана од дана објављивања у „Службеном гласнику Републике\nСрбије”."
     }
   ],
   "definitions": [
     {
-      "term": "electronic document",
-      "definition": "Data in electronic form to which other electronic data are attached or which are logically associated with such data and which serve as a proof or as a means of communication.",
+      "term": "електронско пословање",
+      "definition": "употреба података у електронском облику, средстава електронске комуникације и електронске обраде података у обављању послова физичких и правних лица",
       "source_provision": "art2"
     },
     {
-      "term": "trust service",
-      "definition": "An electronic service consisting of the creation, verification, and validation of electronic signatures, seals, time stamps, electronic registered delivery services, website authentication, or related certificates.",
+      "term": "електронски облик података",
+      "definition": "дигитални запис података погодан за електронску обраду и пренос путем средстава електронске комуникације",
       "source_provision": "art2"
     },
     {
-      "term": "qualified trust service",
-      "definition": "A trust service meeting the applicable requirements of this Law, provided by a qualified trust service provider included on the national trusted list.",
+      "term": "електронска трансакција",
+      "definition": "пословна активност између две или више страна која се обавља електронским путем",
+      "source_provision": "art2"
+    },
+    {
+      "term": "електронски документ",
+      "definition": "скуп података састављен од слова, бројева, симбола, графичких, звучних и видео материјала, у електронском облику",
+      "source_provision": "art2"
+    },
+    {
+      "term": "производ",
+      "definition": "хардвер, софтвер односно хардвер са припадајућим софтвером, или њихове одговарајуће компоненте, намењен електронској обради, електронском преносу односно чувању података",
+      "source_provision": "art2"
+    },
+    {
+      "term": "интероперабилност",
+      "definition": "способност два или више система или њихових компоненти да размењују податке и омогуће заједничку употребу података и знања",
+      "source_provision": "art2"
+    },
+    {
+      "term": "орган јавне власти",
+      "definition": "државни орган, орган аутономне покрајине, орган јединице локалне самоуправе, предузећа, установе, организације и појединци којима су поверени послови из надлежности Републике Србије, односно јавна овлашћења",
+      "source_provision": "art2"
+    },
+    {
+      "term": "физичко лице у својству регистрованог субјекта",
+      "definition": "физичко лице које је регистровано за обављање одређене делатности у складу са законом",
+      "source_provision": "art2"
+    },
+    {
+      "term": "аутентикација",
+      "definition": "процес провере идентитета правног лица, физичког лица или физичког лица у својству регистрованог субјекта укључујући проверу интегритета и порекла података за које се претпоставља да их је то лице створило, односно послало",
+      "source_provision": "art2"
+    },
+    {
+      "term": "идентификациони подаци представљају скуп података на основу којих",
+      "definition": "могуће једнозначно утврдити идентитет правног лица, физичког лица или физичког лица у својству регистрованог субјекта",
+      "source_provision": "art2"
+    },
+    {
+      "term": "електронска идентификација",
+      "definition": "поступак коришћења личних идентификационих података у електронском облику који једнозначно одређују правно лице, физичко лице или физичко лице у својству регистрованог субјекта",
+      "source_provision": "art2"
+    },
+    {
+      "term": "средство електронске идентификације",
+      "definition": "материјално односно нематеријално средство које садржи идентификационе податке и којим се доказује идентитет приликом аутентикације",
+      "source_provision": "art2"
+    },
+    {
+      "term": "шема електронске идентификације",
+      "definition": "систем издавања средства електронске идентификације правном лицу, физичком лицу или физичком лицу у својству регистрованог субјекта",
+      "source_provision": "art2"
+    },
+    {
+      "term": "услуга електронске идентификације",
+      "definition": "услуга која омогућава коришћење одређене шеме електронске идентификације у електронским трансакцијама при чему се у оквиру те услуге пружају гаранције да идентификациони подаци из средства електронске идентификације одговарају лицу коме је средство издато",
+      "source_provision": "art2"
+    },
+    {
+      "term": "услуга од поверења",
+      "definition": "електронска услуга која олакшава пословну активност између две или више страна при чему се заснива на томе да пружалац услуге странама гарантује веродостојност појединих података, а која је као таква одређена овим законом",
+      "source_provision": "art2"
+    },
+    {
+      "term": "пружалац услуга од поверења",
+      "definition": "правно лице или физичко лице у својству регистрованог субјекта које пружа једну или више услуга од поверења",
+      "source_provision": "art2"
+    },
+    {
+      "term": "поуздајућа страна",
+      "definition": "правно или физичко лице које се поуздаје у услугу електронске идентификације односно услугу од поверења",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификована услуга од поверења",
+      "definition": "услуга од поверења која испуњава услове утврђене овим законом за квалификовану услугу од поверења",
+      "source_provision": "art2"
+    },
+    {
+      "term": "пружалац квалификоване услуге од поверења",
+      "definition": "правно лице или физичко лице у својству регистрованог субјекта које пружа једну или више квалификованих услуга од поверења,",
+      "source_provision": "art2"
+    },
+    {
+      "term": "електронски потпис",
+      "definition": "скуп података у електронском облику који су придружени или логички повезани са другим (потписаним) подацима у електронским облику тако да се електронским потписом потврђује интегритет тих података и идентитет потписника",
+      "source_provision": "art2"
+    },
+    {
+      "term": "електронски печат",
+      "definition": "скуп података у електронском облику који су придружени или логички повезани са другим (печатираним) подацима у електронском облику тако да се електронским печатом потврђује интегритет тих података и идентитет печатиоца",
+      "source_provision": "art2"
+    },
+    {
+      "term": "сертификат за електронски потпис односно печат",
+      "definition": "електронска потврда којом се потврђује веза између података за валидацију електронског потписа односно печата и идентитета потписника односно печатиоца",
+      "source_provision": "art2"
+    },
+    {
+      "term": "потписник",
+      "definition": "физичко лице које је креирало електронски потпис и чији су идентификациони подаци наведени у сертификату на основу кога је креиран тај електронски потпис, то јест сертификату којим се потврђује веза између идентитета тог потписника и података за валидацију електронског потписа који одговарају подацима за креирање електронског потписа које је потписник користио при креирању тог електронског потписа",
+      "source_provision": "art2"
+    },
+    {
+      "term": "печатилац",
+      "definition": "правно лице, физичко",
+      "source_provision": "art2"
+    },
+    {
+      "term": "средство за креирање електронског потписа односно печата",
+      "definition": "техничко средство (софтвер односно хардвер) које се користи за креирање електронског потписа односно печата уз коришћење података за креирање електронског потписа односно печата",
+      "source_provision": "art2"
+    },
+    {
+      "term": "валидација",
+      "definition": "поступак провере и потврђивања исправности електронског потписа односно електронског печата",
+      "source_provision": "art2"
+    },
+    {
+      "term": "напредни електронски потпис",
+      "definition": "електронски потпис који испуњава додатне услове за обезбеђивање вишег нивоа поузданости потврђивања интегритета података и идентитета потписника у складу са овим законом",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификовани електронски потпис",
+      "definition": "напредни електронски потпис који је креиран квалификованим средством за креирање електронског потписа и који се заснива на квалификованом сертификату за електронски потпис",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификовано средство за креирање електронског потписа",
+      "definition": "средство које испуњава услове прописане овим законом",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификовани сертификат за електронски потпис",
+      "definition": "сертификат за електронски потпис који издаје",
+      "source_provision": "art2"
+    },
+    {
+      "term": "напредни електронски печат",
+      "definition": "електронски печат који испуњава додатне услове за обезбеђивање вишег нивоа поузданости потврђивања интегритета података и идентитета печатиоца у складу са овим законом",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификовани електронски печат",
+      "definition": "напредни електронски печат који је креиран квалификованим средством за креирање електронског печата и који је заснован на квалификованом сертификату за електронски печат",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификовано средство за креирање електронског печата",
+      "definition": "средство које испуњава услове прописане овим законом",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификовани сертификат за електронски печат",
+      "definition": "сертификат за електронски печат који издаје",
+      "source_provision": "art2"
+    },
+    {
+      "term": "сертификат за аутентикацију веб сајта",
+      "definition": "потврда помоћу које је могуће извршити аутентикацију веб сајта и којом се веб сајт повезује са идентитетом физичког или правног лица коме је сертификат издат",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификовани сертификат за аутентикацију веб сајта",
+      "definition": "сертификат за аутентикацију веб сајта коју издаје",
+      "source_provision": "art2"
+    },
+    {
+      "term": "електронски временски жиг",
+      "definition": "званично време придружено подацима у електронском облику којим се потврђује да су ти подаци постојали у том временском тренутку",
+      "source_provision": "art2"
+    },
+    {
+      "term": "квалификовани електронски временски жиг",
+      "definition": "електронски временски жиг који испуњава услове утврђене овим законом за квалификовани електронски временски жиг",
+      "source_provision": "art2"
+    },
+    {
+      "term": "услуга електронске доставе",
+      "definition": "услуга преноса података електронским путем у оквиру које пружалац услуге обезбеђује доказе о поступању са пренесеним подацима, укључујући доказ слања и пријема података, чиме се пренесени подаци штите од ризика губитка, крађе, оштећења односно било којих неовлашћених промена",
+      "source_provision": "art2"
+    },
+    {
+      "term": "конверзија",
+      "definition": "превођење документа из једног облика у други тако да је очуван садржај документа",
+      "source_provision": "art2"
+    },
+    {
+      "term": "дигитализација",
+      "definition": "конверзија документа из облика који није електронски у електронски облик",
+      "source_provision": "art2"
+    },
+    {
+      "term": "дигитализовани документ",
+      "definition": "документ који је настао дигитализацијом изворног докумената",
+      "source_provision": "art2"
+    },
+    {
+      "term": "тело за оцењивање усаглашености",
+      "definition": "тело овлашћено за спровођење оцењивања усаглашености",
       "source_provision": "art2"
     }
   ]

@@ -1,132 +1,204 @@
 {
   "id": "rs-critical-infrastructure",
   "type": "statute",
-  "title": "Zakon o kritičnoj infrastrukturi",
+  "title": "Закон о критичној инфраструктури",
   "title_en": "Law on Critical Infrastructure",
   "short_name": "ZKI",
   "status": "in_force",
-  "issued_date": "2023-05-26",
-  "in_force_date": "2023-09-15",
-  "url": "https://www.paragraf.rs/propisi/zakon-o-kriticnoj-infrastrukturi.html",
-  "description": "Zakon o kritičnoj infrastrukturi (ZKI) uspostavlja nacionalni okvir za identifikaciju, označavanje i zaštitu kritične infrastrukture u Republici Srbiji, usklađen sa Direktivom Saveta EU 2008/114/EZ i elementima Direktive (EU) 2022/2557 (CER direktive). Zakon propisuje nadležni organ, sektore kritične infrastrukture, obaveze operatora i koordinacioni okvir za zaštitu kritične infrastrukture. Kao zemlja kandidat za EU, Srbija nastoji da u potpunosti uskladi ovaj zakon sa CER direktivom u okviru procesa pristupanja.",
+  "url": "https://www.pravno-informacioni-sistem.rs/viewAct/fac7ef0b-8204-466b-8392-47ffbf027e4a",
+  "description": "РЕПУБЛИЧКИ ПРОПИСИ ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ Одбрана и безбедност Закон о критичној инфраструктури: 87/2018-41. Пречишћени текст је преузет са званичног портала Правно-информационог система Републике Србије.",
   "provisions": [
     {
       "provision_ref": "art1",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "1",
-      "title": "Član 1. Predmet zakona",
-      "content": "This Law establishes the national framework for the identification, designation, and protection of critical infrastructure in the Republic of Serbia, modelled on Council Directive 2008/114/EC on the identification and designation of European critical infrastructures and incorporating elements of Directive (EU) 2022/2557 on the resilience of critical entities (CER Directive). The Law designates the competent authority, defines critical infrastructure sectors, establishes the designation procedure and the obligations of critical infrastructure operators, and provides for the coordination of critical infrastructure protection activities at national level. Full alignment with the CER Directive is a component of Serbia's EU accession agenda."
+      "title": "Члан 1. Предмет закона",
+      "content": "Овим законом уређује се национална и европска критична инфраструктура, идентификација и одређивање критичне инфраструктуре Републике Србије (у даљем тексту: критична инфраструктура), заштита критичне инфраструктуре, надлежност и одговорност органа и организација у области критичне инфраструктуре (у даљем тексту: надлежни органи и организације) и информације, извештавање, пружање подршке одлучивању, заштитa података, управљање и надзор у области критичне инфраструктуре."
     },
     {
       "provision_ref": "art2",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "2",
-      "title": "Član 2. Pojmovi (Definitions)",
-      "content": "For the purposes of this Law: 'critical infrastructure' means an asset, system, or part thereof essential for the maintenance of vital societal functions, health, safety, security, economic or social well-being, whose disruption or destruction would have a significant impact on the state or society; 'critical infrastructure operator' means an owner or operator of designated critical infrastructure; 'Security Plan' means the document prepared by a critical infrastructure operator identifying critical assets, assessing risks, and specifying protective measures; 'Security Liaison Officer' means the individual designated by a critical infrastructure operator as the contact point with the competent authority; 'incident' means an event causing, or having the potential to cause, significant disruption to critical infrastructure."
+      "title": "Члан 2. Значење израза",
+      "content": "Поједини изрази употребљени у овом закону имају следеће значење:\n\n1) сектори критичне инфраструктуре су области одређене овим законом, у којима се врши поступак идентификације и одређивања критичне инфраструктуре;\n\n2) идентификација критичне инфраструктуре је поступак утврђивања система, мрежа, објеката или њихових делова у одређеном сектору који се, у складу са утврђеним критеријумима, идентификују као критична инфраструктура;\n\n3) одређивање критичне инфраструктуре подразумева поступак утврђивања система, мрежа, објеката, или њихових делова као критичне инфраструктуре у складу са овим законом;\n\n4) заштита критичне инфраструктуре представља скуп активности и мера које имају за циљ осигурање функционисања критичне инфраструктуре у случају ометања или уништења, односно заштиту у случају претњи и спречавање настанка последице ометања или уништења;\n\n5) оператори критичне инфраструктуре су државни органи, органи аутономне покрајине, органи јединице локалне самоуправе, јавна предузећа, привредна друштва или друга правна лица која управљају системима, мрежама, објектима или њиховим деловима који су одређени као критична инфраструктура;\n\n6) Безбедносни план оператора за управљање ризиком је план који израђује оператор критичне инфраструктуре, којим се дефинишу безбедносни циљеви и мере оператора на основу анализе ризика коју план садржи;\n\n7) официр за везу је лице запослено код оператора критичне инфраструктуре, а које је контакт између оператора критичне инфраструктуре и министарства надлежног за унутрашње послове (у даљем тексту: Министарство);\n\n8) европска критична инфраструктура подразумева критичну инфраструктуру која се налази на територији земље чланице Европске уније, чије би ометање или уништење имало значајан утицај на најмање две земље чланице."
     },
     {
       "provision_ref": "art3",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "3",
-      "title": "Član 3. Nadležni organ (Competent Authority)",
-      "content": "The Ministry of Internal Affairs is designated as the primary competent authority for the coordination of critical infrastructure protection at the national level, in cooperation with other relevant ministries and bodies. The Ministry shall maintain the national register of designated critical infrastructure, coordinate the designation process in cooperation with sectoral ministries and competent authorities, develop and maintain the national critical infrastructure protection plan, and serve as the national point of contact for international cooperation on critical infrastructure protection. The Sector for Emergency Management within the Ministry of Internal Affairs shall coordinate operational aspects of critical infrastructure protection."
+      "title": "Члан 3. Начела деловања",
+      "content": "Надлежни органи и организације, грађани и други субјекти дужни су да се у предузимању мера и активности утврђених овим и другим законом, програмима, плановима и другим документима у области критичне инфраструктуре руководе следећим начелима:\n\n1) начело интегрисаног приступа – у заштити критичне инфраструктуре пре, за време и после ометања или прекида у функционисању критичне инфраструктуре, учествују сви надлежни органи и организације, грађани и други субјекти узимајући у обзир различите врсте опасности које проистичу из анализе ризика, и узимајући у обзир међузависност сектора критичне инфраструктуре и њихову интеракцију;\n\n2) начело одговорности – за функционисање критичне инфраструктуре директно су одговорни оператори критичне инфраструктуре, а за унапређење заштите критичне инфраструктуре, поред оператора, и сви надлежни органи и организације, грађани и други субјекти;\n\n3) начело заштите од разних врста претњи – оператори, надлежни органи и организације, грађани и други субјекти у обезбеђивању континуираног рада критичне инфраструктуре дужни су да узму у обзир различите врсте ризика;\n\n4) начело континуираног планирања заштите критичне инфраструктуре – заштита критичне инфраструктуре заснива се на сталном процесу анализе ризика по функционисање критичне инфраструктуре и процене адекватности мера заштите;\n\n5) начело размене података и информација и заштите података – оператори, надлежни органи и организације, грађани и други субјекти дужни су да благовремено и континуирано размењују потребне податке и информације истовремено штитећи податке везане за критичну инфраструктуру, у складу са прописима којима се уређује заштита тајних података."
     },
     {
       "provision_ref": "art4",
+      "chapter": "I. ОСНОВНЕ ОДРЕДБЕ",
       "section": "4",
-      "title": "Član 4. Sektori kritične infrastrukture",
-      "content": "The following sectors are designated as critical infrastructure sectors for the purposes of this Law: energy, including electricity generation, transmission, and distribution, oil and gas infrastructure; transport, including roads, railways, air transport, and waterways; water supply and distribution; information and communications technology, including telecommunications networks, internet infrastructure, and national data centres; banking and financial market infrastructure; health, including hospitals and healthcare facilities; food supply chains; government administration and public services; defence infrastructure; and emergency services. The Government may, on the recommendation of the competent authority, designate additional sectors or sub-sectors as the threat environment and critical infrastructure landscape evolve."
+      "title": "Члан 4. Критична инфраструктура",
+      "content": "Критична инфраструктура су системи, мреже, објекти или њихови делови, чији прекид функционисања или прекид испоруке роба односно услуга може имати озбиљне последице на националну безбедност, здравље и животе људи, имовину, животну средину, безбедност грађана, економску стабилност, односно угрозити функционисање Републике Србије.\n\nМинистарство уређује, планира, координира, контролише активности, комуницира и даје информације у вези са критичном инфраструктуром."
     },
     {
       "provision_ref": "art5",
+      "chapter": "II. ИДЕНТИФИКАЦИЈА И ОДРЕЂИВАЊЕ КРИТИЧНЕ ИНФРАСТРУКТУРЕ",
       "section": "5",
-      "title": "Član 5. Postupak označavanja (Designation Procedure)",
-      "content": "The designation procedure for critical infrastructure shall be initiated by the competent authority in cooperation with relevant sectoral ministries and authorities. Infrastructure meeting the cross-cutting assessment criteria, which address the significance of the potential impact of disruption in terms of casualties, economic consequences, public confidence effects, and political effects, shall be proposed for designation. Proposed designations shall be assessed through a defined process involving sectoral authorities and subject-matter experts. Operators shall be formally notified of designation and shall be informed of the obligations applicable to them as operators of designated critical infrastructure. The national register of designated critical infrastructure shall be classified."
+      "title": "Члан 5. Идентификација критичне инфраструктуре",
+      "content": "Идентификација критичне инфраструктуре врши се секторски у складу са утврђеним критеријумима.\n\nЗа спровођење поступка идентификације критичне инфраструктуре у одређеном сектору задужена су министарства надлежна за одређене области.\n\nКритеријуме за идентификацију критичне инфраструктуре и начин извештавања, прописује Влада."
     },
     {
       "provision_ref": "art6",
+      "chapter": "II. ИДЕНТИФИКАЦИЈА И ОДРЕЂИВАЊЕ КРИТИЧНЕ ИНФРАСТРУКТУРЕ",
       "section": "6",
-      "title": "Član 6. Plan zaštite (Security Plan)",
-      "content": "Operators of designated critical infrastructure shall prepare a Security Plan within the period specified by the competent authority following designation. The Security Plan shall identify the critical assets of the operator within the designated infrastructure, assess the risks to those assets including physical threats, cybersecurity threats, insider threats, and natural hazards, and identify protective measures in place or to be implemented. The Security Plan shall be reviewed and updated at least every two years and following significant changes to the infrastructure, the threat environment, or the protective measures in place. Operators shall submit their Security Plans to the competent authority for review and comment."
+      "title": "Члан 6. Сектори критичне инфраструктуре",
+      "content": "Сектори у којима се врши идентификација и одређивање критичне инфраструктуре јесу:\n\n1) енергетика;\n\n2) саобраћај;\n\n3) снабдевање водом и храном;\n\n4) здравство;\n\n5) финансије;\n\n6) телекомуникационе и информационе технологије;\n\n7) заштита животне средине;\n\n8) функционисање државних органа.\n\nОсим сектора из става 1. овог члана, критична инфраструктура може се одредити и у другим секторима, на предлог министарства надлежног за одређену област, у складу са овим законом.\n\nУтврђивање сектора из става 2. овог члана и критеријуме за идентификацију критичне инфраструктуре у тим секторима, прописује Влада актом из члана 5. став 3. овог закона."
     },
     {
       "provision_ref": "art7",
+      "chapter": "II. ИДЕНТИФИКАЦИЈА И ОДРЕЂИВАЊЕ КРИТИЧНЕ ИНФРАСТРУКТУРЕ",
       "section": "7",
-      "title": "Član 7. Oficiri za vezu u pogledu bezbednosti (Security Liaison Officers)",
-      "content": "Each operator of designated critical infrastructure shall designate a Security Liaison Officer who shall serve as the primary contact point between the operator and the competent authority on critical infrastructure protection matters. The Security Liaison Officer shall have appropriate security clearance, shall be responsible for coordinating the preparation and updating of the Security Plan, and shall participate in relevant national forums and exercises organised by the competent authority. Operators shall notify the competent authority of the identity of their Security Liaison Officer promptly upon designation and shall notify the competent authority of any subsequent changes without undue delay."
+      "title": "Члан 7. Одређивање критичне инфраструктуре",
+      "content": "Критичну инфраструктуру на предлог Mинистарства одређује Влада.\n\nМинистарства задужена за секторе критичне инфраструктуре дужна су да у року од шест месеци од доношења акта из члана 5. став 3. овог закона, а након завршеног поступка идентификације у складу са утврђеним критеријумима, Министарству доставе предлоге критичне инфраструктуре у свом сектору.\n\nМинистарства задужена за секторе критичне инфраструктуре дужна су да редовно, а најмање једном квартално извештавају Министарство о новонасталим променама у свом сектору.\n\nМинистарства задужена за секторе критичне инфраструктуре дужна су да након завршеног поступка идентификације Министарству сваке године, најкасније до 31. октобра, доставе предлоге измена и допуна критичне инфраструктуре у свом сектору.\n\nМинистарство може указати министарствима задуженим за секторе критичне инфраструктуре на потенцијалне критичне инфраструктуре.\n\nЗаштита, чување, коришћење, контрола и надзор критичне инфраструктуре у надлежности Министарства одбране и Војске Србије спроводи се у складу са Законом о одбрани и Законом о војсци Србије.\n\nАкт о одређивању критичне инфраструктуре ажурира се сваке године, најкасније до 31. децембра."
     },
     {
       "provision_ref": "art8",
+      "chapter": "III. ЗАШТИТА КРИТИЧНЕ ИНФРАСТРУКТУРЕ",
       "section": "8",
-      "title": "Član 8. Fizička zaštita (Physical Security)",
-      "content": "Operators of designated critical infrastructure shall implement physical security measures appropriate to the nature and risk of the designated infrastructure, addressing access control to critical facilities, perimeter security, detection of unauthorised access or tampering, protection of critical equipment and control systems, and personnel security. Physical security requirements shall be proportionate to the assessed threat level and the potential impact of disruption to the designated infrastructure. The competent authority may issue sector-specific guidance on minimum physical security standards and may verify compliance through inspections. Operators shall maintain records of physical security incidents and shall report significant incidents."
+      "title": "Члан 8. Безбедносни план оператора за управљање ризиком",
+      "content": "Безбедносни план оператора за управљање ризиком је документ којим се утврђују мере смањења ризика, дефинишу одговорности и одређују дужности, те успоставља оквир за поступање у циљу отклањања, односно смањења последица безбедносних претњи дефинисаних у анализи ризика, која је саставни део плана.\n\nОператори критичне инфраструктуре дужни су да израде Безбедносни план оператора за управљање ризиком и на исти прибаве сагласност Министарства одмах, а најкасније шест месеци по одређивању система, мрежа, објеката или њихових делова за критичну инфраструктуру.\n\nМетодологију, начин израде и садржај Безбедносног плана оператора за управљање ризиком прописује министар надлежан за унутрашње послове (у даљем тексту: министар)."
     },
     {
       "provision_ref": "art9",
+      "chapter": "III. ЗАШТИТА КРИТИЧНЕ ИНФРАСТРУКТУРЕ",
       "section": "9",
-      "title": "Član 9. Sajber bezbednost kritične infrastrukture",
-      "content": "Operators of designated critical infrastructure that includes information systems, operational technology, or industrial control systems shall implement cybersecurity measures consistent with the requirements of the Law on Information Security and applicable sector-specific requirements. Cybersecurity measures shall address network segmentation, access control, vulnerability management, incident detection and response, and supply chain security. Operators shall notify CERT-SRB and the competent sectoral authority of significant cybersecurity incidents affecting designated infrastructure without undue delay. The competent authority shall cooperate with the national authority for information security in ensuring a coordinated approach to the cybersecurity of critical infrastructure."
+      "title": "Члан 9. Официр за везу",
+      "content": "Оператори критичне инфраструктуре морају имати официра за везу, односно лице које служи као контакт између оператора и Министарства, које обезбеђује сталну контролу ризика и претњи, обавештава о променама у односу на критичну инфраструктуру, обавештава Министарство о евалуацији ризика, претњи и рањивости, координира Безбедносним планом оператора за управљање ризиком, врши тестирања кроз вежбе и друге активности предвиђене планом и обавља све друге послове везане за критичну инфраструктуру.\n\nОфицира за везу именује Министарство на предлог оператора критичне инфраструктуре из редова запослених.\n\nОператор критичне инфраструктуре Министарству доставља предлог за именовање официра за везу најкасније три месеца по одређивању система, мрежа, објеката или њихових делова за критичну инфраструктуру.\n\nПредложено лице мора поседовати лиценцу за официра за везу.\n\nМинистарство издаје лиценцу из става 4. овог члана лицу које има:\n\n1) високo образовање (мастер академске студије, специјалистичке академске или специјалистичке струковне студије, односно основне студије у трајању од најмање четири године по пропису који је уређивао високо образовање до 10. септембра 2005. године);\n\n2) положен посебан стручни испит за официра за везу.\n\nПолагање посебног стручног испита из тачке 2) овог члана организује и спроводи Министарство.\n\nНачин и програм за полагање посебног стручног испита прописује министар.\n\nОператори критичне инфраструктуре обезбеђују континуитет вршења функције официра за везу у случају његовог одсуства обавештавањем Министарства о привременом обављању ових послова од стране другог лица, са свим потребним подацима."
     },
     {
       "provision_ref": "art10",
+      "chapter": "III. ЗАШТИТА КРИТИЧНЕ ИНФРАСТРУКТУРЕ",
       "section": "10",
-      "title": "Član 10. Otpornost i kontinuitet poslovanja",
-      "content": "Operators of designated critical infrastructure shall develop and maintain business continuity and resilience plans addressing the measures to be implemented in the event of significant disruption to their critical assets, including arrangements for the continuation or rapid restoration of essential services. Business continuity plans shall identify critical business processes, minimum resource requirements, recovery time objectives, and alternative supply and service arrangements. Plans shall be tested at appropriate intervals and findings shall be used to improve preparedness. The competent authority shall coordinate sector-level and cross-sector exercises to test collective resilience and to identify systemic vulnerabilities."
+      "title": "Члан 10. Критична инфраструктура у планским документима",
+      "content": "Приликом израде планских докумената у области просторног и урбанистичког планирања, докумената из области националне безбедности и области смањења ризика и управљања ванредним ситуацијама, критична инфраструктура мора се третирати на посебан начин, нарочито у делу превентивних активности и активности везаних за одговор на ванредне ситуације у којима мора имати приоритет."
     },
     {
       "provision_ref": "art11",
+      "chapter": "III. ЗАШТИТА КРИТИЧНЕ ИНФРАСТРУКТУРЕ",
       "section": "11",
-      "title": "Član 11. Prijavljivanje incidenata (Incident Reporting)",
-      "content": "Operators of designated critical infrastructure shall report incidents causing, or having the potential to cause, significant disruption to their critical infrastructure to the competent authority without undue delay. The competent authority shall establish procedures specifying the threshold of significance, the content of incident reports, and the timeframes for initial and detailed notifications. Incident reports shall be treated as sensitive and subject to appropriate confidentiality protections. The competent authority shall maintain a database of significant incidents and shall use incident analysis to inform protective measures, national risk assessments, and guidance to operators."
+      "title": "Члан 11. Републички штаб за ванредне ситуације",
+      "content": "У случају наступања околности угрожавања, ометања рада или уништења критичне инфраструктуре руковођење и координацију спровођења мера и задатака у наведеним околностима предузима Републички штаб за ванредне ситуације, у складу са законом.\n\nМинистарство пружа стручну подршку штабу из става 1. овог члана и доставља све неопходне податке и информације у циљу несметаног обављања активности на спровођењу утврђених задатака."
     },
     {
       "provision_ref": "art12",
+      "chapter": "IV. ЕВРОПСКА КРИТИЧНА ИНФРАСТРУКТУРА",
       "section": "12",
-      "title": "Član 12. Zaštita trećih lica (Third-Party Risk)",
-      "content": "Operators of designated critical infrastructure shall conduct appropriate due diligence when engaging third-party service providers for services affecting the security or resilience of their critical assets. Due diligence shall address the security practices of third-party providers, supply chain security, the applicability of foreign law or foreign ownership to the provider, and the contractual arrangements available to protect the operator's interests. Contracts with significant third-party service providers shall include appropriate security requirements, audit rights, and notification obligations in respect of security incidents. Operators shall maintain an inventory of significant third-party dependencies and shall assess associated risks."
+      "title": "Члан 12. Појам",
+      "content": "Европска критична инфраструктура је критична инфраструктура од интереса за најмање две државе чланице Европске уније."
     },
     {
       "provision_ref": "art13",
+      "chapter": "IV. ЕВРОПСКА КРИТИЧНА ИНФРАСТРУКТУРА",
       "section": "13",
-      "title": "Član 13. Međunarodna saradnja",
-      "content": "The competent authority shall cooperate with the competent authorities of other states in matters relating to critical infrastructure protection, including the exchange of threat intelligence, the coordination of responses to cross-border incidents, and the conduct of joint exercises. Serbia participates in relevant Council of Europe and international critical infrastructure protection frameworks. As part of the EU accession process, Serbia shall develop cooperation arrangements with relevant EU bodies and Member State authorities responsible for critical infrastructure protection, consistent with the requirements of the CER Directive. Cooperation arrangements shall be subject to applicable confidentiality requirements."
+      "title": "Члан 13. Одређивање европске критичне инфраструктуре",
+      "content": "Европска критична инфраструктура може се одредити у секторима које одређује Европска комисија.\n\nЕвропску критичну инфраструктуру на територији Републике Србије, на предлог Министарства, одређује Влада, на захтев и у сагласности са заинтересованим државама чланицама Европске уније и обавештава заинтересоване државе чланице о одређивању европске критичне инфраструктуре на територији Републике Србије.\n\nАко се критична инфраструктура од значаја за Републику Србију налази на подручју друге државе чланице Европске уније, Влада предлаже надлежном телу те државе одређивање европске критичне инфраструктуре."
     },
     {
       "provision_ref": "art14",
+      "chapter": "IV. ЕВРОПСКА КРИТИЧНА ИНФРАСТРУКТУРА",
       "section": "14",
-      "title": "Član 14. Istraživanje i razvoj",
-      "content": "The competent authority shall promote research and development activities relevant to critical infrastructure protection, in cooperation with academic institutions, research organisations, and relevant industry bodies. Research priorities shall address emerging threats to critical infrastructure, new technologies for protective measures, risk assessment methodologies, and resilience testing approaches. Serbia shall participate in relevant EU research programmes relating to critical infrastructure protection, consistent with its status as an EU candidate country. Findings from research activities shall be shared with relevant stakeholders in the critical infrastructure protection community, subject to applicable classification and confidentiality requirements."
+      "title": "Члан 14. Заштита европске критичне инфраструктуре",
+      "content": "Европска критична инфраструктура на територији Републике Србије штити се на исти начин као и критична инфраструктура Републике Србије, осим када је то прописима Европске уније другачије уређено."
     },
     {
       "provision_ref": "art15",
+      "chapter": "IV. ЕВРОПСКА КРИТИЧНА ИНФРАСТРУКТУРА",
       "section": "15",
-      "title": "Član 15. Nadzor i sankcije (Supervision and Sanctions)",
-      "content": "The competent authority shall supervise compliance by operators of designated critical infrastructure with the obligations established under this Law, including through reviews of Security Plans, inspections of designated infrastructure, and exercises testing operators' incident response and resilience capabilities. Where deficiencies in an operator's security or resilience arrangements are identified, the competent authority may issue recommendations or binding requirements for corrective action. Operators failing to comply with binding requirements or applicable obligations may be subject to administrative sanctions, which shall be proportionate, effective, and dissuasive. Decisions imposing sanctions may be appealed before the Administrative Court."
+      "title": "Члан 15. Извештавање о европској критичној инфраструктури",
+      "content": "Влада усваја годишњи извештај о броју европске критичне инфраструктуре по сектору и броју заинтересованих држава на које свака одређена критична инфраструктура има утицај, на предлог Министарства.\n\nИзвештај из става 1. овог члана доставља се Европској комисији и заинтересованим државама на које свака одређена критична инфраструктура има утицај."
     },
     {
       "provision_ref": "art16",
+      "chapter": "IV. ЕВРОПСКА КРИТИЧНА ИНФРАСТРУКТУРА",
       "section": "16",
-      "title": "Član 16. Usklađivanje sa CER direktivom",
-      "content": "The Republic of Serbia is working towards full alignment of this Law with Directive (EU) 2022/2557 on the resilience of critical entities (CER Directive) as part of the EU accession process. Key areas of alignment include expanding the scope of covered sectors to include those specified in the CER Directive, introducing comprehensive risk assessment requirements, implementing background screening provisions for persons in sensitive roles, establishing cross-sector coordination mechanisms, and developing the national risk assessment framework. An action plan for CER Directive alignment shall be developed in consultation with relevant ministries, regulators, and operators and shall be updated annually."
+      "title": "Члан 16. Размена информација о европској критичној инфраструктури",
+      "content": "Контакт тачка за потребе размене информација и координацију активности у вези са европском критичном инфраструктуром са другим државама чланицама и телима Европске уније је Министарство."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "V. ПОСТУПАЊЕ СА ТАЈНИМ ПОДАЦИМА",
+      "section": "17",
+      "title": "Члан 17. Одређивање и размена",
+      "content": "Одређени подаци у вези са критичном инфраструктуром могу се одредити као тајни подаци у складу са прописима којима се уређује тајност података.\n\nТајни подаци који се односе на Европску критичну инфраструктуру размењују се са страним државама и органима Европске уније у складу са законом којим је уређена тајност података и потписаним међународним споразумима о размени тајних података."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "VI. НАДЗОР",
+      "section": "18",
+      "title": "Члан 18. Надлежност",
+      "content": "Надзор над применом овог закона и прописа донетих на основу њега врши Министарство.\n\nМинистарство врши инспекцијски надзор преко инспектора."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "VI. НАДЗОР",
+      "section": "19",
+      "title": "Члан 19. Овлашћења инспектора",
+      "content": "У вршењу инспекцијског надзора, инспектор има право да:\n\n1) утврди стање извршавања обавеза предвиђених овим законом, упозори на уочене неправилности и одреди мере и рокове за њихово отклањање;\n\n2) врши увид у документа која се односе на критичну инфраструктуру;\n\n3) проверава спровођење издатих наредби и закључака и наложи мере за извршење;\n\n4) наложи израду, доношење и ажурирање докумената предвиђених овим законом;\n\n5) наложи обуставу мера и радњи које нису у складу са Безбедносним планом оператора за управљање ризиком;\n\n6) наложи отклањање утврђених недостатака у спровођењу прописаних мера утврђених Безбедносним планом оператора за управљање ризиком;\n\n7) поднесе предлог за покретање поступака за утврђивање прекршајне одговорности против правних и одговорних лица;\n\n8) нареди предузимање хитних мера;\n\n9) предузме и друге мере за које је овлашћен законом.\n\nПротив решења инспектора може се изјавити жалба у року од осам дана од дана достављања решења.\n\nЖалба против решења инспектора донетог на основу става 1. тач. 5) и 8) овог члана не одлаже извршење решења."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "VII. КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "20",
+      "title": "Члан 20.",
+      "content": "Новчаном казном у износу од 100.000 до 1.000.000 динара казниће се за прекршај јавно предузеће, привредно друштво или друго правно лице које управља системима, мрежама, објектима или њиховим деловима који су одређени као критична инфраструктура ако:\n\n1) не прибави сагласност Министарства на Безбедносни план оператора за управљање ризиком (члан 8. став 2);\n\n2) не достави Министарству предлог за именовање официра за везу (члан 9. став 3);\n\n3) не поступи по налогу инспектора (члан 19. став 1)."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "VII. КАЗНЕНЕ ОДРЕДБЕ",
+      "section": "21",
+      "title": "Члан 21.",
+      "content": "Новчаном казном од 50.000 до 100.000 динара казниће се за прекршај одговорно лице у надлежном државном органу, органу територијалне аутономије или органу јединице локалне самоуправе, ако:\n\n1) не достави Министарству предлоге критичне инфраструктуре у свом сектору (члан 7. став 2);\n\n2) не извештава Министарство о новонасталим променама у свом сектору (члан 7. став 3);\n\n3) не достави Министарству предлоге измена и допуна критичне инфраструктуре у свом сектору (члан 7. став 4);\n\n4) не поступи по налогу инспектора (члан 19. став 1)."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "VIII. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "22",
+      "title": "Члан 22. Рок за доношење подзаконских аката",
+      "content": "Подзаконски акти за спровођење овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "VIII. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "23",
+      "title": "Члан 23. Рок за усаглашавање општег акта",
+      "content": "Измене акта о унутрашњем уређењу и систематизацији радних места у Министарству унутрашњих послова донеће министар у року од 30 дана од дана ступања на снагу овог закона."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "VIII. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "24",
+      "title": "Члан 24. Примена одредаба о европској критичној инфраструктури",
+      "content": "Одредбе овог закона које се односе на европску критичну инфраструктуру почињу да се примењују даном приступања Републике Србије Европској унији."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "VIII. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ",
+      "section": "25",
+      "title": "Члан 25. Ступање на снагу",
+      "content": "Овај закон ступа на снагу осмог дана од објављивања у „Службеном гласнику Републике Србијеˮ."
     }
   ],
   "definitions": [
     {
-      "term": "critical infrastructure",
-      "definition": "An asset, system, or part thereof essential for the maintenance of vital societal functions, health, safety, security, economic or social well-being, whose disruption or destruction would have a significant impact.",
+      "term": "идентификација критичне инфраструктуре",
+      "definition": "поступак утврђивања система, мрежа, објеката или њихових делова у одређеном сектору који се, у складу са утврђеним критеријумима, идентификују као критична инфраструктура",
       "source_provision": "art2"
     },
     {
-      "term": "critical infrastructure operator",
-      "definition": "An owner or operator of designated critical infrastructure.",
+      "term": "Безбедносни план оператора за управљање ризиком",
+      "definition": "план који израђује оператор критичне инфраструктуре, којим се дефинишу безбедносни циљеви и мере оператора на основу анализе ризика коју план садржи",
       "source_provision": "art2"
     },
     {
-      "term": "Security Plan",
-      "definition": "A document prepared by a critical infrastructure operator identifying critical assets, assessing risks, and specifying protective measures in place or to be implemented.",
+      "term": "официр за везу",
+      "definition": "лице запослено код оператора критичне инфраструктуре, а које је контакт између оператора критичне инфраструктуре и министарства надлежног за унутрашње послове (у даљем тексту: Министарство)",
       "source_provision": "art2"
-    },
-    {
-      "term": "Security Liaison Officer",
-      "definition": "The individual designated by a critical infrastructure operator as the contact point with the competent authority for critical infrastructure protection matters.",
-      "source_provision": "art7"
     }
   ]
 }

@@ -1,73 +1,123 @@
 /**
- * Rate-limited HTTP client for Serbian legislation from the Sejm ELI API.
+ * Official source HTTP client for Serbian legislation ingestion.
  *
- * Data source: api.sejm.gov.pl — the official ELI (European Legislation Identifier)
- * API provided by the Chancellery of the Sejm of the Republic of Poland.
+ * Sources:
+ * - https://reg.pravno-informacioni-sistem.rs/api/
+ * - https://di.pravno-informacioni-sistem.rs/
+ * - https://peng.pravno-informacioni-sistem.rs/api/
  *
- * URL patterns:
- *   Metadata: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}
- *   HTML text: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- *
- * - 500ms minimum delay between requests (respectful to government servers)
- * - User-Agent header identifying the MCP
- * - Retry on 429/5xx with exponential backoff
- * - No auth needed (public government data)
+ * Includes polite rate limiting (1.2s minimum between requests)
+ * and retry logic for transient 429/5xx responses.
  */
 
-const USER_AGENT = 'Serbian-Law-MCP/1.0 (https://github.com/Ansvar-Systems/serbian-law-mcp; hello@ansvar.ai)';
-const MIN_DELAY_MS = 500;
+const USER_AGENT = 'Ansvar-Serbian-Law-MCP/1.0 (real-data-ingestion)';
+const MIN_DELAY_MS = 1200;
+const MAX_RETRIES = 3;
 
-let lastRequestTime = 0;
+let lastRequestAt = 0;
+
+function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 async function rateLimit(): Promise<void> {
   const now = Date.now();
-  const elapsed = now - lastRequestTime;
+  const elapsed = now - lastRequestAt;
   if (elapsed < MIN_DELAY_MS) {
-    await new Promise(resolve => setTimeout(resolve, MIN_DELAY_MS - elapsed));
+    await sleep(MIN_DELAY_MS - elapsed);
   }
-  lastRequestTime = Date.now();
+  lastRequestAt = Date.now();
 }
 
-export interface FetchResult {
-  status: number;
-  body: string;
-  contentType: string;
-  url: string;
-}
+async function requestWithRetry(
+  url: string,
+  init: RequestInit,
+  retries = MAX_RETRIES,
+): Promise<Response> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    await rateLimit();
 
-/**
- * Fetch a URL with rate limiting and proper headers.
- * Retries up to 3 times on 429/5xx errors with exponential backoff.
- */
-export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<FetchResult> {
-  await rateLimit();
-
-  for (let attempt = 0; attempt <= maxRetries; attempt++) {
     const response = await fetch(url, {
+      ...init,
       headers: {
         'User-Agent': USER_AGENT,
-        'Accept': 'text/html, application/json, */*',
+        ...(init.headers ?? {}),
       },
       redirect: 'follow',
     });
 
-    if (response.status === 429 || response.status >= 500) {
-      if (attempt < maxRetries) {
-        const backoff = Math.pow(2, attempt + 1) * 1000;
-        console.log(`  HTTP ${response.status} for ${url}, retrying in ${backoff}ms...`);
-        await new Promise(resolve => setTimeout(resolve, backoff));
-        continue;
-      }
+    const retryable = response.status === 429 || response.status >= 500;
+    if (retryable && attempt < retries) {
+      const backoffMs = Math.pow(2, attempt + 1) * 1000;
+      await sleep(backoffMs);
+      continue;
     }
 
-    const body = await response.text();
-    return {
-      status: response.status,
-      body,
-      contentType: response.headers.get('content-type') ?? '',
-      url: response.url,
-    };
+    return response;
   }
 
-  throw new Error(`Failed to fetch ${url} after ${maxRetries} retries`);
+  throw new Error(`Failed request after retries: ${url}`);
+}
+
+export interface TextResponse {
+  status: number;
+  url: string;
+  contentType: string;
+  body: string;
+}
+
+export async function fetchText(url: string, accept = 'text/html, application/json, */*'): Promise<TextResponse> {
+  const response = await requestWithRetry(url, {
+    method: 'GET',
+    headers: {
+      Accept: accept,
+    },
+  });
+
+  const body = await response.text();
+
+  if (!response.ok) {
+    const snippet = body.slice(0, 240).replace(/\s+/g, ' ').trim();
+    throw new Error(`HTTP ${response.status} for ${url}${snippet ? ` -- ${snippet}` : ''}`);
+  }
+
+  return {
+    status: response.status,
+    url: response.url,
+    contentType: response.headers.get('content-type') ?? '',
+    body,
+  };
+}
+
+export async function fetchJson<T>(url: string): Promise<T> {
+  const result = await fetchText(url, 'application/json, text/plain, */*');
+  try {
+    return JSON.parse(result.body) as T;
+  } catch {
+    throw new Error(`Invalid JSON response for ${url}`);
+  }
+}
+
+export async function postJson<TResponse>(url: string, payload: unknown): Promise<TResponse> {
+  const response = await requestWithRetry(url, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  });
+
+  const body = await response.text();
+
+  if (!response.ok) {
+    const snippet = body.slice(0, 240).replace(/\s+/g, ' ').trim();
+    throw new Error(`HTTP ${response.status} for ${url}${snippet ? ` -- ${snippet}` : ''}`);
+  }
+
+  try {
+    return JSON.parse(body) as TResponse;
+  } catch {
+    throw new Error(`Invalid JSON response for ${url}`);
+  }
 }
