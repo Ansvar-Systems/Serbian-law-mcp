@@ -1,0 +1,4120 @@
+{
+  "schema_version": "1.0",
+  "jurisdiction": "EE",
+  "portal": "official-source",
+  "generated": "2026-02-22",
+  "total_laws": 822,
+  "total_provisions": 47041,
+  "laws": [
+    {
+      "id": "rs-critical-infrastructure",
+      "title": "Закон о критичној инфраструктури",
+      "provisions": 25
+    },
+    {
+      "id": "rs-electronic-commerce",
+      "title": "Закон о електронској трговини",
+      "provisions": 25
+    },
+    {
+      "id": "rs-electronic-communications",
+      "title": "Закон о електронским комуникацијама",
+      "provisions": 181
+    },
+    {
+      "id": "rs-electronic-communications-2",
+      "title": "Закон о електронским комуникацијама",
+      "provisions": 2
+    },
+    {
+      "id": "rs-electronic-document-identification",
+      "title": "Закон о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању",
+      "provisions": 76
+    },
+    {
+      "id": "rs-electronic-government",
+      "title": "Закон о електронској управи",
+      "provisions": 55
+    },
+    {
+      "id": "rs-freedom-of-information",
+      "title": "Закон о слободном приступу информацијама од јавног значаја",
+      "provisions": 52
+    },
+    {
+      "id": "rs-information-secrecy",
+      "title": "Закон о тајности података",
+      "provisions": 110
+    },
+    {
+      "id": "rs-information-security",
+      "title": "Закон о информационој безбедности",
+      "provisions": 58
+    },
+    {
+      "id": "rs-law-carinski-zakon",
+      "title": "Царински закон",
+      "provisions": 285
+    },
+    {
+      "id": "rs-law-krivicni-zakonik",
+      "title": "Кривични законик",
+      "provisions": 454
+    },
+    {
+      "id": "rs-law-porodicni-zakon",
+      "title": "Породични закон",
+      "provisions": 363
+    },
+    {
+      "id": "rs-law-zakon-o-advokaturi",
+      "title": "Закон о адвокатури",
+      "provisions": 47
+    },
+    {
+      "id": "rs-law-zakon-o-agenciji-za-licenciranje-stecajnih-upravnika",
+      "title": "Закон о Агенцији за лиценцирање стечајних управника",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-agenciji-za-osiguranje-depozita",
+      "title": "Закон о Агенцији за осигурање депозита",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-agenciji-za-osiguranje-i-finansiranje-izvoza-republike-srbije",
+      "title": "Закон о Агенцији за осигурање и финансирање извоза Републике Србије",
+      "provisions": 24
+    },
+    {
+      "id": "rs-law-zakon-o-agenciji-za-privredne-registre",
+      "title": "Закон о Агенцији за привредне регистре",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-agencijskom-zaposljavanju",
+      "title": "Закон o агенцијском запошљавању",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-akcionom-planu-harmonizacije-ekonomskih-sistema-drzava-clanica-d",
+      "title": "Закон о Акционом плану хармонизације економских система држава чланица државне заједнице Србија и Црна Гора ради спречавања и уклањања препрека слободном протоку људи, робе, услуга и капитала",
+      "provisions": 27
+    },
+    {
+      "id": "rs-law-zakon-o-akcizama",
+      "title": "Закон о акцизама",
+      "provisions": 98
+    },
+    {
+      "id": "rs-law-zakon-o-akreditaciji",
+      "title": "Закон о акредитацији",
+      "provisions": 27
+    },
+    {
+      "id": "rs-law-zakon-o-alternativnim-investicionim-fondovima",
+      "title": "Закон о алтернативним инвестиционим фондовима",
+      "provisions": 271
+    },
+    {
+      "id": "rs-law-zakon-o-ambalazi-i-ambalaznom-otpadu",
+      "title": "Закон о амбалажи и амбалажном отпаду",
+      "provisions": 57
+    },
+    {
+      "id": "rs-law-zakon-o-amnestiji",
+      "title": "Закон о амнестији",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-amnestiji-2",
+      "title": "Закон о амнестији",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-amnestiji-3",
+      "title": "Закон о амнестији",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-amnestiji-4",
+      "title": "Закон о амнестији",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-amnestiji-5",
+      "title": "Закон о амнестији",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-amnestiji-6",
+      "title": "Закон о амнестији",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-amnestiji-9-2001-1",
+      "title": "Закон о амнестији: 9/2001-1",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-arbitrazi",
+      "title": "Закон о арбитражи",
+      "provisions": 70
+    },
+    {
+      "id": "rs-law-zakon-o-arhivskoj-gradji-i-arhivskoj-delatnosti-6-2020-31",
+      "title": "Закон о архивској грађи и архивској делатности: 6/2020-31",
+      "provisions": 75
+    },
+    {
+      "id": "rs-law-zakon-o-autorskom-i-srodnim-pravima",
+      "title": "Закон о ауторском и сродним правима",
+      "provisions": 243
+    },
+    {
+      "id": "rs-law-zakon-o-azilu-i-privremenoj-zastiti",
+      "title": "Закон о азилу и привременој заштити",
+      "provisions": 104
+    },
+    {
+      "id": "rs-law-zakon-o-banjama",
+      "title": "Закон о бањама",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-bankama",
+      "title": "Закон о банкама",
+      "provisions": 204
+    },
+    {
+      "id": "rs-law-zakon-o-besplatnoj-pravnoj-pomoci",
+      "title": "Закон о бесплатној правној помоћи",
+      "provisions": 61
+    },
+    {
+      "id": "rs-law-zakon-o-bezbednosno-informativnoj-agenciji",
+      "title": "Закон о Безбедносно-информативној агенцији",
+      "provisions": 42
+    },
+    {
+      "id": "rs-law-zakon-o-bezbednosti-hrane",
+      "title": "Закон о безбедности хране",
+      "provisions": 90
+    },
+    {
+      "id": "rs-law-zakon-o-bezbednosti-i-zdravlju-na-radu",
+      "title": "Закон о безбедности и здрављу на раду",
+      "provisions": 113
+    },
+    {
+      "id": "rs-law-zakon-o-bezbednosti-saobracaja-na-putevima",
+      "title": "Закон о безбедности саобраћаја на путевима",
+      "provisions": 366
+    },
+    {
+      "id": "rs-law-zakon-o-bezbednosti-saobracaja-na-putevima-2",
+      "title": "Закон о безбедности саобраћаја на путевима",
+      "provisions": 195
+    },
+    {
+      "id": "rs-law-zakon-o-bezbednosti-u-zeleznickom-saobracaju",
+      "title": "Закон о безбедности у железничком саобраћају",
+      "provisions": 133
+    },
+    {
+      "id": "rs-law-zakon-o-bibliotecko-informacionoj-delatnosti",
+      "title": "Закон о библиотечко-информационој делатности",
+      "provisions": 58
+    },
+    {
+      "id": "rs-law-zakon-o-biocidnim-proizvodima",
+      "title": "Закон о биоцидним производима",
+      "provisions": 69
+    },
+    {
+      "id": "rs-law-zakon-o-biomedicinski-potpomognutoj-oplodnji",
+      "title": "Закон о биомедицински потпомогнутој оплодњи",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-budzetskoj-inspekciji",
+      "title": "Закон о буџетској инспекцији",
+      "provisions": 36
+    },
+    {
+      "id": "rs-law-zakon-o-budzetskom-sistemu",
+      "title": "Закон о буџетском систему",
+      "provisions": 153
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2015-godinu",
+      "title": "Закон о буџету Републике Србије за 2015. годину",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2016-godinu",
+      "title": "Закон о буџету Републике Србије за 2016. годину",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2017-godinu",
+      "title": "Закон о буџету Републике Србије за 2017. годину",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2018-godinu",
+      "title": "Закон о буџету Републике Србије за 2018. годину",
+      "provisions": 45
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2019-godinu",
+      "title": "Закон о буџету Републике Србије за 2019. годину",
+      "provisions": 47
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2020-godinu",
+      "title": "Закон о буџету Републике Србије за 2020. годину",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2021-godinu",
+      "title": "Закон о буџету Републике Србије за 2021. годину",
+      "provisions": 52
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2022-godinu",
+      "title": "Закон о буџету Републике Србије за 2022. годину",
+      "provisions": 49
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2023-godinu",
+      "title": "Закон о буџету Републике Србије за 2023. годину",
+      "provisions": 44
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2024-godinu",
+      "title": "Закон о буџету Републике Србије за 2024. годину",
+      "provisions": 50
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2025-godinu",
+      "title": "Закон о буџету Републике Србије за 2025. годину",
+      "provisions": 50
+    },
+    {
+      "id": "rs-law-zakon-o-budzetu-republike-srbije-za-2026-godinu",
+      "title": "Закон о буџету Републике Србије за 2026. годину",
+      "provisions": 53
+    },
+    {
+      "id": "rs-law-zakon-o-carinskoj-sluzbi",
+      "title": "Закон о царинској служби",
+      "provisions": 109
+    },
+    {
+      "id": "rs-law-zakon-o-carinskoj-tarifi",
+      "title": "Закон о Царинској тарифи",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-ceku",
+      "title": "Закон о чеку",
+      "provisions": 31
+    },
+    {
+      "id": "rs-law-zakon-o-centralnoj-evidenciji-privremenih-ogranicenja-prava-lica-registr",
+      "title": "Закон о Централној евиденцији привремених ограничења права лица регистрованих у Агенцији за привредне регистре",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-centralnoj-evidenciji-stvarnih-vlasnika",
+      "title": "Закон о Централној евиденцији стварних власника",
+      "provisions": 27
+    },
+    {
+      "id": "rs-law-zakon-o-centralnom-registru-obaveznog-socijalnog-osiguranja",
+      "title": "Закон о Централном регистру обавезног социјалног осигурања",
+      "provisions": 52
+    },
+    {
+      "id": "rs-law-zakon-o-centralnom-registru-stanovnistva",
+      "title": "Закон о Централном регистру становништва",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-civilnoj-sluzbi",
+      "title": "Закон о цивилној служби",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-crkvama-i-verskim-zajednicama",
+      "title": "Закон о црквама и верским заједницама",
+      "provisions": 46
+    },
+    {
+      "id": "rs-law-zakon-o-crvenom-krstu-srbije",
+      "title": "Закон о Црвеном крсту Србије",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-kreditanstalt-fir-videraufbau",
+      "title": "Закон о давању гаранције Републике Србије Кредитаншталт фир Видерауфбау (Kreditanstalt fur wiederaufbau) за задужење Јавног предузећа „Електропривреда Србије”: 8/2002-1",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-nemackoj-finansijskoj-institu",
+      "title": "Закон о давању гаранције Републике Србије Немачкој финансијској институцији KFNW по задужењу ЈП „Електропривреда Србије“ (Мере заштите животне средине у термоелектранама на лигнит)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-nemackoj-finansijskoj-institu-2",
+      "title": "Закон о давању гаранције Републике Србије немачкој финансијској институцији KfW по задужењу Јавног предузећа „Електропривреда Србије” (Пројекат рехабилитације ХЕ Зворник)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-nemackoj-finansijskoj-organiz",
+      "title": "Закон о давању гаранције Републике Србије немачкој финансијској организацији KFW по задужењу ЈП „Електропривреда Србије“ (Рехабилитација Хидроелектране Бајина Башта)",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-nemackoj-finansijskoj-organiz-2",
+      "title": "Закон о давању гаранције Републике Србије немачкој финансијској организацији KFW по задужењу ЈП \"Електропривреда Србије\" за финансирање пројекта за набавку рударске опреме за потребе површинског копа \"Тамнава – западно поље\"",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-a-d-beo",
+      "title": "Закон о давању гаранције Републике Србије у корист „Banca Intesa” а.д. Београд по задужењу Јавног предузећа „Србијагас” Нови Сад",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-a-d-beo-2",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa a.d. Beograd и Raiffeisen banka a.d. Beograd по задужењу Јавног предузећа „Србијагас” Нови Сад, по основу уговора о кредиту за изградњу разводног гасовода Александровац – Брус – Копаоник – Рашка – Нови Пазар – Тутин (III фаза)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-a-d-beo-3",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa a.d. Beograd и Raiffeisen banke a.d. Beograd по задужењу Јавног предузећа „Србијагас” Нови Сад, по основу уговора о кредиту за јачање транспортних капацитета гасовода у Републици Србији",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-a-d-beo-4",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa a.d. Beograd по задужењу Акционарског друштва за ваздушни саобраћај „JAT Airways” а.д. Београд",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-a-d-beo-5",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa a.d. Beograd, за измиривање обавеза Јавног предузећа „Србијагас” Нови Сад по основу Уговора о кредиту за изградњу разводног гасовода Александровац – Брус – Копаоник – Рашка – Нови Пазар – Тутин (II фаза)",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-ad-beog",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa AD Beograd за измиривање обавеза Јавног предузећа \"Србијагас\" Нови Сад, по основу Уговора о кредиту ради изградње разводног гасовода Београд–Ваљево–Лозница",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-ad-beog-2",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa AD Beograd за измиривање обавеза Јавног предузећа „Србијагас”, Нови Сад по основу Уговора о кредиту ради гасификације Колубарског округа и изградњу разводног гасовода Београд–Ваљево–Лозница",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-ad-beog-3",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa AD Beograd и Банке Поштанска Штедионица акционарско друштво Београд за измиривање обавеза Јавног предузећа \"Србијагас\" Нови Сад, по основу Уговора о кредиту ради изградње разводног гасовода Лесковац–Врање",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-ad-beog-4",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa AD Beograd, Raiffeisen Banka AD Beograd, Komercijalna banka AD Beograd, Sberbank Srbija AD Beograd, OTP Banka Srbija akcionarsko drustvo Novi Sad и Nova Ljubljanska banka DD Ljubljana по задужењу Јавног предузећа „Србијагас”, Нови Сад",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banca-intesa-ad-beog-5",
+      "title": "Закон о давању гаранције Републике Србије у корист Banca Intesa AD Beograd, Societe General Srbija a.d. Beograd, Hypo-Alpe-Adria Bank a.d. Beograd, Erste Bank а.d. Novi Sad, Комерцијалне банке а.д. Београд и Unicredit Bank Srbija a.d. Beograd по задужењу Јавног предузећа „Србијагас” Нови Сад",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banke-postanska-sted",
+      "title": "Закон о давању гаранције Републике Србије у корист Банке Поштанска штедионица акционарско друштво Београд за измиривање обавеза Јавног предузећа \"Србијагас\" Нови Сад за финансирање развоја дистрибутивне мреже, укључујући мерне станице као и рехабилитацију гасоводног система и јачање транспортних и складишних капацитета гасовода у Републици Србији",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-banke-postanska-sted-2",
+      "title": "Закон о давању гаранције Републике Србије у корист Банке Поштанска штедионица, акционарско друштво, Београд по основу задужења Акционарског друштва за железнички превоз робе „Србија Карго” Београд",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-credit-suisse-bank-l",
+      "title": "Закон о давању гаранције Републике Србије у корист Credit Suisse Bank London, Војвођанскe банке а.д. Нови Сад, Unicredit bank Srbija a.d. Beograd и Deutsche Bank AG London по задужењу Јавног предузећа „Србијагас” Нови Сад",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-deutsche-bank-ag-lon",
+      "title": "Закон о давању гаранције Републике Србије у корист Deutsche bank AG London по задужењу Јавног предузећа „Србијагас” Нови Сад ради реализације Пројекта Јужни ток",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-export-development-s",
+      "title": "Закон о давању гаранције Републике Србије у корист Еxport Development Сanada по задужењу РТБ Бор – Групе рударско-топионичарског басена Бор д.о.о. у реструктурирању",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-hypo-alpe-adria-bank",
+      "title": "Закон о давању гаранције Републике Србије у корист Hypo Alpe – Adria – Bankе a.d. Beograd по задужењу општина Косовска Митровица, Звечан и Зубин Поток",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-hypo-alpe-adria-bank-2",
+      "title": "Закон о давању гаранције Републике Србије у корист Hypo Alpe-Adria bank a.d. Beograd и Societe Generalе banka Srbija a.d. Beograd за измиривање обавеза Грађевинске дирекције Србије д.о.о. Београд, по основу уговора о кредиту за изградњу стамбено-пословних објеката на локацији касарне „Степа Степановић” у Београду",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-japan-international-",
+      "title": "Закон о давању гаранције Републике Србије у корист Japan International Cooperation Agency по задужењу Јавног предузећа „Електропривреда Србије”, Београд",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-komercijalne-banke-a",
+      "title": "Закон о давању гаранције Републике Србије у корист Комерцијалне банке а.д. Београд и АИК банке а.д. Ниш по задужењу Галенике а.д. Београд",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-komercijalne-banke-a-2",
+      "title": "Закон о давању гаранције Републике Србије у корист Комерцијалне банке а.д. Београд по задужењу Акционарског друштва за ваздушни саобраћај „JAT Airways” а.д. Београд",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-komercijalne-banke-a-3",
+      "title": "Закон о давању гаранције Републике Србије у корист Комерцијалне банке а.д. Београд по задужењу Грађевинске дирекције Србије д.о.о. Београд",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-marfin-bank-a-d-beog",
+      "title": "Закон о давању гаранције Републике Србије у корист „Marfin Bank” а.д. Београд по задужењу ЈП „Путеви Србије”",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке КfW, Франкфурт на Мајни, по задужењу Акционарског друштва „Електромрежа Србије”, Београд (Регионални програм енергетске ефикасности у преносном систему)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban-2",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке КfW, Франкфурт на Мајни, по задужењу Јавног предузећа „Електропривреда Србије”, Београд (пројекат „Модернизација система за отпепељивање ТЕ Никола Тесла А”)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban-3",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке КfW, Франкфурт на Мајни, по задужењу Јавног предузећа „Електропривреда Србије”, Београд (Пројекат обновљиве енергије Костолац – ветропарк)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban-4",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке KfW, Франкфурт на Мајни, по задужењу Акционарског друштва \"Електромрежа Србије\", Београд (пројекат \"Регионални програм енергетске ефикасности у преносном сектору II - Трансбалкански електроенергетски коридор, секција III и секција IV\")",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban-5",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке KfW, Франкфурт на Мајни, по задужењу Акционарског друштва „Електромрежа Србије”, Београд (пројекат „Трансбалкански коридор за пренос електричне енергије, секција 4 – 2x400 kV ДВ Бајина Башта (РС) – Пљевља (МЕ) – Вишеград (БиХ)”)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban-6",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке KfW, Франкфурт на Мајни, по задужењу Акционарског друштва \"Електромрежа Србије\", Београд (Регионални програм за енергетску ефикасност у преносном систему II)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban-7",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке KfW, Франкфурт на Мајни, по задужењу Акционарског друштва „Електропривреда Србије”, Београд (ЕПС) (Програм за убрзање развоја обновљивих извора енергије у Србији (APRES), Фаза I)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban-8",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке KfW, Франкфурт на Мајни, по задужењу Акционарског друштва \"Електропривреда Србије\", Београд (пројекат обновљивих извора енергије Костолац – Ветропарк)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-nemacke-razvojne-ban-9",
+      "title": "Закон о давању гаранције Републике Србије у корист Немачке развојне банке KFW, Франкфурт на Мајни, по задужењу Јавног предузећа „Електропривреда Србије”, Београд (Пројекат „Унапређење технологије експлоатације у РБ Колубара у циљу повећања ефикасности термоелектрана и смањења утицаја на животну средину”)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-otp-bank-nyrt-otp-ba",
+      "title": "Закон о давању гаранције Републике Србије у корист OTP BANK NYRT, OTP Banka Srbija a.d. Novi Sad и DSK BANK AD по задужењу Јавног предузећа „Србијагас” Нови Сад",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-otp-banka-srbija-a-d",
+      "title": "Закон о давању гаранције Републике Србије у корист OТП банка Србија а.д. Нови Сад, „Volksbank” a.d. Beograd, Војвођанске банке а.д. Нови Сад, Societe Generale Banka Srbija a.d. Beograd, Unicredit Bank Srbija a.d. Beograd, Amsterdam Trade Bank Netherlands и Deutsche bank AG London по задужењу Јавног предузећа „Србијагас” Нови Сад",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-otp-banka-srbija-a-d-2",
+      "title": "Закон о давању гаранције Републике Србије у корист OТП банка Србија а.д. Нови Сад, Banca Intesa a.d. Beograd, „AIK BANKA” а.d. Beograd и UniCredit Bank Srbija a.d. Београд по задужењу Јавног предузећа „Србијагас” Нови Сад",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-otp-banke-srbija-a-d",
+      "title": "Закон о давању гаранције Републике Србије у корист OTP banke Srbija a.d. Novi Sad за измиривање обавеза Јавног предузећа „Србијагас” Нови Сад по основу Уговора о дугорочном кредиту за изградњу разводног гасовода Лесковац–Врање",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-otp-banke-srbija-a-d-2",
+      "title": "Закон о давању гаранције Републике Србије у корист OTP banke Srbija a.d. Novi Sad за измиривање обавеза Јавног предузећа „Србијагас” Нови Сад по основу Уговора о дугорочном кредиту ради гасификације Борског и Зајечарског округа и изградњу разводног гасовода Параћин–Бољевац–Рготина–Неготин–Прахово",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-otp-banke-srbija-a-d-3",
+      "title": "Закон о давању гаранције Републике Србије у корист OTP banke Srbija a.d. Novi Sad и Banca Intesa a.d. Beograd по основу задужења Електродистрибуцијe Србије д.о.о. Београд",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-otp-banke-srbija-akc",
+      "title": "Закон о давању гаранције Републике Србије у корист OTP bankе Srbija akcionarsko društvo Novi Sad и Банке Поштанска штедионица акционарско друштво Београд за измиривање обавеза Јавног предузећа \"Србијагас\" Нови Сад, по основу Уговора о кредиту ради изградње примопредајних станица Хоргош, подземно складиште гасa Банатски Двор и Лозница",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-otp-banke-srbija-akc-2",
+      "title": "Закон о давању гаранције Републике Србије у корист OTP banke Srbija akcionarsko društvo Novi Sad, Банке Поштанска штедионица, акционарско друштво, Београд и Banca Intesa AD Beograd по основу задужења Електродистрибуцијe Србије д.о.о. Београд, у вези са пројектом унапређење дистрибутивне мреже",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-societe-general-bank",
+      "title": "Закон о давању гаранције Републике Србије у корист Societe General banka Srbija a.d. Beograd, Erste GCIB Finance I B.V. Amsterdam, UniCredit Bank Srbija a.d. Beograd и АИК банке а.д. Ниш по задужењу Галенике а.д. Београд",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-societe-generale-ban",
+      "title": "Закон о давању гаранције Републике Србије у корист Societe Generale Bankа Srbija a.d. Beograd, Комерцијалне банке а.д. Београд и Vojvodanskе bankе a.d. Novi Sad по задужењу Јавног предузећа „Србијагас” Нови Сад, по основу уговора о кредиту за изградњу гасовода на територији Републике Србије од границе са Републиком Бугарском до границе са Мађарском и другим суседним земљама са Републиком Србијом кроз улагање у капитал акционарског друштва South Stream Serbia AG, ZUG, Швајцарска",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-societe-generale-ban-2",
+      "title": "Закон о давању гаранције Републике Србије у корист Societe Generale Bankе Srbija a.d. Beograd и UniСredit Bank Srbija a.d. Beograd по задужењу Акционарског друштва за ваздушни саобраћај „JAT AIRWAYS” а.д. Београд",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-societe-generale-ban-3",
+      "title": "Закон о давању гаранције Републике Србије у корист Societe Generale Banka Srbija a.d. Beograd, за измиривање обавеза Јавног предузећа ’’Србијагас’’ Нови Сад по основу уговора о дугорочном кредиту за изградњу разводног гасовода Александровац – Брус – Копаоник – Рашка – Нови Пазар – Тутин",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-societe-generale-ban-4",
+      "title": "Закон о давању гаранције Републике Србије у корист Societe Generale Banke Srbija a.d. Beograd, Комерцијалне банке а.д. Београд, Банке Поштанска штедионица а.д. Београд, ОТП банке Србија а.д. Нови Сад и Vojvodanskе bankе a.d. Novi Sad по задужењу Јавног предузећа „Србијагас” Нови Сад, по основу уговора о кредиту за изградњу гасовода на територији Републике Србије од границе са Републиком Бугарском до границе са Мађарском и другим суседним земљама са Републиком Србијом",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-societe-generale-par",
+      "title": "Закон о давању гаранције Републике Србије у корист „Societe Generale”, Париз, Француска, по задужењу Јавног предузећа „Путеви Србије“",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-srpske-banke-a-d-beo",
+      "title": "Закон о давању гаранције Републике Србије у корист Српске банке а.д. Београд за обавезе ЈП „Југоимпорт-СДПР”",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-unicredit-bank-srbij",
+      "title": "Закон о давању гаранције Републике Србије у корист Unicredit Bank Srbija a.d. Београд по задужењу Јавног предузећа „Путеви Србије“",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-unicredit-bank-srbij-2",
+      "title": "Закон о давању гаранције Републике Србије у корист UniCredit bank Srbija a.d. Beograd по задужењу Јавног предузећа „Скијалишта Србије” Београд, по основу Уговора о дугорочном инвестиционом кредиту за изградњу гондоле Брзеће – Мали Караман",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-unicredit-bank-srbij-3",
+      "title": "Закон о давању гаранције Републике Србије у корист UniCredit Bank Srbija a.d. Beograd, NLB Komercijalnа Bankа a.d. Beograd и AIK Bankа a.d. Beograd по задужењу Јавног предузећа „Србијагас” Нови Сад",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-garancije-republike-srbije-u-korist-unicredit-srbija-a-d",
+      "title": "Закон о давању гаранције Републике Србије у корист UniCredit Srbija а.d. Beograd за изградњу Анекса хангара 2, довођење у радну функцију одржавања и оправке за већ освојени тип авиона Boeing 737 NG и опремање у циљу освајања одржавања и оправке авиона типа Airbus 320 по задужењу „JAT-Tehnika” д.o.o. Београд",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-saveznoj-republici-jugo",
+      "title": "Закон о давању контрагаранције Републике Србије Савезној Републици Југославији за отплату обавеза по задужењу ЖТП „Београд” код Европске банке за обнову и развој",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-saveznoj-republici-jugo-2",
+      "title": "Закон о давању контрагаранције Републике Србије Савезној Републици Југославији за отплату обавеза по задужењу ЈП „Електропривреда Србије” код Европске банке за обнову и развој",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-kao",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори као гаранту према Европској банци за обнову и развој по зајму граду Крагујевцу, граду Нишу и граду Новом Саду",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-kao-2",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори као гаранту према Еврпској банци за обнову и развој по зајму Републичкој дирекцији за путеве",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po-",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске банке за обнову и развој (Будућа модернизација и унапређење система за управљање ваздушним саобраћајем)",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--10",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (Први кредит за програмски развој политике у приватном и финансијском сектору)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--11",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (Пројекат консолидације наплате и реформе пензијске админитрације у Србији)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--12",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (Пројекат ревитализације система за наводњавање и одводњавање Србије)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--13",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (структурно прилагођавање привреде Републике Србије)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--14",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске банке за обнову и развој (ЕПС, Пројекат II)",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--15",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске заједнице за измирење доспелих а неплаћених уговорних обавеза према Европској инвестиционој банци",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--16",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке (Пројекат свеобухватне рехабилитације инфраструктуре контроле летења – Србија и Црна Гора)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--17",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање Пројекта градског водовода - Србија",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--18",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање Пројекта обнове града Београда",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--19",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање пројекта обнове енергетског сектора у Републици Србији",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--2",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске банке за обнову и развој (Програм реконструкције општинске инфраструктуре општине Суботица)",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--20",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање Пројекта обнове железница",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--21",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање Пројекта управљања електроенергетским системом",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--22",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање Пројекта хитне санације саобраћаја",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--23",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање Ургентног пројекта здравства",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--24",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Владе Републике Пољске за финансирање пројеката обнове Електропривреде Србије",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--3",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске банке за обнову и развој за финансирање обнове деонице аутопута Београд-Нови Сад",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--4",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање обнове путева у Републици Србији",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--5",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање Пројекта Европских путева Б – Србија и Црна Гора",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--6",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по зајму Европске инвестиционе банке за финансирање пројекта за побољшање стања школа – Србија и Црна Гора",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--7",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (Други кредит за структурно прилагођавање – Република Србија)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--8",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (Компонента Србија и Црна Гора – Пројекат за Србију)",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-davanju-kontragarancije-republike-srbije-srbiji-i-crnoj-gori-po--9",
+      "title": "Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (Кредит за развој приватног и финансијског сектора)",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-detektivskoj-delatnosti",
+      "title": "Закон о детективској делатности",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-deviznom-poslovanju",
+      "title": "Закон о девизном пословању",
+      "provisions": 85
+    },
+    {
+      "id": "rs-law-zakon-o-digitalnoj-imovini",
+      "title": "Закон о дигиталној имовини",
+      "provisions": 146
+    },
+    {
+      "id": "rs-law-zakon-o-dijaspori-i-srbima-u-regionu",
+      "title": "Закон о дијаспори и Србима у региону",
+      "provisions": 46
+    },
+    {
+      "id": "rs-law-zakon-o-divljaci-i-lovstvu",
+      "title": "Закон о дивљачи и ловству",
+      "provisions": 115
+    },
+    {
+      "id": "rs-law-zakon-o-dobrobiti-zivotinja",
+      "title": "Закон о добробити животиња",
+      "provisions": 89
+    },
+    {
+      "id": "rs-law-zakon-o-dobrovoljnim-penzijskim-fondovima-i-penzijskim-planovima",
+      "title": "Закон о добровољним пензијским фондовима и пензијским плановима",
+      "provisions": 90
+    },
+    {
+      "id": "rs-law-zakon-o-dobrovoljnom-vatrogastvu",
+      "title": "Закон о добровољном ватрогаству",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-donacijama-i-humanitarnoj-pomoci",
+      "title": "Закон о донацијама и хуманитарној помоћи",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-doprinosima-za-obavezno-socijalno-osiguranje",
+      "title": "Закон о доприносима за обавезно социјално осигурање",
+      "provisions": 103
+    },
+    {
+      "id": "rs-law-zakon-o-drustvenoj-brizi-o-deci",
+      "title": "Закон о друштвеној бризи о деци",
+      "provisions": 55
+    },
+    {
+      "id": "rs-law-zakon-o-drzavljanstvu-republike-srbije",
+      "title": "Закон о држављанству Републике Србије",
+      "provisions": 58
+    },
+    {
+      "id": "rs-law-zakon-o-drzavnim-i-drugim-praznicima-u-republici-srbiji",
+      "title": "Закон о државним и другим празницима у Републици Србији",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-drzavnim-sluzbenicima",
+      "title": "Закон о државним службеницима",
+      "provisions": 229
+    },
+    {
+      "id": "rs-law-zakon-o-drzavnoj-pripadnosti-i-upisu-plovila",
+      "title": "Закон о државној припадности и упису пловила",
+      "provisions": 196
+    },
+    {
+      "id": "rs-law-zakon-o-drzavnoj-revizorskoj-instituciji",
+      "title": "Закон о Државној ревизорској институцији",
+      "provisions": 67
+    },
+    {
+      "id": "rs-law-zakon-o-drzavnoj-upravi",
+      "title": "Закон о државној управи",
+      "provisions": 96
+    },
+    {
+      "id": "rs-law-zakon-o-drzavnom-pecatu-republike-srbije",
+      "title": "Закон о државном печату Републике Србије",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-drzavnom-premeru-i-katastru",
+      "title": "Закон о државном премеру и катастру",
+      "provisions": 179
+    },
+    {
+      "id": "rs-law-zakon-o-dualnom-modelu-studija-u-visokom-obrazovanju",
+      "title": "Закон о дуалном моделу студија у високом образовању",
+      "provisions": 37
+    },
+    {
+      "id": "rs-law-zakon-o-dualnom-obrazovanju",
+      "title": "Закон о дуалном образовању",
+      "provisions": 47
+    },
+    {
+      "id": "rs-law-zakon-o-duvanu",
+      "title": "Закон о дувану",
+      "provisions": 148
+    },
+    {
+      "id": "rs-law-zakon-o-eksplozivnim-materijama-zapaljivim-tecnostima-i-gasovima",
+      "title": "Закон о експлозивним материјама, запаљивим течностима и гасовима",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-eksproprijaciji",
+      "title": "Закон о експропријацији",
+      "provisions": 77
+    },
+    {
+      "id": "rs-law-zakon-o-elektronskim-medijima",
+      "title": "Закон о електронским медијима",
+      "provisions": 130
+    },
+    {
+      "id": "rs-law-zakon-o-elektronskim-otpremnicama",
+      "title": "Закон о електронским отпремницама",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-elektronskom-fakturisanju",
+      "title": "Зaкoн o eлeктрoнскoм фaктурисaњу",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-energetici",
+      "title": "Закон о енергетици",
+      "provisions": 398
+    },
+    {
+      "id": "rs-law-zakon-o-energetici-2",
+      "title": "Закон о енергетици",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-energetskoj-efikasnosti-i-racionalnoj-upotrebi-energije",
+      "title": "Закон о енергетској ефикасности и рационалној употреби енергије",
+      "provisions": 167
+    },
+    {
+      "id": "rs-law-zakon-o-etanolu",
+      "title": "Закон о етанолу",
+      "provisions": 31
+    },
+    {
+      "id": "rs-law-zakon-o-evidencijama-i-obradi-podataka-u-oblasti-unutrasnjih-poslova",
+      "title": "Закон о евиденцијама и обради података у области унутрашњих послова",
+      "provisions": 68
+    },
+    {
+      "id": "rs-law-zakon-o-evidencijama-u-oblasti-rada",
+      "title": "Закон о евиденцијама у области рада",
+      "provisions": 26
+    },
+    {
+      "id": "rs-law-zakon-o-evidenciji-o-naucnoj-tehnickoj-kulturnoj-i-prosvetnoj-saradnji-s",
+      "title": "Закон о евиденцији о научној, техничкој, културној и просветној сарадњи са иностранством",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-faktoringu",
+      "title": "Закон о факторингу",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-filmskom-i-ostalom-audiovizuelnom-nasledju",
+      "title": "Закон о филмском и осталом аудиовизуелном наслеђу",
+      "provisions": 80
+    },
+    {
+      "id": "rs-law-zakon-o-finansijskoj-podrsci-porodici-sa-decom",
+      "title": "Закон о финансијској подршци породици са децом",
+      "provisions": 70
+    },
+    {
+      "id": "rs-law-zakon-o-finansijskom-lizingu",
+      "title": "Закон о финансијском лизингу",
+      "provisions": 81
+    },
+    {
+      "id": "rs-law-zakon-o-finansijskom-obezbedjenju",
+      "title": "Закон о финансијском обезбеђењу",
+      "provisions": 26
+    },
+    {
+      "id": "rs-law-zakon-o-finansiranju-i-obezbedjenju-finansiranja-poljoprivredne-proizvod",
+      "title": "Закон о финансирању и обезбеђењу финансирања пољопривредне производње",
+      "provisions": 35
+    },
+    {
+      "id": "rs-law-zakon-o-finansiranju-lokalne-samouprave",
+      "title": "Закон о финансирању локалне самоуправе",
+      "provisions": 69
+    },
+    {
+      "id": "rs-law-zakon-o-finansiranju-politickih-aktivnosti",
+      "title": "Закон о финансирању политичких активности",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-finansiranju-politickih-stranaka",
+      "title": "Закон о финансирању политичких странака",
+      "provisions": 1
+    },
+    {
+      "id": "rs-law-zakon-o-fiskalizaciji",
+      "title": "Закон о фискализацији",
+      "provisions": 24
+    },
+    {
+      "id": "rs-law-zakon-o-fluorisanju-vode-za-pice",
+      "title": "Закон о флуорисању воде за пиће",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-fondu-za-nauku-republike-srbije",
+      "title": "Закон о Фонду за науку Републике Србије",
+      "provisions": 30
+    },
+    {
+      "id": "rs-law-zakon-o-fondu-za-razvoj-republike-srbije",
+      "title": "Закон о Фонду за развој Републике Србије",
+      "provisions": 30
+    },
+    {
+      "id": "rs-law-zakon-o-garanciji-federacije-za-obaveze-po-ugovoru-o-refinansiranju-izme",
+      "title": "Закон о гаранцији федерације за обавезе по уговору о рефинансирању између Народне банке Југославије и банака овлашћених за послове с иностранством као дужника и заступника повериоца и иностраних комерцијалних банака као поверилаца",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-gasu",
+      "title": "Закон о гасу",
+      "provisions": 170
+    },
+    {
+      "id": "rs-law-zakon-o-geneticki-modifikovanim-organizmima",
+      "title": "Закон о генетички модификованим организмима",
+      "provisions": 53
+    },
+    {
+      "id": "rs-law-zakon-o-glavnom-gradu",
+      "title": "Закон о главном граду",
+      "provisions": 56
+    },
+    {
+      "id": "rs-law-zakon-o-gradjevinskim-proizvodima",
+      "title": "Закон о грађевинским производима",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-granicnoj-kontroli",
+      "title": "Закон о граничној контроли",
+      "provisions": 75
+    },
+    {
+      "id": "rs-law-zakon-o-hemikalijama",
+      "title": "Закон о хемикалијама",
+      "provisions": 46
+    },
+    {
+      "id": "rs-law-zakon-o-hidrografskoj-delatnosti-9-2020-15",
+      "title": "Закон о хидрографској делатности: 9/2020-15",
+      "provisions": 24
+    },
+    {
+      "id": "rs-law-zakon-o-hipoteci",
+      "title": "Закон о хипотеци",
+      "provisions": 60
+    },
+    {
+      "id": "rs-law-zakon-o-igrama-na-srecu",
+      "title": "Закон о играма на срећу",
+      "provisions": 149
+    },
+    {
+      "id": "rs-law-zakon-o-inovacionoj-delatnosti",
+      "title": "Закон о иновационој делатности",
+      "provisions": 48
+    },
+    {
+      "id": "rs-law-zakon-o-inspekcijskom-nadzoru",
+      "title": "Закон о инспекцијском надзору",
+      "provisions": 72
+    },
+    {
+      "id": "rs-law-zakon-o-integrisanom-sprecavanju-i-kontroli-zagadjivanja-zivotne-sredine",
+      "title": "Закон о интегрисаном спречавању и контроли загађивања животне средине",
+      "provisions": 36
+    },
+    {
+      "id": "rs-law-zakon-o-interoperabilnosti-zeleznickog-sistema",
+      "title": "Закон о интероперабилности железничког система",
+      "provisions": 66
+    },
+    {
+      "id": "rs-law-zakon-o-ispitivanju-zigosanju-i-obelezavanju-oruzja-naprava-i-municije",
+      "title": "Закон о испитивању, жигосању и обележавању оружја, направа и муниције",
+      "provisions": 46
+    },
+    {
+      "id": "rs-law-zakon-o-istrazivanju-nesreca-u-vazdusnom-zeleznickom-i-vodnom-saobracaju",
+      "title": "Закон о истраживању несрећа у ваздушном, железничком и водном саобраћају",
+      "provisions": 57
+    },
+    {
+      "id": "rs-law-zakon-o-izbeglicama",
+      "title": "Закон о избеглицама",
+      "provisions": 1
+    },
+    {
+      "id": "rs-law-zakon-o-izboru-narodnih-poslanika",
+      "title": "Закон о избору народних посланика",
+      "provisions": 181
+    },
+    {
+      "id": "rs-law-zakon-o-izboru-predsednika-republike",
+      "title": "Закон о избору председника Републике",
+      "provisions": 37
+    },
+    {
+      "id": "rs-law-zakon-o-izdavanju-doplatne-postanske-marke",
+      "title": "Закон о издавању доплатне поштанске марке",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-izdavanju-kratkorocnih-obveznica",
+      "title": "Закон о издавању краткорочних обвезница",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-izdavanju-publikacija",
+      "title": "Закон о издавању публикација",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-izgledu-i-upotrebi-grba-zastave-i-himne-republike-srbije",
+      "title": "Закон о изгледу и употреби грба, заставе и химне Републике Србије",
+      "provisions": 46
+    },
+    {
+      "id": "rs-law-zakon-o-izmenama-saveznih-zakona-kojima-su-odredjene-novcane-kazne-za-pr",
+      "title": "Закон о изменама савезних закона којима су одређене новчане казне за привредне преступе и прекршаје",
+      "provisions": 63
+    },
+    {
+      "id": "rs-law-zakon-o-izmenama-zakona-kojima-su-odredjene-novcane-kazne-za-privredne-p",
+      "title": "Закон о изменама закона којима су одређене новчане казне за привредне преступе и прекршаје",
+      "provisions": 119
+    },
+    {
+      "id": "rs-law-zakon-o-izmenama-zakona-kojima-su-odredjene-novcane-kazne-za-privredne-p-2",
+      "title": "Закон о изменама закона којима су одређене новчане казне за привредне преступе и прекршаје",
+      "provisions": 84
+    },
+    {
+      "id": "rs-law-zakon-o-izmirenju-obaveza-srbije-i-crne-gore-na-ime-clanskog-uloga-u-kap",
+      "title": "Закон о измирењу обавеза Србије и Црне Горе на име чланског улога у капиталу и ресурсима Развојне банке Савета Европе",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-izmirivanju-obaveza-republike-srbije-prema-narodnoj-banci-srbije",
+      "title": "Закон о измиривању обавеза Републике Србије према Народној банци Србије",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-izmirivanju-obaveza-savezne-republike-jugoslavije-na-ime-clansko",
+      "title": "Закон о измиривању обавеза Савезне Републике Југославије на име чланског улога у капиталу Европске банке за обнову и развој",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-izmirivanju-obaveza-savezne-republike-jugoslavije-na-ime-opsteg-",
+      "title": "Закон о измиривању обавеза Савезне Републике Југославије на име општег повећања капитала Европске банке за обнову и развој",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-izradi-bilansa-stanja-narodne-banke-jugoslavije-u-socijalisticko",
+      "title": "Закон о изради биланса стања Народне банке Југославије у Социјалистичкој Федеративној Републици Југославији, о изради биланса стања Народне банке Југославије у Савезној Републици Југославији и о покрићу вишка расхода над приходима",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-izvozu-i-uvozu-naoruzanja-i-vojne-opreme",
+      "title": "Закон о извозу и увозу наоружања и војне опреме",
+      "provisions": 42
+    },
+    {
+      "id": "rs-law-zakon-o-izvozu-i-uvozu-robe-dvostruke-namene",
+      "title": "Закон о извозу и увозу робе двоструке намене",
+      "provisions": 33
+    },
+    {
+      "id": "rs-law-zakon-o-izvrsenju-i-obezbedjenju",
+      "title": "Закон о извршењу и обезбеђењу",
+      "provisions": 547
+    },
+    {
+      "id": "rs-law-zakon-o-izvrsenju-kazne-zatvora-za-krivicna-dela-organizovanog-kriminala",
+      "title": "Закон о извршењу казне затвора за кривична дела организованог криминала",
+      "provisions": 57
+    },
+    {
+      "id": "rs-law-zakon-o-izvrsenju-krivicnih-sankcija",
+      "title": "Закон о извршењу кривичних санкција",
+      "provisions": 288
+    },
+    {
+      "id": "rs-law-zakon-o-izvrsenju-vanzavodskih-sankcija-i-mera",
+      "title": "Закон о извршењу ванзаводских санкција и мера",
+      "provisions": 67
+    },
+    {
+      "id": "rs-law-zakon-o-jakim-alkoholnim-picima",
+      "title": "Закон о јаким алкохолним пићима",
+      "provisions": 58
+    },
+    {
+      "id": "rs-law-zakon-o-javnim-agencijama",
+      "title": "Закон о јавним агенцијама",
+      "provisions": 60
+    },
+    {
+      "id": "rs-law-zakon-o-javnim-medijskim-servisima",
+      "title": "Закон о јавним медијским сервисима",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-javnim-nabavkama",
+      "title": "Закон о јавним набавкама",
+      "provisions": 249
+    },
+    {
+      "id": "rs-law-zakon-o-javnim-preduzecima",
+      "title": "Закон о јавним предузећима",
+      "provisions": 86
+    },
+    {
+      "id": "rs-law-zakon-o-javnim-skijalistima",
+      "title": "Закон о јавним скијалиштима",
+      "provisions": 82
+    },
+    {
+      "id": "rs-law-zakon-o-javnim-skladistima-za-poljoprivredne-proizvode",
+      "title": "Закон о јавним складиштима за пољопривредне производе",
+      "provisions": 68
+    },
+    {
+      "id": "rs-law-zakon-o-javnim-sluzbama",
+      "title": "Закон о јавним службама",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-javno-privatnom-partnerstvu-i-koncesijama",
+      "title": "Закон о јавно-приватном партнерству и концесијама",
+      "provisions": 80
+    },
+    {
+      "id": "rs-law-zakon-o-javnoj-svojini",
+      "title": "Закон о јавној својини",
+      "provisions": 100
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-beleznistvu",
+      "title": "Закон о јавном бележништву",
+      "provisions": 188
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-dugu",
+      "title": "Закон о јавном дугу",
+      "provisions": 55
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-dugu-republike-srbije-po-osnovu-preuzimanja-obaveza-repub",
+      "title": "Закон о јавном дугу Републике Србије по основу преузимања обавеза Републичког фонда за пензијско и инвалидско осигурање запослених насталих по основу неисплаћених пензија и новчаних накнада",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-dugu-republike-srbije-po-osnovu-preuzimanja-obaveza-repub-2",
+      "title": "Закон о јавном дугу Републике Србије по основу преузимања обавеза Републичког фонда за пензијско и инвалидско осигурање пољопривредника насталих по основу неисплаћених пензија и новчаних накнада",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-informisanju-i-medijima",
+      "title": "Закон о јавном информисању и медијима",
+      "provisions": 160
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-okupljanju-6-2016-37",
+      "title": "Закон о јавном окупљању: 6/2016-37",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-preduzecu-jugoimport-sdpr",
+      "title": "Закон о јавном предузећу „Југоимпорт - СДПР\"",
+      "provisions": 22
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-redu-i-miru",
+      "title": "Закон о јавном реду и миру",
+      "provisions": 28
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-tuzilastvu",
+      "title": "Закон о јавном тужилаштву",
+      "provisions": 154
+    },
+    {
+      "id": "rs-law-zakon-o-javnom-zdravlju",
+      "title": "Закон о јавном здрављу",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-jedinstvenom-birackom-spisku",
+      "title": "Закон о јединственом бирачком списку",
+      "provisions": 49
+    },
+    {
+      "id": "rs-law-zakon-o-jedinstvenom-maticnom-broju-gradjana",
+      "title": "Закон о јединственом матичном броју грађана",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-jednokratnom-porezu-na-ekstra-dohodak-i-ekstra-imovinu-stecene-i",
+      "title": "Закон о једнократном порезу на екстра доходак и екстра имовину стечене искоришћавањем посебних погодности",
+      "provisions": 34
+    },
+    {
+      "id": "rs-law-zakon-o-kinematografiji",
+      "title": "Закон о кинематографији",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-klasifikaciji-delatnosti",
+      "title": "Закон о класификацији делатности",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-klimatskim-promenama",
+      "title": "Закон о климатским променама",
+      "provisions": 83
+    },
+    {
+      "id": "rs-law-zakon-o-komorama-zdravstvenih-radnika",
+      "title": "Закон о коморама здравствених радника",
+      "provisions": 61
+    },
+    {
+      "id": "rs-law-zakon-o-komunalnim-delatnostima",
+      "title": "Закон о комуналним делатностима",
+      "provisions": 58
+    },
+    {
+      "id": "rs-law-zakon-o-komunalnoj-miliciji",
+      "title": "Закон о комуналној милицији",
+      "provisions": 58
+    },
+    {
+      "id": "rs-law-zakon-o-kontroli-drzavne-pomoci",
+      "title": "Закон о контроли државне помоћи",
+      "provisions": 64
+    },
+    {
+      "id": "rs-law-zakon-o-kontroli-opasnosti-od-velikih-udesa-koji-ukljucuju-opasne-supsta",
+      "title": "Закон о контроли опасности од великих удеса који укључују опасне супстанце",
+      "provisions": 56
+    },
+    {
+      "id": "rs-law-zakon-o-konverziji-stambenih-kredita-indeksiranih-u-svajcarskim-francima",
+      "title": "Закон о конверзији стамбених кредита индексираних у швајцарским францима",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-koriscenju-obnovljivih-izvora-energije",
+      "title": "Закон о коришћењу обновљивих извора енергије",
+      "provisions": 129
+    },
+    {
+      "id": "rs-law-zakon-o-koriscenju-sredstava-zajma-za-privredni-razvoj-u-republici-srbij",
+      "title": "Закон о коришћењу средстава зајма за привредни развој у Републици Србији",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-kretanju-uz-pomoc-psa-vodica",
+      "title": "Закон о кретању уз помоћ пса водича",
+      "provisions": 15
+    },
+    {
+      "id": "rs-law-zakon-o-kulturi",
+      "title": "Закон о култури",
+      "provisions": 107
+    },
+    {
+      "id": "rs-law-zakon-o-kulturnim-dobrima",
+      "title": "Закон о културним добрима",
+      "provisions": 59
+    },
+    {
+      "id": "rs-law-zakon-o-kulturnom-nasledju",
+      "title": "Закон о културном наслеђу",
+      "provisions": 138
+    },
+    {
+      "id": "rs-law-zakon-o-legalizaciji-isprava-u-medjunarodnom-prometu-6-1973-127",
+      "title": "Закон о легализацији исправа у међународном промету: 6/1973-127",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-lekovima-i-medicinskim-sredstvima",
+      "title": "Закон о лековима и медицинским средствима",
+      "provisions": 232
+    },
+    {
+      "id": "rs-law-zakon-o-licnoj-karti",
+      "title": "Закон о личној карти",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-ljudskim-celijama-i-tkivima",
+      "title": "Закон о људским ћелијама и ткивима",
+      "provisions": 59
+    },
+    {
+      "id": "rs-law-zakon-o-lobiranju",
+      "title": "Закон о лобирању",
+      "provisions": 36
+    },
+    {
+      "id": "rs-law-zakon-o-lokalnim-izborima",
+      "title": "Закон о локалним изборима",
+      "provisions": 101
+    },
+    {
+      "id": "rs-law-zakon-o-lokalnoj-samoupravi",
+      "title": "Закон о локалној самоуправи",
+      "provisions": 111
+    },
+    {
+      "id": "rs-law-zakon-o-maloletnim-uciniocima-krivicnih-dela-i-krivicnopravnoj-zastiti-m",
+      "title": "Закон о малолетним учиниоцима кривичних дела и кривичноправној заштити малолетних лица",
+      "provisions": 169
+    },
+    {
+      "id": "rs-law-zakon-o-matici-srpskoj",
+      "title": "Закон о Матици српској",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-maticnim-knjigama",
+      "title": "Закон о матичним књигама",
+      "provisions": 109
+    },
+    {
+      "id": "rs-law-zakon-o-maticnom-registru",
+      "title": "Закон о Матичном регистру",
+      "provisions": 98
+    },
+    {
+      "id": "rs-law-zakon-o-medicinskim-sredstvima",
+      "title": "Закон о медицинским средствима",
+      "provisions": 138
+    },
+    {
+      "id": "rs-law-zakon-o-medjubankarskim-naknadama-i-posebnim-pravilima-poslovanja-kod-pl",
+      "title": "Закон о међубанкарским накнадама и посебним правилима пословања код платних трансакција на основу платних картица",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-medjunarodnim-merama-ogranicavanja",
+      "title": "Закон о међународним мерама ограничавања",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-medjunarodnoj-pravnoj-pomoci-u-krivicnim-stvarima",
+      "title": "Закон о међународној правној помоћи у кривичним стварима",
+      "provisions": 104
+    },
+    {
+      "id": "rs-law-zakon-o-medjunarodnom-prevozu-u-drumskom-saobracaju",
+      "title": "Закон о међународном превозу у друмском саобраћају",
+      "provisions": 95
+    },
+    {
+      "id": "rs-law-zakon-o-memorijalnom-centru-staro-sajmiste",
+      "title": "Закон о Меморијалном центру „Старо сајмиште\"",
+      "provisions": 20
+    },
+    {
+      "id": "rs-law-zakon-o-menici",
+      "title": "Закон о меници",
+      "provisions": 115
+    },
+    {
+      "id": "rs-law-zakon-o-merama-prema-imovini-lica-optuzenih-za-ratne-zlocine-pred-medjun",
+      "title": "Закон о мерама према имовини лица оптужених за ратне злочине пред Међународним трибуналом за кривично гоњење лица одговорних за тешка кршења међународног хуманитарног права почињена на територији бивше Југославије од 1991. године, која се налазе у бекству",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-meteoroloskoj-i-hidroloskoj-delatnosti",
+      "title": "Закон о метеоролошкој и хидролошкој делатности",
+      "provisions": 53
+    },
+    {
+      "id": "rs-law-zakon-o-metrologiji",
+      "title": "Закон о метрологији",
+      "provisions": 62
+    },
+    {
+      "id": "rs-law-zakon-o-metrou-i-gradskoj-zeleznici",
+      "title": "Закон о метроу и градској железници",
+      "provisions": 42
+    },
+    {
+      "id": "rs-law-zakon-o-ministarstvima",
+      "title": "Закон о министарствима",
+      "provisions": 50
+    },
+    {
+      "id": "rs-law-zakon-o-mirnom-resavanju-radnih-sporova",
+      "title": "Закон о мирном решавању радних спорова",
+      "provisions": 60
+    },
+    {
+      "id": "rs-law-zakon-o-mirovanju-i-otpisu-duga-po-osnovu-doprinosa-za-obavezno-zdravstv",
+      "title": "Закон о мировању и отпису дуга по основу доприноса за обавезно здравствено осигурање",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-mladima",
+      "title": "Закон о младима",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-muzejskoj-delatnosti",
+      "title": "Закон о музејској делатности",
+      "provisions": 93
+    },
+    {
+      "id": "rs-law-zakon-o-nacinu-i-uslovima-priznavanja-prava-i-vracanju-zemljista-koje-je",
+      "title": "Закон о начину и условима признавања права и враћању земљишта које је прешло у друштвену својину по основу пољопривредног земљишног фонда и конфискацијом због неизвршених обавеза из обавезног откупа пољопривредних производа",
+      "provisions": 20
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnim-parkovima",
+      "title": "Закон о националним парковима",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnim-savetima-nacionalnih-manjina",
+      "title": "Закон о националним саветима националних мањина",
+      "provisions": 152
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnoj-akademiji-za-javnu-upravu",
+      "title": "Закон о Националној академији за јавну управу",
+      "provisions": 19
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnoj-bazi-podataka-za-sprecavanje-i-borbu-protiv-terorizm",
+      "title": "Закон о националној бази података за спречавање и борбу против тероризма",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnoj-infrastrukturi-geoprostornih-podataka",
+      "title": "Закон о националној инфраструктури геопросторних података",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnoj-korporaciji-za-osiguranje-stambenih-kredita",
+      "title": "Закон о Националној корпорацији за осигурање стамбених кредита",
+      "provisions": 26
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnom-dnk-registru",
+      "title": "Закон о националном ДНК регистру",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnom-okviru-kvalifikacija-republike-srbije",
+      "title": "Закон о Националном оквиру квалификација Републике Србије",
+      "provisions": 60
+    },
+    {
+      "id": "rs-law-zakon-o-nacionalnom-spoljnotrgovinskom-jednosalterskom-sistemu",
+      "title": "Закон о Националном спољнотрговинском једношалтерском систему",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-nadzoru-nad-prehrambenim-proizvodima-biljnog-porekla",
+      "title": "Закон о надзору над прехрамбеним производима биљног порекла",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-nafti",
+      "title": "Закон о нафти",
+      "provisions": 79
+    },
+    {
+      "id": "rs-law-zakon-o-naknadama-za-koriscenje-javnih-dobara",
+      "title": "Закон о накнадама за коришћење јавних добара",
+      "provisions": 286
+    },
+    {
+      "id": "rs-law-zakon-o-narodnoj-banci-srbije",
+      "title": "Закон о Народној банци Србије",
+      "provisions": 138
+    },
+    {
+      "id": "rs-law-zakon-o-narodnoj-skupstini-9-2010-3",
+      "title": "Закон о Народној скупштини: 9/2010-3",
+      "provisions": 78
+    },
+    {
+      "id": "rs-law-zakon-o-nasledjivanju",
+      "title": "Закон о наслеђивању",
+      "provisions": 240
+    },
+    {
+      "id": "rs-law-zakon-o-nauci-i-istrazivanjima",
+      "title": "Закон o науци и истраживањима",
+      "provisions": 138
+    },
+    {
+      "id": "rs-law-zakon-o-naucnoistrazivackoj-delatnosti",
+      "title": "Закон о научноистраживачкој делатности",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-nevaznosti-pravnih-propisa-donetih-pre-6-aprila-1941-godine-i-za",
+      "title": "Закон о неважности правних прописа донетих пре 6. априла 1941. године и за време непријатељске окупације (са Грађанским закоником за Књажевство Србију)",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-obaveznim-rezervama-nafte-derivata-nafte-i-prirodnog-gasa",
+      "title": "Закон о обавезним резервама нафте, деривата нафте и природног гаса",
+      "provisions": 39
+    },
+    {
+      "id": "rs-law-zakon-o-obaveznom-osiguranju-u-saobracaju",
+      "title": "Закон о обавезном осигурању у саобраћају",
+      "provisions": 119
+    },
+    {
+      "id": "rs-law-zakon-o-obaveznom-primerku-publikacija",
+      "title": "Закон о обавезном примерку публикација",
+      "provisions": 19
+    },
+    {
+      "id": "rs-law-zakon-o-obavljanju-placanja-pravnih-lica-preduzetnika-i-fizickih-lica-ko",
+      "title": "Закон о обављању плаћања правних лица, предузетника и физичких лица која не обављају делатност",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-obavljanju-savetodavnih-i-strucnih-poslova-u-oblasti-poljoprivre",
+      "title": "Закон о обављању саветодавних и стручних послова у области пољопривреде",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-obelezavanju-dana-zalosti-na-teritoriji-republike-srbije",
+      "title": "Закон о обележавању дана жалости на територији Републике Србије",
+      "provisions": 1
+    },
+    {
+      "id": "rs-law-zakon-o-obezbedjenju-dinarskih-sredstava-za-prevremenu-otplatu-obaveza-p",
+      "title": "Закон о обезбеђењу динарских средстава за превремену отплату обавеза по иностраним кредитима Народне банке Југославије",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-objavljivanju-zakona-i-drugih-propisa-i-akata",
+      "title": "Закон о објављивању закона и других прописа и аката",
+      "provisions": 39
+    },
+    {
+      "id": "rs-law-zakon-o-obligacionim-i-osnovama-svojinsko-pravnih-odnosa-u-vazdusnom-sao",
+      "title": "Закон о облигационим и основама својинско-правних односа у ваздушном саобраћају",
+      "provisions": 181
+    },
+    {
+      "id": "rs-law-zakon-o-obligacionim-odnosima",
+      "title": "Закон о облигационим односима",
+      "provisions": 1103
+    },
+    {
+      "id": "rs-law-zakon-o-obnovi-kulturno-istorijskog-nasledja-i-podsticanju-razvoja-srems",
+      "title": "Закон о обнови културно-историјског наслеђа и подстицању развоја Сремских Карловаца",
+      "provisions": 19
+    },
+    {
+      "id": "rs-law-zakon-o-obnovi-nakon-elementarne-i-druge-nepogode",
+      "title": "Закон о обнови након елементарне и друге непогоде",
+      "provisions": 37
+    },
+    {
+      "id": "rs-law-zakon-o-obrazovanju-odraslih",
+      "title": "Закон о образовању одраслих",
+      "provisions": 67
+    },
+    {
+      "id": "rs-law-zakon-o-ocuvanju-kulturnog-i-istorijskog-nasledja-svetog-manastira-hilan",
+      "title": "Закон о очувању културног и историјског наслеђа Светог манастира Хиландар",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-odbrani",
+      "title": "Закон о одбрани",
+      "provisions": 149
+    },
+    {
+      "id": "rs-law-zakon-o-odbrani-od-grada",
+      "title": "Закон о одбрани од града",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-odgovornosti-pravnih-lica-za-krivicna-dela",
+      "title": "Закон о одговорности правних лица за кривична дела",
+      "provisions": 72
+    },
+    {
+      "id": "rs-law-zakon-o-odlaganju-vracanja-dela-kredita-iz-primarne-emisije",
+      "title": "Закон о одлагању враћања дела кредита из примарне емисије",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-odlikovanjima-republike-srbije",
+      "title": "Закон о одликовањима Републике Србије",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-odredjivanju-poslova-i-radnih-zadataka-za-obavezno-zaposljavanje",
+      "title": "Закон о одређивању послова и радних задатака за обавезно запошљавање слепих инвалида рада и других слепих лица",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-oduzimanju-imovine-proistekle-iz-krivicnog-dela",
+      "title": "Закон о одузимању имовине проистекле из кривичног дела",
+      "provisions": 86
+    },
+    {
+      "id": "rs-law-zakon-o-oglasavanju",
+      "title": "Закон о оглашавању",
+      "provisions": 83
+    },
+    {
+      "id": "rs-law-zakon-o-ogranicavanju-raspolaganja-imovinom-u-cilju-sprecavanja-terorizm",
+      "title": "Закон о ограничавању располагања имовином у циљу спречавања тероризма и ширења оружја за масовно уништење",
+      "provisions": 27
+    },
+    {
+      "id": "rs-law-zakon-o-opstem-upravnom-postupku",
+      "title": "Закон о општем управном поступку",
+      "provisions": 217
+    },
+    {
+      "id": "rs-law-zakon-o-opstoj-bezbednosti-proizvoda",
+      "title": "Закон о општој безбедности производа",
+      "provisions": 30
+    },
+    {
+      "id": "rs-law-zakon-o-optickim-diskovima",
+      "title": "Закон о оптичким дисковима",
+      "provisions": 26
+    },
+    {
+      "id": "rs-law-zakon-o-organizaciji-i-jedinstvenoj-metodologiji-prikupljanja-evidentira",
+      "title": "Закон о организацији и јединственој методологији прикупљања, евидентирања и обраде података и информација за потребе правосудних органа од интереса за целу земљу",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-organizaciji-i-nadleznosti-drzavnih-organa-u-postupku-za-ratne-z",
+      "title": "Закон о организацији и надлежности државних органа у поступку за ратне злочине",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-organizaciji-i-nadleznosti-drzavnih-organa-u-suzbijanju-organizo",
+      "title": "Закон о организацији и надлежности државних органа у сузбијању организованог криминала, тероризма и корупције",
+      "provisions": 31
+    },
+    {
+      "id": "rs-law-zakon-o-organizaciji-i-nadleznosti-drzavnih-organa-za-borbu-protiv-visok",
+      "title": "Закон о организацији и надлежности државних органа за борбу против високотехнолошког криминала",
+      "provisions": 15
+    },
+    {
+      "id": "rs-law-zakon-o-organskoj-proizvodnji",
+      "title": "Закон о органској производњи",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-organskoj-proizvodnji-2",
+      "title": "Закон о органској производњи",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-oruzju-i-municiji",
+      "title": "Закон о оружју и муницији",
+      "provisions": 53
+    },
+    {
+      "id": "rs-law-zakon-o-osiguranju",
+      "title": "Закон о осигурању",
+      "provisions": 292
+    },
+    {
+      "id": "rs-law-zakon-o-osiguranju-2",
+      "title": "Закон о осигурању",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-osiguranju-depozita",
+      "title": "Закон о осигурању депозита",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-osnivanju-muzeja-zrtava-genocida",
+      "title": "Закон о оснивању Музеја жртава геноцида",
+      "provisions": 22
+    },
+    {
+      "id": "rs-law-zakon-o-osnivanju-uciteljskih-fakulteta-i-o-ukidanju-i-promeni-delatnost",
+      "title": "Закон о оснивању учитељских факултета и о укидању и промени делатности педагошких академија и виших школа",
+      "provisions": 19
+    },
+    {
+      "id": "rs-law-zakon-o-osnovama-bezbednosti-saobracaja-na-putevima",
+      "title": "Закон о основама безбедности саобраћаја на путевима",
+      "provisions": 247
+    },
+    {
+      "id": "rs-law-zakon-o-osnovama-sistema-obrazovanja-i-vaspitanja",
+      "title": "Закон о основама система образовања и васпитања",
+      "provisions": 219
+    },
+    {
+      "id": "rs-law-zakon-o-osnovama-svojinskopravnih-odnosa",
+      "title": "Закон о основама својинскоправних односа",
+      "provisions": 88
+    },
+    {
+      "id": "rs-law-zakon-o-osnovama-uredjenja-sluzbi-bezbednosti-republike-srbije",
+      "title": "Закон о основама уређења служби безбедности Републике Србије",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-osnovnom-obrazovanju-i-vaspitanju",
+      "title": "Закон о основном образовању и васпитању",
+      "provisions": 110
+    },
+    {
+      "id": "rs-law-zakon-o-ostvarivanju-prava-iz-alimentacionog-fonda",
+      "title": "Закон о остваривању права из Алиментациoног фонда",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-ostvarivanju-prava-na-zdravstvenu-zastitu-dece-trudnica-i-porodi",
+      "title": "Закон о остваривању права на здравствену заштиту деце, трудница и породиља",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-ostvarivanju-zastite-clanova-porodice-lica-na-obaveznoj-vojnoj-s",
+      "title": "Закон о остваривању заштите чланова породице лица на обавезној војној служби",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-otklanjanju-posledica-oduzimanja-imovine-zrtvama-holokausta-koje",
+      "title": "Закон о отклањању последица одузимања имовине жртвама холокауста које немају живих законских наследника",
+      "provisions": 27
+    },
+    {
+      "id": "rs-law-zakon-o-otpisu-kamate-na-dospele-obaveze-po-osnovu-odredjenih-poreza-i-d",
+      "title": "Закон о отпису камате на доспеле обавезе по основу одређених пореза и доприноса за обавезно социјално осигурање",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-otvorenim-investicionim-fondovima-sa-javnom-ponudom",
+      "title": "Закон о отвореним инвестиционим фондовима са јавном понудом",
+      "provisions": 116
+    },
+    {
+      "id": "rs-law-zakon-o-overavanju-potpisa-rukopisa-i-prepisa",
+      "title": "Закон о оверавању потписа, рукописа и преписа",
+      "provisions": 28
+    },
+    {
+      "id": "rs-law-zakon-o-oznakama-geografskog-porekla",
+      "title": "Закон о ознакама географског порекла",
+      "provisions": 87
+    },
+    {
+      "id": "rs-law-zakon-o-parnicnom-postupku",
+      "title": "Закон о парничном поступку",
+      "provisions": 498
+    },
+    {
+      "id": "rs-law-zakon-o-partizanskoj-spomenici-1941",
+      "title": "Закон о „Партизанској споменици 1941.\"",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-patentima",
+      "title": "Закон о патентима",
+      "provisions": 195
+    },
+    {
+      "id": "rs-law-zakon-o-pecatu-drzavnih-i-drugih-organa",
+      "title": "Закон о печату државних и других органа",
+      "provisions": 30
+    },
+    {
+      "id": "rs-law-zakon-o-penzijskom-i-invalidskom-osiguranju",
+      "title": "Закон о пензијском и инвалидском осигурању",
+      "provisions": 265
+    },
+    {
+      "id": "rs-law-zakon-o-pivu",
+      "title": "Закон о пиву",
+      "provisions": 31
+    },
+    {
+      "id": "rs-law-zakon-o-planiranju-i-izgradnji",
+      "title": "Закон о планирању и изградњи",
+      "provisions": 267
+    },
+    {
+      "id": "rs-law-zakon-o-planskom-sistemu-republike-srbije",
+      "title": "Закон о планском систему Републике Србије",
+      "provisions": 57
+    },
+    {
+      "id": "rs-law-zakon-o-platama-drzavnih-sluzbenika-i-namestenika",
+      "title": "Закон о платама државних службеника и намештеника",
+      "provisions": 61
+    },
+    {
+      "id": "rs-law-zakon-o-platama-u-drzavnim-organima-i-javnim-sluzbama",
+      "title": "Закон о платама у државним органима и јавним службама",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-platnim-uslugama",
+      "title": "Закон о платним услугама",
+      "provisions": 276
+    },
+    {
+      "id": "rs-law-zakon-o-platnom-prometu",
+      "title": "Закон о платном промету",
+      "provisions": 20
+    },
+    {
+      "id": "rs-law-zakon-o-plovidbi-i-lukama-na-unutrasnjim-vodama",
+      "title": "Закон о пловидби и лукама на унутрашњим водама",
+      "provisions": 359
+    },
+    {
+      "id": "rs-law-zakon-o-podsticajima-u-poljoprivredi-i-ruralnom-razvoju",
+      "title": "Закон о подстицајима у пољопривреди и руралном развоју",
+      "provisions": 65
+    },
+    {
+      "id": "rs-law-zakon-o-pojednostavljenom-radnom-angazovanju-na-sezonskim-poslovima-u-od",
+      "title": "Закон о поједностављеном радном ангажовању на сезонским пословима у одређеним делатностима",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-policiji",
+      "title": "Закон о полицији",
+      "provisions": 273
+    },
+    {
+      "id": "rs-law-zakon-o-politickim-strankama",
+      "title": "Закон о политичким странкама",
+      "provisions": 47
+    },
+    {
+      "id": "rs-law-zakon-o-poljoprivredi-i-ruralnom-razvoju",
+      "title": "Закон о пољопривреди и руралном развоју",
+      "provisions": 61
+    },
+    {
+      "id": "rs-law-zakon-o-poljoprivrednom-zemljistu",
+      "title": "Закон о пољопривредном земљишту",
+      "provisions": 107
+    },
+    {
+      "id": "rs-law-zakon-o-pomilovanju",
+      "title": "Закон о помиловању",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-pomorskoj-plovidbi",
+      "title": "Закон о поморској пловидби",
+      "provisions": 251
+    },
+    {
+      "id": "rs-law-zakon-o-popisu-poljoprivrede-2023",
+      "title": "Закон о Попису пољопривреде 2023.",
+      "provisions": 32
+    },
+    {
+      "id": "rs-law-zakon-o-popisu-stanovnistva-domacinstava-i-stanova-2022-godine",
+      "title": "Закон о попису становништва, домаћинстава и станова 2022. године",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-poreskom-postupku-i-poreskoj-administraciji",
+      "title": "Закон о пореском поступку и пореској администрацији",
+      "provisions": 280
+    },
+    {
+      "id": "rs-law-zakon-o-porezima-na-imovinu",
+      "title": "Закон о порезима на имовину",
+      "provisions": 77
+    },
+    {
+      "id": "rs-law-zakon-o-porezima-na-upotrebu-drzanje-i-nosenje-dobara",
+      "title": "Закон о порезима на употребу, држање и ношење добара",
+      "provisions": 45
+    },
+    {
+      "id": "rs-law-zakon-o-porezu-na-dobit-pravnih-lica",
+      "title": "Закон о порезу на добит правних лица",
+      "provisions": 123
+    },
+    {
+      "id": "rs-law-zakon-o-porezu-na-dodatu-vrednost",
+      "title": "Закон о порезу на додату вредност",
+      "provisions": 92
+    },
+    {
+      "id": "rs-law-zakon-o-porezu-na-dohodak-gradjana",
+      "title": "Закон о порезу на доходак грађана",
+      "provisions": 186
+    },
+    {
+      "id": "rs-law-zakon-o-porezu-na-emisije-gasova-sa-efektom-staklene-baste",
+      "title": "Закон о порезу на емисије гасова са ефектом стаклене баште",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-porezu-na-premije-nezivotnih-osiguranja",
+      "title": "Закон о порезу на премије неживотних осигурања",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-porezu-na-uvoz-ugljenicno-intenzivnih-proizvoda",
+      "title": "Закон о порезу на увоз угљенично интензивних производа",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-posebnim-merama-za-sprecavanje-vrsenja-krivicnih-dela-protiv-pol",
+      "title": "Закон о посебним мерама за спречавање вршења кривичних дела против полне слободе према малолетним лицима",
+      "provisions": 19
+    },
+    {
+      "id": "rs-law-zakon-o-posebnim-ovlascenjima-radi-efikasne-zastite-prava-intelektualne-",
+      "title": "Закон о посебним овлашћењима ради ефикасне заштите права интелектуалне својине",
+      "provisions": 45
+    },
+    {
+      "id": "rs-law-zakon-o-posebnim-postupcima-radi-realizacije-medjunarodne-specijalizovan",
+      "title": "Закон о посебним поступцима ради реализације међународне специјализоване изложбе EXPO BELGRADE 2027",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-posebnim-postupcima-radi-realizacije-projekta-revitalizacije-i-r",
+      "title": "Закон о посебним поступцима ради реализације пројекта ревитализације и развоја локације у Београду између улица Кнеза Милоша, Масарикове, Бирчанинове и Ресавске",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-posebnim-uslovima-za-evidentiranje-i-upis-prava-na-nepokretnosti",
+      "title": "Закон о посебним условима за евидентирање и упис права на непокретностима",
+      "provisions": 28
+    },
+    {
+      "id": "rs-law-zakon-o-posebnim-uslovima-za-realizaciju-projekta-izgradnje-stanova-za-p",
+      "title": "Закон о посебним условима за реализацију пројекта изградње станова за припаднике снага безбедности",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-posebnoj-dazbini-pri-uvozu-poljoprivrednih-i-prehrambenih-proizv",
+      "title": "Закон о посебној дажбини при увозу пољопривредних и прехрамбених производа",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-posredovanju-u-prometu-i-zakupu-nepokretnosti",
+      "title": "Закон о посредовању у промету и закупу непокретности",
+      "provisions": 35
+    },
+    {
+      "id": "rs-law-zakon-o-posredovanju-u-resavanju-sporova",
+      "title": "Закон о посредовању у решавању спорова",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-postanskim-uslugama",
+      "title": "Закон о поштанским услугама",
+      "provisions": 107
+    },
+    {
+      "id": "rs-law-zakon-o-postanskim-uslugama-2",
+      "title": "Закон о поштанским услугама",
+      "provisions": 1
+    },
+    {
+      "id": "rs-law-zakon-o-postupku-prekida-trudnoce-u-zdravstvenoj-ustanovi",
+      "title": "Закон о поступку прекида трудноће у здравственој установи",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-postupku-registracije-u-agenciji-za-privredne-registre",
+      "title": "Закон о поступку регистрације у Агенцији за привредне регистре",
+      "provisions": 53
+    },
+    {
+      "id": "rs-law-zakon-o-postupku-upisa-u-katastar-nepokretnosti-i-katastar-infrastruktur",
+      "title": "Закон о поступку уписа у катастар непокретности и катастар инфраструктуре",
+      "provisions": 67
+    },
+    {
+      "id": "rs-law-zakon-o-postupku-za-upis-u-sudski-registar",
+      "title": "Закон о поступку за упис у судски регистар",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-potvrdjivanju-uredaba-koje-je-vlada-uz-supotpis-predsednika-repu",
+      "title": "Закон о потврђивању уредаба које је Влада уз супотпис председника Републике донела за време ванредног стања",
+      "provisions": 2
+    },
+    {
+      "id": "rs-law-zakon-o-poveravanju-javnih-ovlascenja-auto-moto-savezu-jugoslavije",
+      "title": "Закон о поверавању јавних овлашћења Ауто-мото савезу Југославије",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-poveravanju-javnih-ovlascenja-jugoslovenskom-crvenom-krstu",
+      "title": "Закон о поверавању јавних овлашћења Југословенском црвеном крсту",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-povlasticama-u-unutrasnjem-putnickom-saobracaju-invalidnih-lica",
+      "title": "Закон о повластицама у унутрашњем путничком саобраћају инвалидних лица",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-povlasticama-za-grupna-putovanja-dece-i-omladine-u-unutrasnjem-p",
+      "title": "Закон о повластицама за групна путовања деце и омладине у унутрашњем путничком саобраћају",
+      "provisions": 15
+    },
+    {
+      "id": "rs-law-zakon-o-pravima-boraca-vojnih-invalida-civilnih-invalida-rata-i-clanova-",
+      "title": "Закон о правима бораца, војних инвалида, цивилних инвалида рата и чланова њихових породица",
+      "provisions": 212
+    },
+    {
+      "id": "rs-law-zakon-o-pravima-korisnika-usluga-privremenog-smestaja-u-socijalnoj-zasti",
+      "title": "Закон о правима корисника услуга привременог смештаја у социјалнoj заштити",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-pravima-optuzenog-u-pritvoru-medjunarodnog-krivicnog-tribunala-i",
+      "title": "Закон о правима оптуженог у притвору Међународног кривичног трибунала и чланова његове породице",
+      "provisions": 15
+    },
+    {
+      "id": "rs-law-zakon-o-pravima-pacijenata",
+      "title": "Закон о правима пацијената",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-pravnoj-zastiti-industrijskog-dizajna",
+      "title": "Закон о правној заштити индустријског дизајна",
+      "provisions": 91
+    },
+    {
+      "id": "rs-law-zakon-o-pravobranilastvu",
+      "title": "Закон о правобранилаштву",
+      "provisions": 64
+    },
+    {
+      "id": "rs-law-zakon-o-pravosudnoj-akademiji",
+      "title": "Закон о Правосудној академији",
+      "provisions": 61
+    },
+    {
+      "id": "rs-law-zakon-o-pravosudnom-ispitu",
+      "title": "Закон о правосудном испиту",
+      "provisions": 33
+    },
+    {
+      "id": "rs-law-zakon-o-pravu-na-besplatne-akcije-i-novcanu-naknadu-koju-gradjani-ostvar",
+      "title": "Закон о праву на бесплатне акције и новчану накнаду коју грађани остварују у поступку приватизације",
+      "provisions": 50
+    },
+    {
+      "id": "rs-law-zakon-o-prebivalistu-i-boravistu-gradjana",
+      "title": "Закон о пребивалишту и боравишту грађана",
+      "provisions": 33
+    },
+    {
+      "id": "rs-law-zakon-o-predmetima-od-dragocenih-metala",
+      "title": "Закон о предметима од драгоцених метала",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-predmetima-opste-upotrebe",
+      "title": "Закон о предметима опште употребе",
+      "provisions": 123
+    },
+    {
+      "id": "rs-law-zakon-o-predsedniku-republike",
+      "title": "Закон о председнику Републике",
+      "provisions": 49
+    },
+    {
+      "id": "rs-law-zakon-o-predskolskom-vaspitanju-i-obrazovanju",
+      "title": "Закон о предшколском васпитању и образовању",
+      "provisions": 65
+    },
+    {
+      "id": "rs-law-zakon-o-preduzecima",
+      "title": "Закон о предузећима",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-prekrsajima",
+      "title": "Закон о прекршајима",
+      "provisions": 346
+    },
+    {
+      "id": "rs-law-zakon-o-presadjivanju-ljudskih-organa",
+      "title": "Закон о пресађивању људских органа",
+      "provisions": 58
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-elektroprivredi",
+      "title": "Закон о престанку важења Закона о електропривреди",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-fondu-za-osiguranje-i-finansiranje-sp",
+      "title": "Закон о престанку важења Закона о Фонду за осигурање и финансирање спољнотрговинских послова",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-fondu-za-zastitu-zivotne-sredine",
+      "title": "Закон о престанку важења Закона о Фонду за заштиту животне средине",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-organizaciji-i-poslovanju-privrednih-",
+      "title": "Закон о престанку важења Закона о организацији и пословању привредних јединица установа за извршење кривичних санкција",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-osnivanju-javnog-preduzeca-za-vazdusn",
+      "title": "Закон о престанку важења Закона о оснивању Јавног предузећа за ваздушни саобраћај",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-policijskoj-akademiji",
+      "title": "Закон о престанку важења Закона о Полицијској академији",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-posebnim-postupcima-radi-realizacije-",
+      "title": "Закон о престанку важења Закона о посебним поступцима ради реализације пројеката изградње и реконструкције линијских инфраструктурних објеката од посебног значаја за Републику Србију",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-privrednoj-komori-jugoslavije",
+      "title": "Закон о престанку важења Закона о Привредној комори Југославије",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-privremenom-uredjivanju-osnovica-za-o",
+      "title": "Закон о престанку важења Закона о привременом уређивању основица за обрачун и исплату плата, односно зарада и других сталних примања код корисника јавних средстава",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-sistemu-plata-zaposlenih-u-javnom-sek",
+      "title": "Закон о престанку важења Закона о систему плата запослених у јавном сектору, Закона о платама службеника и намештеника у органима аутономне покрајине и јединице локалне самоуправе, Закона о запосленима у јавним службама и Закона о платама запослених у јавним агенцијама и другим организацијама које је основала Република Србија, аутономна покрајина или јединица локалне самоуправе",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-sluzbi-za-platni-promet-i-finansijski",
+      "title": "Закон о престанку важења Закона о Служби за платни промет и финансијски надзор",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-sredstvima-solidarnosti-za-zaposlene-",
+      "title": "Закон о престанку важења Закона о средствима солидарности за запослене који су привремено остали без посла услед ратних дејстава",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-o-udruzivanju-u-zajednicu-jugoslovenske",
+      "title": "Закон о престанку важења Закона о удруживању у Заједницу југословенске електропривреде",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-prestanku-vazenja-zakona-u-zaduzenju-drzavne-zajednice-srbija-i-",
+      "title": "Закон о престанку важења Закона у задужењу државне заједнице Србија и Црна Гора код немачке финансијске институције KFW по Уговору о зајму и финансирању између ЈП „Електропривреда Србије“, Београд, и KFW, Франкфурт на Мајни, закљученог 24. децембра 2003. године",
+      "provisions": 2
+    },
+    {
+      "id": "rs-law-zakon-o-pretvaranju-drustvene-svojine-na-poljoprivrednom-zemljistu-u-dru",
+      "title": "Закон о претварању друштвене својине на пољопривредном земљишту у друге облике својине",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-pretvaranju-kratkorocnih-potrazivanja-iz-primarne-emisije-u-dugo",
+      "title": "Закон о претварању краткорочних потраживања из примарне емисије у дугорочне кредите",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-pretvaranju-kredita-i-drugih-potrazivanja-narodne-banke-jugoslav",
+      "title": "Закон о претварању кредита и других потраживања Народне банке Југославије у дугорочне кредите",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-pretvaranju-kredita-odobrenih-od-banaka-nosiocima-primarne-poljo",
+      "title": "Закон о претварању кредита одобрених од банака носиоцима примарне пољопривредне производње и туристичке привреде у јавни дуг федерације",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-preuzimanju-akcionarskih-drustava",
+      "title": "Закон о преузимању акционарских друштава",
+      "provisions": 57
+    },
+    {
+      "id": "rs-law-zakon-o-preuzimanju-dela-obaveza-metalurskog-kombinata-smederevo-po-inos",
+      "title": "Закон о преузимању дела обавеза Металуршког комбината Смедерево по иностраним кредитима",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-preuzimanju-nadleznosti-vojnih-sudova-vojnih-tuzilastava-i-vojno",
+      "title": "Закон о преузимању надлежности војних судова, војних тужилаштава и војног правобранилаштва",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-preuzimanju-obaveza-akcionarskog-drustva-za-proizvodnju-petrohem",
+      "title": "Закон о преузимању обавеза акционарског друштва за производњу петрохемијских производа, сировина и хемикалија „ХИП – Петрохемија” Панчево према привредном друштву„Нафтна индустрија Србије” а.д. Нови Сад и претварању тих обавеза у јавни дуг Републике Србије",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-preuzimanju-obaveza-javnog-preduzeca-putevi-srbije-prema-privred",
+      "title": "Закон о преузимању обавеза Jавног предузећа „Путеви Србије” према привредним друштвима по основу неизмирених обавеза и претварању тих обавеза у јавни дуг Републике Србије",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-preuzimanju-obaveza-javnog-preduzeca-srbijagas-novi-sad-prema-pr",
+      "title": "Закон о преузимању обавеза Јавног предузећа „Србијагас” Нови Сад према привредном друштву „Нафтна индустрија Србије” а.д. Нови Сад и претварању тих обавеза у јавни дуг Републике Србије",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-preuzimanju-obaveza-privrednog-drustva-air-serbia-a-d-beograd-pr",
+      "title": "Закон о преузимању обавеза привредног друштва Air Serbia а.д. Београд према правним и физичким лицима по основу извршених услуга и испоручених роба и претварању тих обавеза у јавни дуг Републике Србије",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-preuzimanju-obaveza-zdravstvenih-ustanova-prema-veledrogerijama-",
+      "title": "Закон о преузимању обавеза здравствених установа према веледрогеријама по основу набавке лекова и медицинског материјала и претварању тих обавеза у јавни дуг Републике Србије",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-prevenciji-i-dijagnostici-genetckih-bolesti-geneticki-uslovljeni",
+      "title": "Закон о превенцији и дијагностици генетчких болести, генетички условљених аномалија и ретких болести: 8/2015-3",
+      "provisions": 42
+    },
+    {
+      "id": "rs-law-zakon-o-prevozu-putnika-u-drumskom-saobracaju",
+      "title": "Закон о превозу путника у друмском саобраћају",
+      "provisions": 202
+    },
+    {
+      "id": "rs-law-zakon-o-prevozu-tereta-u-drumskom-saobracaju",
+      "title": "Закон о превозу терета у друмском саобраћају",
+      "provisions": 70
+    },
+    {
+      "id": "rs-law-zakon-o-prevozu-u-drumskom-saobracaju",
+      "title": "Закон о превозу у друмском саобраћају",
+      "provisions": 70
+    },
+    {
+      "id": "rs-law-zakon-o-pribavljanju-i-dodeli-stanova-i-stambenih-zajmova-za-potrebe-kad",
+      "title": "Закон о прибављању и додели станова и стамбених зајмова за потребе кадрова и повратак исељених лица у АП Косово и Метохију",
+      "provisions": 19
+    },
+    {
+      "id": "rs-law-zakon-o-pribavljanju-i-koriscenju-inostranih-sredstava-za-povecanje-zapo",
+      "title": "Закон о прибављању и коришћењу иностраних средстава за повећање запослености и запошљавање повратника са рада из иностранства",
+      "provisions": 26
+    },
+    {
+      "id": "rs-law-zakon-o-prijavljivanju-i-evidentiranju-oduzete-imovine",
+      "title": "Закон о пријављивању и евидентирању одузете имовине",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-prijavljivanju-i-evidentiranju-zakupaca-na-neodredjeno-vreme-u-s",
+      "title": "Закон о пријављивању и евидентирању закупаца на неодређено време у становима у својини грађана, задужбина и фондација",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-prikupljanju-i-dostavljanju-podataka-o-izvrsenim-zlocinima-proti",
+      "title": "Закон о прикупљању и достављању података о извршеним злочинима против човечности и међународног права",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-primanjima-narodnih-poslanika-u-narodnoj-skupstini-republike-srb",
+      "title": "Закон о примањима народних посланика у Народној скупштини Републике Србије",
+      "provisions": 32
+    },
+    {
+      "id": "rs-law-zakon-o-privatizaciji",
+      "title": "Закон о приватизацији",
+      "provisions": 97
+    },
+    {
+      "id": "rs-law-zakon-o-privatnom-obezbedjenju",
+      "title": "Закон о приватном обезбеђењу",
+      "provisions": 93
+    },
+    {
+      "id": "rs-law-zakon-o-privrednim-drustvima",
+      "title": "Закон о привредним друштвима",
+      "provisions": 2
+    },
+    {
+      "id": "rs-law-zakon-o-privrednim-drustvima-2",
+      "title": "Закон о привредним друштвима",
+      "provisions": 697
+    },
+    {
+      "id": "rs-law-zakon-o-privrednim-komorama",
+      "title": "Закон о привредним коморама",
+      "provisions": 53
+    },
+    {
+      "id": "rs-law-zakon-o-privrednim-prestupima",
+      "title": "Закон о привредним преступима",
+      "provisions": 164
+    },
+    {
+      "id": "rs-law-zakon-o-privremenom-izuzimanju-od-oporezivanja-porezom-na-dohodak-gradja",
+      "title": "Закон о привременом изузимању од опорезивања порезом на доходак грађана одређених врста прихода: 5/2009-43",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-privremenom-obavljanju-odredjenih-poslova-platnog-prometa-na-ter",
+      "title": "Закон о привременом обављању одређених послова платног промета на територији Савезне Републике Југославије",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-privremenom-registru-drzavljana-republike-srbije-od-16-do-29-god",
+      "title": "Закон о Привременом регистру држављана Републике Србије од 16 до 29 година којима се уплаћује новчана помоћ за ублажавање последица пандемије болести CОVID-19 изазване вирусом SARS-CoV-2",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-privremenom-registru-drzavljana-republike-srbije-od-16-do-29-god-2",
+      "title": "Закон о Привременом регистру држављана Републике Србије од 16 до 29 година којима се уплаћује новчана помоћ",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-privremenom-registru-majki-i-drugih-lica-kojima-se-uplacuje-novc",
+      "title": "Закон о Привременом регистру мајки и других лица којима се уплаћује новчана помоћ",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-privremenom-registru-punoletnih-drzavljana-republike-srbije-koji",
+      "title": "Закон о Привременом регистру пунолетних држављана Републике Србије којима се уплаћује новчанa помоћ за ублажавање последица пандемије болести CОVID-19 изазване вирусом SARS-CоV-2",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-priznavanju-sorti-poljoprivrednog-bilja",
+      "title": "Закон о признавању сорти пољопривредног биља",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-priznavanju-sorti-poljoprivrednog-i-sumskog-bilja",
+      "title": "Закон о признавању сорти пољопривредног и шумског биља",
+      "provisions": 33
+    },
+    {
+      "id": "rs-law-zakon-o-proceni-uticaja-na-zivotnu-sredinu",
+      "title": "Закон о процени утицаја на животну средину",
+      "provisions": 64
+    },
+    {
+      "id": "rs-law-zakon-o-proceniteljima-vrednosti-nepokretnosti",
+      "title": "Закон o проценитељима вредности непокретности",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-profesijama-od-posebnog-interesa-za-republiku-srbiju-i-uslovima-",
+      "title": "Закон о професијама од посебног интереса за Републику Србију и условима за њихово обављање",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-profesionalnoj-rehabilitaciji-i-zaposljavanju-osoba-sa-invalidit",
+      "title": "Закон о професионалној рехабилитацији и запошљавању особа са инвалидитетом",
+      "provisions": 55
+    },
+    {
+      "id": "rs-law-zakon-o-proglasenju-parka-oplenac-za-prostorni-memorijalni-prirodni-spom",
+      "title": "Закон о проглашењу парка Опленац за просторни меморијални природни споменик",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-programu-zastite-ucesnika-u-krivicnom-postupku",
+      "title": "Закон о програму заштите учесника у кривичном поступку",
+      "provisions": 47
+    },
+    {
+      "id": "rs-law-zakon-o-proizvodnji-i-prometu-naoruzanja-i-vojne-opreme",
+      "title": "Закон о производњи и промету наоружања и војне опреме",
+      "provisions": 86
+    },
+    {
+      "id": "rs-law-zakon-o-proizvodnji-i-prometu-naoruzanja-i-vojne-opreme-2",
+      "title": "Закон о производњи и промету наоружања и војне опреме",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-prometu-eksplozivnih-materija",
+      "title": "Закон о промету експлозивних материја",
+      "provisions": 43
+    },
+    {
+      "id": "rs-law-zakon-o-prometu-nepokretnosti",
+      "title": "Закон о промету непокретности",
+      "provisions": 22
+    },
+    {
+      "id": "rs-law-zakon-o-prostornom-planu-republike-srbije-od-2010-do-2020-godine",
+      "title": "Закон о Просторном плану Републике Србије од 2010. до 2020. године",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-prosvetnoj-inspekciji",
+      "title": "Закон о просветној инспекцији",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-prvoj-emisiji-dugorocnih-obveznica-republike-srbije",
+      "title": "Закон о првој емисији дугорочних обвезница Републике Србије",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-psihoaktivnim-kontrolisanim-supstancama",
+      "title": "Закон о психоактивним контролисаним супстанцама",
+      "provisions": 119
+    },
+    {
+      "id": "rs-law-zakon-o-putevima",
+      "title": "Закон о путевима",
+      "provisions": 123
+    },
+    {
+      "id": "rs-law-zakon-o-putnim-ispravama",
+      "title": "Закон о путним исправама",
+      "provisions": 54
+    },
+    {
+      "id": "rs-law-zakon-o-racunanju-vremena",
+      "title": "Закон о рачунању времена",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-racunovodstvu",
+      "title": "Закон о рачуноводству",
+      "provisions": 66
+    },
+    {
+      "id": "rs-law-zakon-o-radijacionoj-i-nuklearnoj-sigurnosti-i-bezbednosti",
+      "title": "Закон о радијационој и нуклеарној сигурности и безбедности",
+      "provisions": 250
+    },
+    {
+      "id": "rs-law-zakon-o-radnim-odnosima-u-drzavnim-organima",
+      "title": "Закон о радним односима у државним органима",
+      "provisions": 84
+    },
+    {
+      "id": "rs-law-zakon-o-radnom-vremenu-posade-vozila-u-drumskom-prevozu-i-tahografima",
+      "title": "Закон о радном времену посаде возила у друмском превозу и тахографима",
+      "provisions": 83
+    },
+    {
+      "id": "rs-law-zakon-o-radu",
+      "title": "Закон о раду",
+      "provisions": 298
+    },
+    {
+      "id": "rs-law-zakon-o-ratnim-memorijalima",
+      "title": "Закон о ратним меморијалима",
+      "provisions": 28
+    },
+    {
+      "id": "rs-law-zakon-o-razmeni-podataka-dokumenata-i-obavestenja-u-slucaju-nastupanja-p",
+      "title": "Закон о размени података, докумената и обавештења у случају наступања привремене спречености за рад коришћењем софтверског решења \"е-Боловање – Послодавац\"",
+      "provisions": 15
+    },
+    {
+      "id": "rs-law-zakon-o-razvojnom-fondu-autonomne-pokrajine-vojvodine",
+      "title": "Закон о Развојном фонду Аутономне покрајине Војводине",
+      "provisions": 21
+    },
+    {
+      "id": "rs-law-zakon-o-recniku-srpske-akademije-nauka-i-umetnosti",
+      "title": "Закон о Речнику Српске академије наука и уметности",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-referendumu-i-narodnoj-inicijativi",
+      "title": "Закон о референдуму и народној иницијативи",
+      "provisions": 83
+    },
+    {
+      "id": "rs-law-zakon-o-regionalnom-razvoju",
+      "title": "Закон о регионалном развоју",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-registru-administrativnih-postupaka",
+      "title": "Закон о Регистру административних поступака",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-registru-prostornih-jedinica-i-adresnom-registru-9-2020-32",
+      "title": "Закон о Регистру просторних јединица и Адресном регистру: 9/2020-32",
+      "provisions": 40
+    },
+    {
+      "id": "rs-law-zakon-o-regresu-dela-kamate-na-kredite-koji-se-koriste-za-izvoz-opreme-i",
+      "title": "Закон о регресу дела камате на кредите који се користе за извоз опреме и бродова и извођење инвестиционих радова у иностранству на кредит",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanim-profesijama-i-priznavanju-profesionalnih-kvalifikaci",
+      "title": "Закон о регулисаним професијама и признавању професионалних квалификација",
+      "provisions": 98
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-javnog-duga-republike-srbije-po-osnovu-neisplacene-d",
+      "title": "Закон о регулисању јавног дуга Републике Србије по основу неисплаћене девизне штедње грађана положене код банака чије је седиште на територији Републике Србије и њиховим филијалама на територијама бивших република СФРЈ",
+      "provisions": 22
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-javnog-duga-savezne-republike-jugoslavije-po-osnovu-",
+      "title": "Закон о регулисању јавног дуга Савезне Републике Југославије по основу девизне штедње грађана",
+      "provisions": 39
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-javnog-duga-savezne-republike-jugoslavije-po-ugovori",
+      "title": "Закон о регулисању јавног дуга Савезне Републике Југославије по уговорима о девизним депозитима грађана ороченим код Дафимент банке АД, Београд, у ликвидацији и по девизним средствима грађана положеним код Банке приватне привреде Црне Горе ДД, Подгорица",
+      "provisions": 25
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-obaveza-republike-srbije-po-osnovu-zajma-za-privredn",
+      "title": "Закон о регулисању обавеза Републике Србије по основу зајма за привредни развој",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-obaveza-republike-srbije-prema-medjunarodnom-monetar",
+      "title": "Закон о регулисању обавеза Републике Србије према Међународном монетарном фонду на основу коришћења средстава стендбај аранжмана (Stand-by Arrangement) одобрених Републици Србији одлуком Одбора извршних директора Међународног монетарног фонда од 19. децембра 2022. године",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-obaveza-republike-srbije-prema-medjunarodnom-monetar-2",
+      "title": "Закон о регулисању обавеза Републике Србије према Међународном монетарном фонду по основу коришћења средстава алокације специјалних права вучења одобрених резолуцијама одбора гувернера бр. 64-3 и бр. 52-4",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-obaveza-republike-srbije-prema-medjunarodnom-monetar-3",
+      "title": "Закон о регулисању обавеза Републике Србије према Међународном монетарном фонду по основу коришћења средстава опште алокације специјалних права вучења одобрених Одлуком Одбора гувернера Међународног монетарног фонда од 2. августа 2021. године",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-odnosa-izmedju-savezne-republike-jugoslavije-i-pravn",
+      "title": "Закон о регулисању односа између Савезне Републике Југославије и правних лица и банака са територије Савезне Републике Југославије које су првобитни дужници или гаранти према повериоцима Париског и Лондонског клуба",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-odnosa-republike-srbije-i-banaka-u-stecaju-po-osnovu",
+      "title": "Закон о регулисању односа Републике Србије и банака у стечају по основу преузетих иностраних кредита, односно зајмова",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-odnosa-republike-srbije-i-duznika-korisnika-javnih-s",
+      "title": "Закон о регулисању односа Републике Србије и дужника – корисника јавних средстава, за преузете обавезе по иностраним кредитима, односно зајмовима",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-regulisanju-odnosa-republike-srbije-i-zajmoprimaca-ili-garanata-",
+      "title": "Закон о регулисању односа Републике Србије и зајмопримаца или гараната за преузете обавезе по зајмовима Међународне банке за обнову и развој",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-rehabilitaciji",
+      "title": "Закон о рехабилитацији",
+      "provisions": 33
+    },
+    {
+      "id": "rs-law-zakon-o-reproduktivnom-materijalu-sumskog-drveca",
+      "title": "Закон о репродуктивном материјалу шумског дрвећа",
+      "provisions": 58
+    },
+    {
+      "id": "rs-law-zakon-o-republickim-administrativnim-taksama",
+      "title": "Закон о републичким административним таксама",
+      "provisions": 54
+    },
+    {
+      "id": "rs-law-zakon-o-republickom-seizmoloskom-zavodu",
+      "title": "Закон о Републичком сеизмолошком заводу",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-resavanju-sukoba-zakona-i-nadleznosti-u-statusnim-porodicnim-i-n",
+      "title": "Закон о решавању сукоба закона и надлежности у статусним, породичним и наследним односима",
+      "provisions": 40
+    },
+    {
+      "id": "rs-law-zakon-o-resavanju-sukoba-zakona-sa-propisima-drugih-zemalja",
+      "title": "Закон о решавању сукоба закона са прописима других земаља",
+      "provisions": 106
+    },
+    {
+      "id": "rs-law-zakon-o-restrukturiranju-duga-po-nfa-i-tdfa-izdavanjem-obveznica-republi",
+      "title": "Закон о реструктурирању дуга по НФА и ТДФА издавањем обвезница Републике Србије",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-reviziji",
+      "title": "Закон о ревизији",
+      "provisions": 128
+    },
+    {
+      "id": "rs-law-zakon-o-rezimu-voda",
+      "title": "Закон о режиму вода",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-robnim-berzama",
+      "title": "Закон о робним берзама",
+      "provisions": 35
+    },
+    {
+      "id": "rs-law-zakon-o-robnim-rezervama",
+      "title": "Закон o робним резервама",
+      "provisions": 27
+    },
+    {
+      "id": "rs-law-zakon-o-rodnoj-ravnopravnosti",
+      "title": "Закон о родној равноправности",
+      "provisions": 77
+    },
+    {
+      "id": "rs-law-zakon-o-rokovima-izmirenja-novcanih-obaveza-u-komercijalnim-transakcijam",
+      "title": "Закон о роковима измирења новчаних обавеза у комерцијалним трансакцијама",
+      "provisions": 21
+    },
+    {
+      "id": "rs-law-zakon-o-rudarstvu-i-geoloskim-istrazivanjima",
+      "title": "Закон о рударству и геолошким истраживањима",
+      "provisions": 201
+    },
+    {
+      "id": "rs-law-zakon-o-sahranjivanju-i-grobljima",
+      "title": "Закон о сахрањивању и гробљима",
+      "provisions": 30
+    },
+    {
+      "id": "rs-law-zakon-o-sanitarnom-nadzoru",
+      "title": "Закон о санитарном надзору",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-saradnji-sa-medjunarodnim-krivicnim-sudom",
+      "title": "Закон о сарадњи са Међународним кривичним судом",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-saradnji-srbije-i-crne-gore-sa-medjunarodnim-tribunalom-za-krivi",
+      "title": "Закон о сарадњи Србије и Црне Горе са Међународним трибуналом за кривично гоњење лица одговорних за тешка кршења међународног хуманитарног права почињена на територији бивше Југославије од 1991. године",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-saveznim-javnim-ustanovama",
+      "title": "Закон о савезним јавним установама",
+      "provisions": 33
+    },
+    {
+      "id": "rs-law-zakon-o-sedistima-i-podrucjima-sudova-i-javnih-tuzilastava",
+      "title": "Закон о седиштима и подручјима судова и јавних тужилаштава",
+      "provisions": 19
+    },
+    {
+      "id": "rs-law-zakon-o-sedistima-i-podrucjima-sudova-i-javnih-tuzilastava-2",
+      "title": "Закон о седиштима и подручјима судова и јавних тужилаштава",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-semenu-i-sadnom-materijalu-poljoprivrednog-i-ukrasnog-bilja",
+      "title": "Закон о семену и садном материјалу пољопривредног и украсног биља",
+      "provisions": 98
+    },
+    {
+      "id": "rs-law-zakon-o-slobodnim-zonama",
+      "title": "Закон о слободним зонама",
+      "provisions": 39
+    },
+    {
+      "id": "rs-law-zakon-o-sluzbenim-kontrolama",
+      "title": "Закон о службеним контролама",
+      "provisions": 96
+    },
+    {
+      "id": "rs-law-zakon-o-sluzbenoj-upotrebi-jezika-i-pisama",
+      "title": "Закон о службеној употреби језика и писама",
+      "provisions": 31
+    },
+    {
+      "id": "rs-law-zakon-o-smanjenju-rizika-od-katastrofa-i-upravljanju-vanrednim-situacija",
+      "title": "Закон о смањењу ризика од катастрофа и управљању ванредним ситуацијама",
+      "provisions": 121
+    },
+    {
+      "id": "rs-law-zakon-o-socijalno-ekonomskom-savetu",
+      "title": "Закон о Социјално-економском савету",
+      "provisions": 27
+    },
+    {
+      "id": "rs-law-zakon-o-socijalnoj-karti",
+      "title": "Закон о социјалној карти",
+      "provisions": 24
+    },
+    {
+      "id": "rs-law-zakon-o-socijalnoj-zastiti",
+      "title": "Закон о социјалној заштити",
+      "provisions": 230
+    },
+    {
+      "id": "rs-law-zakon-o-socijalnom-preduzetnistvu",
+      "title": "Закон о социјалном предузетништву",
+      "provisions": 24
+    },
+    {
+      "id": "rs-law-zakon-o-spoljnim-poslovima",
+      "title": "Закон о спољним пословима",
+      "provisions": 67
+    },
+    {
+      "id": "rs-law-zakon-o-spoljnotrgovinskom-poslovanju",
+      "title": "Закон о спољнотрговинском пословању",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-sporazumnom-finansijskom-restrukturiranju",
+      "title": "Закон о споразумном финансијском реструктурирању",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-sportu",
+      "title": "Закон о спорту",
+      "provisions": 184
+    },
+    {
+      "id": "rs-law-zakon-o-sprecavanju-diskriminacije-osoba-sa-invaliditetom",
+      "title": "Закон о спречавању дискриминације особа са инвалидитетом",
+      "provisions": 55
+    },
+    {
+      "id": "rs-law-zakon-o-sprecavanju-dopinga-u-sportu",
+      "title": "Закон о спречавању допинга у спорту",
+      "provisions": 45
+    },
+    {
+      "id": "rs-law-zakon-o-sprecavanju-korupcije",
+      "title": "Закон о спречавању корупције",
+      "provisions": 114
+    },
+    {
+      "id": "rs-law-zakon-o-sprecavanju-nasilja-i-nedolicnog-ponasanja-na-sportskim-priredba",
+      "title": "Закон о спречавању насиља и недоличног понашања на спортским приредбама",
+      "provisions": 27
+    },
+    {
+      "id": "rs-law-zakon-o-sprecavanju-nasilja-u-porodici",
+      "title": "Закон о спречавању насиља у породици",
+      "provisions": 39
+    },
+    {
+      "id": "rs-law-zakon-o-sprecavanju-pranja-novca-i-finansiranja-terorizma",
+      "title": "Закон о спречавању прања новца и финансирања тероризма",
+      "provisions": 138
+    },
+    {
+      "id": "rs-law-zakon-o-sprecavanju-zlostavljanja-na-radu",
+      "title": "Закон о спречавању злостављања на раду",
+      "provisions": 39
+    },
+    {
+      "id": "rs-law-zakon-o-srednjem-obrazovanju-i-vaspitanju",
+      "title": "Закон о средњем образовању и васпитању",
+      "provisions": 110
+    },
+    {
+      "id": "rs-law-zakon-o-srednjoj-skoli",
+      "title": "Закон о средњој школи",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-sredstvima-za-ishranu-bilja-i-oplemenjivacima-zemljista",
+      "title": "Закон о средствима за исхрану биља и оплемењивачима земљишта",
+      "provisions": 52
+    },
+    {
+      "id": "rs-law-zakon-o-sredstvima-za-zastitu-bilja",
+      "title": "Закон о средствима за заштиту биља",
+      "provisions": 95
+    },
+    {
+      "id": "rs-law-zakon-o-srpskoj-akademiji-nauka-i-umetnosti",
+      "title": "Закон о Српској академији наука и уметности",
+      "provisions": 48
+    },
+    {
+      "id": "rs-law-zakon-o-srpskoj-enciklopediji",
+      "title": "Закон о Српској енциклопедији",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-srpskoj-knjizevnoj-zadruzi",
+      "title": "Закон о Српској књижевној задрузи",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-standardizaciji",
+      "title": "Закон о стандардизацији",
+      "provisions": 26
+    },
+    {
+      "id": "rs-law-zakon-o-stanovanju",
+      "title": "Закон о становању",
+      "provisions": 40
+    },
+    {
+      "id": "rs-law-zakon-o-stanovanju-i-odrzavanju-zgrada",
+      "title": "Закон о становању и одржавању зграда",
+      "provisions": 158
+    },
+    {
+      "id": "rs-law-zakon-o-staroj-i-retkoj-biblioteckoj-gradji",
+      "title": "Закон о старој и реткој библиотечкој грађи",
+      "provisions": 63
+    },
+    {
+      "id": "rs-law-zakon-o-stavljanju-na-trziste-drveta-i-drvnih-proizvoda",
+      "title": "Закон о стављању на тржиште дрвета и дрвних производа",
+      "provisions": 26
+    },
+    {
+      "id": "rs-law-zakon-o-stecaju",
+      "title": "Закон о стечају",
+      "provisions": 231
+    },
+    {
+      "id": "rs-law-zakon-o-stecaju-i-likvidaciji-banaka-i-drustava-za-osiguranje",
+      "title": "Закон о стечају и ликвидацији банака и друштава за осигурање",
+      "provisions": 37
+    },
+    {
+      "id": "rs-law-zakon-o-sticanju-prava-svojine-na-zemljistu-objektima-i-vodovima-privred",
+      "title": "Закон о стицању права својине на земљишту, објектима и водовима Привредног друштва за производњу и прераду челика Железара Смедерево д.о.о. Смедерево",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-sticanju-prava-svojine-na-zemljistu-objektima-i-vodovima-rudarsk",
+      "title": "Закон о стицању права својине на земљишту, објектима и водовима Рударско-топионичарског басена РТБ Бор д.о.о. Бор",
+      "provisions": 20
+    },
+    {
+      "id": "rs-law-zakon-o-stocarstvu",
+      "title": "Закон о сточарству",
+      "provisions": 99
+    },
+    {
+      "id": "rs-law-zakon-o-strajku",
+      "title": "Закон о штрајку",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-strancima",
+      "title": "Закон о странцима",
+      "provisions": 143
+    },
+    {
+      "id": "rs-law-zakon-o-strateskoj-proceni-uticaja-na-zivotnu-sredinu",
+      "title": "Закон о стратешкој процени утицаја на животну средину",
+      "provisions": 43
+    },
+    {
+      "id": "rs-law-zakon-o-studentskom-organizovanju",
+      "title": "Закон о студентском организовању",
+      "provisions": 24
+    },
+    {
+      "id": "rs-law-zakon-o-sudijama",
+      "title": "Закон о судијама",
+      "provisions": 114
+    },
+    {
+      "id": "rs-law-zakon-o-sudskim-taksama",
+      "title": "Закон о судским таксама",
+      "provisions": 54
+    },
+    {
+      "id": "rs-law-zakon-o-sudskim-vestacima",
+      "title": "Закон о судским вештацима",
+      "provisions": 32
+    },
+    {
+      "id": "rs-law-zakon-o-sumama",
+      "title": "Закон о шумама",
+      "provisions": 123
+    },
+    {
+      "id": "rs-law-zakon-o-supstancama-koje-se-koriste-u-nedozvoljenoj-proizvodnji-opojnih-",
+      "title": "Закон о супстанцама које се користе у недозвољеној производњи опојних дрога и психотропних супстанци",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-tehnickim-zahtevima-za-proizvode-i-ocenjivanju-usaglasenosti",
+      "title": "Закон о техничким захтевима за производе и оцењивању усаглашености",
+      "provisions": 57
+    },
+    {
+      "id": "rs-law-zakon-o-teritorijalnoj-organizaciji-republike-srbije",
+      "title": "Закон о територијалној организацији Републике Србије",
+      "provisions": 32
+    },
+    {
+      "id": "rs-law-zakon-o-transfuzijskoj-medicini",
+      "title": "Закон о трансфузијској медицини",
+      "provisions": 55
+    },
+    {
+      "id": "rs-law-zakon-o-transportu-opasne-robe",
+      "title": "Закон о транспорту опасне робе",
+      "provisions": 85
+    },
+    {
+      "id": "rs-law-zakon-o-transportu-opasnog-tereta",
+      "title": "Закон о транспорту опасног терета",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-trgovackom-brodarstvu",
+      "title": "Закон о трговачком бродарству",
+      "provisions": 797
+    },
+    {
+      "id": "rs-law-zakon-o-trgovini",
+      "title": "Закон о трговини",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-trzisnom-nadzoru",
+      "title": "Закон о тржишном надзору",
+      "provisions": 31
+    },
+    {
+      "id": "rs-law-zakon-o-trzistu-kapitala",
+      "title": "Закон о тржишту капитала",
+      "provisions": 421
+    },
+    {
+      "id": "rs-law-zakon-o-turizmu",
+      "title": "Закон о туризму",
+      "provisions": 138
+    },
+    {
+      "id": "rs-law-zakon-o-ucenickom-i-studentskom-standardu",
+      "title": "Закон о ученичком и студентском стандарду",
+      "provisions": 110
+    },
+    {
+      "id": "rs-law-zakon-o-ucescu-civila-u-medjunarodnim-misijama-i-operacijama-van-granica",
+      "title": "Закон о учешћу цивила у међународним мисијама и операцијама ван граница Републике Србије",
+      "provisions": 38
+    },
+    {
+      "id": "rs-law-zakon-o-udruzenjima",
+      "title": "Закон о удружењима",
+      "provisions": 90
+    },
+    {
+      "id": "rs-law-zakon-o-udzbenicima",
+      "title": "Закон о уџбеницима",
+      "provisions": 57
+    },
+    {
+      "id": "rs-law-zakon-o-ugostiteljstvu",
+      "title": "Закон о угоститељству",
+      "provisions": 102
+    },
+    {
+      "id": "rs-law-zakon-o-ugovorima-o-prevozu-u-drumskom-saobracaju",
+      "title": "Закон о уговорима о превозу у друмском саобраћају",
+      "provisions": 112
+    },
+    {
+      "id": "rs-law-zakon-o-ugovorima-o-prevozu-u-zeleznickom-saobracaju",
+      "title": "Закон о уговорима о превозу у железничком саобраћају",
+      "provisions": 125
+    },
+    {
+      "id": "rs-law-zakon-o-ukidanju-ukaza-o-oduzimanju-drzavljanstva-i-imovine-porodici-kar",
+      "title": "Закон о укидању Указа о одузимању држављанства и имовине породици Карађорђевић: 9/2001-4",
+      "provisions": 3
+    },
+    {
+      "id": "rs-law-zakon-o-ulaganjima",
+      "title": "Закон о улагањима",
+      "provisions": 49
+    },
+    {
+      "id": "rs-law-zakon-o-unosenju-i-rasturanju-inostranih-sredstava-masovnog-komuniciranj",
+      "title": "Закон о уношењу и растурању иностраних средстава масовног комуницирања и о иностраној информативној делатности у Југославији",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-uplati-doprinosa-za-penzijsko-i-invalidsko-osiguranje-za-pojedin",
+      "title": "Закон о уплати доприноса за пензијско и инвалидско осигурање за поједине категорије осигураника – запослених",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-upotrebi-i-zastiti-znaka-i-naziva-crvenog-krsta",
+      "title": "Закон о употреби и заштити знака и назива Црвеног крста",
+      "provisions": 15
+    },
+    {
+      "id": "rs-law-zakon-o-upotrebi-srpskog-jezika-u-javnom-zivotu-i-zastiti-i-ocuvanju-cir",
+      "title": "Закон о употреби српског језика у јавном животу и заштити и очувању ћириличког писма",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-upotrebi-vojske-srbije-i-drugih-snaga-odbrane-u-multinacionalini",
+      "title": "Закон о употреби Војске Србије и других снага одбране у мултинационалиним операцијама ван граница Републике Србије",
+      "provisions": 45
+    },
+    {
+      "id": "rs-law-zakon-o-upotrebi-znakovnog-jezika",
+      "title": "Закон о употреби знаковног језика",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-upravljanju-aerodromima",
+      "title": "Закон о управљању аеродромима",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-upravljanju-migracijama",
+      "title": "Закон о управљању миграцијама",
+      "provisions": 22
+    },
+    {
+      "id": "rs-law-zakon-o-upravljanju-otpadom",
+      "title": "Закон о управљању отпадом",
+      "provisions": 115
+    },
+    {
+      "id": "rs-law-zakon-o-upravljanju-privrednim-drustvima-koja-su-u-vlasnistvu-republike-",
+      "title": "Закон о управљању привредним друштвима која су у власништву Републике Србије",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-upravnim-sporovima",
+      "title": "Закон о управним споровима",
+      "provisions": 79
+    },
+    {
+      "id": "rs-law-zakon-o-upravnoj-inspekciji",
+      "title": "Закон о управној инспекцији",
+      "provisions": 45
+    },
+    {
+      "id": "rs-law-zakon-o-uredjenju-imovinskih-odnosa-nastalih-usled-prestanka-prava-i-oba",
+      "title": "Закон о уређењу имовинских односа насталих услед престанка права и обавеза држављана Социјалистичке Федеративне Републике Југославије на основу међународних уговора",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-uredjenju-sudova",
+      "title": "Закон о уређењу судова",
+      "provisions": 97
+    },
+    {
+      "id": "rs-law-zakon-o-uredjenju-trzista-poljoprivrednih-proizvoda",
+      "title": "Закон o уређењу тржиштa пoљoприврeдних прoизвoдa",
+      "provisions": 48
+    },
+    {
+      "id": "rs-law-zakon-o-uslovima-nacinu-i-postupku-dodeljivanja-poljoprivrednog-zemljist",
+      "title": "Закон о условима, начину и поступку додељивања пољопривредног земљишта грађанима који желе да живе и раде на територији Аутономне покрајине Косово и Метохија",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-uslovima-za-obavljanje-psiholoske-delatnosti",
+      "title": "Закон о условима за обављање психолошке делатности",
+      "provisions": 21
+    },
+    {
+      "id": "rs-law-zakon-o-uslovima-za-upucivanje-zaposlenih-na-privremeni-rad-u-inostranst",
+      "title": "Закон о условима за упућивање запослених на привремени рад у иностранство и њиховој заштити",
+      "provisions": 31
+    },
+    {
+      "id": "rs-law-zakon-o-uslovnom-otpisu-kamata-i-mirovanju-poreskog-duga",
+      "title": "Закон о условном отпису камата и мировању пореског дуга",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-uslugama",
+      "title": "Закон о услугама",
+      "provisions": 42
+    },
+    {
+      "id": "rs-law-zakon-o-ustavnom-sudu",
+      "title": "Закон о Уставном суду",
+      "provisions": 134
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-cinjenica-o-statusu-novorodjene-dece-za-koju-se-sum",
+      "title": "Закон о утврђивању чињеница о статусу новорођене деце за коју се сумња да су нестала из породилишта у Републици Србији",
+      "provisions": 30
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-druge-garantne-seme-kao-mera-dodatne-podrske-privre",
+      "title": "Закон о утврђивању друге гарантне шеме као мера додатне подршке привреди услед продуженог негативног утицаја пандемије болести CОVID-19 изазване вирусом SARS-CoV-2",
+      "provisions": 15
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-finansijske-podrske-privrednim-subjektima-za-odrzav",
+      "title": "Закон о утврђивању финансијске подршке привредним субјектима за одржавање ликвидности и обртна средства у отежаним економским условима услед пандемије COVID-19 изазване вирусом SARS-CоV-2",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-garantne-seme-i-subvencionisanju-dela-kamate-kao-me",
+      "title": "Закон о утврђивању гарантне шеме и субвенционисању дела камате као мера подршке младима у куповини прве стaмбене непокретности",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-garantne-seme-kao-mera-podrske-privredi-za-ublazava",
+      "title": "Закон о утврђивању гарантне шеме као мера подршке привреди за ублажавање последица пандемије болести COVID-19 изазване вирусом SARS-CoV-2",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-javnog-interesa-i-posebnim-postupcima-eksproprijaci",
+      "title": "Закон о утврђивању јавног интереса и посебним поступцима експропријације и издавања грађевинске дозволе ради реализације пројекта ‘‘Београд на води’’",
+      "provisions": 20
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-javnog-interesa-i-posebnim-postupcima-eksproprijaci-2",
+      "title": "Закон о утврђивању јавног интереса и посебним поступцима експропријације и прибављања документације ради реализације изградње магистралног гасовода граница Бугарске – граница Мађарске",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-javnog-interesa-i-posebnim-postupcima-eksproprijaci-3",
+      "title": "Закон о утврђивању јавног интереса и посебним поступцима експропријације и прибављања документације ради реализације изградње система за пренос електричне енергије 400 kV напонског нивоа „Трансбалкански коридор – прва фаза”",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-javnog-interesa-i-posebnim-postupcima-radi-realizac",
+      "title": "Закон о утврђивању јавног интереса и посебним поступцима ради реализације пројекта изградње инфраструктурног коридора ауто-пута E-761, деоница Појате–Прељина",
+      "provisions": 22
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-javnog-interesa-za-eksproprijaciju-nepokretnosti-ra",
+      "title": "Закон о утврђивању јавног интереса за експропријацију непокретности ради изградње магистралног гасовода МГ-11",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-katastarskog-prihoda",
+      "title": "Закон о утврђивању катастарског прихода",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-maksimalne-zarade-u-javnom-sektoru",
+      "title": "Закон о утврђивању максималне зараде у јавном сектору",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-nadleznosti-autonomne-pokrajine-vojvodine",
+      "title": "Закон о утврђивању надлежности Аутономне покрајине Војводине",
+      "provisions": 91
+    },
+    {
+      "id": "rs-law-zakon-o-utvrdjivanju-porekla-imovine-i-posebnom-porezu",
+      "title": "Закон о утврђивању порекла имовине и посебном порезу",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-vanparnicnom-postupku",
+      "title": "Закон о ванпарничном поступку",
+      "provisions": 243
+    },
+    {
+      "id": "rs-law-zakon-o-vazdusnom-saobracaju",
+      "title": "Закон о ваздушном саобраћају",
+      "provisions": 299
+    },
+    {
+      "id": "rs-law-zakon-o-vazenju-uredaba-koje-je-vlada-uz-supotpis-predsednika-republike-",
+      "title": "Закон о важењу уредаба које је Влада уз супотпис председника Републике донела за време ванредног стања и које је Народна скупштина потврдила",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-veterinarstvu",
+      "title": "Закон о ветеринарству",
+      "provisions": 175
+    },
+    {
+      "id": "rs-law-zakon-o-vinu",
+      "title": "Закон о вину",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-visokom-obrazovanju",
+      "title": "Закон о високом образовању",
+      "provisions": 156
+    },
+    {
+      "id": "rs-law-zakon-o-visokom-savetu-sudstva",
+      "title": "Закон о Високом савету судства",
+      "provisions": 70
+    },
+    {
+      "id": "rs-law-zakon-o-visokom-savetu-tuzilastva",
+      "title": "Закон o Високом савету тужилаштва",
+      "provisions": 70
+    },
+    {
+      "id": "rs-law-zakon-o-vladi",
+      "title": "Закон о Влади",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-vodama",
+      "title": "Закон о водама",
+      "provisions": 211
+    },
+    {
+      "id": "rs-law-zakon-o-vodama-2",
+      "title": "Закон о водама",
+      "provisions": 2
+    },
+    {
+      "id": "rs-law-zakon-o-vojnim-skolama-i-vojnim-naucnoistrazivackim-ustanovama",
+      "title": "Закон о војним школама и војним научноистраживачким установама",
+      "provisions": 32
+    },
+    {
+      "id": "rs-law-zakon-o-vojnobezbednosnoj-agenciji-i-vojnoobavestajnoj-agenciji",
+      "title": "Закон о Војнобезбедносној агенцији и Војнообавештајној агенцији",
+      "provisions": 69
+    },
+    {
+      "id": "rs-law-zakon-o-vojnoj-radnoj-i-materijalnoj-obavezi",
+      "title": "Закон о војној, радној и материјалној обавези",
+      "provisions": 148
+    },
+    {
+      "id": "rs-law-zakon-o-vojnom-obrazovanju",
+      "title": "Закон о војном образовању",
+      "provisions": 172
+    },
+    {
+      "id": "rs-law-zakon-o-vojsci-jugoslavije",
+      "title": "Закон о Војсци Југославије",
+      "provisions": 21
+    },
+    {
+      "id": "rs-law-zakon-o-vojsci-srbije",
+      "title": "Закон о Војсци Србије",
+      "provisions": 220
+    },
+    {
+      "id": "rs-law-zakon-o-volontiranju",
+      "title": "Закон о волонтирању",
+      "provisions": 34
+    },
+    {
+      "id": "rs-law-zakon-o-vracanju-oduzete-imovine-i-obestecenju",
+      "title": "Закон о враћању одузете имовине и обештећењу",
+      "provisions": 67
+    },
+    {
+      "id": "rs-law-zakon-o-vracanju-restituciji-imovine-crkvama-i-verskim-zajednicama",
+      "title": "Закон о враћању (реституцији) имовине црквама и верским заједницама",
+      "provisions": 39
+    },
+    {
+      "id": "rs-law-zakon-o-vracanju-utrina-i-pasnjaka-selima-na-koriscenje",
+      "title": "Закон о враћању утрина и пашњака селима на коришћење",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-zabrani-diskriminacije",
+      "title": "Закон о забрани дискриминације",
+      "provisions": 66
+    },
+    {
+      "id": "rs-law-zakon-o-zabrani-manifestacija-neonacistickih-ili-fasistickih-organizacij",
+      "title": "Закон о забрани манифестација неонацистичких или фашистичких организација и удружења и забрани употребе неонацистичких или фашистичких симбола и обележја",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-zabrani-razvoja-proizvodnje-skladistenja-i-upotrebe-hemijskog-or",
+      "title": "Закон о забрани развоја, производње, складиштења и употребе хемијског оружја и о његовом уништавању",
+      "provisions": 51
+    },
+    {
+      "id": "rs-law-zakon-o-zabrani-usavrsavanja-proizvodnje-i-stvaranja-zaliha-bakteriolosk",
+      "title": "Закон о забрани усавршавања, производње и стварања залиха бактериолошког (биолошког) и токсичког оружја и о њиховом уништавању",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-zadrugama",
+      "title": "Закон о задругама",
+      "provisions": 116
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzbinama-fondacijama-i-fondovima",
+      "title": "Закон о задужбинама, фондацијама и фондовима",
+      "provisions": 36
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzbinama-i-fondacijama",
+      "title": "Закон о задужбинама и фондацијама",
+      "provisions": 72
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-republike-srbije-kod-eurobank-efg-a-d-beograd",
+      "title": "Закон о задужењу Републике Србије код Eurobank EFG a.d. Beograd",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-evropske-investicion",
+      "title": "Закон о задужењу Савезне Републике Југославије код Европске инвестиционе банке за Пројекат обнове железница",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-evropske-investicion-2",
+      "title": "Закон о задужењу Савезне Републике Југославије код Европске инвестиционе банке за пројекат хитне санације саобраћаја",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-evropske-investicion-3",
+      "title": "Закон о задужењу Савезне Републике Југославије код Европске инвестиционе банке за финансирање пројеката малих и средњих предузећа и инфраструктурних пројеката на општинском и градском нивоу",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-evropske-zajednice",
+      "title": "Закон о задужењу Савезне Републике Југославије код Европске заједнице",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-evropske-zajednice-5",
+      "title": "Закон о задужењу Савезне Републике Југославије код Европске заједнице (55 милиона евра) ради подршке платном билансу и подршке девизних резерви земље: 5/2003-4",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodne-banke-z",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународне банке за обнову и развој",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodnog-udruze",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународног удружења за развој (аванс за припрему пројекта техничке помоћи у приватизацији и реструктурирању банака и предузећа)",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodnog-udruze-2",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународног удружења за развој (кредит за структурно прилагођавање Републике Црне Горе од 11,9 милиона СДР)",
+      "provisions": 12
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodnog-udruze-3",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународног удружења за развој (кредит за финансирање пројекта хитне стабилизације у снабдевању електричном енергијом у Републици Црној Гори од 3,8 милиона СДР)",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodnog-udruze-4",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународног удружења за развој за Пројекат омогућавања финансирања извоза",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodnog-udruze-5",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународног удружења за развој ради финансијске подршке развоју школства Републике Србије",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodnog-udruze-6",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународног удружења за развој ради финансирања Пројекта за олакшавање трговине и саобраћај у југоисточној Европи",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodnog-udruze-7",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународног удружења за развој",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-republike-jugoslavije-kod-medjunarodnog-udruze-8",
+      "title": "Закон о задужењу Савезне Републике Југославије код Међународног удружења за развој",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-savezne-vlade-savezne-republike-jugoslavije-kod-vlade-",
+      "title": "Закон о задужењу Савезне владе Савезне Републике Југославије код Владе Републике Пољске о давању кредита у износу од 50 милиона долара за пројекте обнове Електропривреде Србије",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-banke-za-razvoj-saveta-evrope-p",
+      "title": "Закон о задужењу Србије и Црне Горе код Банке за развој Савета Европе (Пројекат 1539-2005)",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-ape",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Апекс глобални кредит II – Србија и Црна Гора)",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат А – воде и канализације у Црној Гори)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro-2",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат градског водовода - Србија)",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro-3",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат европских путева А – Србија и Црна Гора)",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro-4",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат европских путева Б – Србија и Црна Гора)",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro-5",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат за побољшање стања школа – Србија и Црна Гора)",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro-6",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат модернизације аеродрома Црне Горе)",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro-7",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат обнове Града Београда – 90 милиона евра)",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro-8",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат санације путева и мостова А1)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-pro-9",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Пројекат управљања електроенергетским системом)",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-u-i",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке у износу од 70 милиона евра за финансирање Пројекта обнове енергетског сектора",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-investicione-banke-urg",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске инвестиционе банке (Ургентни пројекат здравства)",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-evropske-zajednice-do-25-000-00",
+      "title": "Закон о задужењу Србије и Црне Горе код Европске заједнице (до 25.000.000 евра)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-kraljevine-spanije-po-programu-",
+      "title": "Закон о задужењу Србије и Црне Горе код Краљевине Шпаније по Програму финансијске сарадње између Савета министара Србије и Црне Горе и Владе Шпаније, потписаном 13. јуна 2005. године",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Аванс за припрему Пројекта за одрживи развој туризма у Црној Гори)",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-10",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат консолидације наплате и реформе пензијске администрације у Србији)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-11",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат промоције запошљавања)",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-12",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат ревитализације система за наводњавање и одводњавање Србије)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-13",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат реконструкције саобраћаја у Србији)",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-14",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат реформе образовања у Црној Гори)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-15",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат унапређења здравства у Црној Гори)",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-16",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (структурно прилагођавање II – Република Црна Гора)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-17",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој за финансирање структурног прилагођавања социјалног сектора Републике Србије",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-2",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Други кредит за прилагођавање приватног и финансијског сектора)",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-3",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Компонента Србијa и Црнa Горa – Пројекат зa Србију)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-4",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Први кредит за програмски развој политике у приватном и финансијском сектору)",
+      "provisions": 8
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-5",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Приватизација и реструктурирање банака и Пројекат техничке помоћи предузећима)",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-6",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат енергетске ефикасности у Србији)",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-7",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат за катастар непокретности и упис права у Србији)",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-8",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат за пензиону администрацију Црне Горе)",
+      "provisions": 9
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-medjunarodnog-udruzenja-za-razv-9",
+      "title": "Закон о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат здравства)",
+      "provisions": 11
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-republike-francuske-po-finansij",
+      "title": "Закон о задужењу Србије и Црне Горе код Републике Француске по Финансијском протоколу између Савета министара Србије и Црне Горе и Владе Републике Француске",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzenju-srbije-i-crne-gore-kod-republike-poljske-po-sporazumu-",
+      "title": "Закон о задужењу Србије и Црне Горе код Републике Пољске по Споразуму између Савета министара Србије и Црне Горе и Владе Републике Пољске о пружању кредита за везану помоћ",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-alpha-bank-srbija-a-d-vojvodjan",
+      "title": "Закон о задуживању Републике Србије код Alpha Bank Srbija а.д., Војвођанске банке а.д. Нови Сад и Piraeus Bank а.д. Београд",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-banca-intesa-ad-beograd-za-potr",
+      "title": "Закон о задуживању Републике Србије код Banca Intesa AD Beograd за потребе финансирања пројекта изградња саобраћајнице Рума–Шабац–Лозница",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-banca-intesa-ad-beograd-za-potr-2",
+      "title": "Закон о задуживању Републике Србије код Banca Intesa AD Beograd за потребе финансирања Пројекта Рума–Шабац–Лозница",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-banca-intesa-ad-beograd-za-potr-3",
+      "title": "Закон о задуживању Републике Србије код Banca Intesa AD Beograd за потребе финансирања Пројекта Рума–Шабац–Лозница",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-banca-intesa-ad-beograd-za-potr-4",
+      "title": "Закон о задуживању Републике Србије код Banca Intesa AD Beograd за потребе финансирања Пројекта Рума–Шабац–Лозница",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-banke-postanska-stedionica-akci",
+      "title": "Закон о задуживању Републике Србије код Банке Поштанска штедионица акционарско друштво Београд за потребе финансирања Пројекта Изградње урбане инфраструктуре и националног стадиона са приступним саобраћајницама",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-banke-postanska-stedionica-akci-2",
+      "title": "Закон о задуживању Републике Србије код Банке Поштанска штедионица, акционарско друштво, Београд за потребе финансирања Пројекта Изградње линијске инфраструктуре за потребе развоја нове области у оквиру изградње Националног фудбалског стадиона са пратећим садржајима на територији градске општине Сурчин у Београду",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-banke-postanska-stedionica-akci-3",
+      "title": "Закон о задуживању Републике Србије код Банке Поштанска штедионица, Акционарско друштво, Београд за потребе финансирања Пројекта изградње саобраћајница са инфраструктуром на Макишком пољу",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-banke-postanska-stedionica-akci-4",
+      "title": "Закон о задуживању Републике Србије код Банке Поштанска штедионица, акционарско друштво, Београд за потребе финансирања Пројекта изградње тунелске везе између Карађорђеве улице до Дунавске падине",
+      "provisions": 18
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-erste-gcib-finance-i-b-v-amster",
+      "title": "Закон о задуживању Републике Србије код Erste GCIB Finance I.B.V. Amsterdam, са Erste Bank а.д. Нови Сад као агентом, Marfin Bank а.д. Београд и Војвођанске банке а.д. Нови Сад",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-kbc-banke-a-d-beograd-nove-kred",
+      "title": "Закон о задуживању Републике Србије код KBC Bankе a.d. Beograd, Novе Kreditnе bankе Maribor d.d, Eurobank EFG a.d. Beograd, Војвођанске банке а.д. Нови Сад, Hypo-Alpe-Adria Bank a.d. Beograd и Erste Bank а.d. Novi Sad и код Banca intesa a.d. Beograd, UniCredit Bank Srbija a.d. Beograd, Raiffeisen bank a.d. Beograd и Societe Generalе Banke Srbija a.d. Beograd које су дале заједничку понуду",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-komercijalne-banke-a-d-beograd-",
+      "title": "Закон о задуживању Републике Србије код Комерцијалне банке а.д. Београд за потребе куповине зграде Аероинжењеринга и извођење неопходних радова на објекту за потребе смештаја Првог основног суда у Београду",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-nlb-komercijalna-banka-ad-beogr",
+      "title": "Закон о задуживању Републике Србије код NLB KOMERCIJALNA BANKA AD BEOGRAD за потребе финансирања Пројекта изградње ауто-пута, деоница Београд – Зрењанин – Нови Сад",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-nlb-komercijalne-banke-ad-beogr",
+      "title": "Закон о задуживању Републике Србије код NLB KOMERCIJALNЕ BANKЕ AD BEOGRAD за потребе финансирања Пројекта изградње обилазнице око Крагујевца",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-nlb-komercijalne-banke-ad-beogr-2",
+      "title": "Закон о задуживању Републике Србије код NLB Komercijalnе bankе AD Beograd за потребе финансирања Пројекта изградњe државног пута IБ реда, деоница брзе саобраћајнице: ауто-пут Е-75 Београд – Ниш (петља \"Пожаревац\") – Пожаревац (обилазница) – Велико Градиште – Голубац (Дунавска магистрала)",
+      "provisions": 14
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-otp-banke-srbija-a-d-novi-sad-z",
+      "title": "Закон о задуживању Републике Србије код ОТП банке Србија а.д. Нови Сад за потребе финансирања Пројекта изградње брзе саобраћајнице, деоница Пожаревац – Голубац (Дунавска магистрала)",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-otp-banke-srbija-a-d-novi-sad-z-2",
+      "title": "Закон о задуживању Републике Србије код ОТП банке Србија а.д. Нови Сад за потребе финансирања Пројекта изградње брзе саобраћајнице, деоница Пожаревац–Голубац (Дунавска магистрала)",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-otp-banke-srbija-a-d-novi-sad-z-3",
+      "title": "Закон о задуживању Републике Србије код OTP bankе Srbija a.d. Novi Sad за потребе финансирања Пројекта реконструкције и модернизације железничке пруге Суботица–Хоргош граница са Мађарском (Сегедин)",
+      "provisions": 17
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-otp-banke-srbija-a-d-novi-sad-z-4",
+      "title": "Закон о задуживању Републике Србије код OTP banke Srbija a.d. Novi Sad за потребе финансирања Пројекта изградње обилазнице око Крагујевца",
+      "provisions": 16
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-societe-generale-uz-garanciju-s",
+      "title": "Закон о задуживању Републике Србије код Societe Generalе уз гаранцију Светске банке",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-unicredit-bank-srbija-a-d-beogr",
+      "title": "Закон о задуживању Републике Србије код UniCredit Bank Srbija a.d. Beograd за потребе финансирања пројекта Рума–Шабац–Лозница",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-unicredit-bank-srbija-a-d-beogr-2",
+      "title": "Закон о задуживању Републике Србије код UniCredit Bank Srbija a.d. Beograd за потребе финансирања Пројекта Рума–Шабац–Лозница",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-unicredit-bank-srbija-a-d-beogr-3",
+      "title": "Закон о задуживању Републике Србије код UniCredit bank Srbija a.d. Beograd за потребе финансирања Пројекта Рума–Шабац–Лозница",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-republike-srbije-kod-unisredit-bank-srbija-a-d-beogr",
+      "title": "Закон о задуживању Републике Србије код UniСredit Bank Srbija a.d. Beograd за потребе финансирања Пројекта Изградње линијске инфраструктуре за потребе развоја нове области у оквиру изградње Националног фудбалског стадиона са пратећим садржајима на територији градске општине Сурчин у Београду",
+      "provisions": 13
+    },
+    {
+      "id": "rs-law-zakon-o-zaduzivanju-savezne-republike-jugoslavije-kod-evropske-investici",
+      "title": "Закон о задуживању Савезне Републике Југославије код Европске инвестиционе банке за Пројекат обнове путева у Републици Србији",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zakljucivanju-i-izvrsavanju-medjunarodnih-ugovora",
+      "title": "Закон о закључивању и извршавању међународних уговора",
+      "provisions": 30
+    },
+    {
+      "id": "rs-law-zakon-o-zaloznom-pravu-na-pokretnim-stvarima-i-pravima-upisanim-u-regist",
+      "title": "Закон о заложном праву на покретним стварима и правима уписаним у регистар",
+      "provisions": 73
+    },
+    {
+      "id": "rs-law-zakon-o-zapaljivim-i-gorivim-tecnostima-i-zapaljivim-gasovima",
+      "title": "Закон о запаљивим и горивим течностима и запаљивим гасовима",
+      "provisions": 41
+    },
+    {
+      "id": "rs-law-zakon-o-zaposlenima-u-autonomnim-pokrajinama-i-jedinicama-lokalne-samoup",
+      "title": "Закон о запосленима у аутономним покрајинама и јединицама локалне самоуправе",
+      "provisions": 232
+    },
+    {
+      "id": "rs-law-zakon-o-zaposljavanju-i-osiguranju-za-slucaj-nezaposlenosti",
+      "title": "Закон о запошљавању и осигурању за случај незапослености",
+      "provisions": 114
+    },
+    {
+      "id": "rs-law-zakon-o-zaposljavanju-stranaca",
+      "title": "Закон о запошљавању странаца",
+      "provisions": 37
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-i-odrzivom-koriscenju-ribljeg-fonda",
+      "title": "Закон о заштити и одрживом коришћењу рибљег фонда",
+      "provisions": 68
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-konkurencije",
+      "title": "Закон о заштити конкуренције",
+      "provisions": 82
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-korisnika-finansijskih-usluga",
+      "title": "Закон о заштити корисника финансијских услуга",
+      "provisions": 81
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-korisnika-finansijskih-usluga-kod-ugovaranja-na-daljinu",
+      "title": "Закон о заштити корисника финансијских услуга код уговарања на даљину",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-lica-sa-mentalnim-smetnjama",
+      "title": "Закон о заштити лица са менталним сметњама",
+      "provisions": 68
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-od-buke-u-zivotnoj-sredini",
+      "title": "Закон о заштити од буке у животној средини",
+      "provisions": 44
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-od-nejonizujucih-zracenja",
+      "title": "Закон о заштити од нејонизујућих зрачења",
+      "provisions": 23
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-od-pozara",
+      "title": "Закон о заштити од пожара",
+      "provisions": 83
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-potrosaca",
+      "title": "Закон о заштити потрошача",
+      "provisions": 196
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-prava-i-sloboda-nacionalnih-manjina",
+      "title": "Закон о заштити права и слобода националних мањина",
+      "provisions": 29
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-prava-na-sudjenje-u-razumnom-roku",
+      "title": "Закон о заштити права на суђење у разумном року",
+      "provisions": 37
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-prava-oplemenjivaca-biljnih-sorti",
+      "title": "Закон о заштити права оплемењивача биљних сорти",
+      "provisions": 56
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-prirode",
+      "title": "Закон о заштити природе",
+      "provisions": 140
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-stanovnistva-od-izlozenosti-duvanskom-dimu",
+      "title": "Закон о заштити становништва од изложености дуванском диму",
+      "provisions": 33
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-stanovnistva-od-zaraznih-bolesti",
+      "title": "Закон о заштити становништва од заразних болести",
+      "provisions": 88
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-topografija-poluprovodnickih-proizvoda",
+      "title": "Закон о заштити топографија полупроводничких производа",
+      "provisions": 40
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-uzbunjivaca",
+      "title": "Закон о заштити узбуњивача",
+      "provisions": 40
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-vazduha",
+      "title": "Закон о заштити ваздуха",
+      "provisions": 88
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-zemljista",
+      "title": "Закон о заштити земљишта",
+      "provisions": 54
+    },
+    {
+      "id": "rs-law-zakon-o-zastiti-zivotne-sredine",
+      "title": "Закон о заштити животне средине",
+      "provisions": 142
+    },
+    {
+      "id": "rs-law-zakon-o-zastitniku-gradjana",
+      "title": "Закон о Заштитнику грађана",
+      "provisions": 50
+    },
+    {
+      "id": "rs-law-zakon-o-zateznoj-kamati",
+      "title": "Закон о затезној камати",
+      "provisions": 10
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2002-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2002. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2003-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2003. годину",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2004-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2004. годину",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2005-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2005. годину",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2006-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2006. годину",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2007-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2007. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2008-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2008. годину",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2009-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2009. годину",
+      "provisions": 7
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2010-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2010. годину",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2011-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2011. годину",
+      "provisions": 6
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2012-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2012. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2013-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2013. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2014-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2014. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2015-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2015. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2016-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2016. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2017-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2017. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2018-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2018. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2019-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2019. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2020-godinu",
+      "title": "Закон о Завршном рачуну буџета Републике Србије за 2020. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2021-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2021. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2022-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2022. годину",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2023-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2023. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zavrsnom-racunu-budzeta-republike-srbije-za-2024-godinu",
+      "title": "Закон о завршном рачуну буџета Републике Србије за 2024. годину",
+      "provisions": 5
+    },
+    {
+      "id": "rs-law-zakon-o-zdravlju-bilja",
+      "title": "Закон о здрављу биља",
+      "provisions": 110
+    },
+    {
+      "id": "rs-law-zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva",
+      "title": "Закон о здравственој документацији и евиденцијама у области здравства",
+      "provisions": 63
+    },
+    {
+      "id": "rs-law-zakon-o-zdravstvenoj-zastiti",
+      "title": "Закон о здравственој заштити",
+      "provisions": 271
+    },
+    {
+      "id": "rs-law-zakon-o-zdravstvenoj-zastiti-i-zdravstvenom-osiguranju-vojnih-osiguranik",
+      "title": "Закон о здравственој заштити и здравственом осигурању војних осигураника",
+      "provisions": 193
+    },
+    {
+      "id": "rs-law-zakon-o-zdravstvenoj-zastiti-zivotinja",
+      "title": "Закон о здравственој заштити животиња",
+      "provisions": 4
+    },
+    {
+      "id": "rs-law-zakon-o-zdravstvenom-osiguranju",
+      "title": "Закон о здравственом осигурању",
+      "provisions": 277
+    },
+    {
+      "id": "rs-law-zakon-o-zeleznici",
+      "title": "Закон о железници",
+      "provisions": 153
+    },
+    {
+      "id": "rs-law-zakon-o-zicarama-za-transport-lica",
+      "title": "Закон о жичарама за транспорт лица",
+      "provisions": 67
+    },
+    {
+      "id": "rs-law-zakon-o-zigovima-6-2020-5",
+      "title": "Закон о жиговима: 6/2020-5",
+      "provisions": 116
+    },
+    {
+      "id": "rs-law-zakon-o-zvanicnoj-statistici",
+      "title": "Закон о званичној статистици",
+      "provisions": 72
+    },
+    {
+      "id": "rs-law-zakonik-o-krivicnom-postupku",
+      "title": "Законик о кривичном поступку",
+      "provisions": 609
+    },
+    {
+      "id": "rs-personal-data-protection",
+      "title": "Закон о заштити података о личности",
+      "provisions": 102
+    },
+    {
+      "id": "rs-trade-secrets",
+      "title": "Закон о заштити пословне тајне",
+      "provisions": 23
+    }
+  ]
+}

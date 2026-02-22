@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "eu.ansvar/serbian-law-mcp",
-  "description": "Serbian law database covering data protection, cybersecurity, e-commerce, and criminal law provisions via Model Context Protocol",
+  "description": "Serbian legislation via MCP — full-text search across statutes and provisions",
   "repository": {
     "url": "https://github.com/Ansvar-Systems/Serbian-law-mcp",
     "source": "github"
@@ -14,7 +14,17 @@
       "registryType": "npm",
       "identifier": "@ansvar/serbian-law-mcp",
       "version": "1.0.0",
-      "transport": { "type": "stdio" }
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remoteEndpoints": [
+    {
+      "url": "https://serbian-law-mcp.vercel.app/mcp",
+      "transport": {
+        "type": "streamable-http"
+      }
     }
   ]
 }
