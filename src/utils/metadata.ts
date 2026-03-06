@@ -33,7 +33,7 @@ export function generateResponseMetadata(
 
   return {
     data_source: 'Official Legal Database (pravno-informacioni-sistem.rs) — Government (State Chancellery of Serbian)',
-    jurisdiction: 'EE',
+    jurisdiction: 'RS',
     disclaimer:
       'This data is sourced from the Official Legal Database under public domain. ' +
       'The authoritative versions are maintained by Government (State Chancellery of Serbian). ' +

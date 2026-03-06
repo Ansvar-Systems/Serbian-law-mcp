@@ -2,7 +2,7 @@
  * FTS5 query helpers for Serbian Law MCP.
  *
  * Handles query sanitization, boolean operator passthrough, stemming,
- * and 6-tier variant generation for SQLite FTS5.
+ * and 5-tier variant generation for SQLite FTS5.
  */
 
 /** FTS5 boolean operators that should pass through to the engine. */
@@ -18,7 +18,7 @@ const STEM_SUFFIXES = [
 ];
 
 /**
- * Naive English stemmer: strips a common suffix and returns `stem*`.
+ * Naive English stemmer: strips a common suffix and returns the bare stem.
  * Returns null if the word is too short (<5 chars) or no suffix matched.
  */
 export function stemWord(word: string): string | null {
@@ -26,11 +26,8 @@ export function stemWord(word: string): string | null {
 
   const lower = word.toLowerCase();
   for (const suffix of STEM_SUFFIXES) {
-    if (lower.endsWith(suffix)) {
-      const stem = lower.slice(0, -suffix.length);
-      if (stem.length >= 3) {
-        return `${stem}*`;
-      }
+    if (lower.endsWith(suffix) && lower.length - suffix.length >= 3) {
+      return lower.slice(0, -suffix.length);
     }
   }
   return null;
@@ -80,7 +77,7 @@ export function sanitizeFtsInput(input: string): string {
  * 1. Exact phrase match — `"term1 term2 term3"`
  * 2. AND — `term1 AND term2 AND term3`
  * 3. Prefix AND — `term1 AND term2 AND term3*`
- * 4. Stemmed prefix — `stem1* AND stem2* AND stem3*`
+ * 4. Stemmed prefix — `stem1* AND stem2*` (only if stemming changed at least one term)
  * 5. OR — `term1 OR term2 OR term3`
  */
 export function buildFtsQueryVariants(sanitized: string): string[] {
@@ -116,12 +113,13 @@ export function buildFtsQueryVariants(sanitized: string): string[] {
     variants.push(prefixTerms.join(' AND '));
   }
 
-  // Tier 4: Stemmed prefix (all terms stemmed with wildcards)
-  const stemmed = tokens.map(t => stemWord(t) ?? `${t}*`);
-  const stemmedQuery = stemmed.join(' AND ');
-  // Only add if different from tier 3
-  if (!variants.includes(stemmedQuery)) {
-    variants.push(stemmedQuery);
+  // Tier 4: Stemmed prefix (suffix-truncated + wildcard)
+  const stemmedTerms = tokens.map(t => {
+    const stem = stemWord(t);
+    return stem ? `${stem}*` : t;
+  });
+  if (stemmedTerms.some((s, i) => s !== tokens[i])) {
+    variants.push(stemmedTerms.join(' AND '));
   }
 
   // Tier 5: OR query (broadest FTS5 variant)
@@ -138,29 +136,6 @@ export function buildFtsQueryVariants(sanitized: string): string[] {
  * Produces `%term1%term2%...%` for use as a last-resort fallback
  * when all FTS5 variants return zero results.
  */
-// ---------------------------------------------------------------------------
-// Legacy compatibility — some repos call buildFtsQueryVariants expecting
-// { primary: string; fallback?: string } instead of string[].
-// The legacy wrapper delegates to the new tiered logic but returns the old shape.
-// ---------------------------------------------------------------------------
-
-export interface FtsQueryVariants {
-  primary: string;
-  fallback?: string;
-  use_like?: boolean;
-}
-
-export function buildFtsQueryVariantsLegacy(query: string): FtsQueryVariants {
-  const sanitized = sanitizeFtsInput(query);
-  const variants = buildFtsQueryVariants(sanitized);
-  if (variants.length === 0) return { primary: query, use_like: true };
-  return {
-    primary: variants[0] ?? query,
-    fallback: variants.length > 1 ? variants[variants.length - 1] : undefined,
-    use_like: true,
-  };
-}
-
 export function buildLikePattern(input: string): string {
   const tokens = input
     .replace(/['"(){}[\]^~*:@#$%&+=<>|\\/.!?,;]/g, ' ')
