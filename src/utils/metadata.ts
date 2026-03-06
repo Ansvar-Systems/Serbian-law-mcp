@@ -32,12 +32,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Official Legal Database (pravno-informacioni-sistem.rs) — Government (State Chancellery of Serbian)',
+    data_source: 'Republic of Serbia Official Gazette (sluzbenig lasnik.rs) / propisi.net — Ministry of Justice of Serbia',
     jurisdiction: 'RS',
     disclaimer:
-      'This data is sourced from the Official Legal Database under public domain. ' +
-      'The authoritative versions are maintained by Government (State Chancellery of Serbian). ' +
-      'Always verify with the official Official Legal Database portal (pravno-informacioni-sistem.rs).',
+      'This data is sourced from official Serbian legal sources under public domain. ' +
+      'The authoritative versions are published in the Official Gazette of the Republic of Serbia (Službeni glasnik RS). ' +
+      'Always verify with the official legal information portal (pravno-informacioni-sistem.rs).',
     freshness,
   };
 }
