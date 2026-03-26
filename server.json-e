@@ -21,7 +21,7 @@
   ],
   "remoteEndpoints": [
     {
-      "url": "https://mcp.ansvar.eu/law-serbian-law-mcp/mcp",
+      "url": "https://serbian-law-mcp.vercel.app/mcp",
       "transport": {
         "type": "streamable-http"
       }

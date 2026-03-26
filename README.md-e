@@ -39,12 +39,12 @@ This MCP server makes Serbian law **searchable, cross-referenceable, and AI-read
 
 > Connect directly to the hosted version -- zero dependencies, nothing to install.
 
-**Endpoint:** `https://mcp.ansvar.eu/law-serbian-law-mcp/mcp`
+**Endpoint:** `https://serbian-law-mcp.vercel.app/mcp`
 
 | Client | How to Connect |
 |--------|---------------|
 | **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add serbian-law --transport http https://mcp.ansvar.eu/law-serbian-law-mcp/mcp` |
+| **Claude Code** | `claude mcp add serbian-law --transport http https://serbian-law-mcp.vercel.app/mcp` |
 | **Claude Desktop** | Add to config (see below) |
 | **GitHub Copilot** | Add to VS Code settings (see below) |
 
@@ -55,7 +55,7 @@ This MCP server makes Serbian law **searchable, cross-referenceable, and AI-read
   "mcpServers": {
     "serbian-law": {
       "type": "url",
-      "url": "https://mcp.ansvar.eu/law-serbian-law-mcp/mcp"
+      "url": "https://serbian-law-mcp.vercel.app/mcp"
     }
   }
 }
@@ -68,7 +68,7 @@ This MCP server makes Serbian law **searchable, cross-referenceable, and AI-read
   "github.copilot.chat.mcp.servers": {
     "serbian-law": {
       "type": "http",
-      "url": "https://mcp.ansvar.eu/law-serbian-law-mcp/mcp"
+      "url": "https://serbian-law-mcp.vercel.app/mcp"
     }
   }
 }
