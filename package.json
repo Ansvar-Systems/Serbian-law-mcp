@@ -59,7 +59,7 @@
     "better-sqlite3": "^12.6.2",
     "fast-xml-parser": "^5.4.1",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.2",
     "vitest": "^3.0.0"
   },
   "engines": {
